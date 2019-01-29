@@ -9,14 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>Insert title here</title>
+        <link rel="icon" type="image/ico" href="http://example.com/image.png" />
+        <title>See Everything | St John's</title>
 
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
         </head>
     <body>
 
-        <div class="g-signin2" data-onsuccess="onSignIn" id="myP"></div>
+        <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-height="50"
+        data-longtitle="true">button</div>
 
         <img id="myImg"><br>
         <p id="name"></p>  
