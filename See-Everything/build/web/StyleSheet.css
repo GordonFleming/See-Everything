@@ -8,19 +8,64 @@ and open the template in the editor.
     Author     : 24740
 */
 body {
-  background-color: #686c70;
+  background-color: #686c70; /* Gray */
 }
-.centered { /* Verically and horizontally aligns */
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  color: #383a3d;           /* Gray */
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 30px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: -25px;
 }
-#wrapper {  /* Verically and horizontally aligns */
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.GSignInCentered { /* Verically and horizontally aligns */
+    position: absolute;
+    width: 300px;                               /* Dimensions of google button */
+    height: 60px;                              
+    top: 50%;
+    left: 50%;                                  /* Safety measures */
+    -webkit-transform: translate(-50%, -50%);   /* Chrome */
+    -moz-transform: translate(-50%, -50%);      /* Mozilla */
+    -o-transform: translate(-50%, -50%);        /* Opera */
+    -ms-transform: translate(-50%, -50%);       /* Internet Explorer */
+    transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
+}
+.GSignOutCentered { /* Verically and horizontally aligns offcenter */
+    position: absolute;
+    width: 30px;                               /* Dimensions of google button */
+    height: 12px;                              
+    top: 60%;
+    left: 48%;
+    transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
 }

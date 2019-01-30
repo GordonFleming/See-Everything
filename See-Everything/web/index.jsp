@@ -16,10 +16,11 @@
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
         </head>
     <body>
-            <div id="wrapper">
-                <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-height="60" id="myP"></div>
-                <br><br><br><br>
-                <button onclick="myFunction()">Sign Out</button>
+        <h1 align="center" ><font color="white">See Everything | St John's College</font></h1>
+            <br><br>
+        <h2 align="center"><font color="white">An information and booking system, using a dynamic / interactive map</font></h2>
+            <div class="GSignInCentered">
+                <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-height="60" id="myP"></div>               
             </div>
         <img id="myImg"><br>
         <p id="name"></p>  
@@ -37,7 +38,10 @@
 				document.getElementById("my-signin2").innerHTML = 'Welcome '+name+'! <a href=success.jsp?email='+email+'&name='+name+'/>Continue with Google login</a></p>'	   
 			 }
         </script>
-
+        <div><br></div>
+        <div class="GSignOutCentered">
+            <button class="button" onclick="myFunction()"><span>Sign Out</button>  
+        </div>
         <script>
             function myFunction() {
             gapi.auth2.getAuthInstance().disconnect();
