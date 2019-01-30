@@ -7,11 +7,20 @@ and open the template in the editor.
     Created on : 29 Jan 2019, 9:47:40 AM
     Author     : 24740
 */
-
-.g-signin2{
-  width: 100%;
+body {
+  background-color: #686c70;
 }
-
-.g-signin2 > div{
-  margin: 0 auto;
+.centered { /* Verically and horizontally aligns */
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper {  /* Verically and horizontally aligns */
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

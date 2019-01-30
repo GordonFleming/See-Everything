@@ -6,9 +6,11 @@
 
  
         <%
-        String name=(String)request.getParameter("name");
-        String email=(String)request.getParameter("email");
+        String img = (String)request.getParameter("myImg");
+        String name = (String)request.getParameter("name");
+        String email = (String)request.getParameter("email");
         %>
+        <%=img %>
     <br>
         <%=name %> 
     <br>
