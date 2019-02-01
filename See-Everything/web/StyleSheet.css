@@ -22,7 +22,7 @@ body {
   width: 150px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: -25px;
+  margin: -0px;
 }
 
 .button span {
@@ -63,9 +63,9 @@ body {
 }
 .GSignOutCentered { /* Verically and horizontally aligns offcenter */
     position: absolute;
-    width: 30px;                               /* Dimensions of google button */
-    height: 12px;                              
-    top: 60%;
-    left: 48%;
+    width: 150px;                               /* Dimensions standard button */
+    height: 35px;                              
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
 }
