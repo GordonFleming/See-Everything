@@ -8,14 +8,26 @@ and open the template in the editor.
     Author     : 24740
 */
 body {
-  background-color: #686c70; /* Gray */
+  background-color: #686c70; /* Dark Gray */
+}
+.helpText{
+    font-size: 16
+    color: yellow;
+}
+#bottom-right-help
+{
+right: 0;
+bottom: 0;
+position: absolute;
+padding-bottom: 25px;
+padding-right: 50px;
 }
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: #ffffff; /* White */
   border: none;
-  color: #383a3d;           /* Gray */
+  color: #383a3d;           /* Dark Gray */
   text-align: center;
   font-size: 14px;
   padding: 8px 30px;
@@ -65,7 +77,7 @@ body {
     position: absolute;
     width: 150px;                               /* Dimensions standard button */
     height: 35px;                              
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
 }

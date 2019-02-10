@@ -51,5 +51,10 @@
         <div class="GSignOutCentered">
             <button class="button" onclick="myFunction()"><span>Sign Out</button>  
         </div>
+    <footer>
+        <center>
+            <div id="bottom-right-help"><a href="img/LoginGUIplan(V.2).png"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 5>Help?</font></p></a></div>
+        </center>
+    </footer>
     </body>
 </html>
