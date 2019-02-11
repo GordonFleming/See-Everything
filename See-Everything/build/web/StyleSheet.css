@@ -10,17 +10,36 @@ and open the template in the editor.
 body {
   background-color: #686c70; /* Dark Gray */
 }
-.helpText{
-    font-size: 16
-    color: yellow;
+#bottom-right-help{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 25px;
+    padding-right: 50px;
 }
-#bottom-right-help
-{
-right: 0;
-bottom: 0;
-position: absolute;
-padding-bottom: 25px;
-padding-right: 50px;
+#bottom-left-info{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+#profile-details{
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+#hidden{
+    display:none;
+}
+.top-left-GSignOut{
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .button {
   display: inline-block;
