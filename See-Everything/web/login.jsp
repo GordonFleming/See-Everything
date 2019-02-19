@@ -30,15 +30,18 @@
             <script>
                 function myFunction() {
                 gapi.auth2.getAuthInstance().disconnect();
-                location.reload(true);                      /* Reloads from server if (true) and from browser cache if (false)*/
+                location.reload(true);                      /* Reloads from server if (true) and from browser cache if (false) */
                 }
             </script>
     </head>
     <body>
             <br>
-        <h1 align="center" ><font face="Arial" color="white">See Everything | St John's College</font></h1>
-            <br><br>
-        <h2 align="center"><font face="Arial" color="white">An information and booking system, using a dynamic / interactive map</font></h2>
+        <img src="img/SJCtransparentLogo.png" alt="St John's" class="centerLogo">       
+            <br>
+        <h1 align="center" ><font face="Arial" color="white">See Everything | Web App</font></h1>
+            <br>
+        <h2 align="center"><font face="Arial" color="white">A venue information and booking system, using a dynamic / interactive map</font></h2>
+                    
             <div class="GSignInCentered">
                 <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-height="60" id="myP"></div>               
             </div>

@@ -100,3 +100,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
 }
+.centerLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
