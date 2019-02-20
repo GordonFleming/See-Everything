@@ -24,7 +24,7 @@ body {
     padding-bottom: 25px;
     padding-left: 50px;
 }
-#profile-details{
+.profile-details{
     left: 0;
     top: 0;
     position: absolute;

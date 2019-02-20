@@ -14,8 +14,7 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
-                function SignedIn(googleUser) {
-                    // window.location.href='success.jsp';
+                function SignedIn(googleUser) {                   
                     var profile = googleUser.getBasicProfile();
                     var imagurl=profile.getImageUrl();
                     var name=profile.getName();
@@ -41,8 +40,8 @@
             <div class="top-left-GSignOut">
                 <button class="button" onclick="myFunction()"><span>Sign Out</button>  
             </div>
-            <div id = "profile-details">
-            <img id="myImg" style="width:70px;height:70px;">
+            <div class = "profile-details">
+                <img id="myImg" style="width:70px;height:70px;">
                 <br> 
                 <p id="name"></p>  
             </div>

@@ -16,7 +16,11 @@
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
                 function onSignIn(googleUser) {
-                    location.replace("http://localhost:8080/See-Everything/main.jsp"); /* Redirects to login page */
+                    var profile = googleUser.getBasicProfile();
+                    var imagurl=profile.getImageUrl();
+                    var name=profile.getName();
+                    var email=profile.getEmail();
+                   window.location.href='main.jsp?email='+email+'&name='+name+'';
 		}
             </script>
             <script>
@@ -39,19 +43,19 @@
             </div>
     <center>
         <br>
-        <img id="myImg"><br>
-        <p id="name"></p>  
+            <img id="myImg"><br>
+            <p id="name"></p>  
         <div id="my-signin2">  </div>
     </center>
         <div class="GSignOutCentered">
             <button class="button" onclick="myFunction()"><span>Sign Out</button>  
         </div>
-    <footer>
-        <center>
-            <div id="bottom-right-help">
-                <a href="img/Background.jpg" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 5 color = #e2e519>Help?</font></p></a>
-            </div>
-        </center>
-    </footer>
+        <footer>
+            <center>
+                <div id="bottom-right-help">
+                    <a href="img/Background.jpg" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 5 color = #e2e519>Help?</font></p></a>
+                </div>
+            </center>
+        </footer>
     </body>
 </html>
