@@ -1,7 +1,7 @@
 <%-- 
-    Document   : success
+    Document   : main
     Created on : 27-Jan-2019, 12:05:10
-    Author     : flemi
+    Author     : Gordon Fleming
 --%>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
