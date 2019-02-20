@@ -16,15 +16,7 @@
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
                 function onSignIn(googleUser) {
-                    // window.location.href='success.jsp';
-                    var profile = googleUser.getBasicProfile();
-                    var imagurl=profile.getImageUrl();
-                    var name=profile.getName();
-                    var email=profile.getEmail();
-                    document.getElementById("myImg").src = imagurl;
-                    document.getElementById("name").innerHTML = name;
-                    document.getElementById("myP").style.visibility = "hidden";				  
-                    document.getElementById("my-signin2").innerHTML = 'Welcome '+name+'! <a href=main.jsp?email='+email+'&name='+name+'/>Continue with Google login</a></p>'	   
+                    location.replace("http://localhost:8080/See-Everything/main.jsp"); /* Redirects to login page */
 		}
             </script>
             <script>

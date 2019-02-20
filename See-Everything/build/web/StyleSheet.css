@@ -64,9 +64,9 @@ body {
 }
 
 .button span:after {
-  content: '\00bb';
+  content: '\0226B';
   position: absolute;
-  opacity: 0;
+  opacity: 2;
   top: 0;
   right: -20px;
   transition: 0.5s;

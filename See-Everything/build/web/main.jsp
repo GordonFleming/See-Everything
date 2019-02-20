@@ -19,8 +19,10 @@
                     var profile = googleUser.getBasicProfile();
                     var imagurl=profile.getImageUrl();
                     var name=profile.getName();
+                    var email=profile.getEmail();
                     document.getElementById("myImg").src = imagurl;
-                    document.getElementById("name").innerHTML = name;			  	   
+                    document.getElementById("name").innerHTML = name;	
+                    document.getElementById("myP").style.visibility = "hidden";	
 		}
             </script>
             <script>
@@ -42,7 +44,7 @@
             <div id = "profile-details">
             <img id="myImg" style="width:70px;height:70px;">
                 <br> 
-            <p id="name"></p>  
+                <p id="name"></p>  
             </div>
         <footer>
             <center>
@@ -54,8 +56,8 @@
                     <%=name %>
                     <br>
                     <%=email %> 
-            </div>
-        </center>
+                </div>
+            </center>
         </footer>
     </body>
 </html>
