@@ -52,7 +52,7 @@
         </div>
         <footer>
             <center>
-                <div id="bottom-right-help">
+                <div class="bottom-right-help">
                     <a href="img/Background.jpg" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 5 color = #e2e519>Help?</font></p></a>
                 </div>
             </center>

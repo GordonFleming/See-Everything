@@ -33,21 +33,21 @@
             </script>
     </head>
     <body>
-        <h1 align="center" ><font face="Arial" color="white">See Everything | St John's College</font></h1>
-            <div id = "hidden" class="GSignInCentered">
+        <h2 align="center" ><font face="Arial" color="white">See Everything | St John's College</font></h2>
+            <div id = "hidden" class="GSignInCentered">                     <!-- Hides the sign in button -->
                 <div class="g-signin2" data-onsuccess="SignedIn"></div>               
             </div>
-            <div class="top-left-GSignOut">
+            <div class="top-left-GSignOut">                                 <!-- Displays the sign out button -->
                 <button class="button" onclick="myFunction()"><span>Sign Out</button>  
             </div>
-            <div class = "profile-details">
+            <div class = "profile-details">                                 <!-- Displays the Users details -->
                 <img id="myImg" style="width:70px;height:70px;">
                 <br> 
                 <p id="name"></p>  
             </div>
-        <footer>
+        <footer>                                                            <!-- Displays the Users name and email -->
             <center>
-                <div id="bottom-left-info">
+                <div class="bottom-left-info">
                     <%
                     String name = (String)request.getParameter("name");
                     String email = (String)request.getParameter("email");

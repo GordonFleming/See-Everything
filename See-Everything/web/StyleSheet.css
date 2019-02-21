@@ -5,14 +5,17 @@
 body {
   background-color: #686c70; /* Dark Gray */
 }
-#bottom-right-help{
+#hidden{
+    display:none;
+}
+.bottom-right-help{
     right: 0;
     bottom: 0;
     position: absolute;
     padding-bottom: 25px;
     padding-right: 50px;
 }
-#bottom-left-info{
+.bottom-left-info{
     left: 0;
     bottom: 0;
     position: absolute;
@@ -25,9 +28,6 @@ body {
     position: absolute;
     padding-top: 60px;
     padding-left: 20px;
-}
-#hidden{
-    display:none;
 }
 .top-left-GSignOut{
     left: 0;
@@ -87,7 +87,7 @@ body {
     -ms-transform: translate(-50%, -50%);       /* Internet Explorer */
     transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
 }
-.GSignOutCentered { /* Verically and horizontally aligns offcenter */
+.GSignOutCentered { /* Verically aligns offcenter and horizontally aligns center */
     position: absolute;
     width: 150px;                               /* Dimensions standard button */
     height: 35px;                              
