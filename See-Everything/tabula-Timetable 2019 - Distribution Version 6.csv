@@ -1,0 +1,1092 @@
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem SRem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem SRem HPE3","11:40 - 12:25FieldL5M4L5MLPE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4U4M5PE",,"FieldRem TRem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldRem JPE4",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem JRem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"Mat14L6Math","Mat14L4Math6",,"12:35 - 13:25Mat14RemMath8","Mat14L5M2Math",,,
+B Tue,"Mat14L6Math","Mat14RemMath8","Mat14L4Math6",Meet,,"12:20 - 13:10Mat14L5M2Math",,,,
+B Wed,,"8:15 - 9:00Mat14RemMath8","9:00 - 9:45Mat14L6Math",,"10:55 - 11:40Mat14L5M2Math",,"12:25 - 13:10Mat14L4Math6",,,
+B Thu,,,"9:40 - 10:30Mat14L4Math6",,"11:40 - 12:25Mat14L5M2Math",,"13:40 - 14:25Mat14RemMath8",,,
+B Fri,,"C1L4Math6","Mat14RemMath8",,"Mat14L6Math",,"13:40 - 14:25Mat14L5M2Math",,,
+M Mon,,"Mat14L5M2Math",,,"Mat14L5M2Math","Mat14L6Math","Mat14L4Math6",,,
+M Tue,,"Mat14RemMath8","Mat14L5M2Math",,,,"13:40 - 14:25Mat14L4Math6",,,
+M Wed,,"8:15 - 9:00Mat14L4Math6","9:00 - 9:45Mat14L6Math",,,"12:35 - 13:25Mat14RemMath8","12:25 - 13:10Mat14L5M2Math",,,
+M Thu,,,,"10:55 - 11:40Mat14RemMath8","11:40 - 12:25Mat14L5M2Math","12:25 - 13:10Mat14L6Math",,,,
+M Fri,,,,Meet,"Mat14L4Math6","15:50 - 13:40Mat14RemMath8",,,"15:15 - 16:05Mat14L6Math",
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,,,,"B15Rem OIT",,,
+B Tue,,,,,,"15:50 - 13:40B15Rem TIT",,,,
+B Wed,,,,"9:45 - 10:30B15Rem TIT",,,,,,
+B Thu,,,,,,"Junior ITMeet",,,,
+B Fri,,,,"10:40 - 11:30B15Rem OIT",,,,,,
+M Mon,,"B16Rem TIT",,"Junior ITMeet",,,,,,
+M Tue,,,,,,,"13:40 - 14:25B15Rem TIT",,,
+M Wed,,,"9:00 - 9:45B15Rem OIT",,,,,,,
+M Thu,,,,,,"12:55 - 13:40B16Rem OIT",,,,
+M Fri,,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"29U4Afr1","17L4Afr1",,,,,,,
+B Tue,,"29U4Afr1",,,"11:30 - 12:20G4Rem SRem HEMS1","15:50 - 13:4017L4Afr1",,,,
+B Wed,,,"9:00 - 9:4529U4Afr1","9:45 - 10:3017L4Afr1",,"12:35 - 13:25G1L4 SEMS2","12:25 - 13:10G4Rem SRem OEMS2",,,
+B Thu,,,,,,,,,,
+B Fri,,,"29U4Afr1",Afr Meet,,HM Meet,"13:40 - 14:25G2L4 HEMS1",,,
+M Mon,,,"29U4Afr1","G4Rem SRem HEMS1",,"12:35 - 13:25E6L4 HEMS1",,,,
+M Tue,,"G4L4 HEMS1","29U4Afr1",,,"12:50 - 13:4017L4Afr1",,,,
+M Wed,,,"9:00 - 9:45G1L4 SEMS2","9:45 - 10:3029U4Afr1","10:55 - 11:40G3Rem SRem OEMS2",,"12:25 - 13:1017L4Afr1",,,
+M Thu,,"8:50 - 9:4029U4Afr1",,,,,"13:40 - 14:25G2L4 SEMS2",,,
+M Fri,,"29U4Afr1",Afr Meet,"10:40 - 11:30G4Rem SRem OEMS2","G4Rem SRem HEMS1","15:50 - 13:4017L4Afr1",HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"31U4Afr2","28L4Afr2",,"29L4Afr3",,"His7RemAfr3",,,
+B Tue,,"31U4Afr2","32RemAfr1",,,"15:50 - 13:4028L4Afr2",,,,
+B Wed,,,"9:00 - 9:4531U4Afr2","9:45 - 10:3028L4Afr2","10:55 - 11:4029L4Afr3","12:35 - 13:25His8RemAfr3",,,,
+B Thu,,,"9:40 - 10:3029RemAfr3",,"11:40 - 12:2532RemAfr1",,,,,
+B Fri,,,"31U4Afr2",Afr Meet,"32RemAfr1","15:50 - 13:4029L4Afr3",,,,
+M Mon,,,"31U4Afr2","29L4Afr3",,,"32RemAfr1",,,
+M Tue,,,"31U4Afr2","10:40 - 11:3032RemAfr1","11:30 - 12:20His8RemAfr3","12:50 - 13:4028L4Afr2",,,,
+M Wed,,,"9:00 - 9:4529RemAfr3","9:45 - 10:3031U4Afr2",,"12:35 - 13:2529L4Afr3","12:25 - 13:1028L4Afr2",,,
+M Thu,,"8:50 - 9:4031U4Afr2","9:40 - 10:3029L4Afr3",,,"12:55 - 13:4029RemAfr3",,,,
+M Fri,,"31U4Afr2",Afr Meet,,,"15:50 - 13:4028L4Afr2","13:40 - 14:2532RemAfr1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"E5Eng LangLitL6","E7Rem SEng1","E3U4Eng1",,,,,,,
+B Tue,,,,"10:40 - 11:30E7Rem SEng1",,Eng Meet,"13:40 - 14:25E3U4Eng1",,"E8Eng LitU6",
+B Wed,,,"9:00 - 9:45E7Rem SEng1",,,,"12:25 - 13:10E3U4Eng1","E5Eng LangLitL6",,
+B Thu,"E5Eng LangLitL6",,"E8Eng LitU6","10:55 - 11:40E3U4Eng1",,"12:55 - 13:40E7Rem SEng1",,,,
+B Fri,,,,"10:40 - 11:30E3U4Eng1",,,,,,
+M Mon,,,"E7Rem SEng1",,"G2Eng LangLitL6",,"28Eng LangLitL6",,,
+M Tue,,,"E7Rem SEng1","E5Eng LangLitL6",,"12:50 - 13:40E3U4Eng1",,"E8Eng LitU6",,
+M Wed,"E5Eng LangLitL6","8:15 - 9:00E7Rem SEng1",,,"E7Eng LitU6",,"12:25 - 13:10E3U4Eng1",,,
+M Thu,"E5Eng LangLitL6",,,"10:55 - 11:40E3U4Eng1",Eng Meet,,"13:40 - 14:25E7Rem SEng1",,,
+M Fri,,"E7Rem SEng1",,"10:40 - 11:30E3U4Eng1","E5Eng LangLitL6",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"60L5Fr1",,,,,,,,
+B Tue,,"60L5Fr1",,"10:40 - 11:3060L6Fr","11:30 - 12:2060U5Fr1",,,,,
+B Wed,,,"9:00 - 9:4560U5Fr1","9:45 - 10:30E6L6Fr",,"11:40 - 12:25L6Tutor","12:25 - 13:1060L5Fr1",,,
+B Thu,,"8:50 - 9:4060L5Fr1",,,"11:40 - 12:25E6L6Fr","12:25 - 13:1060L6Fr","13:40 - 14:2560U5Fr1",,,
+B Fri,,,"60U5Fr1","10:40 - 11:3060L5Fr1",,,,,,
+M Mon,,"60U5Fr1","60L5Fr1",,,,,,,
+M Tue,"60L6Fr",,,,,,"13:40 - 14:2560U5Fr1",,,
+M Wed,,,,"9:45 - 10:3060L5Fr1","10:55 - 11:4060U5Fr1",,,,,
+M Thu,,,"9:40 - 10:30E6L6Fr","10:55 - 11:4060L5Fr1","11:40 - 12:2560U5Fr1",,,,,
+M Fri,,"60L5Fr1","60L6Fr",,"60U5Fr1",,,"14:25 - 15:1560L6Fr",,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E3RemEng2","CATC",,"CATC","CATC","E2L4Eng1",,,
+B Tue,,,,"10:40 - 11:30E3RemEng2","11:30R - 1e2:m20  JE1Rem ORLeOm3 N",Eng Meet,,,,
+B Wed,,"8:15 - 9:00E2L4Eng1","9:00 - 9:45G4RemEng2","9:45 - 10:30CATC",,"11:40 - 12:25CATC","12:25 - 13:10CATC",,,
+B Thu,,,,"10:55 - 11:40CATC","11:40 - 12:25CATC","12:55 - 13:40E3RemEng2","13:40 - 14:25E2L4Eng1",,,
+B Fri,,"CATC",,,"E2L4Eng1",HM Meet,"13:40 - 14:2517L4 T/L4 JLO3",,,
+M Mon,,,"E3RemEng2","Rem J17Rem ORLeOm3 N","E2L4Eng1","12:35 - 13:25E2L4 T/L4 JLO3","CATC",,,
+M Tue,,"CATC","G2RemEng2","10:40 - 11:30CATC","11:30 - 12:20E2L4Eng1","12:20 - 13:10CATC",,,,
+M Wed,,"8:15 - 9:00E3RemEng2","9:00 - 9:45CATC","9:45 - 10:30E2L4Eng1","10:55 - 11:40CATC",,,,,
+M Thu,,,"9:40 - 10:30CATC","10:55 - 11:40CATC",Eng Meet,"Eng1E2L4Seminar","13:40 - 14:25E3RemEng2",,,
+"",,,,,,"CCAT",,,,
+M Fri,,"E3RemEng2","E2L4Eng1","10:40 - 11:30CATC","CATC","12:20 - 13:10CATC",HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"P2Rem TSci","P2L5Sci5","12:35 - 13:25C2U4Sci4",,,,
+B Tue,,"C1L4 OSci","C2U4Sci4","10:40 - 11:30P2L5Sci5",,,"13:40 - 14:25P1Rem TSci",,,
+B Wed,,"8:15 - 9:00P2L5Sci5","9:00 - 9:45C2L4 OSci",,,"12:35 - 13:25C2U4Sci4",Sci Meet,,,
+B Thu,,"8:50 - 9:40P2L4 JSci",,"10:55 - 11:40B14L5Sci5",,,"13:40 - 14:25C2U4Sci4",,,
+B Fri,,,,"10:40 - 11:30B14L4 JSci","C2U4Sci4","12:20 - 13:10P2L5Sci5","13:40 - 14:25C1Rem TSci",,,
+M Mon,,,,,"C2U4Sci4",,,,,
+M Tue,,,"C2L4 JSci","10:40 - 11:30B14L4 OSci",,"12:20 - 13:10P2L5Sci5","13:40 - 14:25C2U4Sci4",,,
+M Wed,,"8:15 - 9:00P2L5Sci5",,"9:45 - 10:30B14Rem TSci",,"12:35 - 13:25C2U4Sci4",,,,
+M Thu,,"8:50 - 9:40C6L4 OSci","9:40 - 10:30B14Rem TSci","10:55 - 11:40C1L4 JSci",,"12:25 - 13:10P2L5Sci5",Sci Meet,,,
+M Fri,,"C2L4 JSci","P2L5Sci5",,"C2U4Sci4",,"13:40 - 14:25C2L4 OSci",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"44U5A1Math","44U6Pure","44U6P Mat",,,"44L5M1Math",,,
+B Tue,,,"44L6Math",Meet,,"12:20 - 13:1044L5M1Math","13:40 - 14:2544U5A1Math",,,
+B Wed,"7:25 - 8:1544U6P Mat",,,"44F Mat","10:55 - 11:4044L5M1Math",,"12:25 - 13:1044L6Math",,,
+B Thu,,,"9:40 - 10:3044U5A1Math","10:55 - 11:4044U5A1Math","11:40 - 12:2544L5M1Math","44F Mat",,,,
+B Fri,,,"44L5M1Math","10:40 - 11:3044U5A1Math","44U5A1Math",,,,,
+M Mon,,"44L5M1Math","44U6P Mat","44U6Pure","44L5M1Math","44U5A1Math","44U6P Mat",,,
+M Tue,,,,"10:40 - 11:3044U6Pure","11:30 - 12:2044L5M1Math","12:20 - 13:1044U5A1Math",,,,
+M Wed,"7:25 - 8:1544U6P Mat","8:15 - 9:0044L6Math",,"9:45 - 10:3044U5A1Math",,,"12:25 - 13:1044L5M1Math",,,
+M Thu,"44U6P Mat","8:50 - 9:4044U5A1Math","44F Mat",,"11:40 - 12:2544L5M1Math",,"13:40 - 14:2544L6Math",,,
+M Fri,,"44U5A1Math","44U5A1Math",Meet,"44U6P Mat","12:20 - 13:1044U6P Mat",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"33L5Art1",,,,"33U4Art1",,,
+B Tue,,,,,,"15:50 - 13:4033U4Art1","13:40 - 14:2536L5Art1",,,
+B Wed,,,,"9:45 - 10:3033L5Art1","10:55 - 11:4033U4Art1",,,,,
+B Thu,,,"9:40 - 10:3033U4Art1",,,,,,,
+B Fri,,,,,"33L5Art1",,"13:40 - 14:2536U4Art1",,,
+M Mon,,,,"33L5Art1",,,"36U4Art1",,,
+M Tue,,,,"10:40 - 11:3033L5Art1",,,,,,
+M Wed,,,"9:00 - 9:4536U4Art1",,,"11:40 - 12:2533L5Art1",,,,
+M Thu,,,"9:40 - 10:3033L5Art1",,,,"13:40 - 14:2536U4Art1",,,
+M Fri,,,,"10:40 - 11:3033L5Art1",,"15:50 - 13:4036U4Art1",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"60Fren",,"60L4Fr4",,"60L4Fr2",,"60Fren",,,
+B Tue,"60Fren",,"60RemFr4",,"61Fren","15:50 - 13:4060L4Fr4",,,,
+B Wed,,"60Fren","61Fr6Seminar","9:45 - 10:3060L4Fr4","10:55 - 11:4060L4Fr2",,,"60Fren","60Fren","60Fren"
+B Thu,"60Fren","48Fren",,"60Fren","11:40 - 12:2560RemFr4",,,"60Fr6Seminar","60Fr6Seminar",
+B Fri,,"60Fren","61Fren",,"60RemFr4","15:50 - 13:4060L4Fr2",,"60Fren",,
+M Mon,"60Fren",,,"60L4Fr2",,,"60RemFr4",,,
+M Tue,,,"60Fren","10:40 - 11:3060RemFr4","60Fren","12:50 - 13:4060L4Fr4","48Fren",,,
+M Wed,,,,"47Fren",,"12:35 - 13:2560L4Fr2","12:25 - 13:1060L4Fr4","60Fren","60Fren","60Fren"
+M Thu,,"60Fren","9:40 - 10:3060L4Fr2",,,,,"60Fr6Seminar","60Fr6Seminar",
+M Fri,,"61Fren",,,,"15:50 - 13:4060L4Fr4","13:40 - 14:2560RemFr4",,,"60Fren"
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"E3L5Eng2","E3U5Seminar","E3L4Eng2",,,,
+B Tue,,"E3U5Eng2","E3L5Eng2",,,Eng Meet,,,,
+B Wed,,"8:15 - 9:00E3L4Eng2",,,"10:55 - 11:40E3U5Eng2",,,,,
+B Thu,,"8:50 - 9:40E3U5Eng2","9:40 - 10:30E3L5Eng2",,,,"13:40 - 14:25E3L4Eng2",,,
+B Fri,,"E3L5Eng2",,,"E3L4Eng2",HM Meet,"13:40 - 14:25E3U5Eng2",,,
+M Mon,,,,"E3U5Eng2","E3L4Eng2",,"E3L5Eng2",,,
+M Tue,,"E3U5Eng2",,,"11:30 - 12:20E3L4Eng2",,"13:40 - 14:25E3L5Eng2",,,
+M Wed,,,"9:00 - 9:45E3L5Eng2","9:45 - 10:30E3L4Eng2",,"11:40 - 12:25E3U5Eng2",,,,
+M Thu,,"8:50 - 9:40E3L5Eng2",,,Eng Meet,"12:55 - 13:40E3L4Eng2",,,,
+M Fri,,,"E3L4Eng2",,,"12:20 - 13:10E3L5Eng2",HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"66U4Zul1A2","66L4Zul1A2",,"66L4Zul2A1","66L5Zul1A1","66U5Zul1A2",,,
+B Tue,,"66U4Zul1A2","66RemZul1A2","10:40 - 11:3066U5Zul1A2","11:30 - 12:2066L5Zul1A1","15:50 - 13:4066L4Zul1A2",,,,
+B Wed,,,"9:00 - 9:4566U4Zul1A2","9:45 - 10:3066L4Zul1A2","10:55 - 11:4066L4Zul2A1","11:40 - 12:2566L5Zul1A1","12:25 - 13:1066U5Zul1A2",,,
+B Thu,,,,,"11:40 - 12:2566RemZul1A2","12:25 - 13:1066U5Zul1A2","13:40 - 14:2566L5Zul1A1",,,
+B Fri,,"66U5Zul1A2","66U4Zul1A2",,"66RemZul1A2","15:50 - 13:4066L4Zul2A1",,,,
+M Mon,,,"66U4Zul1A2","66L4Zul2A1",,"66L5Zul1A1","66RemZul1A2",,,
+M Tue,,"66L5Zul1A1","66U4Zul1A2","10:40 - 11:3066RemZul1A2","11:30 - 12:2066U5Zul1A2","12:50 - 13:4066L4Zul1A2",,,,
+M Wed,,"8:15 - 9:0066U5Zul1A2",,"9:45 - 10:3066U4Zul1A2","10:55 - 11:4066L5Zul1A1","12:35 - 13:2566L4Zul2A1","12:25 - 13:1066L4Zul1A2",,,
+M Thu,,"8:50 - 9:4066U4Zul1A2","9:40 - 10:3066L4Zul2A1","10:55 - 11:4066U5Zul1A2",,,"13:40 - 14:2566L5Zul1A1",,,
+M Fri,,"66U4Zul1A2",,"10:40 - 11:3066U5Zul1A2","66L5Zul1A1","15:50 - 13:4066L4Zul1A2","13:40 - 14:2566RemZul1A2",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"69U5MLMath",,,,,,,,
+B Tue,,,,Meet,,,,,,
+B Wed,,,,,,"11:40 - 12:2569U5MLMath",,,,
+B Thu,,,,"10:55 - 11:4069U5MLMath",,,,,,
+B Fri,,,,"10:40 - 11:3069U5MLMath",,,,,,
+M Mon,,,"69U5MLMath",,,,,,,
+M Tue,,,,,,"12:20 - 13:1069U5MLMath",,,,
+M Wed,,,,"9:45 - 10:3069U5MLMath",,,,,,
+M Thu,,"8:50 - 9:4069U5MLMath",,,,,"13:40 - 14:2569U5MLMath",,,
+M Fri,,,"69U5MLMath",Meet,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"33L5Art2",,,,"12:35 - 13:2533L4 S/L4 NArt1",,,,
+B Tue,,"33L5Art2",,"10:40 - 11:3033L4 HArt2","11:30 - 12:2033U5Art2",,,,,
+B Wed,,,"9:00 - 9:4533U5Art2",,,"12:35 - 13:2533L4 HArt2","12:25 - 13:1033L5Art2",,,
+B Thu,,"8:50 - 9:4033L5Art2",,,,,"13:40 - 14:2533U5Art2",,,
+B Fri,,,"33U5Art2","10:40 - 11:3033L5Art2",,,"13:40 - 14:2533L4 S/L4 NArt1",,,
+M Mon,,"33U5Art2","33L5Art2",,,"12:35 - 13:2533L4 S/L4 NArt1",,,,
+M Tue,,"33L4 S/L4 NArt1",,,,,"13:40 - 14:2533U5Art2",,,
+M Wed,,,"9:00 - 9:4533L4 HArt2","9:45 - 10:3033L5Art2","10:55 - 11:4033U5Art2",,,,,
+M Thu,,,,"10:55 - 11:4033L5Art2","11:40 - 12:2533U5Art2",,"13:40 - 14:2533L4 HArt2",,,
+M Fri,,"33L5Art2",,,"33U5Art2",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,,,"12:35 - 13:25C6U4Sci2","B14Rem NSci",,,
+B Tue,,,"C6U4Sci2","15F Mat",,,"13:40 - 14:25C6L4 HSci","C1Phys Prac","C1Phys Prac","C1Phys Prac"
+B Wed,,,"9:00 - 9:45C1L4 HSci",,,"12:35 - 13:25C6U4Sci2",Sci Meet,,,
+B Thu,,"8:50 - 9:40B14Rem NSci",,,,"15F Mat","13:40 - 14:25C6U4Sci2","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+B Fri,,"P6Rem NSci",,,"C6U4Sci2",,,,,
+M Mon,,,"P2L4 HSci",,"C6U4Sci2",,,,,
+M Tue,,,,,"11:30 - 12:20C1Rem NSci",,"13:40 - 14:25C6U4Sci2","C1Phys Prac","C1Phys Prac","C1Phys Prac"
+M Wed,,,,,,"12:35 - 13:25C6U4Sci2","12:25 - 13:10P1Rem NSci",,,
+M Thu,,,"Mat14F Mat","10:55 - 11:40P6L4 HSci","15F Mat",,Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+M Fri,,"P1L4 HSci",,,"C6U4Sci2",,,,,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"E6U4Eng3","E9U4Lat1","E9L4Lat1",,"E9RemLat1",,,
+B Tue,,,,"10:40 - 11:30E9U4Lat1","11:30 - 12:20E9U5A2Lat1",Eng Meet,"13:40 - 14:25E6U4Eng3",,,
+B Wed,,"8:15 - 9:00E9U4Lat1",,,"10:55 - 11:40E9L4Lat1","12:35 - 13:25E9RemLat1","12:25 - 13:10E6U4Eng3",,,
+B Thu,,,"9:40 - 10:30E9RemLat1","10:55 - 11:40E5U4Eng3",,"12:55 - 13:40E9U4Lat1","13:40 - 14:25E9U5A2Lat1",,,
+B Fri,,"E9U4Lat1",,"10:40 - 11:30E6U4Eng3",,"15:50 - 13:40E9L4Lat1",,,,
+M Mon,,"E9U5A2Lat1",,"E9L4Lat1",,"12:35 - 13:25E9U4Lat1",,,,
+M Tue,,"E9U4Lat1",,,"11:30 - 12:20E9RemLat1","12:50 - 13:40E6U4Eng3","13:40 - 14:25E9U5A2Lat1",,,
+M Wed,,"8:15 - 9:00E9U4Lat1","9:00 - 9:45E9RemLat1",,,"12:35 - 13:25E9L4Lat1","12:25 - 13:10E5U4Eng3",,,
+M Thu,,,"9:40 - 10:30E9L4Lat1","10:55 - 11:40E6U4Eng3",Eng Meet,"12:55 - 13:40E9RemLat1",,,,
+"",,,,,"Lat1E9U5A2Seminar",,,,,
+M Fri,,,"E9U4Lat1","10:40 - 11:30E6U4Eng3",,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"B7L4 HLS","B7U5LS3","B7U4LS1","B7Rem OLS","B9Bio2Seminar",Meet,,,
+B Tue,,"B7L4 HLS","Bio2Seminar","10:40 - 11:30B7U4LS1","11:30 - 12:20B7L4 TLS","12:20 - 13:10B7U5LS3",,,,
+B Wed,,"8:15 - 9:00B7U4LS1",,"9:45 - 10:30B7U5LS3","10:55 - 11:40B7Rem JLS",,,,,
+B Thu,,"B7Bio2Seminar",,,"11:40 - 12:25B7U5LS3","12:55 - 13:40B7U4LS1",,,,
+B Fri,,"B7U4LS1",,"10:40 - 11:30B7L4 TLS","B7Bio2Seminar","15:50 - 13:40B7Rem OLS","13:40 - 14:25B7Rem JLS","B7Bio2Seminar","B7Bio2Seminar","B7Bio2Seminar"
+M Mon,,"B7Rem OLS",,,"B7Rem JLS","12:35 - 13:25B7U4LS1","B7U5LS3",,,
+M Tue,,"B7U4LS1","B7L4 TLS","10:40 - 11:30B7U5LS3",Meet,"B7Bio2Seminar",,,,
+M Wed,,"8:15 - 9:00B7U4LS1","9:00 - 9:45B7U5LS3","9:45 - 10:30B7Rem OLS","10:55 - 11:40B7L4 HLS",,"12:25 - 13:10B7Rem JLS",,,
+M Thu,,"8:50 - 9:40B7L4 HLS","9:40 - 10:30B7U5LS3",,,"B7Bio2Seminar",,,,
+M Fri,,"B7L4 TLS","B7U4LS1",,,"12:20 - 13:10B7U5LS3","B7Bio2Seminar",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"E6Eng LangLitL6","G2Eng LitU6",,"E6L5Eng3","E6U5",,,,,
+B Tue,,"E6U5Eng3","E6L5Eng3",,,Eng Meet,,,,
+B Wed,,,"E6Eng LitU6",,"10:55 - 11:40E6U5Eng3","11:40 - 12:25L6Tutor",,"E6Eng LangLitL6",,
+B Thu,"E6Eng LangLitL6","8:50 - 9:40E6U5Eng3","9:40 - 10:30E6L5Eng3","E6Eng LangLitL6",,,,,,
+B Fri,,"E6L5Eng3",,,,HM Meet,"13:40 - 14:25E6U5Eng3",,,
+M Mon,,,,"E6U5Eng3","E6Eng LangLitL6",,"E6L5Eng3",,,
+M Tue,,"E6U5Eng3","E6Eng LitU6","E6Eng LangLitL6",,,"13:40 - 14:25E6L5Eng3",,"E6Eng LitU6",
+M Wed,"E6Eng LangLitL6",,"9:00 - 9:45E6L5Eng3",,,"11:40 - 12:25E6U5Eng3",,,,
+M Thu,"E6Eng LangLitL6","8:50 - 9:40E6L5Eng3",,,Eng Meet,,,,,
+M Fri,,,,,"E6Eng LangLitL6","12:20 - 13:10E6L5Eng3",HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem S/Rem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem S/Rem HPE3","11:40 - 12:25FieldL5M4/L5MLPE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldU4M3PE",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem J/Rem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"G1L5Geo3",,"G1U5Geo2",,Geo Meet,,,,
+B Tue,,"G1L5Geo3","G1U5Geo2",,"11:30 - 12:20G1L4 JGeo","15:50 - 13:40G1Rem JGeo",,,,
+B Wed,,"8:15 - 9:00G1U5Geo2","9:00 - 9:45G1L4 JGeo",,"10:55 - 11:40G1L4 HGeo",,"12:25 - 13:10G1L5Geo3",,,
+B Thu,,"8:50 - 9:40G1L5Geo3",,,,,,,,
+B Fri,,"G1Rem JGeo","G1L4 HGeo","10:40 - 11:30G1L5Geo3",,"12:20 - 13:10G1U5Geo2",,,,
+M Mon,,"G1L4 JGeo","G1L5Geo3",,"G1U5Geo2","12:35 - 13:25G1Rem JGeo",,,,
+M Tue,,,"G1U5Geo2","10:40 - 11:30G1L4 HGeo",Geo Meet,,"13:40 - 14:25G1Rem JGeo",,,
+M Wed,,,,"9:45 - 10:30G1L5Geo3","10:55 - 11:40G1L4 JGeo",,"12:25 - 13:10G1U5Geo2",,,
+M Thu,,,,"10:55 - 11:40G1L5Geo3",,"12:25 - 13:10G1U5Geo2",,,,
+M Fri,,"G1L5Geo3",,"10:40 - 11:30G1L4 HGeo",,,"13:40 - 14:25G1U5Geo2",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"28U4Afr3",,,,"28L5Afr6","28U5Afr6",,,
+B Tue,,"28U4Afr3",,"10:40 - 11:3028U5Afr6","11:30 - 12:2028L5Afr6",,"13:40 - 14:2528RemAfr2",,,
+B Wed,,,"9:00 - 9:4528U4Afr3",,"10:55 - 11:4028RemAfr2","11:40 - 12:2528L5Afr6","12:25 - 13:1028U5Afr6",,,
+B Thu,,,,,,"12:25 - 13:1028U5Afr6","13:40 - 14:2528L5Afr6",,,
+B Fri,,"28U5Afr6","28U4Afr3",Afr Meet,,,"13:40 - 14:2528RemAfr2",,,
+M Mon,,,"28U4Afr3",,"28RemAfr2","28L5Afr6",,,,
+M Tue,,"28L5Afr6","28U4Afr3",,"11:30 - 12:2028U5Afr6",,"13:40 - 14:2528RemAfr2",,,
+M Wed,,"8:15 - 9:0028U5Afr6",,"9:45 - 10:3028U4Afr3","10:55 - 11:4028L5Afr6",,,,,
+M Thu,,"8:50 - 9:4028U4Afr3",,"10:55 - 11:4028U5Afr6","11:40 - 12:2528RemAfr2",,"13:40 - 14:2528L5Afr6",,,
+M Fri,,"28U4Afr3",Afr Meet,"10:40 - 11:3028U5Afr6","28L5Afr6",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"B16L5IT2",,,,,"B16U4IT2",,,
+B Tue,,"B16L5IT2",,,"11:30 - 12:20B16U5A1/U5A2/U5A3/U5M1/UI5TM23","15:50 - 13:40B16U4IT2","13:40 - 14:25B15L4 JIT",,,
+B Wed,,,"9:00 - 9:45B16U5A1/U5A2/U5A3/U5M1/UI5TM23","9:45 - 10:30B16Rem SIT","10:55 - 11:40B16U4IT2",,"12:25 - 13:10B16L5IT2",,,
+B Thu,,"8:50 - 9:40B16L5IT2","9:40 - 10:30B16U4IT2","Senior ITMeet","11:40 - 12:25B16L4 JIT","Junior ITMeet","13:40 - 14:25B16U5A1/U5A2/U5A3/U5M1/UI5TM23",,,
+B Fri,,,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23","10:40 - 11:30REBL5IT2",,"15:50 - 13:40B16Rem SIT","13:40 - 14:25B16U4IT2",,,
+M Mon,,"REBU5A1/U5A2/U5A3/U5M1/UI5TM23","B16L5IT2","Junior ITMeet","B16Rem SIT",,"B16U4IT2",,,
+M Tue,,,,,,,"13:40 - 14:25B16U5A1/U5A2/U5A3/U5M1/UI5TM23",,,
+M Wed,,,"9:00 - 9:45B16U4IT2","9:45 - 10:30B16L5IT2","10:55 - 11:40REBU5A1/U5A2/U5A3/U5M1/UI5TM23",,"12:25 - 13:10B16Rem SIT",,,
+M Thu,,,,"10:55 - 11:40B16L5IT2","11:40 - 12:25B16U5A1/U5A2/U5A3/U5M1/UI5TM23",,"13:40 - 14:25B16U4IT2",,,
+M Fri,,"B16L5IT2",,"10:40 - 11:30B16L4 JIT","B16U5A1/U5A2/U5A3/U5M1/UI5TM23","15:50 - 13:40B16U4IT2","13:40 - 14:25B16L4 JIT",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"50U5M1Math",,"50L4Math4","50U4A3Math","1R2:3e5m - 1 3S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,,
+B Tue,,"Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","50L4Math4",Meet,"11:30 - 12:2050U4A3Math",,"13:40 - 14:2550U5M1Math",,,
+B Wed,,"8R:15e -m 9:0 0S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,"9:45 - 10:3050U4A3Math",,"11:40 - 12:2550U5M1Math","12:25 - 13:1050L4Math4",,,
+B Thu,,"8:50 - 9:4050U4A3Math","9:40 - 10:3050L4Math4","10:55 - 11:4050U5M1Math",,,"1R3:4e0m - 1 4S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,
+B Fri,,"50L4Math4","Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","10:40 - 11:3050U5M1Math","50U5M1Math",,,,,
+M Mon,,"50U4A3Math","50U5M1Math","50U4A3Math",,,"50L4Math4",,,
+M Tue,,"Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,"10:40 - 11:3050U4A3Math","11:30 - 12:2050U4A3Math",,"13:40 - 14:2550L4Math4",,,
+M Wed,,"8:15 - 9:0050L4Math4",,"9:45 - 10:3050U5M1Math","10:55 - 11:4050U4A3Math","1R2:3e5m - 1 3S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,,
+M Thu,,,"9:40 - 10:3050U4A3Math","1R0:5e5m - 1 1S:40/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,"12:55 - 13:4050U4A3Math","13:40 - 14:2550U5M1Math",,,
+M Fri,,"50U5M1Math",,Meet,"50L4Math4","1R5:5e0m - 1 3S:40/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","13:40 - 14:2550U4A3Math",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E6RemEng3",,"E1L5Eng4","E4U5Seminar","E6L4Eng3",,,,
+B Tue,,"E4U5Eng4","E1L5Eng4","10:40 - 11:30E6RemEng3","E7Eng Lit",Eng Meet,,,,
+B Wed,,"8:15 - 9:00E6L4Eng3","9:00 - 9:45E3RemEng3",,"10:55 - 11:40E4U5Eng4",,,,,
+B Thu,,"8:50 - 9:40E4U5Eng4","9:40 - 10:30E1L5Eng4",,,"12:55 - 13:40E6RemEng3","13:40 - 14:25E6L4Eng3",,,
+B Fri,,"E1L5Eng4",,,"E6L4Eng3","E7Eng Lit","13:40 - 14:25E4U5Eng4",,,
+M Mon,,,"E6RemEng3","E4U5Eng4","E5L4Eng3","E7Eng Lit","E1L5Eng4",,,
+M Tue,,"E4U5Eng4","E3RemEng3",,"11:30 - 12:20E6L4Eng3",,"13:40 - 14:25E1L5Eng4",,,"E7Eng Lit"
+M Wed,,"8:15 - 9:00E6RemEng3","9:00 - 9:45E1L5Eng4","9:45 - 10:30E6L4Eng3",,"11:40 - 12:25E4U5Eng4",,,,
+M Thu,,"8:50 - 9:40E1L5Eng4",,,Eng Meet,"12:55 - 13:40E6L4Eng3","13:40 - 14:25E6RemEng3",,,
+M Fri,,"E5RemEng3","E6L4Eng3",,,"12:20 - 13:10E1L5Eng4",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"70Rem T/Rem ODra2","DunU4Dra1",,,"70U4Dra3",,,
+B Tue,,,,"10:40 - 11:3070U4Dra1","11:30 - 12:2070Rem T/Rem ODra1","15:50 - 13:4070U4Dra3",,,,
+B Wed,,"8:15 - 9:0070U4Dra1",,,"10:55 - 11:4070U4Dra3",,"12:25 - 13:10DraAltRem T/Rem ODra2",,,
+B Thu,,,"9:40 - 10:3070U4Dra3","10:55 - 11:40DunRem T/Rem ODra1",,"12:55 - 13:40DunU4Dra1",,,,
+B Fri,,"DunU4Dra1",,,,,"13:40 - 14:2570U4Dra3",,,
+M Mon,,,,"70Rem T/Rem ODra1",,"12:35 - 13:25DunU4Dra1","70U4Dra3",,,
+M Tue,,"70U4Dra1",,,,,,,,
+M Wed,,"8:15 - 9:0070U4Dra1","9:00 - 9:4570U4Dra3",,"10:55 - 11:40DunRem T/Rem ODra2",,,,,
+M Thu,,,,,,,"13:40 - 14:2570U4Dra3",,,
+M Fri,,,"70U4Dra1","10:40 - 11:3070Rem T/Rem ODra2","DunRem T/Rem ODra1","15:50 - 13:4070U4Dra3",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"P1U5Sci3","PastoralMeet",,"B14Phys4Seminar",,,,
+B Tue,,,,,"P2Phys4Seminar","12:20 - 13:10P1U5Sci3",,,,
+B Wed,,,"P2Phys6Seminar","9:45 - 10:30P1U5Sci3",,,Sci Meet,,,
+B Thu,,,"P2Phys",,"11:40 - 12:25P1U5Sci3",,,,,
+B Fri,,,"P1Phys4Seminar",,,,,,,
+M Mon,,,,,,"C2Phys","P1U5Sci3",,,
+M Tue,,,"P1Phys6Seminar","10:40 - 11:30P1U5Sci3",,,"PastoralMeet",,,
+M Wed,,,"9:00 - 9:45P1U5Sci3",,"P1Phys",,,,,
+M Thu,,,"9:40 - 10:30P1U5Sci3",,,"B14Phys4Seminar",Sci Meet,,,
+M Fri,,,,,,"12:20 - 13:10P1U5Sci3","P2Phys",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"REBU4IT1",,,,,,
+B Tue,,,,"10:40 - 11:30B16U4IT1",,,,,,
+B Wed,,"8:15 - 9:00B16U4IT1",,,,,,,,
+B Thu,,,,"Senior ITMeet",,"12:55 - 13:40B16U4IT1",,,,
+B Fri,,"B16U4IT1",,,,,,,,
+M Mon,,,,,,"12:35 - 13:25B16U4IT1",,,,
+M Tue,,"B16U4IT1",,,,,,,,
+M Wed,,"8:15 - 9:00B16U4IT1",,,,,,,,
+M Thu,,,,,,,,,,
+M Fri,,,"B16U4IT1",,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"C6U5Sci6",,"C6L5Sci4",,"C6Chem",,,
+B Tue,,,,"10:40 - 11:30C6L5Sci4","C6Chem","12:20 - 13:10C6U5Sci6",,,,
+B Wed,"C6Chem","8:15 - 9:00C6L5Sci4",,"9:45 - 10:30C6U5Sci6",,,Sci Meet,,,
+B Thu,,"C6Chem",,"10:55 - 11:40C6L5Sci4","11:40 - 12:25C6U5Sci6",,,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+B Fri,,,"C6Chem",,,"12:20 - 13:10C6L5Sci4",,"C6Chem",,
+M Mon,"C6Chem",,,,,,"C6U5Sci6",,,
+M Tue,,,"C6Chem","10:40 - 11:30C6U5Sci6",,"12:20 - 13:10C6L5Sci4",,,,
+M Wed,,"8:15 - 9:00C6L5Sci4","9:00 - 9:45C6U5Sci6","C6Chem",,,,,,
+M Thu,,,"9:40 - 10:30C6U5Sci6",,,"12:25 - 13:10C6L5Sci4",Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+M Fri,,,"C6L5Sci4",,,"12:20 - 13:10C6U5Sci6","C6Chem",,,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E1RemEng4","B13L4FOE1","PastoralMeet","B13L4FOE2",,"Rem SB13Rem TRFeOmE 2J",,,
+B Tue,,,"Rem S/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","10:40 - 11:30E1RemEng4",,Eng Meet,,,,
+"",,,,,,"FOE1B13L4Seminar",,,,
+B Wed,,,"9:00 - 9:45E1RemEng4","9:45 - 10:30B13L4FOE1","10:55 - 11:40B13L4FOE2","12:3R5 - e13m:25 S/B13Rem T/RFeOmE 2J",,,,
+B Thu,,,"9:40R - 1e0:3m0  S/B13Rem T/RFeOmE 2J",,"11R:4e0 m- 12 :S25/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","12:55 - 13:40E1RemEng4",,,,
+B Fri,,,,,"Rem S/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","15:50 - 13:40B13L4FOE2",,,,
+M Mon,,,"E1RemEng4","B13L4FOE2",,,"Rem S/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,,
+M Tue,,,"E1RemEng4","10R:4e0 m- 11 :S30/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","11:30R - 1e2:m20  SB13Rem TRFeOmE 2J","12:50 - 13:40B13L4FOE1","PastoralMeet",,,
+M Wed,,"8:15 - 9:00E1RemEng4","9:00 R- 9:e45m SB13Rem TRFeOmE 2J",,,"12:35 - 13:25B13L4FOE2","12:25 - 13:10B13L4FOE1",,,
+M Thu,,,"9:40 - 10:30B13L4FOE2",,Eng Meet,"12:55R - 1e3:m40  SB13Rem TRFeOmE 2J","13:40 - 14:25E1RemEng4",,,
+M Fri,,"E1RemEng4",,,,"15:50 - 13:40B13L4FOE1","13R:4e0 m- 14 :S25/ReBm13T/Rem JRem O/RemHF/ROeEm1 N",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,,"31L4Afr4","31L5Afr2","31U5Afr5",,,
+B Tue,,,,"10:40 - 11:3031U5Afr5","11:30 - 12:2031L5Afr2",,,,,
+B Wed,,,,,,"11:40 - 12:2531L5Afr2","12:25 - 13:1031U5Afr5",,,
+B Thu,,,,"10:55 - 11:4031L4Afr4",,"12:25 - 13:1031U5Afr5","13:40 - 14:2531L5Afr2",,,
+B Fri,,"31U5Afr5",,Afr Meet,,"15:50 - 13:4031L4Afr4",,,,
+M Mon,,,,"31L4Afr4",,"31L5Afr2",,,,
+M Tue,,"31L5Afr2",,,"11:30 - 12:2031U5Afr5",,,,,
+M Wed,,"8:15 - 9:0031U5Afr5",,,"10:55 - 11:4031L5Afr2","12:35 - 13:2531L4Afr4",,,,
+M Thu,,,"9:40 - 10:3031L4Afr4","10:55 - 11:4031U5Afr5",,,"13:40 - 14:2531L5Afr2",,,
+M Fri,,,Afr Meet,"10:40 - 11:3031U5Afr5","31L5Afr2",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"59U5M3Div",,"PastoralMeet",,,,,,
+B Tue,,,,,,,Div Meet,,,
+B Wed,,,"9:00 - 9:4559L5M1Div",,,,,,,
+B Thu,,,"9:40 - 10:3059U5A3Div",,,"12:25 - 13:1059L5A2Div",,,,
+B Fri,,,"59L5M4/L5MLDiv",Div Meet,"59U5M4/U5MLDiv",,"13:40 - 14:2559L5M1Div",,,
+M Mon,,"59U4A1Div","59U5A1Div","59U4M1Div","59L5A3Div","59U5M4/U5MLDiv",,,,
+M Tue,,,"59L5A1Div",,"11:30 - 12:2059L5M4/L5MLDiv","12:20 - 13:1059U5M1Div","PastoralMeet",,,
+M Wed,,,,,,,,,,
+M Thu,,"8:50 - 9:4059U5M3Div","9:40 - 10:3059U4M1Div",,,,"13:40 - 14:2559U5A2Div",,,
+M Fri,,,"59U5M1Div",,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"16L6Math","16U6P Mat","16U4A1Math",,,,,
+B Tue,"16L6Math",,"16L6Math",Meet,"11:30 - 12:2016U4A1Math",,,,,
+B Wed,"7:25 - 8:1516U6P Mat",,"9:00 - 9:4516L6Math","9:45 - 10:3016U4A1Math","16F Mat",,"12:25 - 13:1016L6Math",,,
+B Thu,,"8:50 - 9:4016U4A1Math",,,"11:40 - 12:2516U4A1Math",,"16F Mat",,,
+B Fri,,,,"16F Mat","16L6Math","15:50 - 13:4016U4A1Math",,,,
+M Mon,,"16F Mat","16U6P Mat","16U4A1Math",,"16L6Math","16U6P Mat",,,
+M Tue,"16F Mat",,,"10:40 - 11:3016U4A1Math","11:30 - 12:2016U4A1Math",,,,,
+M Wed,"7:25 - 8:1516U6P Mat","8:15 - 9:0016L6Math","9:00 - 9:4516L6Math",,"10:55 - 11:4016U4A1Math","16F Mat",,,,
+M Thu,"16U6P Mat",,"9:40 - 10:3016U4A1Math","16F Mat",,"12:25 - 13:1016L6Math","13:40 - 14:2516L6Math",,,
+M Fri,,,"16F Mat",Meet,"16U6P Mat","12:20 - 13:1016U6P Mat","13:40 - 14:2516U4A1Math",,"15:15 - 16:0516L6Math",
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"His12L4 SHis",,"His12U5His1",Meet,,"His12U4His4",,,
+B Tue,,"His12L4 THis","His12U5His1",,,"15:50 - 13:40His12U4His4","13:40 - 14:25His12L4 SHis",,,
+B Wed,,"8:15 - 9:00His12U5His1",,,"10:55 - 11:40His12U4His4","12:35 - 13:25His12Rem OHis",,,,
+B Thu,,"8:50 - 9:40His12Rem JHis","9:40 - 10:30His12U4His4",,"11:40 - 12:25His12L4 THis",,,,,
+B Fri,,"His12Rem OHis",,"10:40 - 11:30His12Rem JHis",,"12:20 - 13:10His12U5His1","13:40 - 14:25His12U4His4",,,
+M Mon,,"His12Rem JHis",,,"His12U5His1",,"His12U4His4",,,
+M Tue,,,"His12U5His1","10:40 - 11:30His12L4 SHis",Meet,"12:50 - 13:40His12Rem OHis",,,,
+M Wed,,,"9:00 - 9:45His12U4His4",,"10:55 - 11:40His12L4 THis",,"12:25 - 13:10His12U5His1",,,
+M Thu,,"8:50 - 9:40His12L4 THis","9:40 - 10:30His12Rem OHis","10:55 - 11:40His12L4 SHis","11:40 - 12:25His12Rem JHis","12:25 - 13:10His12U5His1","13:40 - 14:25His12U4His4",,,
+M Fri,,,,,,"15:50 - 13:40His12U4His4","13:40 - 14:25His12U5His1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"G2L5Geo2","G2Rem NGeo",,Geo Meet,,,,
+B Tue,,,,,"11:30 - 12:20G2U5Geo3",,"13:40 - 14:25G2L5Geo2",,,
+B Wed,,,"9:00 - 9:45G2U5Geo3","9:45 - 10:30G2L5Geo2","10:55 - 11:40G2L4 NGeo",,,,,
+B Thu,,"8:50 - 9:40G2L4 NGeo",,,,,"13:40 - 14:25G2U5Geo3","G2Geo6Seminar","G2Geo6Seminar",
+B Fri,,,"G2U5Geo3",,"G2L5Geo2","15:50 - 13:40G2Rem NGeo",,"G2Geo5Seminar",,
+M Mon,"G2Geo5Seminar","G2U5Geo3","G2L4 NGeo","G2L5Geo2",,,,,,
+M Tue,,,,"10:40 - 11:30G2L5Geo2",Geo Meet,,"13:40 - 14:25G2U5Geo3",,,
+M Wed,,,,,"10:55 - 11:40G2U5Geo3","11:40 - 12:25G2L5Geo2",,,,
+M Thu,,,"9:40 - 10:30G2L5Geo2",,"11:40 - 12:25G2U5Geo3","12:55 - 13:40G2Rem NGeo",,"G2Geo6Seminar","G2Geo6Seminar",
+M Fri,,,"G2Rem NGeo","10:40 - 11:30G2L5Geo2","G2U5Geo3",,"13:40 - 14:25G2L4 NGeo",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"39L4Math7","39U4M1Math",,"39L5A1Math",,,
+B Tue,,,"39L4Math7",Meet,"11:30 - 12:2039U4M1Math","12:20 - 13:1039L5A1Math","13:40 - 14:2539U5M3Math",,,
+B Wed,,,"9:00 - 9:4539L5A1Math","9:45 - 10:3039U4M1Math","10:55 - 11:4039L5A1Math","11:40 - 12:2539U5M3Math","12:25 - 13:1039L4Math7",,,
+B Thu,,"8:50 - 9:4039U4M1Math","9:40 - 10:3039L4Math7","10:55 - 11:4039U5M3Math","11:40 - 12:2539L5A1Math","12:25 - 13:1039L5A1Math",,,,
+B Fri,,"39L4Math7","39L5A1Math","10:40 - 11:3039U5M3Math",,"15:50 - 13:4039U4M1Math","13:40 - 14:2539L5A1Math",,,
+M Mon,,"39U4M1Math","39U5M3Math",,"39L5A1Math","39U5M3Math","39L4Math7",,,
+M Tue,,,,"10:40 - 11:3039U4M1Math","11:30 - 12:2039L5A1Math","12:20 - 13:1039U5M3Math","13:40 - 14:2539L4Math7",,,
+M Wed,,"8:15 - 9:0039L4Math7",,"9:45 - 10:3039U5M3Math","10:55 - 11:4039U4M1Math",,"12:25 - 13:1039L5A1Math",,,
+M Thu,,,,,"11:40 - 12:2539L5A1Math","12:55 - 13:4039U4M1Math","13:40 - 14:2539U5M3Math",,,
+M Fri,,"39U5M3Math",,Meet,"39L4Math7",,"13:40 - 14:2539U4M1Math",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"B15L5IT1","B15U5IT1",,"B15Com Sci1Seminar","REBCom Sci2Seminar","B15Com Sci1Seminar","B15Com Sci1Seminar",
+B Tue,,"REBCom Sci1Seminar","B15U5IT1",,,,"13:40 - 14:25REBL5IT1",,,
+B Wed,,"8:15 - 9:00B15U5IT1",,"9:45 - 10:30REBL5IT1","REBCom Sci1Seminar","B16Com Sci2Seminar","B15Com Sci2Seminar",,,
+B Thu,,,,"Senior ITMeet",,,,"B15Com Sci2Seminar",,
+B Fri,,"REBCom Sci1Seminar",,,"B15L5IT1","12:20 - 13:10REBU5IT1","B15Com Sci2Seminar","B15Com Sci2Seminar","B15Com Sci2Seminar",
+M Mon,,,"REBCom Sci1Seminar","B15L5IT1","B15U5IT1",,,"B15Com Sci1Seminar","B15Com Sci1Seminar",
+M Tue,,"B15Com Sci1Seminar","B15U5IT1","10:40 - 11:30REBL5IT1",,,"REBCom Sci2Seminar",,,
+M Wed,,"B15Com Sci2Seminar",,,,"11:40 - 12:25B15L5IT1","12:25 - 13:10B15U5IT1","B15Com Sci1Seminar",,
+M Thu,,,"9:40 - 10:30B15L5IT1",,,"12:25 - 13:10B15U5IT1","B15Com Sci2Seminar",,,
+M Fri,,"B15Com Sci1Seminar",,"10:40 - 11:30REBL5IT1",,,"13:40 - 14:25REBU5IT1","B15Com Sci2Seminar","B15Com Sci2Seminar",
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E5Eng Lang",,"E5L5Eng1","E5U5Seminar",,,,,
+B Tue,,"E5U5Eng1","E5L5Eng1",,"E5Eng Lang",Eng Meet,,,"E5Eng Lang","E5Eng Lang"
+B Wed,,,"E5Eng Lang",,"10:55 - 11:40E5U5Eng1",,,,,
+B Thu,,"8:50 - 9:40E5U5Eng1","9:40 - 10:30E5L5Eng1",,,,,,,
+B Fri,,"E5L5Eng1","E5Eng Lang",,,,"13:40 - 14:25E5U5Eng1",,,
+M Mon,"E5Eng Lang",,,"E5U5Eng1",,"E5Eng Lang","E5L5Eng1",,,
+M Tue,,"E5U5Eng1","E5Eng Lang",,,,"13:40 - 14:25E5L5Eng1",,"E5Eng Lang",
+M Wed,,,"9:00 - 9:45E5L5Eng1",,"E5Eng Lang","11:40 - 12:25E5U5Eng1",,,,
+M Thu,,"8:50 - 9:40E5L5Eng1",,,Eng Meet,"E5Eng Lang",,,,
+M Fri,,,,,,"12:20 - 13:10E5L5Eng1",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"24U5M2LO",,"PastoralMeet","24L4FOE3",,,,,
+B Tue,,,,,,,"13:40 - 14:2524U5M4/U5MLLO",,,
+B Wed,,,"9:00 - 9:4524L5M2LO",,,"11:40 - 12:2524U5A1LO",,,,
+B Thu,,,"9:40 - 10:3024U5A2LO","10:55 - 11:4024L4FOE3",,,,,,
+B Fri,,,"24L5A3LO","10:40 - 11:3024U5A3LO","24U5M3LO","15:50 - 13:4024L4FOE3",,,,
+M Mon,,"24L5A1LO","24U5M2LO","24L4FOE3",,"24U5M1LO",,,,
+M Tue,,,,,,"12:20 - 13:1024U5A3LO","PastoralMeet",,,
+M Wed,,,,"9:45 - 10:3024U5A2LO",,"12:35 - 13:2524L4FOE3",,,,
+M Thu,,"8:50 - 9:4024U5M1LO","9:40 - 10:3024L4FOE3",,,,"13:40 - 14:2524U5A1LO",,,
+M Fri,,"24U5M4/U5MLLO","24U5M3LO",,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E9L5Lat1",,,,,,,,
+B Tue,,"E9L5Lat1",,,,,"13:40 - 14:25E9RemLat2",,,
+B Wed,,,"9:00 - 9:45E9U5A2Lat1",,"10:55 - 11:40G3RemLat2",,"12:25 - 13:10E9L5Lat1",,,
+B Thu,,"8:50 - 9:40E9L5Lat1",,,,,,,,
+B Fri,,,"E9U5A2Lat1","10:40 - 11:30E9L5Lat1",,,"13:40 - 14:25E9RemLat2",,,
+M Mon,,,"E9L5Lat1",,"E9RemLat2",,,,,
+M Tue,,,,,,,"13:40 - 14:25G3RemLat2",,,
+M Wed,,,,"9:45 - 10:30E9L5Lat1","10:55 - 11:40E9U5A2Lat1",,,,,
+M Thu,,,,"10:55 - 11:40E9L5Lat1","11:40 - 12:25G1RemLat2",,,,,
+M Fri,,"E9L5Lat1",,,"E9U5A2Lat1",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"B9L4 JLS",,,"B10Rem SLS","12:35 - 13:25B7U4LS4",Meet,,,
+B Tue,,"B9L4 JLS","B7U4LS4",,"11:30 - 12:20B9L4 NLS","15:50 - 13:40B13L4FOE1",,,,
+B Wed,,,LD,"9:45 - 10:30B4Rem HLS","10:55 - 11:40B13L4FOE2","12:35 - 13:25B4U4LS4",,,,
+B Thu,,"8:50 - 9:40B9Rem HLS","9:40R - 1e0:3m0  S/B13Rem T/RFeOmE 2J",LD,"1R1:4e0m - 1 2S:25/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,"13:40 - 14:25B7U4LS4",,,
+B Fri,,,"B9L4 NLS","10:40 - 11:30B4Rem SLS","B4U4LS4",,,,,
+M Mon,,"B10Rem SLS","B9L4 JLS","B13L4FOE2","B4U4LS4","12:35 - 13:25B9Rem HLS",LD,,,
+M Tue,,LD,,,Meet,"12:50 - 13:40B13L4FOE1","13:40 - 14:25B7U4LS4",,,
+M Wed,,,"9:00R - 9e:45m S/B13Rem T/RFeOmE 2J",LD,,"12:35 - 13:25B4U4LS4",,,,
+M Thu,,LD,"9:40 - 10:30B4Rem HLS","10:55 - 11:40B9L4 NLS","11:40 - 12:25B9L4 JLS",,,,,
+M Fri,,LD,"B10Rem SLS","10:40 - 11:30B7L4 NLS","B7U4LS4",,"1R3:4e0m - 1 4S:25/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"PastoralMeet",,,,,,
+B Tue,,,,,"11:30 - 12:2024Rem J/Rem NLO1",,,,,
+B Wed,,,,,"10:55 - 11:4024L5M4/L5MLLO","12:35 - 13:25His9L4 JLO2","12:25 - 13:1024Rem JLO2",,,
+B Thu,,"8:50 - 9:4024U4M4U4M5LO",,,"11:40 - 12:2524U4A3LO","12:25 - 13:1024L5M1LO",,,,
+B Fri,,,"His12BL5A2LO",,,HM Meet,"13:40 - 14:2524L4 NLO1",,,
+M Mon,,"E8U4A2LO",,"28Rem J/Rem NLO1",,"12:35 - 13:25E1L4 NLO1",,,,
+M Tue,,,"24L5M3LO","10:40 - 11:3024U4M3LO","11:30 - 12:2024U4M1LO",,"PastoralMeet",,,
+M Wed,,,"9:00 - 9:4524L4 JLO2",,,,,,,
+M Thu,,,"9:40 - 10:30His9U4M2LO",,,"12:55 - 13:4024U4A1LO",,,,
+M Fri,,,,"10:40 - 11:3024Rem JLO2",,,HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem S/Rem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem S/Rem HPE3","11:40 - 12:25FieldL5M4/L5MLPE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldRem JPE4",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem J/Rem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"His8L5His4",,"His8U4His1",Meet,,"His8Rem HHis",,,
+B Tue,,"His8L5His4",,"10:40 - 11:30His8U4His1","11:30 - 12:20His8L4 HHis","15:50 - 13:40His8Rem NHis","13:40 - 14:25His8L4 NHis",,,
+B Wed,,"8:15 - 9:00His8U4His1","9:00 - 9:45His8L4 NHis","9:45 - 10:30His8Rem NHis",,,"12:25 - 13:10His8L5His4",,,
+B Thu,,"8:50 - 9:40His8L5His4",,"10:55 - 11:40His8L4 JHis","11:40 - 12:25His8L4 HHis","12:55 - 13:40His8U4His1",,,,
+B Fri,,"His8U4His1","His8L4 JHis","10:40 - 11:30His8L5His4",,"15:50 - 13:40His8Rem HHis",,,,
+M Mon,,"His8L4 HHis","His8L5His4",,,"12:35 - 13:25His8U4His1",,,,
+M Tue,,"His8U4His1","His8L4 NHis","10:40 - 11:30His8L4 JHis",Meet,,,,,
+M Wed,,"8:15 - 9:00His8U4His1","9:00 - 9:45His8Rem NHis","9:45 - 10:30His8L5His4",,,"12:25 - 13:10His8Rem HHis",,,
+M Thu,,"8:50 - 9:40His8L4 JHis","9:40 - 10:30His8Rem NHis","10:55 - 11:40His8L5His4","11:40 - 12:25His8L4 NHis","12:55 - 13:40His8Rem HHis",,,,
+M Fri,,"His8L5His4","His8U4His1",,,,"13:40 - 14:25His8L4 HHis",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"B15L4 NIT",,"G4U5Geo1",,Geo Meet,"G4U4Geo2",,,
+B Tue,,"B15L4 NIT","G4U5Geo1",,,"15:50 - 13:40G4U4Geo2","13:40 - 14:25G4Rem SGeo",,,
+B Wed,,"8:15 - 9:00G4U5Geo1","9:00 - 9:45B15L4 SIT","9:45 - 10:30G4Rem OGeo","10:55 - 11:40G4U4Geo2",,,,,
+B Thu,,"8:50 - 9:40G4Rem OGeo","9:40 - 10:30G4U4Geo2",,"11:40 - 12:25G4L4 SGeo","Junior ITMeet",,,,
+B Fri,,"G4Rem SGeo","B15L4 SIT","10:40 - 11:30G4L4 SGeo",,"12:20 - 13:10G4U5Geo1","13:40 - 14:25G4U4Geo2",,,
+M Mon,,"G4L4 SGeo","B15L4 SIT","Junior ITMeet","G4U5Geo1","12:35 - 13:25G4Rem OGeo","G4U4Geo2",,,
+M Tue,,,"G4U5Geo1","10:40 - 11:30B16L4 NIT",Geo Meet,"12:50 - 13:40G4Rem SGeo",,,,
+M Wed,,,"9:00 - 9:45G4U4Geo2",,"10:55 - 11:40B15L4 NIT",,"12:25 - 13:10G4U5Geo1",,,
+M Thu,,,"9:40 - 10:30G4Rem SGeo",,"11:40 - 12:25G4L4 SGeo","12:25 - 13:10G4U5Geo1","13:40 - 14:25G4U4Geo2",,,
+M Fri,,,"G4Rem OGeo","10:40 - 11:30B15L4 SIT",,"15:50 - 13:40G4U4Geo2","13:40 - 14:25G4U5Geo1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"P1L4 TSci",,"P1Rem HSci","P1L5Sci6","12:35 - 13:25P1U4Sci1",,,,
+B Tue,,,"P1U4Sci1","10:40 - 11:30P1L5Sci6",,,,,,
+B Wed,,"8:15 - 9:00P1L5Sci6",,,,"12:35 - 13:25P1U4Sci1",Sci Meet,,,
+B Thu,,"8:50 - 9:40P1L4 TSci","9:40 - 10:30P1Rem HSci","10:55 - 11:40P1L5Sci6",,,"13:40 - 14:25P1U4Sci1",,,
+B Fri,,,,"10:40 - 11:30P1Rem HSci","P1U4Sci1","12:20 - 13:10P1L5Sci6",,,,
+M Mon,,"P1Rem HSci","P1L4 TSci",,"P1U4Sci1",,,,,
+M Tue,,,,,,"12:20 - 13:10P1L5Sci6","13:40 - 14:25P1U4Sci1",,,
+M Wed,,"8:15 - 9:00P1L5Sci6",,"9:45 - 10:30P1Rem HSci",,"12:35 - 13:25P1U4Sci1",,,,
+M Thu,,,,,"11:40 - 12:25P1L4 TSci","12:25 - 13:10P1L5Sci6",Sci Meet,,,
+M Fri,,,"P1L5Sci6","10:40 - 11:30P1L4 TSci","P1U4Sci1",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"30Rem JPers2","PastoralMeet",,"12:35 - 13:25G1L4 NPers1",,,,
+B Tue,,,,"10:40 - 11:30E5L4 JPers2",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,,"10:55 - 11:4017Rem J/Rem NPers1",,,,,,
+B Fri,,,,,,,,,,
+M Mon,,,,,,,,,,
+M Tue,,,,,,,"PastoralMeet",,,
+M Wed,,,,,,,,,,
+M Thu,,,,,,,,,,
+M Fri,,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"30U4Afr4",,"30L6AB","30Afr IG1Seminar","30L5Afr1","30U5Afr3",,,
+B Tue,,"30U4Afr4",,"10:40 - 11:3030U5Afr3","11:30 - 12:2030L5Afr1","12:20 - 13:1030U6AB",,,,
+B Wed,,"30Afr IG1Seminar","9:00 - 9:4530U4Afr4",,,"11:40 - 12:2530L5Afr1","12:25 - 13:1030U5Afr3",,,
+B Thu,,,,,,"12:25 - 13:1030U5Afr3","13:40 - 14:2530L5Afr1","30F1Seminar",,
+B Fri,,"30U5Afr3","30U4Afr4",Afr Meet,,"30Afr IG1Seminar",,,,
+M Mon,,"30U6AB","30U4Afr4",,"30L6AB","30L5Afr1",,,,
+M Tue,,"30L5Afr1","30U4Afr4",,"11:30 - 12:2030U5Afr3","30Afr IG1Seminar",,,,
+M Wed,,"8:15 - 9:0030U5Afr3",,"9:45 - 10:3030U4Afr4","10:55 - 11:4030L5Afr1",,,,"30Afr IG1Seminar",
+M Thu,,"8:50 - 9:4030U4Afr4",,"10:55 - 11:4030U5Afr3",,,"13:40 - 14:2530L5Afr1","30F1Seminar",,
+M Fri,,"30U4Afr4",Afr Meet,"10:40 - 11:3030U5Afr3","30L5Afr1","30Afr IG1Seminar",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"B9L5LS1","B9U5LS1","B9Rem NLS",,Meet,"B9Bio Prac","B9Bio Prac","B9Bio Prac"
+B Tue,,,"B9U5LS1",,,,"13:40 - 14:25B9L5LS1",,,
+B Wed,,"8:15 - 9:00B9U5LS1",LD,"9:45 - 10:30B9L5LS1",,"B9Bio Prac","B9Bio Prac",,,
+B Thu,,,,LD,,,,"B9Bio Prac",,
+B Fri,,,,"10:40 - 11:30B9Rem NLS","B9L5LS1","12:20 - 13:10B9U5LS1","B9Bio Prac",,,
+M Mon,,"B9Rem NLS",,"B9L5LS1","B9U5LS1",,LD,"B9Bio Prac","B9Bio Prac","B9Bio Prac"
+M Tue,,LD,"B9U5LS1","10:40 - 11:30B9L5LS1",Meet,"12:50 - 13:40B9Rem NLS","B9Bio Prac",,,
+M Wed,,"B9Bio Prac",,LD,,"11:40 - 12:25B9L5LS1","12:25 - 13:10B9U5LS1",,,
+M Thu,,LD,"9:40 - 10:30B9L5LS1",,,"12:25 - 13:10B9U5LS1","B9Bio Prac",,,
+M Fri,,LD,,"10:40 - 11:30B9L5LS1",,,"13:40 - 14:25B9U5LS1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"67L4Math3","67U4M2Math","1R2:3e5m - 1 3S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath",,,
+B Tue,,"Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L4Math3",Meet,"11:30 - 12:2067U4M2Math","12:20 - 13:1067L5MLMath",,,,
+B Wed,,"8R:15e -m 9:0 0S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","9:00 - 9:4567L5MLMath","9:45 - 10:3067U4M2Math",,,"12:25 - 13:1067L4Math3",,,
+B Thu,,"8:50 - 9:4067U4M2Math","9:40 - 10:3067L4Math3",,"11:40 - 12:2567U4M2Math","12:25 - 13:1067L5MLMath","1R3:4e0m - 1 4S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,
+B Fri,,"67L4Math3","Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,"15:50 - 13:4067U4M2Math","13:40 - 14:2567L5MLMath",,,
+M Mon,,"69L5MLMath",,"67U4M2Math","67L5MLMath",,"67L4Math3",,,
+M Tue,,"Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath",,"11:30 - 12:2067U4M2Math",,"13:40 - 14:2567L4Math3",,,
+M Wed,,"8:15 - 9:0067L4Math3",,,"10:55 - 11:4067U4M2Math","1R2:3e5m - 1 3S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","12:25 - 13:1067L5MLMath",,,
+M Thu,,,,"1R0:5e5m - 1 1S:40/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","11:40 - 12:2567L5MLMath","12:55 - 13:4067U4M2Math",,,,
+M Fri,,,,Meet,"67L4Math3","1R5:5e0m - 1 3S:40/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E8RemEng5","E8U4Eng4",,"E8U5Seminar","E8L4Eng4",,,,
+B Tue,,"E8U5Eng5",,"10:40 - 11:30E8RemEng5",,Eng Meet,"13:40 - 14:25E8U4Eng4",,,
+B Wed,,"8:15 - 9:00E8L4Eng4","9:00 - 9:45E8RemEng5",,"10:55 - 11:40E8U5Eng5",,"12:25 - 13:10E8U4Eng4",,,
+B Thu,,"8:50 - 9:40E8U5Eng5",,"10:55 - 11:40E8U4Eng4",,"12:55 - 13:40E8RemEng5","13:40 - 14:25E8L4Eng4",,,
+B Fri,,,,"10:40 - 11:30E8U4Eng4","E8L4Eng4",,"13:40 - 14:25E8U5Eng5",,,
+M Mon,,,"E8RemEng5","E8U5Eng5","E8L4Eng4",,,,,
+M Tue,,"E8U5Eng5","E8RemEng5",,"11:30 - 12:20E8L4Eng4","12:50 - 13:40E8U4Eng4",,,,
+M Wed,,"8:15 - 9:00E8RemEng5",,"9:45 - 10:30E8L4Eng4",,"11:40 - 12:25E8U5Eng5","12:25 - 13:10E8U4Eng4",,,
+M Thu,,,,"10:55 - 11:40E8U4Eng4",Eng Meet,"12:55 - 13:40E8L4Eng4","13:40 - 14:25E8RemEng5",,,
+M Fri,,"E8RemEng5","E8L4Eng4","10:40 - 11:30E8U4Eng4",,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"69L6Math",,,,,,,
+B Tue,"69L6Math",,,Meet,,,,,,
+B Wed,,,"9:00 - 9:4569L6Math",,,,,,,
+B Thu,,,,,,,,,,
+B Fri,,,,,"69L6Math",,,,,
+M Mon,,,,,,"69L6Math",,,,
+M Tue,,,,,,,,,,
+M Wed,,,"9:00 - 9:4569L6Math",,"44FOM2Seminar",,,,,
+M Thu,,,,,,"12:25 - 13:1069L6Math",,,,
+M Fri,,,,Meet,"48FOM1Seminar",,,,"15:15 - 16:0539L6Math",
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem S/Rem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem S/Rem HPE3","11:40 - 12:25FieldU4M1PE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldRem JPE4",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem J/Rem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"C1U5Sci2",,"C1L5Sci3",,"C1Chem",,,
+B Tue,,,,"10:40 - 11:30C1L5Sci3","C1Chem","12:20 - 13:10C1U5Sci2",,,,
+B Wed,"C1Chem","8:15 - 9:00C1L5Sci3",,"9:45 - 10:30C1U5Sci2",,,Sci Meet,,,
+B Thu,,"C1Chem",,"10:55 - 11:40C1L5Sci3","11:40 - 12:25C1U5Sci2",,,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+B Fri,,,"C1Chem",,,"12:20 - 13:10C1L5Sci3",,"C1Chem",,
+M Mon,"C1Chem",,,,,,"C1U5Sci2",,,
+M Tue,,,"C1Chem","10:40 - 11:30C1U5Sci2",,"12:20 - 13:10C1L5Sci3",,,,
+M Wed,,"8:15 - 9:00C1L5Sci3","9:00 - 9:45C1U5Sci2","C1Chem",,,,,,
+M Thu,,,"9:40 - 10:30C1U5Sci2",,,"12:25 - 13:10C1L5Sci3",Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+M Fri,,,"C1L5Sci3",,,"12:20 - 13:10C1U5Sci2","C1Chem",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"PastoralMeet","59U4A2Div","12:35 - 13:2559L4 JDiv1",,,,
+B Tue,,,,,"11:30 - 12:2059RemDiv1",,Div Meet,,,
+B Wed,,,,,"10:55 - 11:4059L5M3Div",,,,,
+B Thu,,"8:50 - 9:4059U4M3Div",,"10:55 - 11:4059RemDiv1","11:40 - 12:2559U4M4/U4M5Div","12:25 - 13:10G1L5M2Div",,,,
+B Fri,,,"His12L5M2Div",Div Meet,"G1U5M2Div","15:50 - 13:4059U4A3Div","13:40 - 14:25G1L4 JDiv1",,,
+M Mon,,"E4U4M2Div",,"Rem J/ G1Rem O/RDemiv1 N","48L5M3Div","12:35 - 13:25E3L4 JDiv1",,,,
+M Tue,,"59L4 JDiv1",,,"11:30 - 12:20G1U4M4/U4M5Div",,"PastoralMeet",,,
+M Wed,,,,,,,,,,
+M Thu,,,,,,"12:55 - 13:4059U4M3Div",,,,
+M Fri,,,"G1U5M2Div",,"E4RemDiv1",,"13:40 - 14:2559U4M2Div",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"Mat14U5M4Math","42L6Math",,"Mat14U4M3Math","1R2:3e5m - 1 3S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,,
+B Tue,"15L6Math","Rem S/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,Meet,"11:30 - 12:2015U4M3Math",,,,,
+B Wed,,"8R:15e -m 9:0 0S/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N","9:00 - 9:4515L6Math","9:45 - 10:3015U4M3Math",,"11:40 - 12:25Mat14U5M4Math",,,,
+B Thu,,,,"10:55 - 11:40Mat14U5M4Math","11:40 - 12:2515U4M3Math",,"1R3:4e0m - 1 4S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,
+B Fri,,,"Rem S/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N","10:40 - 11:30Mat14U5M4Math","42L6Math","15:50 - 13:4015U4M3Math",,,,
+M Mon,,"15U4M3Math","Mat14U5M4Math","Mat14U4M3Math",,"42L6Math",,,,
+M Tue,,"Rem S/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N",,,"11:30 - 12:20Mat14U4M3Math","12:20 - 13:10Mat14U5M4Math",,,,
+M Wed,,,"9:00 - 9:4515L6Math","9:45 - 10:30Mat14U5M4Math",,"1R2:3e5m - 1 3S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,,
+M Thu,,"8:50 - 9:40Mat14U5M4Math","9:40 - 10:3015U4M3Math","1R0:5e5m - 1 1S:40/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,"12:25 - 13:1015L6Math","13:40 - 14:25Mat14U5M4Math",,,
+M Fri,,,"Mat14U5M4Math",Meet,,"1R5:5e0m - 1 3S:40/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N","13:40 - 14:2515U4M3Math",,"15:15 - 16:0515L6Math",
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"G3L5Geo1","G3U4Geo1","G3Rem TGeo",Geo Meet,,,,
+B Tue,,,,"10:40 - 11:30G3U4Geo1",,"15:50 - 13:40G3Rem HGeo","13:40 - 14:25G3L5Geo1",,,
+B Wed,,"8:15 - 9:00G3U4Geo1","9:00 - 9:45G3L4 TGeo","9:45 - 10:30G3L5Geo1",,"12:35 - 13:25G3Rem HGeo",,,,
+B Thu,,"8:50 - 9:40G3L4 OGeo",,,,"12:55 - 13:40G3U4Geo1",,,,
+B Fri,,"G3U4Geo1","G3L4 TGeo","10:40 - 11:30G3L4 OGeo","G3L5Geo1","15:50 - 13:40G3Rem TGeo",,,,
+M Mon,,"G3L4 TGeo",,"G3L5Geo1","G3Rem TGeo","12:35 - 13:25G3U4Geo1",,,,
+M Tue,,"G3U4Geo1","G3L4 OGeo","10:40 - 11:30G3L5Geo1",Geo Meet,"12:50 - 13:40G3Rem HGeo",,,,
+M Wed,,"8:15 - 9:00G3U4Geo1","9:00 - 9:45G3Rem HGeo",,,"11:40 - 12:25G3L5Geo1",,,,
+M Thu,,,"9:40 - 10:30G3L5Geo1","10:55 - 11:40G3L4 TGeo","11:40 - 12:25G3Rem TGeo",,,,,
+M Fri,,"G3L4 OGeo","G3U4Geo1","10:40 - 11:30G3L5Geo1",,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"32U4Afr5",,,"32L4Afr5","32L5Afr4","32U5Afr4",,,
+B Tue,,"32U4Afr5",,"10:40 - 11:3032U5Afr4","11:30 - 12:2032L5Afr4",,,,,
+B Wed,,,"9:00 - 9:4532U4Afr5",,,"11:40 - 12:2532L5Afr4","12:25 - 13:1032U5Afr4",,,
+B Thu,,,,"10:55 - 11:4032L4Afr5",,"12:25 - 13:1032U5Afr4","13:40 - 14:2532L5Afr4",,,
+B Fri,,"32U5Afr4","32U4Afr5",Afr Meet,,"15:50 - 13:4032L4Afr5",,,,
+M Mon,,,"32U4Afr5","32L4Afr5",,"32L5Afr4",,,,
+M Tue,,"32L5Afr4","32U4Afr5",,"11:30 - 12:2032U5Afr4",,,,,
+M Wed,,"8:15 - 9:0032U5Afr4",,"9:45 - 10:3032U4Afr5","10:55 - 11:4032L5Afr4","12:35 - 13:2532L4Afr5",,,,
+M Thu,,"8:50 - 9:4032U4Afr5","9:40 - 10:3032L4Afr5","10:55 - 11:4032U5Afr4",,,"13:40 - 14:2532L5Afr4",,,
+M Fri,,"32U4Afr5",Afr Meet,"10:40 - 11:3032U5Afr4","32L5Afr4",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"E1U4Eng5",,"E1U5Seminar","E1L4Eng5",,,,
+B Tue,,"E1U5Eng6",,,,Eng Meet,"13:40 - 14:25E1U4Eng5",,,
+B Wed,,"8:15 - 9:00E1L4Eng5",,,"10:55 - 11:40E1U5Eng6",,"12:25 - 13:10E1U4Eng5",,,
+B Thu,,"8:50 - 9:40E1U5Eng6",,"10:55 - 11:40E1U4Eng5",,,"13:40 - 14:25E1L4Eng5",,,
+B Fri,,,,"10:40 - 11:30E1U4Eng5","E1L4Eng5",HM Meet,"13:40 - 14:25E1U5Eng6",,,
+M Mon,,,,"E1U5Eng6","E1L4Eng5",,,,,
+M Tue,,"E1U5Eng6",,,"11:30 - 12:20E1L4Eng5","12:50 - 13:40E1U4Eng5",,,,
+M Wed,,,,"9:45 - 10:30E1L4Eng5",,"11:40 - 12:25E1U5Eng6","12:25 - 13:10E1U4Eng5",,,
+M Thu,,,,"10:55 - 11:40E1U4Eng5",Eng Meet,"12:55 - 13:40E1L4Eng5",,,,
+M Fri,,,"E1L4Eng5","10:40 - 11:30E1U4Eng5",,,HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"P2Chem",,"P2U5Sci1",,,"12:35 - 13:25P2U4Sci6","P2Chem",,,
+B Tue,"P2Chem","P2CB4Seminar","P2U4Sci6",,,"12:20 - 13:10P2U5Sci1",,,,
+B Wed,,"B14CB4Seminar",,"9:45 - 10:30P2U5Sci1",,"12:35 - 13:25P2U4Sci6",Sci Meet,"P2Chem","P2Chem","P2Chem"
+B Thu,"P2Chem",,,"P2Chem","11:40 - 12:25P2U5Sci1",,"13:40 - 14:25P2U4Sci6",,,
+B Fri,,"P2Chem",,,"P2U4Sci6",,,,,
+M Mon,,,,,"P2U4Sci6",,"P2U5Sci1",,,
+M Tue,,"P2Chem",,"10:40 - 11:30P2U5Sci1","P2Chem",,"13:40 - 14:25P2U4Sci6",,,
+M Wed,,,"9:00 - 9:45P2U5Sci1","P2CB4Seminar",,"12:35 - 13:25P2U4Sci6","P2CB4Seminar","P2Chem","P2Chem","P2Chem"
+M Thu,,"P2Chem","9:40 - 10:30P2U5Sci1",,,,Sci Meet,,,
+M Fri,,"P2Chem",,"P2CB4Seminar","P2U4Sci6","12:20 - 13:10P2U5Sci1",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"65U4Zul1A1","65L4Zul1A1",,,"65L5Zul1A2","65U5Zul1A1",,,
+B Tue,,"65U4Zul1A1","65RemZul1A1","10:40 - 11:3065U5Zul1A1","11:30 - 12:2065L5Zul1A2","15:50 - 13:4065L4Zul1A1","13:40 - 14:2565RemZul2A1",,,
+B Wed,,,"9:00 - 9:4565U4Zul1A1","9:45 - 10:3065L4Zul1A1","10:55 - 11:4065RemZul2A1","11:40 - 12:2565L5Zul1A2","12:25 - 13:1065U5Zul1A1",,,
+B Thu,,,,,"11:40 - 12:2565RemZul1A1","12:25 - 13:1065U5Zul1A1","13:40 - 14:2565L5Zul1A2",,,
+B Fri,,"65U5Zul1A1","65U4Zul1A1",,"65RemZul1A1",,"13:40 - 14:2565RemZul2A1",,,
+M Mon,,,"65U4Zul1A1",,"65RemZul2A1","65L5Zul1A2","65RemZul1A1",,,
+M Tue,,"65L5Zul1A2","65U4Zul1A1","10:40 - 11:3065RemZul1A1","11:30 - 12:2065U5Zul1A1","12:50 - 13:4065L4Zul1A1","13:40 - 14:2565RemZul2A1",,,
+M Wed,,"8:15 - 9:0065U5Zul1A1",,"9:45 - 10:3065U4Zul1A1","10:55 - 11:4065L5Zul1A2",,"12:25 - 13:1065L4Zul1A1",,,
+M Thu,,"8:50 - 9:4065U4Zul1A1",,"10:55 - 11:4065U5Zul1A1","11:40 - 12:2565RemZul2A1",,"13:40 - 14:2565L5Zul1A2",,,
+M Fri,,"65U4Zul1A1",,"10:40 - 11:3065U5Zul1A1","65L5Zul1A2","15:50 - 13:4065L4Zul1A1","13:40 - 14:2565RemZul1A1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"47L4Math5",,"12R:3e5 m- 13 :S25/Rem39T/Rem JRem O/RemHM/Raetmh2 N","50L5M3Math",,,
+B Tue,,"Rem S/Rem39T/Rem JRem O/RemHM/Raetmh2 N","47L4Math5",Meet,,"12:20 - 13:1050L5M3Math","13:40 - 14:25Mat14U6MB",,,
+B Wed,,"8:R15e - m9:0 0S/Rem39T/Rem JRem O/RemHM/Raetmh2 N","9:00 - 9:4550L5M3Math",,,,"12:25 - 13:10His12L4Math5",,,
+B Thu,,"8:50 - 9:40Mat14U6MB","9:40 - 10:3047L4Math5",,"11:40 - 12:2550L5M3Math","12:25 - 13:1050L5M3Math","13R:4e0 m- 14 :S25/Rem15T/Rem JRem O/RemHM/Raetmh2 N",,"15:15 - 16:05Mat14U6MB",
+B Fri,,"47L4Math5","Rem S/Rem16T/Rem JRem O/RemHM/Raetmh2 N",,"39U6MB",,"13:40 - 14:2550L5M3Math",,,
+M Mon,,"67L5M3Math",,,"15U6MB",,"47L4Math5",,,
+M Tue,,"Rem S/Rem39T/Rem JRem O/RemHM/Raetmh2 N",,,"11:30 - 12:2015L5M3Math","12:20 - 13:1015U6MB","13:40 - 14:2547L4Math5",,,
+M Wed,,"8:15 - 9:0047L4Math5","9:00 - 9:4539U6MB",,,"12R:3e5 m- 13 :S25/Rem39T/Rem JRem O/RemHM/Raetmh2 N","12:25 - 13:1050L5M3Math",,,
+M Thu,,,,"10R:5e5 m- 11 :S40/Rem39T/Rem JRem O/RemHM/Raetmh2 N","11:40 - 12:2550L5M3Math",,,,"15:15 - 16:05Mat14U6MB",
+M Fri,,,,Meet,"47L4Math5","15R:5e0 m- 13 :S40/Rem39T/Rem JRem O/RemHM/Raetmh2 N",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"B14Phys Brg",,"B14Rem OSci","B14Rem JSci","12:35 - 13:25C1U4Sci5",,,,
+B Tue,,,"C1U4Sci5",,,"15:50 - 13:40B14Rem OSci","13:40 - 14:25P2Rem JSci","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+B Wed,,,,"9:45 - 10:30B14Rem JSci",,"12:35 - 13:25C1U4Sci5",Sci Meet,,,
+B Thu,,,"9:40 - 10:30C6Rem OSci",,"11:40 - 12:25B14L4 NSci",,"13:40 - 14:25C1U4Sci5",,,
+B Fri,,,,"10:40 - 11:30C1L4 NSci","B14U4Sci5","B14Phys Brg",,,,
+M Mon,"B14Phys Brg","P6L4 NSci",,,"C1U4Sci5",,,,,
+M Tue,,,,,"11:30 - 12:20C6Rem OSci",,"13:40 - 14:25C1U4Sci5","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+M Wed,,,,"9:45 - 10:30C2Rem JSci",,"12:35 - 13:25C1U4Sci5","12:25 - 13:10C6Rem OSci",,,
+M Thu,,"8:50 - 9:40P1L4 NSci",,,,,Sci Meet,,,
+M Fri,,"C1L4 NSci","B14Rem JSci",,"C1U4Sci5",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem SRem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem SRem HPE3","11:40 - 12:25FieldU4M1PE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4U4M5PE",,"FieldRem TRem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldU4M3PE",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem JRem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"Mus14RemMus2",,,"12:35 - 13:25MusAudL4 OMus Mod1",,,,
+B Tue,,,,"10:40 - 11:30MusAudL4 TMus Mod2",,,,,,
+B Wed,,,,,,"12:35 - 13:25MusGrnL4 TMus Mod2","12:25 - 13:10Mus14RemMus2",,,
+B Thu,,,,,,,,,,
+B Fri,,,,,,,"13:40 - 14:25Mus14L4 OMus Mod1",,,
+M Mon,,,,,,,,,,
+M Tue,,"MusGrnL4 OMus Mod1",,,,,,,,
+M Wed,,,,,"10:55 - 11:40MusAudRemMus2",,,,,
+M Thu,,,,,,,"13:40 - 14:25Mus14L4 TMus Mod2",,,
+M Fri,,,,"10:40 - 11:30MusAudRemMus2",,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"MusGrnL5Mus1","MusGrnU5Mus1",,,"MusGrnU4Mus1",,,
+B Tue,,,"MusGrnU5Mus1",,,"15:50 - 13:40MusGrnU4Mus1","13:40 - 14:25MusGrnL5Mus1",,,
+B Wed,,"8:15 - 9:00MusGrnU5Mus1",,"9:45 - 10:30MusGrnL5Mus1","10:55 - 11:40MusGrnU4Mus1",,,,,
+B Thu,,,"9:40 - 10:30MusGrnU4Mus1",,,,,,,
+B Fri,,,,,"MusGrnL5Mus1","12:20 - 13:10MusGrnU5Mus1","13:40 - 14:25MusGrnU4Mus1",,,
+M Mon,,,,"MusGrnL5Mus1","MusGrnU5Mus1",,"MusGrnU4Mus1",,,
+M Tue,,,"MusGrnU5Mus1","10:40 - 11:30MusGrnL5Mus1",,,,,,
+M Wed,,,"9:00 - 9:45MusGrnU4Mus1",,,"11:40 - 12:25MusGrnL5Mus1","12:25 - 13:10MusGrnU5Mus1",,,
+M Thu,,,"9:40 - 10:30MusGrnL5Mus1",,,"12:25 - 13:10MusGrnU5Mus1","13:40 - 14:25MusGrnU4Mus1",,,
+M Fri,,,,"10:40 - 11:30MusGrnL5Mus1",,"15:50 - 13:40MusGrnU4Mus1","13:40 - 14:25MusGrnU5Mus1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"29L4Afr6",,,"29L5Afr5","29U5Afr2",,,
+B Tue,,,"29RemAfr4","10:40 - 11:3029U5Afr2","11:30 - 12:2029L5Afr5","15:50 - 13:4029L4Afr6",,,,
+B Wed,,,,"9:45 - 10:3029L4Afr6",,"11:40 - 12:2529L5Afr5","12:25 - 13:1029U5Afr2",,,
+B Thu,,,,,"11:40 - 12:2529RemAfr4","12:25 - 13:1029U5Afr2","13:40 - 14:2529L5Afr5",,,
+B Fri,,"29U5Afr2",,Afr Meet,"29RemAfr4",,,,,
+M Mon,,,,,,"29L5Afr5","29RemAfr4",,,
+M Tue,,"29L5Afr5",,"10:40 - 11:3029RemAfr4","11:30 - 12:2029U5Afr2","12:50 - 13:4029L4Afr6",,,,
+M Wed,,"8:15 - 9:0029U5Afr2",,,"10:55 - 11:4029L5Afr5",,"12:25 - 13:1030L4Afr6",,,
+M Thu,,,,"10:55 - 11:4029U5Afr2",,,"13:40 - 14:2529L5Afr5",,,
+M Fri,,,Afr Meet,"10:40 - 11:3029U5Afr2","29L5Afr5","15:50 - 13:4029L4Afr6","13:40 - 14:2529RemAfr4",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"His12BL4 OHis","His12BL5His1","His12BU5His2",Meet,,,,,
+B Tue,,,"His12BU5His2",,,"15:50 - 13:40 His12BRem SHis","13:40 - 14:25 His12BL5His1",,,
+B Wed,,"8:15 - 9:00His12BU5His2",,"9:45 - 10:30His12BL5His1",,,,,,
+B Thu,,"8:50 - 9:40His12BRem THis",,,"11:40 - 12:25 His12BL4 OHis",,,,,
+B Fri,,,,"10:40 - 11:30 His12BRem THis","His12BL5His1","12:20 - 13:10 His12BU5His2","13:40 - 14:25 His12BRem SHis",,,
+M Mon,,,"His12BL4 OHis","His12BL5His1","His12BU5His2",,,,,
+M Tue,,,"His12BU5His2","10:40 - 11:30 His12BL5His1",Meet,"12:50 - 13:40 His12BRem THis","13:40 - 14:25 His12BRem SHis",,,
+M Wed,,,,"9:45 - 10:30His12BRem SHis",,"11:40 - 12:25 His12BL5His1","12:25 - 13:10 His12BU5His2",,,
+M Thu,,,"9:40 - 10:30His12BL5His1","10:55 - 11:40 His12BL4 OHis",,"12:25 - 13:10 His12BU5His2",,,,
+M Fri,,,"His12BRem THis","10:40 - 11:30 His12BL5His1",,,"13:40 - 14:25 His12BU5His2",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"17U4Afr6",,,,"17L5Afr3","17U5Afr1",,,
+B Tue,,"17U4Afr6","17RemAfr5","10:40 - 11:3017U5Afr1","11:30 - 12:2017L5Afr3",,,,,
+B Wed,,,"9:00 - 9:4517U4Afr6",,,"11:40 - 12:2517L5Afr3","12:25 - 13:1017U5Afr1",,,
+B Thu,,,,,"11:40 - 12:2517RemAfr5","12:25 - 13:1017U5Afr1","13:40 - 14:2517L5Afr3",,,
+B Fri,,"17U5Afr1","17U4Afr6",Afr Meet,"17RemAfr5",,,,,
+M Mon,,,"17U4Afr6",,,"17L5Afr3","17RemAfr5",,,
+M Tue,,"17L5Afr3","17U4Afr6","10:40 - 11:3017RemAfr5","11:30 - 12:2017U5Afr1",,,,,
+M Wed,,"8:15 - 9:0017U5Afr1",,"9:45 - 10:3017U4Afr6","10:55 - 11:4017L5Afr3",,,,,
+M Thu,,"8:50 - 9:4017U4Afr6",,"10:55 - 11:4017U5Afr1",,,"13:40 - 14:2517L5Afr3",,,
+M Fri,,"17U4Afr6",Afr Meet,"10:40 - 11:3017U5Afr1","17L5Afr3",,"13:40 - 14:2517RemAfr5",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"PastoralMeet",,,"E5Psych1Seminar",,,
+B Tue,,,"E8Psych1Seminar",,,,"E5Psych1Seminar",,,
+B Wed,,"E5Psych1Seminar",,,,,,,,
+B Thu,,"42Psych1Seminar",,,,,,,"E5Psych1Seminar",
+B Fri,,,,,"E5Psych1Seminar",,,,,
+M Mon,,,,,"His8Psych1Seminar",,,,,
+M Tue,,,,,,"E5Psych1Seminar","PastoralMeet",,,
+M Wed,,,"E8Psych1Seminar",,,,"E6Psych1Seminar",,,
+M Thu,,,,,,,,"E5Psych1Seminar",,
+M Fri,,,,"E5Psych1Seminar",,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"B10L5LS2","B10U5LS4",,,"12:35 - 13:25B10U4LS3",Meet,,,
+B Tue,,"B10L5LS2","B10U4LS3",,"11:30 - 12:20B10L4 SLS","12:20 - 13:10B10U5LS4","13:40 - 14:25B10L4 OLS",,,
+B Wed,,,,"9:45 - 10:30B10U5LS4","10:55 - 11:40B10Rem TLS","12:35 - 13:25B10U4LS3","12:25 - 13:10B10L5LS2",,,
+B Thu,,"8:50 - 9:40B10L5LS2",,"10:55 - 11:40B10L4 SLS","11:40 - 12:25B10U5LS4",,"13:40 - 14:25B10U4LS3",,,
+B Fri,,"B10Rem TLS","B10L4 OLS","10:40 - 11:30B10L5LS2","B10U4LS3",,,,,
+M Mon,,,"B10L5LS2",,"B10U4LS3","12:35 - 13:25B10Rem TLS","B10U5LS4",,,
+M Tue,,,,"10:40 - 11:30B10U5LS4",Meet,,"13:40 - 14:25B10U4LS3",,,
+M Wed,,,"9:00 - 9:45B10U5LS4","9:45 - 10:30B10L5LS2","10:55 - 11:40B10L4 SLS","12:35 - 13:25B10U4LS3","12:25 - 13:10B10Rem TLS",,,
+M Thu,,,"9:40 - 10:30B10U5LS4","10:55 - 11:40B10L5LS2","11:40 - 12:25B10L4 OLS",,,,,
+M Fri,,"B10L5LS2",,"10:40 - 11:30B10L4 OLS","B10U4LS3","12:20 - 13:10B10U5LS4","13:40 - 14:25B10L4 SLS",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem S/Rem OPE2","69L4Math8",,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,"69L4Math8",Meet,"69FOM1Seminar",,,,,
+B Wed,,,,,,,"12:25 - 13:1069L4Math8",,,
+B Thu,,,"9:40 - 10:3069L4Math8","42FOM1Seminar",,"12:55 - 13:40FieldL4PE",,,,
+B Fri,,"69L4Math8","FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4/U4M5PE",,"69FOM1Seminar",,"12:35 - 13:25FieldL4 OPE3","69L4Math8",,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,"13:40 - 14:2569L4Math8",,,
+M Wed,,"8:15 - 9:0069L4Math8","9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldU4M3PE",,,,,
+M Thu,,,,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,Meet,"69L4Math8",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"55GeoSeminar",,,,,,"55GeoSeminar",,,
+B Tue,"55GeoSeminar",,,"55Eco1Seminar","55GeoSeminar","55Eco2Seminar",,,,
+B Wed,"55GeoSeminar",,,"55Eco2Seminar","55Eco2Seminar","11:40 - 12:25L6Tutor",,"55GeoSeminar","55GeoSeminar","55GeoSeminar"
+B Thu,"55GeoSeminar","55GeoSeminar","9:40 - 10:3055L6Think","55GeoSeminar","55Eco2Seminar","55Eco1Seminar","55Eco2Seminar",,,
+B Fri,,"55GeoSeminar",,"55Eco2Seminar",,,"13:40 - 14:2555L6Think",,,
+M Mon,,"55Eco2Seminar",,"55L6Think",,,,,,
+M Tue,"55Eco2Seminar","55GeoSeminar","55GeoSeminar",,"55GeoSeminar",,"55GeoSeminar",,,
+M Wed,,,,"55GeoSeminar","10:55 - 11:4055L6Think","55Eco2Seminar",,"55GeoSeminar","55GeoSeminar","55GeoSeminar"
+M Thu,,"8:50 - 9:4055L6Think","55Eco1Seminar","55Eco2Seminar","55Eco1Seminar",,,,,
+M Fri,,"55GeoSeminar","55Eco2Seminar","10:40 - 11:3055L6Think",,,"55GeoSeminar",,,"55GeoSeminar"
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"DunL5Dra1","70U5Dra1",,,"DunU4Dra2",,,
+B Tue,,,"DunU5Dra1",,"11:30 - 12:20DunU5Dra2","15:50 - 13:40DunU4Dra2","13:40 - 14:25DunL5Dra1",,,
+B Wed,,"8:15 - 9:00DunU5Dra1","9:00 - 9:45DunU5Dra2","9:45 - 10:30DunL5Dra1","10:55 - 11:40DunU4Dra2",,,,,
+B Thu,,,"9:40 - 10:30DunU4Dra2",,,,"13:40 - 14:25DunU5Dra2",,,
+B Fri,,,"DunU5Dra2",,"DunL5Dra1","12:20 - 13:1070U5Dra1","13:40 - 14:25DunU4Dra2",,,
+M Mon,,"70U5Dra2",,"DunL5Dra1","DunU5Dra1",,"DunU4Dra2",,,
+M Tue,,,"70U5Dra1","10:40 - 11:30DunL5Dra1",,,"13:40 - 14:2570U5Dra2",,,
+M Wed,,,"9:00 - 9:45DunU4Dra2",,"10:55 - 11:4070U5Dra2","11:40 - 12:25DunL5Dra1","12:25 - 13:10DunU5Dra1",,,
+M Thu,,,"9:40 - 10:30DunL5Dra1",,"11:40 - 12:25DunU5Dra2","12:25 - 13:1070U5Dra1","13:40 - 14:25DunU4Dra2",,,
+M Fri,,,,"10:40 - 11:30DunL5Dra1","70U5Dra2","15:50 - 13:40DunU4Dra2","13:40 - 14:2570U5Dra1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"61L4Fr1","61U4Fr1","61L4Fr3",,"61RemFr2",,,
+B Tue,,,"61Rem SFr1","10:40 - 11:3061U4Fr1",,"15:50 - 13:4061L4Fr1","13:40 - 14:2561RemFr3",,,
+B Wed,"61Fren","8:15 - 9:0061U4Fr1",,"9:45 - 10:3061L4Fr1","10:55 - 11:4061RemFr3","12:35 - 13:2561RemFr2",,,,
+B Thu,,"61Fren","9:40 - 10:3061RemFr2","10:55 - 11:4061L4Fr3","11:40 - 12:2561Rem SFr1","12:55 - 13:4061U4Fr1",,,,
+B Fri,,"61U4Fr1",,,"61Rem SFr1","15:50 - 13:4061L4Fr3","13:40 - 14:2561RemFr3","61Fren",,
+M Mon,"61Fren",,,"61L4Fr3","61RemFr3","12:35 - 13:2561U4Fr1","61Rem SFr1",,,
+M Tue,,"61U4Fr1","61Fren","10:40 - 11:3061Rem SFr1","11:30 - 12:2061RemFr2","12:50 - 13:4061L4Fr1","13:40 - 14:2561RemFr3",,,
+M Wed,,"8:15 - 9:0061U4Fr1","9:00 - 9:4561RemFr2","61Fren",,"12:35 - 13:2561L4Fr3","12:25 - 13:1061L4Fr1",,,
+M Thu,,,"9:40 - 10:3061L4Fr3",,"11:40 - 12:2561RemFr3","12:55 - 13:4061RemFr2",,,,
+M Fri,,,"61U4Fr1",,,"15:50 - 13:4061L4Fr1","13:40 - 14:2561Rem SFr1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E4RemEng6","E4U4Eng6","E4L5Eng5",,,"E4L4Eng6",,,
+B Tue,,,"E4L5Eng5","10:40 - 11:30E4RemEng6",,Eng Meet,"13:40 - 14:25E4U4Eng6",,,
+B Wed,,"8:15 - 9:00E4L4Eng6","9:00 - 9:45E4RemEng6",,,,"12:25 - 13:10E4U4Eng6",,,
+B Thu,,,"9:40 - 10:30E4L5Eng5","10:55 - 11:40E4U4Eng6",,"12:55 - 13:40E4RemEng6","13:40 - 14:25E4L4Eng6",,,
+B Fri,,"E4L5Eng5",,"10:40 - 11:30E4U4Eng6","E4L4Eng6",,,,,
+M Mon,,,"E4RemEng6",,"E4L4Eng6",,"E4L5Eng5",,,
+M Tue,,,"E4RemEng6",,"11:30 - 12:20E4L4Eng6","12:50 - 13:40E4U4Eng6","13:40 - 14:25E4L5Eng5",,,
+M Wed,,"8:15 - 9:00E4RemEng6","9:00 - 9:45E4L5Eng5","9:45 - 10:30E4L4Eng6",,,"12:25 - 13:10E4U4Eng6",,,
+M Thu,,"8:50 - 9:40E4L5Eng5",,"10:55 - 11:40E4U4Eng6",Eng Meet,"12:55 - 13:40E4L4Eng6","13:40 - 14:25E4RemEng6",,,
+M Fri,,"E4RemEng6","E4L4Eng6","10:40 - 11:30E4U4Eng6",,"12:20 - 13:10E4L5Eng5",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"70L5Dra2",,"70U5Dra1",,"12:35 - 13:2570L4 TDra1",,,,
+B Tue,,"70L5Dra2","DunU5Dra1","10:40 - 11:30DunL4 ODra2","11:30 - 12:20DunU5Dra2",,,,,
+B Wed,,"8:15 - 9:00DunU5Dra1","9:00 - 9:45DunU5Dra2",,,"12:35 - 13:2570L4 ODra2","12:25 - 13:1070L5Dra2",,,
+B Thu,,"8:50 - 9:40DunL5Dra2",,,,,"13:40 - 14:25DunU5Dra2",,,
+B Fri,,,"DunU5Dra2","10:40 - 11:3070L5Dra2",,"12:20 - 13:1070U5Dra1","13:40 - 14:25DraAltL4 TDra1",,,
+M Mon,,"70U5Dra2","DunL5Dra2",,"DunU5Dra1","12:35 - 13:2570L4 TDra1",,,,
+M Tue,,"DunL4 TDra1","70U5Dra1",,,,"13:40 - 14:2570U5Dra2",,,
+M Wed,,,"9:00 - 9:45DraAltL4 ODra2","9:45 - 10:3070L5Dra2","10:55 - 11:4070U5Dra2",,"12:25 - 13:10DunU5Dra1",,,
+M Thu,,,,"10:55 - 11:4070L5Dra2","11:40 - 12:25DunU5Dra2","12:25 - 13:1070U5Dra1","13:40 - 14:25DraAltL4 ODra2",,,
+M Fri,,"70L5Dra2",,,"70U5Dra2",,"13:40 - 14:2570U5Dra1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,,"48U4M4Math","12:35 - 13:2548MSMRem","48L5A3Math",,,
+B Tue,,"48MSMRem","48L6Math",Meet,"11:30 - 12:2048U4M4Math","12:20 - 13:1048L5A3Math",,,,
+B Wed,,"8:15 - 9:0048MSMRem","9:00 - 9:4548L5A3Math","9:45 - 10:3048U4M4Math","10:55 - 11:4048L5A3Math",,"12:25 - 13:1048L6Math",,,
+B Thu,,,,,"11:40 - 12:2548L5A3Math","12:25 - 13:1048L5A3Math","13:40 - 14:2548MSMRem",,,
+B Fri,,,"48MSMRem",,,"15:50 - 13:4048U4M4Math","13:40 - 14:2548L5A3Math",,,
+M Mon,,"48L5A3Math",,"48U4M4Math",,,,,,
+M Tue,,"48MSMRem","48L5A3Math","10:40 - 11:3048U4M4Math","11:30 - 12:2048L5A3Math",,,,,
+M Wed,,"8:15 - 9:0048L6Math",,,"10:55 - 11:4048U4M4Math","12:35 - 13:2548MSMRem","12:25 - 13:1048L5A3Math",,,
+M Thu,,,"9:40 - 10:3048U4M4Math","10:55 - 11:4048MSMRem","11:40 - 12:2548L5A3Math","12:55 - 13:4048U4M4Math","13:40 - 14:2548L6Math",,,
+M Fri,,,,Meet,,"15:50 - 13:4048MSMRem","13:40 - 14:2548U4M4Math",,,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"Mat14U6MB",,,,"42U4M5Math","1R2:3e5m - 1 3S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math",,,
+B Tue,"39U6MB","Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,Meet,"11:30 - 12:2042U4M5Math","12:20 - 13:1042L5A2Math",,,,
+"",,,,"FOM142L4Seminar",,,,,,
+B Wed,,"8R:15e -m 9:0 0S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","9:00 - 9:4542L5A2Math","9:45 - 10:3042U4M5Math","10:55 - 11:4042L5A2Math","12:35 - 13:2542L4FOM1",,,,
+B Thu,"Mat14U6MB",,,"10:55 - 11:4016U6MB","11:40 - 12:2542L5A2Math",,"1R3:4e0m - 1 4S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,,
+B Fri,,"Mat14U6MB","Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,,"15:50 - 13:4042U4M5Math","13:40 - 14:2542L5A2Math",,,
+M Mon,,"42L5A2Math",,"42U4M5Math","42L5A2Math",,,,,
+M Tue,,"Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math","10:40 - 11:3042U4M5Math","11:30 - 12:2042L5A2Math",,,,,
+M Wed,,,"9:00 - 9:4542L4FOM1","9:45 - 10:3016U6MB","10:55 - 11:4042U4M5Math","1R2:3e5m - 1 3S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","12:25 - 13:1042L5A2Math",,,
+M Thu,,"8:50 - 9:4016U6MB","9:40 - 10:3042U4M5Math","1R0:5e5m - 1 1S:40/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","11:40 - 12:2542L5A2Math","12:55 - 13:4042U4M5Math","13:40 - 14:2542L4FOM1",,,
+M Fri,,"Mat14U6MB",,Meet,,"1R5:5e0m - 1 3S:40/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","13:40 - 14:2542U4M5Math",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"15U5A3Math","15U6P Mat","15L4Math1","15U6P Mat",,,,,
+B Tue,,,"15L4Math1",Meet,,,"13:40 - 14:2515U5A3Math",,,
+B Wed,,,,,,"11:40 - 12:2515U5A3Math","12:25 - 13:1015L4Math1",,,
+B Thu,,,"9:40 - 10:3015L4Math1","10:55 - 11:4015U5A3Math",,,,,,
+B Fri,,"15L4Math1",,,"15U5A3Math",,,,,
+M Mon,,,"15U5A3Math","15U6P Mat",,"15U5A3Math","15L4Math1",,,
+M Tue,,,,"10:40 - 11:3015U6P Mat",,,"13:40 - 14:2515L4Math1",,,
+M Wed,,"8:15 - 9:0015L4Math1",,"9:45 - 10:3015U5A3Math",,,,,,
+M Thu,,"8:50 - 9:4015U5A3Math",,,,,"13:40 - 14:2515U5A3Math",,,
+M Fri,,"15U5A3Math","15U5A3Math",Meet,"15L4Math1",,,,,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"B4BI1Seminar",,"B4L5LS3","B4Bio Prac","LS2B4U4Seminar","B4Bio Prac","B4Bio Prac","B4Bio Prac"
+"",,,,,,,Meet,,,
+B Tue,,"B4Bio Prac","B4BI1Seminar","10:40 - 11:30B4L5LS3","11:30 - 12:20B4U5LS2","15:50 - 13:40B4U4LS2",,,,
+B Wed,,"8:15 - 9:00B4L5LS3","9:00 - 9:45B4U5LS2",,"10:55 - 11:40B4U4LS2",,,,,
+B Thu,,,"9:40 - 10:30B4U4LS2","10:55 - 11:40B4L5LS3","B4BI1Seminar",,"13:40 - 14:25B4U5LS2",,,
+B Fri,,"B4Bio Prac","B4U5LS2",,,"12:20 - 13:10B4L5LS3","13:40 - 14:25B4U4LS2",,,
+M Mon,,"B4U5LS2","B4Bio Prac",,"BI1Seminar",,"B4U4LS2","B4Bio Prac","B4Bio Prac","B4Bio Prac"
+M Tue,,"B4Bio Prac",,"B4BI1Seminar",Meet,"12:20 - 13:10B4L5LS3","13:40 - 14:25B4U5LS2",,,
+M Wed,,"8:15 - 9:00B4L5LS3","9:00 - 9:45B4U4LS2",,"10:55 - 11:40B4U5LS2",,,"B4Bio Prac",,
+M Thu,,"B4BI1Seminar",,,"11:40 - 12:25B4U5LS2","12:25 - 13:10B4L5LS3","13:40 - 14:25B4U4LS2",,,
+M Fri,,"B4Bio Prac","B4L5LS3",,"B4U5LS2","15:50 - 13:40B4U4LS2",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"59Rem J/Rem NDiv2","PastoralMeet",,,,,,
+B Tue,,,,"10:40 - 11:3059L4 NDiv2",,,Div Meet,,,
+B Wed,,,,,,"12:35 - 13:2559L4 NDiv2","12:25 - 13:1059Rem J/Rem NDiv2",,,
+B Thu,,,,,,,,,,
+B Fri,,,,Div Meet,,,,,,
+M Mon,,,,,,,,,,
+M Tue,,,,,,,"PastoralMeet",,,
+M Wed,,,"9:00 - 9:4559L4 NDiv2",,"10:55 - 11:4059Rem J/Rem NDiv2",,,,,
+M Thu,,,,,,,"13:40 - 14:25G1L4 NDiv2",,,
+M Fri,,,,"10:40 - 11:3059Rem J/Rem NDiv2",,,,,,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"C2Phys","C2U5Sci5",,"C2L5Sci1",,,,,
+B Tue,,,,"10:40 - 11:30C2L5Sci1",,"12:20 - 13:10C2U5Sci5","C2Phys","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+B Wed,,"8:15 - 9:00C2L5Sci1",,"9:45 - 10:30C2U5Sci5",,,Sci Meet,,,
+B Thu,,,"C2Phys","10:55 - 11:40C2L5Sci1","11:40 - 12:25C2U5Sci5",,,,,
+B Fri,,,,,,HM Meet,"C2Phys",,,
+"",,,,,,"Sci1C2L5Seminar",,,,
+M Mon,,,,"C2Phys",,,"C2U5Sci5",,,
+M Tue,,,,"10:40 - 11:30C2U5Sci5","C2Phys","12:20 - 13:10C2L5Sci1",,"P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+M Wed,,"8:15 - 9:00C2L5Sci1","9:00 - 9:45C2U5Sci5",,"C2Phys",,"C2Phys",,,
+M Thu,,"C2Phys","9:40 - 10:30C2U5Sci5",,,"12:25 - 13:10C2L5Sci1",Sci Meet,,,
+M Fri,,,"C2L5Sci1","C2Phys",,"12:20 - 13:10C2U5Sci5",HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"His9L5His3",,"His9U4His2",Meet,,"His9U4His3",,,
+B Tue,,"His9L5His3",,"10:40 - 11:30His9U4His2","11:30 - 12:20His9U5His4","15:50 - 13:40His9U4His3",,,,
+B Wed,,"8:15 - 9:00His9U4His2","9:00 - 9:45His9U5His4",,"10:55 - 11:40His9U4His3",,"12:25 - 13:10His9L5His3",,,
+B Thu,,"8:50 - 9:40His9L5His3","9:40 - 10:30His9U4His3",,,"12:55 - 13:40His9U4His2","13:40 - 14:25His9U5His4",,,
+B Fri,,"His9U4His2","His9U5His4","10:40 - 11:30His9L5His3",,,"13:40 - 14:25His9U4His3",,,
+M Mon,,"His9U5His4","His9L5His3",,,"12:35 - 13:25His9U4His2","His9U4His3",,,
+M Tue,,"His9U4His2",,,Meet,,"13:40 - 14:25His9U5His4",,,
+M Wed,,"8:15 - 9:00His9U4His2","9:00 - 9:45His9U4His3","9:45 - 10:30His9L5His3","10:55 - 11:40His9U5His4",,,,,
+M Thu,,,,"10:55 - 11:40His9L5His3","11:40 - 12:25His9U5His4",,"13:40 - 14:25His9U4His3",,,
+M Fri,,"His9L5His3","His9U4His2",,"His9U5His4","15:50 - 13:40His9U4His3",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,"E7Eng IG",,"E7U4Eng7","E7L5Eng6","E7U5Seminar","E7L4Eng7",,,,
+B Tue,,"E7U5Eng7","E7L5Eng6",,,Eng Meet,"13:40 - 14:25E7U4Eng7",,,
+B Wed,,"8:15 - 9:00E7L4Eng7",,,"10:55 - 11:40E7U5Eng7",,"12:25 - 13:10E7U4Eng7","E7Eng IG",,
+B Thu,"E7Eng IG","8:50 - 9:40E7U5Eng7","9:40 - 10:30E7L5Eng6","10:55 - 11:40E7U4Eng7",,,"13:40 - 14:25E7L4Eng7",,,
+B Fri,,"E7L5Eng6",,"10:40 - 11:30E7U4Eng7","E7L4Eng7",,"13:40 - 14:25E7U5Eng7",,,
+M Mon,,,,"E7U5Eng7","E7L4Eng7",,"E7L5Eng6",,,
+M Tue,,"E7U5Eng7",,"E7Eng IG","11:30 - 12:20E7L4Eng7","12:50 - 13:40E7U4Eng7","13:40 - 14:25E7L5Eng6",,,
+M Wed,"E7Eng IG",,"9:00 - 9:45E7L5Eng6","9:45 - 10:30E7L4Eng7",,"11:40 - 12:25E7U5Eng7","12:25 - 13:10E7U4Eng7",,,
+M Thu,,"8:50 - 9:40E7L5Eng6",,"10:55 - 11:40E7U4Eng7",Eng Meet,"12:55 - 13:40E7L4Eng7",,,,
+M Fri,,,"E7L4Eng7","10:40 - 11:30E7U4Eng7","E7Eng IG","12:20 - 13:10E7L5Eng6",,,,
+"",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"47U5A2Math","47FOM2Seminar",,,,"47L5M4Math",,,
+B Tue,,,,Meet,"11:30 - 12:2047U4A2Math","12:20 - 13:1047L5M4Math","13:40 - 14:2547U5A2Math",,,
+B Wed,,,"9:00 - 9:4547L5M4Math","9:45 - 10:3047U4A2Math",,"11:40 - 12:2547U5A2Math","47FOM2Seminar",,,
+B Thu,,"8:50 - 9:4047U4A2Math",,"10:55 - 11:4047U5A2Math","11:40 - 12:2547U4A2Math","12:25 - 13:1047L5M4Math",,,,
+B Fri,,,,"10:40 - 11:3047U5A2Math","47U5A2Math","15:50 - 13:4047U4A2Math","13:40 - 14:2547L5M4Math",,,
+M Mon,,"47L5M4Math","47U5A2Math","47U4A2Math","47L5M4Math","47U5A2Math",,,,
+M Tue,,,"47L5M4Math","10:40 - 11:3047U4A2Math","11:30 - 12:2047U4A2Math","12:20 - 13:1047U5A2Math",,,,
+M Wed,,,,,"10:55 - 11:4047U4A2Math",,"12:25 - 13:1047L5M4Math",,,
+M Thu,,"8:50 - 9:4047U5A2Math","9:40 - 10:3047U4A2Math",,"11:40 - 12:2547L5M4Math","12:55 - 13:4047U4A2Math",,,,
+M Fri,,"47U5A2Math","47U5A2Math",Meet,,,"13:40 - 14:2547U4A2Math",,,
+"47FOM2",,,,,,,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"P6Phys",,"P6Rem SSci","P6L5Sci2","12:35 - 13:25P6U4Sci3",,,,
+B Tue,,,"P6U4Sci3","10:40 - 11:30P6L5Sci2",,,"P6Phys","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+B Wed,,"8:15 - 9:00P6L5Sci2",,,"10:55 - 11:40P6Rem SSci","12:35 - 13:25P6U4Sci3",Sci Meet,,,
+B Thu,,"8:50 - 9:40P6Rem SSci","P6Phys","10:55 - 11:40P6L5Sci2",,,"13:40 - 14:25P6U4Sci3",,,
+B Fri,,,,,"P6U4Sci3","12:20 - 13:10P6L5Sci2","P6Phys",,,
+M Mon,,,,"P6Phys","P6U4Sci3","12:35 - 13:25C6Rem SSci",,,,
+M Tue,,,,,"P6Phys","12:20 - 13:10P6L5Sci2","13:40 - 14:25P6U4Sci3","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+M Wed,,"8:15 - 9:00P6L5Sci2",,,"P6Phys","12:35 - 13:25P6U4Sci3","P6Phys",,,
+M Thu,,"P6Phys",,,"11:40 - 12:25C2Rem SSci","12:25 - 13:10P6L5Sci2",Sci Meet,,,
+M Fri,,,"P6L5Sci2","P6Phys","P6U4Sci3",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem S/Rem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem S/Rem HPE3","11:40 - 12:25FieldU4M1PE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldU4M3PE",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem J/Rem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"39U6P Mat","42L4Math2","44U6P Mat","1R2:3e5m - 1 3S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,
+B Tue,,"Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N","42L4Math2",Meet,,,"13:40 - 14:2548U5M2Math",,,
+B Wed,,"8R:15e -m 9:0 0S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,"11:40 - 12:2548U5M2Math","12:25 - 13:1042L4Math2",,,
+B Thu,,,"9:40 - 10:3042L4Math2","10:55 - 11:4048U5M2Math",,,"1R3:4e0m - 1 4S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,
+B Fri,,"42L4Math2","Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N","10:40 - 11:3048U5M2Math",,HM Meet,,,,
+M Mon,,,,"39U6P Mat",,"48U5M2Math","42L4Math2",,,
+M Tue,,"Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,"10:40 - 11:3067U6P Mat",,"12:20 - 13:1048U5M2Math","13:40 - 14:2542L4Math2",,,
+M Wed,,"8:15 - 9:0042L4Math2",,"9:45 - 10:3048U5M2Math",,"1R2:3e5m - 1 3S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,
+M Thu,,"8:50 - 9:4048U5M2Math",,"1R0:5e5m - 1 1S:40/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,"13:40 - 14:2547U5M2Math",,,
+M Fri,,"48U5M2Math",,Meet,"42L4Math2","1R5:5e0m - 1 3S:40/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",HM Meet,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"MusAudRem TMus Mod2",,,,,,,
+B Tue,,,,"10:40 - 11:30Mus14L4Mus2","11:30 - 12:20Mus14Rem T/Rem OMus Mod1",,,,,
+B Wed,,,,,,"12:35 - 13:25Mus14L4Mus2","12:25 - 13:10MusAudRem TMus Mod2",,,
+B Thu,,,,"10:55 - 11:40MusGrnRem T/Rem OMus Mod1",,,,,,
+B Fri,,,,,,,,,,
+M Mon,,,,,,,,,,
+M Tue,,,,,,,,,,
+M Wed,,,"9:00 - 9:45MusAudL4Mus2",,"10:55 - 11:40Mus14Rem TMus Mod2",,,,,
+M Thu,,,,,,,"13:40 - 14:25MusAudL4Mus2",,,
+M Fri,,,,,"MusAudRem T/Rem OMus Mod1",,,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"36Rem S/Rem HArt2","36U5Art1",,,,,,
+B Tue,,,"36U5Art1","36Art","11:30 - 12:2036Rem S/Rem OArt1","36Art",,,,
+B Wed,,"8:15 - 9:0036U5Art1",,"36Art","36Art",,"12:25 - 13:1036Rem S/Rem HArt2",,,
+B Thu,,,,"10:55 - 11:4036Rem S/Rem OArt1","36Art","36Art","36Art",,,
+B Fri,,,,"36Art",,"12:20 - 13:1036U5Art1",,,,
+M Mon,,"36Art",,"36Rem S/Rem OArt1","36U5Art1",,,,,
+M Tue,"36Art",,"36U5Art1",,,,,,,
+M Wed,,,,,"10:55 - 11:4036Rem S/Rem HArt2","36Art","12:25 - 13:1036U5Art1",,,
+M Thu,,,"36Art","36Art","36Art","12:25 - 13:1036U5Art1",,,,
+M Fri,,,"36Art","10:40 - 11:3036Rem S/Rem HArt2","36Rem S/Rem OArt1",,"13:40 - 14:2536U5Art1",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"E2RemEng7","E2U4Eng2","E2L5Eng7","E2U5Seminar",,,,,
+B Tue,,"E2U5Eng8","E2L5Eng7","10:40 - 11:30E2RemEng7",,Eng Meet,"13:40 - 14:25E2U4Eng2","E2Eng Lit",,
+B Wed,,,"9:00 - 9:45E2RemEng7",,"10:55 - 11:40E2U5Eng8",,"12:25 - 13:10E2U4Eng2",,,
+B Thu,,"8:50 - 9:40E2U5Eng8","9:40 - 10:30E2L5Eng7","10:55 - 11:40E2U4Eng2",,"12:55 - 13:40E2RemEng7",,,,
+B Fri,,"E2L5Eng7","E2Eng Lit","10:40 - 11:30E2U4Eng2",,,"13:40 - 14:25E2U5Eng8",,,
+M Mon,"E2Eng Lit",,"E2RemEng7","E2U5Eng8",,,"E2L5Eng7",,,
+M Tue,,"E2U5Eng8","E2RemEng7",,,"12:50 - 13:40E2U4Eng2","13:40 - 14:25E2L5Eng7",,,
+M Wed,,"8:15 - 9:00E2RemEng7","9:00 - 9:45E2L5Eng7",,,"11:40 - 12:25E2U5Eng8","12:25 - 13:10E2U4Eng2",,,
+M Thu,,"8:50 - 9:40E2L5Eng7",,"10:55 - 11:40E2U4Eng2",Eng Meet,,"13:40 - 14:25E2RemEng7",,,
+M Fri,,"E2RemEng7",,"10:40 - 11:30E2U4Eng2",,"12:20 - 13:10E2L5Eng7","E2Eng Lit",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"His7L5His2",,Meet,"His7His",,"His7His","His7His","His7His"
+B Tue,,"His7His",,,"11:30 - 12:20His7U5His3",,"13:40 - 14:25His7L5His2",,,
+B Wed,,,"9:00 - 9:45His7U5His3","9:45 - 10:30His7L5His2",,"His7His","His7His",,,
+B Thu,,,,,,,"13:40 - 14:25His7U5His3","His7His",,
+B Fri,,"His7His","His7U5His3",,"His7L5His2",HM Meet,"His7His","His7His","His7His","His7His"
+M Mon,,"His7U5His3","His7His","His7L5His2",,,,"His7His","His7His","His7His"
+M Tue,,"His7His",,"10:40 - 11:30His7L5His2",Meet,,"13:40 - 14:25His7U5His3",,,
+M Wed,,"His7His",,,"10:55 - 11:40His7U5His3","11:40 - 12:25His7L5His2",,,,
+M Thu,,,"9:40 - 10:30His7L5His2",,"11:40 - 12:25His7U5His3",,"His7His",,,
+M Fri,,"His7His",,"10:40 - 11:30His7L5His2","His7U5His3",,HM Meet,"His7His","His7His","His7His"
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"FieldRem S/Rem OPE2",,,"12:35 - 13:25FieldL4 HPE2",,,,
+B Tue,,,,"10:40 - 11:30FieldL4 SPE4",,,,,,
+B Wed,,,,,,,,,,
+B Thu,,,"9:40 - 10:30FieldU5PE","10:55 - 11:40FieldRem S/Rem HPE3","11:40 - 12:25FieldL5M4/L5MLPE","12:55 - 13:40FieldL4PE",,,,
+B Fri,,,"FieldL5M3PE",,,,,,,
+M Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"12:35 - 13:25FieldL4 OPE3",,,,
+M Tue,,"FieldL4 NPE1","FieldL5M1PE","10:40 - 11:30FieldU4M2PE","11:30 - 12:20FieldL5M2PE",,,,,
+M Wed,,,"9:00 - 9:45FieldL4 TPE6",,"10:55 - 11:40FieldRem JPE4",,,,,
+M Thu,,"8:50 - 9:40FieldRemPE",,,"11:40 - 12:25FieldU4PE",,"13:40 - 14:25FieldL4 JPE5",,,
+M Fri,,,,"10:40 - 11:30FieldRem TPE1","FieldRem J/Rem NPE6",,"13:40 - 14:25FieldL5PE",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,,"B16Rem JIT","B15Rem HIT",,,,,
+B Tue,,,,,"11:30 - 12:20B15L4 OIT",,"13:40 - 14:25B16L4 TIT",,,
+B Wed,,,,,"10:55 - 11:40B15L4 OIT","12:35 - 13:25B15Rem NIT",,,,
+B Thu,,"8:50 - 9:40B15L4 HIT","9:40 - 10:30B15Rem NIT","10:55 - 11:40B15L4 TIT",,"Junior ITMeet",,,,
+B Fri,,"B15Rem HIT",,"10:40 - 11:30B16L4 HIT",,"15:50 - 13:40B15Rem JIT",,,,
+M Mon,,"B15L4 OIT",,"Junior ITMeet",,"12:35 - 13:25B15Rem NIT",,,,
+M Tue,,,"B16L4 HIT","10:40 - 11:30B15L4 TIT","11:30 - 12:20B15Rem HIT","12:50 - 13:40B15Rem JIT",,,,
+M Wed,,,,"9:45 - 10:30B15Rem NIT","10:55 - 11:40B16L4 OIT",,,,,
+M Thu,,,"9:40 - 10:30B16Rem JIT",,"11:40 - 12:25B15L4 HIT",,,,,
+M Fri,,,"B15Rem HIT",,,,"13:40 - 14:25B15L4 TIT",,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,,"P6U5Sci4",,,,,,,
+B Tue,,"B14L4 SSci",,,,"12:20 - 13:10P6U5Sci4",,,,
+B Wed,,,,"9:45 - 10:30P6U5Sci4",,,Sci Meet,,,
+B Thu,,"8:50 - 9:40C2L4 SSci",,,"11:40 - 12:25P6U5Sci4",,,,,
+B Fri,,,,,,,,,,
+M Mon,,,,,,,"P6U5Sci4",,,
+M Tue,,,"B14L4 SSci","10:40 - 11:30P6U5Sci4",,,,,,
+M Wed,,,"9:00 - 9:45P6U5Sci4",,,,,,,
+M Thu,,"8:50 - 9:40B14L4 SSci","9:40 - 10:30P6U5Sci4",,,,Sci Meet,,,
+M Fri,,"C6L4 SSci",,,,"12:20 - 13:10P6U5Sci4",,,,
+"","07:25 - 8:20","18:20 - 9:10","2:10 - 10:0","30:25 - 11:1","41:15 - 12:0","52:05 - 12:5","63:25 - 14:1","74:10 - 15:0","85:00 - 15:5","95:50 - 16:4"
+B Mon,,"64L5Ger1","64L4Ger2","64U4Ger1","64L4Ger1",,"64RemGer1",,,
+B Tue,,"64L5Ger1",,"10:40 - 11:3064U4Ger1","11:30 - 12:2064U5Ger1","15:50 - 13:4064L4Ger2",,,,
+B Wed,,"8:15 - 9:0064U4Ger1","9:00 - 9:4564U5Ger1","9:45 - 10:3064L4Ger2","10:55 - 11:4064L4Ger1","12:35 - 13:2564RemGer1","12:25 - 13:1064L5Ger1",,,
+B Thu,,"8:50 - 9:4064L5Ger1","9:40 - 10:3064RemGer1",,,"12:55 - 13:4064U4Ger1","13:40 - 14:2564U5Ger1",,,
+B Fri,,"64U4Ger1","64U5Ger1","10:40 - 11:3064L5Ger1",,"15:50 - 13:4064L4Ger1",,,,
+M Mon,,"64U5Ger1","64L5Ger1","64L4Ger1",,"12:35 - 13:2564U4Ger1",,,,
+M Tue,,"64U4Ger1",,,"11:30 - 12:2064RemGer1","12:50 - 13:4064L4Ger2","13:40 - 14:2564U5Ger1",,,
+M Wed,,"8:15 - 9:0064U4Ger1","9:00 - 9:4564RemGer1","9:45 - 10:3064L5Ger1","10:55 - 11:4064U5Ger1","12:35 - 13:2564L4Ger1","12:25 - 13:1064L4Ger2",,,
+M Thu,,,"9:40 - 10:3064L4Ger1","10:55 - 11:4064L5Ger1","11:40 - 12:2564U5Ger1","12:55 - 13:4064RemGer1",,,,
+M Fri,,"64L5Ger1","64U4Ger1",,"64U5Ger1","15:50 - 13:4064L4Ger2",,,,
