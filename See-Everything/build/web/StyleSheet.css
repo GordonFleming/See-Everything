@@ -95,7 +95,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
 }
-.centerLogo{
+.centerLogo{                                    /* Scales logo depending on screen size */
   display: block;
   margin-left: auto;
   margin-right: auto;

@@ -14,7 +14,7 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
-                function SignedIn(googleUser) {                   
+                function SignedIn(googleUser) {                                     /* Fetches user data from google */
                     var profile = googleUser.getBasicProfile();
                     var imagurl=profile.getImageUrl();
                     var name=profile.getName();
@@ -25,7 +25,7 @@
 		}
             </script>
             <script>
-                function myFunction() {
+                function myFunction() {                                             /* Signs out */
                 gapi.auth2.getAuthInstance().disconnect();
                 location.reload(true);                                              /* Reloads to sign out the user */
                 location.replace("http://localhost:8080/See-Everything/login.jsp"); /* Redirects to login page */
