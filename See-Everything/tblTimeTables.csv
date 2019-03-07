@@ -1,478 +1,478 @@
 StaffID,Week,Weekday,Period_0,Period_1,Period_2,Period_3,Period_4,Period_5,Period_6,Period_7,Period_8,Period_9
-1,B,Mon,,,"FieldRem SRem OPE2",,,"FieldL4 HPE2",,,,
-1,B,Tue,,,,"FieldL4 SPE4",,,,,,
+1,B,Mon,,,"FieldRem SRem OPE2",,,0,,,,
+1,B,Tue,,,,0,,,,,,
 1,B,Wed,,,,,,,,,,
-1,B,Thu,,,"FieldU5PE","FieldRem SRem HPE3","FieldL5M4L5MLPE","FieldL4PE",,,,
+1,B,Thu,,,0,0,0,0,,,,
 1,B,Fri,,,"FieldL5M3PE",,,,,,,
-1,M,Mon,,"FieldU4M4U4M5PE",,"FieldRem TRem OPE5",,"FieldL4 OPE3",,,,
-1,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-1,M,Wed,,,"FieldL4 TPE6",,"FieldRem JPE4",,,,,
-1,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-1,M,Fri,,,,"FieldRem TPE1","FieldRem JRem NPE6",,"FieldL5PE",,,
-2,B,Mon,,,"Mat14L6Math","Mat14L4Math6",,"Mat14RemMath8","Mat14L5M2Math",,,
-2,B,Tue,"Mat14L6Math","Mat14RemMath8","Mat14L4Math6",Meet,,"Mat14L5M2Math",,,,
-2,B,Wed,,"Mat14RemMath8","Mat14L6Math",,"Mat14L5M2Math",,"Mat14L4Math6",,,
-2,B,Thu,,,"Mat14L4Math6",,"Mat14L5M2Math",,"Mat14RemMath8",,,
-2,B,Fri,,"C1L4Math6","Mat14RemMath8",,"Mat14L6Math",,"Mat14L5M2Math",,,
+1,M,Mon,,"FieldU4M4U4M5PE",,"FieldRem TRem OPE5",,0,,,,
+1,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+1,M,Wed,,,0,,0,,,,,
+1,M,Thu,,0,,,0,,0,,,
+1,M,Fri,,,,0,"FieldRem JRem NPE6",,0,,,
+2,B,Mon,,,"Mat14L6Math","Mat14L4Math6",,0,"Mat14L5M2Math",,,
+2,B,Tue,"Mat14L6Math","Mat14RemMath8","Mat14L4Math6",Meet,,0,,,,
+2,B,Wed,,0,0,,0,,0,,,
+2,B,Thu,,,0,,0,,0,,,
+2,B,Fri,,"C1L4Math6","Mat14RemMath8",,"Mat14L6Math",,0,,,
 2,M,Mon,,"Mat14L5M2Math",,,"Mat14L5M2Math","Mat14L6Math","Mat14L4Math6",,,
-2,M,Tue,,"Mat14RemMath8","Mat14L5M2Math",,,,"Mat14L4Math6",,,
-2,M,Wed,,"Mat14L4Math6","Mat14L6Math",,,"Mat14RemMath8","Mat14L5M2Math",,,
-2,M,Thu,,,,"Mat14RemMath8","Mat14L5M2Math","Mat14L6Math",,,,
-2,M,Fri,,,,Meet,"Mat14L4Math6","Mat14RemMath8",,,"Mat14L6Math",
+2,M,Tue,,"Mat14RemMath8","Mat14L5M2Math",,,,0,,,
+2,M,Wed,,0,0,,,0,0,,,
+2,M,Thu,,,,0,0,0,,,,
+2,M,Fri,,,,Meet,"Mat14L4Math6",0,,,0,
 3,B,Mon,,,,,,,"B15Rem OIT",,,
-3,B,Tue,,,,,,"B15Rem TIT",,,,
-3,B,Wed,,,,"B15Rem TIT",,,,,,
+3,B,Tue,,,,,,0,,,,
+3,B,Wed,,,,0,,,,,,
 3,B,Thu,,,,,,"Junior ITMeet",,,,
-3,B,Fri,,,,"B15Rem OIT",,,,,,
+3,B,Fri,,,,0,,,,,,
 3,M,Mon,,"B16Rem TIT",,"Junior ITMeet",,,,,,
-3,M,Tue,,,,,,,"B15Rem TIT",,,
-3,M,Wed,,,"B15Rem OIT",,,,,,,
-3,M,Thu,,,,,,"B16Rem OIT",,,,
+3,M,Tue,,,,,,,0,,,
+3,M,Wed,,,0,,,,,,,
+3,M,Thu,,,,,,0,,,,
 3,M,Fri,,,,,,,,,,
 4,B,Mon,,"29U4Afr1","17L4Afr1",,,,,,,
-4,B,Tue,,"29U4Afr1",,,"G4Rem SRem HEMS1","17L4Afr1",,,,
-4,B,Wed,,,"29U4Afr1","17L4Afr1",,"G1L4 SEMS2","G4Rem SRem OEMS2",,,
+4,B,Tue,,"29U4Afr1",,,0,17,,,,
+4,B,Wed,,,29,17,,0,0,,,
 4,B,Thu,,,,,,,,,,
-4,B,Fri,,,"29U4Afr1",Afr Meet,,HM Meet,"G2L4 HEMS1",,,
-4,M,Mon,,,"29U4Afr1","G4Rem SRem HEMS1",,"E6L4 HEMS1",,,,
-4,M,Tue,,"G4L4 HEMS1","29U4Afr1",,,"17L4Afr1",,,,
-4,M,Wed,,,"G1L4 SEMS2","29U4Afr1","G3Rem SRem OEMS2",,"17L4Afr1",,,
-4,M,Thu,,"29U4Afr1",,,,,"G2L4 SEMS2",,,
-4,M,Fri,,"29U4Afr1",Afr Meet,"G4Rem SRem OEMS2","G4Rem SRem HEMS1","17L4Afr1",HM Meet,,,
+4,B,Fri,,,"29U4Afr1",Afr Meet,,HM Meet,0,,,
+4,M,Mon,,,"29U4Afr1","G4Rem SRem HEMS1",,0,,,,
+4,M,Tue,,"G4L4 HEMS1","29U4Afr1",,,17,,,,
+4,M,Wed,,,0,29,0,,17,,,
+4,M,Thu,,29,,,,,0,,,
+4,M,Fri,,"29U4Afr1",Afr Meet,0,"G4Rem SRem HEMS1",17,HM Meet,,,
 5,B,Mon,,"31U4Afr2","28L4Afr2",,"29L4Afr3",,"His7RemAfr3",,,
-5,B,Tue,,"31U4Afr2","32RemAfr1",,,"28L4Afr2",,,,
-5,B,Wed,,,"31U4Afr2","28L4Afr2","29L4Afr3","His8RemAfr3",,,,
-5,B,Thu,,,"29RemAfr3",,"32RemAfr1",,,,,
-5,B,Fri,,,"31U4Afr2",Afr Meet,"32RemAfr1","29L4Afr3",,,,
+5,B,Tue,,"31U4Afr2","32RemAfr1",,,28,,,,
+5,B,Wed,,,31,28,29,0,,,,
+5,B,Thu,,,29,,32,,,,,
+5,B,Fri,,,"31U4Afr2",Afr Meet,"32RemAfr1",29,,,,
 5,M,Mon,,,"31U4Afr2","29L4Afr3",,,"32RemAfr1",,,
-5,M,Tue,,,"31U4Afr2","32RemAfr1","His8RemAfr3","28L4Afr2",,,,
-5,M,Wed,,,"29RemAfr3","31U4Afr2",,"29L4Afr3","28L4Afr2",,,
-5,M,Thu,,"31U4Afr2","29L4Afr3",,,"29RemAfr3",,,,
-5,M,Fri,,"31U4Afr2",Afr Meet,,,"28L4Afr2","32RemAfr1",,,
+5,M,Tue,,,"31U4Afr2",32,0,28,,,,
+5,M,Wed,,,29,31,,29,28,,,
+5,M,Thu,,31,29,,,29,,,,
+5,M,Fri,,"31U4Afr2",Afr Meet,,,28,32,,,
 6,B,Mon,"E5Eng LangLitL6","E7Rem SEng1","E3U4Eng1",,,,,,,
-6,B,Tue,,,,"E7Rem SEng1",,Eng Meet,"E3U4Eng1",,"E8Eng LitU6",
-6,B,Wed,,,"E7Rem SEng1",,,,"E3U4Eng1","E5Eng LangLitL6",,
-6,B,Thu,"E5Eng LangLitL6",,"E8Eng LitU6","E3U4Eng1",,"E7Rem SEng1",,,,
-6,B,Fri,,,,"E3U4Eng1",,,,,,
+6,B,Tue,,,,0,,Eng Meet,0,,"E8Eng LitU6",
+6,B,Wed,,,0,,,,0,"E5Eng LangLitL6",,
+6,B,Thu,"E5Eng LangLitL6",,"E8Eng LitU6",0,,0,,,,
+6,B,Fri,,,,0,,,,,,
 6,M,Mon,,,"E7Rem SEng1",,"G2Eng LangLitL6",,"28Eng LangLitL6",,,
-6,M,Tue,,,"E7Rem SEng1","E5Eng LangLitL6",,"E3U4Eng1",,"E8Eng LitU6",,
-6,M,Wed,"E5Eng LangLitL6","E7Rem SEng1",,,"E7Eng LitU6",,"E3U4Eng1",,,
-6,M,Thu,"E5Eng LangLitL6",,,"E3U4Eng1",Eng Meet,,"E7Rem SEng1",,,
-6,M,Fri,,"E7Rem SEng1",,"E3U4Eng1","E5Eng LangLitL6",,,,,
+6,M,Tue,,,"E7Rem SEng1","E5Eng LangLitL6",,0,,"E8Eng LitU6",,
+6,M,Wed,"E5Eng LangLitL6",0,,,"E7Eng LitU6",,0,,,
+6,M,Thu,"E5Eng LangLitL6",,,0,Eng Meet,,0,,,
+6,M,Fri,,"E7Rem SEng1",,0,"E5Eng LangLitL6",,,,,
 7,B,Mon,,"60L5Fr1",,,,,,,,
-7,B,Tue,,"60L5Fr1",,"60L6Fr","60U5Fr1",,,,,
-7,B,Wed,,,"60U5Fr1","E6L6Fr",,"L6Tutor","60L5Fr1",,,
-7,B,Thu,,"60L5Fr1",,,"E6L6Fr","60L6Fr","60U5Fr1",,,
-7,B,Fri,,,"60U5Fr1","60L5Fr1",,,,,,
+7,B,Tue,,"60L5Fr1",,60,60,,,,,
+7,B,Wed,,,60,0,,0,60,,,
+7,B,Thu,,60,,,0,60,60,,,
+7,B,Fri,,,"60U5Fr1",60,,,,,,
 7,M,Mon,,"60U5Fr1","60L5Fr1",,,,,,,
-7,M,Tue,"60L6Fr",,,,,,"60U5Fr1",,,
-7,M,Wed,,,,"60L5Fr1","60U5Fr1",,,,,
-7,M,Thu,,,"E6L6Fr","60L5Fr1","60U5Fr1",,,,,
-7,M,Fri,,"60L5Fr1","60L6Fr",,"60U5Fr1",,,"60L6Fr",,
+7,M,Tue,"60L6Fr",,,,,,60,,,
+7,M,Wed,,,,60,60,,,,,
+7,M,Thu,,,0,60,60,,,,,
+7,M,Fri,,"60L5Fr1","60L6Fr",,"60U5Fr1",,,60,,
 8,B,Mon,,"E3RemEng2","CATC",,"CATC","CATC","E2L4Eng1",,,
-8,B,Tue,,,,"E3RemEng2","0  JE1Rem ORLeOm3 N",Eng Meet,,,,
-8,B,Wed,,"E2L4Eng1","G4RemEng2","CATC",,"CATC","CATC",,,
-8,B,Thu,,,,"CATC","CATC","E3RemEng2","E2L4Eng1",,,
-8,B,Fri,,"CATC",,,"E2L4Eng1",HM Meet,"17L4 T/L4 JLO3",,,
-8,M,Mon,,,"E3RemEng2","Rem J17Rem ORLeOm3 N","E2L4Eng1","E2L4 T/L4 JLO3","CATC",,,
-8,M,Tue,,"CATC","G2RemEng2","CATC","E2L4Eng1","CATC",,,,
-8,M,Wed,,"E3RemEng2","CATC","E2L4Eng1","CATC",,,,,
-8,M,Thu,,,"CATC","CATC",Eng Meet,"Eng1E2L4Seminar","E3RemEng2",,,
-8,M,Fri,,"E3RemEng2","E2L4Eng1","CATC","CATC","CATC",HM Meet,,,
-9,B,Mon,,,,"P2Rem TSci","P2L5Sci5","C2U4Sci4",,,,
-9,B,Tue,,"C1L4 OSci","C2U4Sci4","P2L5Sci5",,,"P1Rem TSci",,,
-9,B,Wed,,"P2L5Sci5","C2L4 OSci",,,"C2U4Sci4",Sci Meet,,,
-9,B,Thu,,"P2L4 JSci",,"B14L5Sci5",,,"C2U4Sci4",,,
-9,B,Fri,,,,"B14L4 JSci","C2U4Sci4","P2L5Sci5","C1Rem TSci",,,
+8,B,Tue,,,,0,"0  JE1Rem ORLeOm3 N",Eng Meet,,,,
+8,B,Wed,,0,0,0,,0,0,,,
+8,B,Thu,,,,0,0,0,0,,,
+8,B,Fri,,"CATC",,,"E2L4Eng1",HM Meet,17,,,
+8,M,Mon,,,"E3RemEng2","Rem J17Rem ORLeOm3 N","E2L4Eng1",0,"CATC",,,
+8,M,Tue,,"CATC","G2RemEng2",0,0,0,,,,
+8,M,Wed,,0,0,0,0,,,,,
+8,M,Thu,,,0,0,Eng Meet,"Eng1E2L4Seminar",0,,,
+8,M,Fri,,"E3RemEng2","E2L4Eng1",0,"CATC",0,HM Meet,,,
+9,B,Mon,,,,"P2Rem TSci","P2L5Sci5",0,,,,
+9,B,Tue,,"C1L4 OSci","C2U4Sci4",0,,,0,,,
+9,B,Wed,,0,0,,,0,Sci Meet,,,
+9,B,Thu,,0,,0,,,0,,,
+9,B,Fri,,,,0,"C2U4Sci4",0,0,,,
 9,M,Mon,,,,,"C2U4Sci4",,,,,
-9,M,Tue,,,"C2L4 JSci","B14L4 OSci",,"P2L5Sci5","C2U4Sci4",,,
-9,M,Wed,,"P2L5Sci5",,"B14Rem TSci",,"C2U4Sci4",,,,
-9,M,Thu,,"C6L4 OSci","B14Rem TSci","C1L4 JSci",,"P2L5Sci5",Sci Meet,,,
-9,M,Fri,,"C2L4 JSci","P2L5Sci5",,"C2U4Sci4",,"C2L4 OSci",,,
+9,M,Tue,,,"C2L4 JSci",0,,0,0,,,
+9,M,Wed,,0,,0,,0,,,,
+9,M,Thu,,0,0,0,,0,Sci Meet,,,
+9,M,Fri,,"C2L4 JSci","P2L5Sci5",,"C2U4Sci4",,0,,,
 10,B,Mon,,"44U5A1Math","44U6Pure","44U6P Mat",,,"44L5M1Math",,,
-10,B,Tue,,,"44L6Math",Meet,,"44L5M1Math","44U5A1Math",,,
-10,B,Wed,"44U6P Mat",,,"44F Mat","44L5M1Math",,"44L6Math",,,
-10,B,Thu,,,"44U5A1Math","44U5A1Math","44L5M1Math","44F Mat",,,,
-10,B,Fri,,,"44L5M1Math","44U5A1Math","44U5A1Math",,,,,
+10,B,Tue,,,"44L6Math",Meet,,44,44,,,
+10,B,Wed,44,,,"44F Mat",44,,44,,,
+10,B,Thu,,,44,44,44,"44F Mat",,,,
+10,B,Fri,,,"44L5M1Math",44,"44U5A1Math",,,,,
 10,M,Mon,,"44L5M1Math","44U6P Mat","44U6Pure","44L5M1Math","44U5A1Math","44U6P Mat",,,
-10,M,Tue,,,,"44U6Pure","44L5M1Math","44U5A1Math",,,,
-10,M,Wed,"44U6P Mat","44L6Math",,"44U5A1Math",,,"44L5M1Math",,,
-10,M,Thu,"44U6P Mat","44U5A1Math","44F Mat",,"44L5M1Math",,"44L6Math",,,
-10,M,Fri,,"44U5A1Math","44U5A1Math",Meet,"44U6P Mat","44U6P Mat",,,,
+10,M,Tue,,,,44,44,44,,,,
+10,M,Wed,44,44,,44,,,44,,,
+10,M,Thu,"44U6P Mat",44,"44F Mat",,44,,44,,,
+10,M,Fri,,"44U5A1Math","44U5A1Math",Meet,"44U6P Mat",44,,,,
 11,B,Mon,,,"33L5Art1",,,,"33U4Art1",,,
-11,B,Tue,,,,,,"33U4Art1","36L5Art1",,,
-11,B,Wed,,,,"33L5Art1","33U4Art1",,,,,
-11,B,Thu,,,"33U4Art1",,,,,,,
-11,B,Fri,,,,,"33L5Art1",,"36U4Art1",,,
+11,B,Tue,,,,,,33,36,,,
+11,B,Wed,,,,33,33,,,,,
+11,B,Thu,,,33,,,,,,,
+11,B,Fri,,,,,"33L5Art1",,36,,,
 11,M,Mon,,,,"33L5Art1",,,"36U4Art1",,,
-11,M,Tue,,,,"33L5Art1",,,,,,
-11,M,Wed,,,"36U4Art1",,,"33L5Art1",,,,
-11,M,Thu,,,"33L5Art1",,,,"36U4Art1",,,
-11,M,Fri,,,,"33L5Art1",,"36U4Art1",,,,
+11,M,Tue,,,,33,,,,,,
+11,M,Wed,,,36,,,33,,,,
+11,M,Thu,,,33,,,,36,,,
+11,M,Fri,,,,33,,36,,,,
 12,B,Mon,"60Fren",,"60L4Fr4",,"60L4Fr2",,"60Fren",,,
-12,B,Tue,"60Fren",,"60RemFr4",,"61Fren","60L4Fr4",,,,
-12,B,Wed,,"60Fren","61Fr6Seminar","60L4Fr4","60L4Fr2",,,"60Fren","60Fren","60Fren"
-12,B,Thu,"60Fren","48Fren",,"60Fren","60RemFr4",,,"60Fr6Seminar","60Fr6Seminar",
-12,B,Fri,,"60Fren","61Fren",,"60RemFr4","60L4Fr2",,"60Fren",,
+12,B,Tue,"60Fren",,"60RemFr4",,"61Fren",60,,,,
+12,B,Wed,,"60Fren","61Fr6Seminar",60,60,,,"60Fren","60Fren","60Fren"
+12,B,Thu,"60Fren","48Fren",,"60Fren",60,,,"60Fr6Seminar","60Fr6Seminar",
+12,B,Fri,,"60Fren","61Fren",,"60RemFr4",60,,"60Fren",,
 12,M,Mon,"60Fren",,,"60L4Fr2",,,"60RemFr4",,,
-12,M,Tue,,,"60Fren","60RemFr4","60Fren","60L4Fr4","48Fren",,,
-12,M,Wed,,,,"47Fren",,"60L4Fr2","60L4Fr4","60Fren","60Fren","60Fren"
-12,M,Thu,,"60Fren","60L4Fr2",,,,,"60Fr6Seminar","60Fr6Seminar",
-12,M,Fri,,"61Fren",,,,"60L4Fr4","60RemFr4",,,"60Fren"
+12,M,Tue,,,"60Fren",60,"60Fren",60,"48Fren",,,
+12,M,Wed,,,,"47Fren",,60,60,"60Fren","60Fren","60Fren"
+12,M,Thu,,"60Fren",60,,,,,"60Fr6Seminar","60Fr6Seminar",
+12,M,Fri,,"61Fren",,,,60,60,,,"60Fren"
 13,B,Mon,,,,"E3L5Eng2","E3U5Seminar","E3L4Eng2",,,,
 13,B,Tue,,"E3U5Eng2","E3L5Eng2",,,Eng Meet,,,,
-13,B,Wed,,"E3L4Eng2",,,"E3U5Eng2",,,,,
-13,B,Thu,,"E3U5Eng2","E3L5Eng2",,,,"E3L4Eng2",,,
-13,B,Fri,,"E3L5Eng2",,,"E3L4Eng2",HM Meet,"E3U5Eng2",,,
+13,B,Wed,,0,,,0,,,,,
+13,B,Thu,,0,0,,,,0,,,
+13,B,Fri,,"E3L5Eng2",,,"E3L4Eng2",HM Meet,0,,,
 13,M,Mon,,,,"E3U5Eng2","E3L4Eng2",,"E3L5Eng2",,,
-13,M,Tue,,"E3U5Eng2",,,"E3L4Eng2",,"E3L5Eng2",,,
-13,M,Wed,,,"E3L5Eng2","E3L4Eng2",,"E3U5Eng2",,,,
-13,M,Thu,,"E3L5Eng2",,,Eng Meet,"E3L4Eng2",,,,
-13,M,Fri,,,"E3L4Eng2",,,"E3L5Eng2",HM Meet,,,
+13,M,Tue,,"E3U5Eng2",,,0,,0,,,
+13,M,Wed,,,0,0,,0,,,,
+13,M,Thu,,0,,,Eng Meet,0,,,,
+13,M,Fri,,,"E3L4Eng2",,,0,HM Meet,,,
 14,B,Mon,,"66U4Zul1A2","66L4Zul1A2",,"66L4Zul2A1","66L5Zul1A1","66U5Zul1A2",,,
-14,B,Tue,,"66U4Zul1A2","66RemZul1A2","66U5Zul1A2","66L5Zul1A1","66L4Zul1A2",,,,
-14,B,Wed,,,"66U4Zul1A2","66L4Zul1A2","66L4Zul2A1","66L5Zul1A1","66U5Zul1A2",,,
-14,B,Thu,,,,,"66RemZul1A2","66U5Zul1A2","66L5Zul1A1",,,
-14,B,Fri,,"66U5Zul1A2","66U4Zul1A2",,"66RemZul1A2","66L4Zul2A1",,,,
+14,B,Tue,,"66U4Zul1A2","66RemZul1A2",66,66,66,,,,
+14,B,Wed,,,66,66,66,66,66,,,
+14,B,Thu,,,,,66,66,66,,,
+14,B,Fri,,"66U5Zul1A2","66U4Zul1A2",,"66RemZul1A2",66,,,,
 14,M,Mon,,,"66U4Zul1A2","66L4Zul2A1",,"66L5Zul1A1","66RemZul1A2",,,
-14,M,Tue,,"66L5Zul1A1","66U4Zul1A2","66RemZul1A2","66U5Zul1A2","66L4Zul1A2",,,,
-14,M,Wed,,"66U5Zul1A2",,"66U4Zul1A2","66L5Zul1A1","66L4Zul2A1","66L4Zul1A2",,,
-14,M,Thu,,"66U4Zul1A2","66L4Zul2A1","66U5Zul1A2",,,"66L5Zul1A1",,,
-14,M,Fri,,"66U4Zul1A2",,"66U5Zul1A2","66L5Zul1A1","66L4Zul1A2","66RemZul1A2",,,
+14,M,Tue,,"66L5Zul1A1","66U4Zul1A2",66,66,66,,,,
+14,M,Wed,,66,,66,66,66,66,,,
+14,M,Thu,,66,66,66,,,66,,,
+14,M,Fri,,"66U4Zul1A2",,66,"66L5Zul1A1",66,66,,,
 15,B,Mon,,"69U5MLMath",,,,,,,,
 15,B,Tue,,,,Meet,,,,,,
-15,B,Wed,,,,,,"69U5MLMath",,,,
-15,B,Thu,,,,"69U5MLMath",,,,,,
-15,B,Fri,,,,"69U5MLMath",,,,,,
+15,B,Wed,,,,,,69,,,,
+15,B,Thu,,,,69,,,,,,
+15,B,Fri,,,,69,,,,,,
 15,M,Mon,,,"69U5MLMath",,,,,,,
-15,M,Tue,,,,,,"69U5MLMath",,,,
-15,M,Wed,,,,"69U5MLMath",,,,,,
-15,M,Thu,,"69U5MLMath",,,,,"69U5MLMath",,,
+15,M,Tue,,,,,,69,,,,
+15,M,Wed,,,,69,,,,,,
+15,M,Thu,,69,,,,,69,,,
 15,M,Fri,,,"69U5MLMath",Meet,,,,,,
-16,B,Mon,,"33L5Art2",,,,"33L4 S/L4 NArt1",,,,
-16,B,Tue,,"33L5Art2",,"33L4 HArt2","33U5Art2",,,,,
-16,B,Wed,,,"33U5Art2",,,"33L4 HArt2","33L5Art2",,,
-16,B,Thu,,"33L5Art2",,,,,"33U5Art2",,,
-16,B,Fri,,,"33U5Art2","33L5Art2",,,"33L4 S/L4 NArt1",,,
-16,M,Mon,,"33U5Art2","33L5Art2",,,"33L4 S/L4 NArt1",,,,
-16,M,Tue,,"33L4 S/L4 NArt1",,,,,"33U5Art2",,,
-16,M,Wed,,,"33L4 HArt2","33L5Art2","33U5Art2",,,,,
-16,M,Thu,,,,"33L5Art2","33U5Art2",,"33L4 HArt2",,,
+16,B,Mon,,"33L5Art2",,,,33,,,,
+16,B,Tue,,"33L5Art2",,33,33,,,,,
+16,B,Wed,,,33,,,33,33,,,
+16,B,Thu,,33,,,,,33,,,
+16,B,Fri,,,"33U5Art2",33,,,33,,,
+16,M,Mon,,"33U5Art2","33L5Art2",,,33,,,,
+16,M,Tue,,"33L4 S/L4 NArt1",,,,,33,,,
+16,M,Wed,,,33,33,33,,,,,
+16,M,Thu,,,,33,33,,33,,,
 16,M,Fri,,"33L5Art2",,,"33U5Art2",,,,,
-17,B,Mon,,,,,,"C6U4Sci2","B14Rem NSci",,,
-17,B,Tue,,,"C6U4Sci2","15F Mat",,,"C6L4 HSci","C1Phys Prac","C1Phys Prac","C1Phys Prac"
-17,B,Wed,,,"C1L4 HSci",,,"C6U4Sci2",Sci Meet,,,
-17,B,Thu,,"B14Rem NSci",,,,"15F Mat","C6U4Sci2","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+17,B,Mon,,,,,,0,"B14Rem NSci",,,
+17,B,Tue,,,"C6U4Sci2","15F Mat",,,0,"C1Phys Prac","C1Phys Prac","C1Phys Prac"
+17,B,Wed,,,0,,,0,Sci Meet,,,
+17,B,Thu,,0,,,,"15F Mat",0,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
 17,B,Fri,,"P6Rem NSci",,,"C6U4Sci2",,,,,
 17,M,Mon,,,"P2L4 HSci",,"C6U4Sci2",,,,,
-17,M,Tue,,,,,"C1Rem NSci",,"C6U4Sci2","C1Phys Prac","C1Phys Prac","C1Phys Prac"
-17,M,Wed,,,,,,"C6U4Sci2","P1Rem NSci",,,
-17,M,Thu,,,"Mat14F Mat","P6L4 HSci","15F Mat",,Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+17,M,Tue,,,,,0,,0,"C1Phys Prac","C1Phys Prac","C1Phys Prac"
+17,M,Wed,,,,,,0,0,,,
+17,M,Thu,,,"Mat14F Mat",0,"15F Mat",,Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
 17,M,Fri,,"P1L4 HSci",,,"C6U4Sci2",,,,,
 18,B,Mon,,,"E6U4Eng3","E9U4Lat1","E9L4Lat1",,"E9RemLat1",,,
-18,B,Tue,,,,"E9U4Lat1","E9U5A2Lat1",Eng Meet,"E6U4Eng3",,,
-18,B,Wed,,"E9U4Lat1",,,"E9L4Lat1","E9RemLat1","E6U4Eng3",,,
-18,B,Thu,,,"E9RemLat1","E5U4Eng3",,"E9U4Lat1","E9U5A2Lat1",,,
-18,B,Fri,,"E9U4Lat1",,"E6U4Eng3",,"E9L4Lat1",,,,
-18,M,Mon,,"E9U5A2Lat1",,"E9L4Lat1",,"E9U4Lat1",,,,
-18,M,Tue,,"E9U4Lat1",,,"E9RemLat1","E6U4Eng3","E9U5A2Lat1",,,
-18,M,Wed,,"E9U4Lat1","E9RemLat1",,,"E9L4Lat1","E5U4Eng3",,,
-18,M,Thu,,,"E9L4Lat1","E6U4Eng3",Eng Meet,"E9RemLat1",,,,
-18,M,Fri,,,"E9U4Lat1","E6U4Eng3",,,,,,
+18,B,Tue,,,,0,0,Eng Meet,0,,,
+18,B,Wed,,0,,,0,0,0,,,
+18,B,Thu,,,0,0,,0,0,,,
+18,B,Fri,,"E9U4Lat1",,0,,0,,,,
+18,M,Mon,,"E9U5A2Lat1",,"E9L4Lat1",,0,,,,
+18,M,Tue,,"E9U4Lat1",,,0,0,0,,,
+18,M,Wed,,0,0,,,0,0,,,
+18,M,Thu,,,0,0,Eng Meet,0,,,,
+18,M,Fri,,,"E9U4Lat1",0,,,,,,
 19,B,Mon,,"B7L4 HLS","B7U5LS3","B7U4LS1","B7Rem OLS","B9Bio2Seminar",Meet,,,
-19,B,Tue,,"B7L4 HLS","Bio2Seminar","B7U4LS1","B7L4 TLS","B7U5LS3",,,,
-19,B,Wed,,"B7U4LS1",,"B7U5LS3","B7Rem JLS",,,,,
-19,B,Thu,,"B7Bio2Seminar",,,"B7U5LS3","B7U4LS1",,,,
-19,B,Fri,,"B7U4LS1",,"B7L4 TLS","B7Bio2Seminar","B7Rem OLS","B7Rem JLS","B7Bio2Seminar","B7Bio2Seminar","B7Bio2Seminar"
-19,M,Mon,,"B7Rem OLS",,,"B7Rem JLS","B7U4LS1","B7U5LS3",,,
-19,M,Tue,,"B7U4LS1","B7L4 TLS","B7U5LS3",Meet,"B7Bio2Seminar",,,,
-19,M,Wed,,"B7U4LS1","B7U5LS3","B7Rem OLS","B7L4 HLS",,"B7Rem JLS",,,
-19,M,Thu,,"B7L4 HLS","B7U5LS3",,,"B7Bio2Seminar",,,,
-19,M,Fri,,"B7L4 TLS","B7U4LS1",,,"B7U5LS3","B7Bio2Seminar",,,
+19,B,Tue,,"B7L4 HLS","Bio2Seminar",0,0,0,,,,
+19,B,Wed,,0,,0,0,,,,,
+19,B,Thu,,"B7Bio2Seminar",,,0,0,,,,
+19,B,Fri,,"B7U4LS1",,0,"B7Bio2Seminar",0,0,"B7Bio2Seminar","B7Bio2Seminar","B7Bio2Seminar"
+19,M,Mon,,"B7Rem OLS",,,"B7Rem JLS",0,"B7U5LS3",,,
+19,M,Tue,,"B7U4LS1","B7L4 TLS",0,Meet,"B7Bio2Seminar",,,,
+19,M,Wed,,0,0,0,0,,0,,,
+19,M,Thu,,0,0,,,"B7Bio2Seminar",,,,
+19,M,Fri,,"B7L4 TLS","B7U4LS1",,,0,"B7Bio2Seminar",,,
 20,B,Mon,"E6Eng LangLitL6","G2Eng LitU6",,"E6L5Eng3","E6U5",,,,,
 20,B,Tue,,"E6U5Eng3","E6L5Eng3",,,Eng Meet,,,,
-20,B,Wed,,,"E6Eng LitU6",,"E6U5Eng3","L6Tutor",,"E6Eng LangLitL6",,
-20,B,Thu,"E6Eng LangLitL6","E6U5Eng3","E6L5Eng3","E6Eng LangLitL6",,,,,,
-20,B,Fri,,"E6L5Eng3",,,,HM Meet,"E6U5Eng3",,,
+20,B,Wed,,,"E6Eng LitU6",,0,0,,"E6Eng LangLitL6",,
+20,B,Thu,"E6Eng LangLitL6",0,0,"E6Eng LangLitL6",,,,,,
+20,B,Fri,,"E6L5Eng3",,,,HM Meet,0,,,
 20,M,Mon,,,,"E6U5Eng3","E6Eng LangLitL6",,"E6L5Eng3",,,
-20,M,Tue,,"E6U5Eng3","E6Eng LitU6","E6Eng LangLitL6",,,"E6L5Eng3",,"E6Eng LitU6",
-20,M,Wed,"E6Eng LangLitL6",,"E6L5Eng3",,,"E6U5Eng3",,,,
-20,M,Thu,"E6Eng LangLitL6","E6L5Eng3",,,Eng Meet,,,,,
-20,M,Fri,,,,,"E6Eng LangLitL6","E6L5Eng3",HM Meet,,,
-21,B,Mon,,,"FieldRem S/Rem OPE2",,,"FieldL4 HPE2",,,,
-21,B,Tue,,,,"FieldL4 SPE4",,,,,,
+20,M,Tue,,"E6U5Eng3","E6Eng LitU6","E6Eng LangLitL6",,,0,,"E6Eng LitU6",
+20,M,Wed,"E6Eng LangLitL6",,0,,,0,,,,
+20,M,Thu,"E6Eng LangLitL6",0,,,Eng Meet,,,,,
+20,M,Fri,,,,,"E6Eng LangLitL6",0,HM Meet,,,
+21,B,Mon,,,"FieldRem S/Rem OPE2",,,0,,,,
+21,B,Tue,,,,0,,,,,,
 21,B,Wed,,,,,,,,,,
-21,B,Thu,,,"FieldU5PE","FieldRem S/Rem HPE3","FieldL5M4/L5MLPE","FieldL4PE",,,,
+21,B,Thu,,,0,0,0,0,,,,
 21,B,Fri,,,"FieldL5M3PE",,,,,,,
-21,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"FieldL4 OPE3",,,,
-21,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-21,M,Wed,,,"FieldL4 TPE6",,"FieldU4M3PE",,,,,
-21,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-21,M,Fri,,,,"FieldRem TPE1","FieldRem J/Rem NPE6",,"FieldL5PE",,,
+21,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,0,,,,
+21,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+21,M,Wed,,,0,,0,,,,,
+21,M,Thu,,0,,,0,,0,,,
+21,M,Fri,,,,0,"FieldRem J/Rem NPE6",,0,,,
 22,B,Mon,,"G1L5Geo3",,"G1U5Geo2",,Geo Meet,,,,
-22,B,Tue,,"G1L5Geo3","G1U5Geo2",,"G1L4 JGeo","G1Rem JGeo",,,,
-22,B,Wed,,"G1U5Geo2","G1L4 JGeo",,"G1L4 HGeo",,"G1L5Geo3",,,
-22,B,Thu,,"G1L5Geo3",,,,,,,,
-22,B,Fri,,"G1Rem JGeo","G1L4 HGeo","G1L5Geo3",,"G1U5Geo2",,,,
-22,M,Mon,,"G1L4 JGeo","G1L5Geo3",,"G1U5Geo2","G1Rem JGeo",,,,
-22,M,Tue,,,"G1U5Geo2","G1L4 HGeo",Geo Meet,,"G1Rem JGeo",,,
-22,M,Wed,,,,"G1L5Geo3","G1L4 JGeo",,"G1U5Geo2",,,
-22,M,Thu,,,,"G1L5Geo3",,"G1U5Geo2",,,,
-22,M,Fri,,"G1L5Geo3",,"G1L4 HGeo",,,"G1U5Geo2",,,
+22,B,Tue,,"G1L5Geo3","G1U5Geo2",,0,0,,,,
+22,B,Wed,,0,0,,0,,0,,,
+22,B,Thu,,0,,,,,,,,
+22,B,Fri,,"G1Rem JGeo","G1L4 HGeo",0,,0,,,,
+22,M,Mon,,"G1L4 JGeo","G1L5Geo3",,"G1U5Geo2",0,,,,
+22,M,Tue,,,"G1U5Geo2",0,Geo Meet,,0,,,
+22,M,Wed,,,,0,0,,0,,,
+22,M,Thu,,,,0,,0,,,,
+22,M,Fri,,"G1L5Geo3",,0,,,0,,,
 23,B,Mon,,"28U4Afr3",,,,"28L5Afr6","28U5Afr6",,,
-23,B,Tue,,"28U4Afr3",,"28U5Afr6","28L5Afr6",,"28RemAfr2",,,
-23,B,Wed,,,"28U4Afr3",,"28RemAfr2","28L5Afr6","28U5Afr6",,,
-23,B,Thu,,,,,,"28U5Afr6","28L5Afr6",,,
-23,B,Fri,,"28U5Afr6","28U4Afr3",Afr Meet,,,"28RemAfr2",,,
+23,B,Tue,,"28U4Afr3",,28,28,,28,,,
+23,B,Wed,,,28,,28,28,28,,,
+23,B,Thu,,,,,,28,28,,,
+23,B,Fri,,"28U5Afr6","28U4Afr3",Afr Meet,,,28,,,
 23,M,Mon,,,"28U4Afr3",,"28RemAfr2","28L5Afr6",,,,
-23,M,Tue,,"28L5Afr6","28U4Afr3",,"28U5Afr6",,"28RemAfr2",,,
-23,M,Wed,,"28U5Afr6",,"28U4Afr3","28L5Afr6",,,,,
-23,M,Thu,,"28U4Afr3",,"28U5Afr6","28RemAfr2",,"28L5Afr6",,,
-23,M,Fri,,"28U4Afr3",Afr Meet,"28U5Afr6","28L5Afr6",,,,,
+23,M,Tue,,"28L5Afr6","28U4Afr3",,28,,28,,,
+23,M,Wed,,28,,28,28,,,,,
+23,M,Thu,,28,,28,28,,28,,,
+23,M,Fri,,"28U4Afr3",Afr Meet,28,"28L5Afr6",,,,,
 24,B,Mon,,"B16L5IT2",,,,,"B16U4IT2",,,
-24,B,Tue,,"B16L5IT2",,,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23","B16U4IT2","B15L4 JIT",,,
-24,B,Wed,,,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23","B16Rem SIT","B16U4IT2",,"B16L5IT2",,,
-24,B,Thu,,"B16L5IT2","B16U4IT2","Senior ITMeet","B16L4 JIT","Junior ITMeet","B16U5A1/U5A2/U5A3/U5M1/UI5TM23",,,
-24,B,Fri,,,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23","REBL5IT2",,"B16Rem SIT","B16U4IT2",,,
+24,B,Tue,,"B16L5IT2",,,0,0,0,,,
+24,B,Wed,,,0,0,0,,0,,,
+24,B,Thu,,0,0,"Senior ITMeet",0,"Junior ITMeet",0,,,
+24,B,Fri,,,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23",0,,0,0,,,
 24,M,Mon,,"REBU5A1/U5A2/U5A3/U5M1/UI5TM23","B16L5IT2","Junior ITMeet","B16Rem SIT",,"B16U4IT2",,,
-24,M,Tue,,,,,,,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23",,,
-24,M,Wed,,,"B16U4IT2","B16L5IT2","REBU5A1/U5A2/U5A3/U5M1/UI5TM23",,"B16Rem SIT",,,
-24,M,Thu,,,,"B16L5IT2","B16U5A1/U5A2/U5A3/U5M1/UI5TM23",,"B16U4IT2",,,
-24,M,Fri,,"B16L5IT2",,"B16L4 JIT","B16U5A1/U5A2/U5A3/U5M1/UI5TM23","B16U4IT2","B16L4 JIT",,,
+24,M,Tue,,,,,,,0,,,
+24,M,Wed,,,0,0,0,,0,,,
+24,M,Thu,,,,0,0,,0,,,
+24,M,Fri,,"B16L5IT2",,0,"B16U5A1/U5A2/U5A3/U5M1/UI5TM23",0,0,,,
 25,B,Mon,,"50U5M1Math",,"50L4Math4","50U4A3Math","1R2:3e5m - 1 3S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,,
-25,B,Tue,,"Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","50L4Math4",Meet,"50U4A3Math",,"50U5M1Math",,,
-25,B,Wed,,"0S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,"50U4A3Math",,"50U5M1Math","50L4Math4",,,
-25,B,Thu,,"50U4A3Math","50L4Math4","50U5M1Math",,,"1R3:4e0m - 1 4S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,
-25,B,Fri,,"50L4Math4","Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","50U5M1Math","50U5M1Math",,,,,
+25,B,Tue,,"Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","50L4Math4",Meet,50,,50,,,
+25,B,Wed,,"0S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,50,,50,50,,,
+25,B,Thu,,50,50,50,,,"1R3:4e0m - 1 4S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,
+25,B,Fri,,"50L4Math4","Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",50,"50U5M1Math",,,,,
 25,M,Mon,,"50U4A3Math","50U5M1Math","50U4A3Math",,,"50L4Math4",,,
-25,M,Tue,,"Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,"50U4A3Math","50U4A3Math",,"50L4Math4",,,
-25,M,Wed,,"50L4Math4",,"50U5M1Math","50U4A3Math","1R2:3e5m - 1 3S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,,
-25,M,Thu,,,"50U4A3Math","1R0:5e5m - 1 1S:40/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,"50U4A3Math","50U5M1Math",,,
-25,M,Fri,,"50U5M1Math",,Meet,"50L4Math4","1R5:5e0m - 1 3S:40/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N","50U4A3Math",,,
+25,M,Tue,,"Rem S/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,50,50,,50,,,
+25,M,Wed,,50,,50,50,"1R2:3e5m - 1 3S:25/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,,,
+25,M,Thu,,,50,"1R0:5e5m - 1 1S:40/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",,50,50,,,
+25,M,Fri,,"50U5M1Math",,Meet,"50L4Math4","1R5:5e0m - 1 3S:40/Rem50T/Rem J/Rem O/RemHM/Raetmh5 N",50,,,
 26,B,Mon,,"E6RemEng3",,"E1L5Eng4","E4U5Seminar","E6L4Eng3",,,,
-26,B,Tue,,"E4U5Eng4","E1L5Eng4","E6RemEng3","E7Eng Lit",Eng Meet,,,,
-26,B,Wed,,"E6L4Eng3","E3RemEng3",,"E4U5Eng4",,,,,
-26,B,Thu,,"E4U5Eng4","E1L5Eng4",,,"E6RemEng3","E6L4Eng3",,,
-26,B,Fri,,"E1L5Eng4",,,"E6L4Eng3","E7Eng Lit","E4U5Eng4",,,
+26,B,Tue,,"E4U5Eng4","E1L5Eng4",0,"E7Eng Lit",Eng Meet,,,,
+26,B,Wed,,0,0,,0,,,,,
+26,B,Thu,,0,0,,,0,0,,,
+26,B,Fri,,"E1L5Eng4",,,"E6L4Eng3","E7Eng Lit",0,,,
 26,M,Mon,,,"E6RemEng3","E4U5Eng4","E5L4Eng3","E7Eng Lit","E1L5Eng4",,,
-26,M,Tue,,"E4U5Eng4","E3RemEng3",,"E6L4Eng3",,"E1L5Eng4",,,"E7Eng Lit"
-26,M,Wed,,"E6RemEng3","E1L5Eng4","E6L4Eng3",,"E4U5Eng4",,,,
-26,M,Thu,,"E1L5Eng4",,,Eng Meet,"E6L4Eng3","E6RemEng3",,,
-26,M,Fri,,"E5RemEng3","E6L4Eng3",,,"E1L5Eng4",,,,
+26,M,Tue,,"E4U5Eng4","E3RemEng3",,0,,0,,,"E7Eng Lit"
+26,M,Wed,,0,0,0,,0,,,,
+26,M,Thu,,0,,,Eng Meet,0,0,,,
+26,M,Fri,,"E5RemEng3","E6L4Eng3",,,0,,,,
 27,B,Mon,,,"70Rem T/Rem ODra2","DunU4Dra1",,,"70U4Dra3",,,
-27,B,Tue,,,,"70U4Dra1","70Rem T/Rem ODra1","70U4Dra3",,,,
-27,B,Wed,,"70U4Dra1",,,"70U4Dra3",,"DraAltRem T/Rem ODra2",,,
-27,B,Thu,,,"70U4Dra3","DunRem T/Rem ODra1",,"DunU4Dra1",,,,
-27,B,Fri,,"DunU4Dra1",,,,,"70U4Dra3",,,
-27,M,Mon,,,,"70Rem T/Rem ODra1",,"DunU4Dra1","70U4Dra3",,,
+27,B,Tue,,,,70,70,70,,,,
+27,B,Wed,,70,,,70,,0,,,
+27,B,Thu,,,70,0,,0,,,,
+27,B,Fri,,"DunU4Dra1",,,,,70,,,
+27,M,Mon,,,,"70Rem T/Rem ODra1",,0,"70U4Dra3",,,
 27,M,Tue,,"70U4Dra1",,,,,,,,
-27,M,Wed,,"70U4Dra1","70U4Dra3",,"DunRem T/Rem ODra2",,,,,
-27,M,Thu,,,,,,,"70U4Dra3",,,
-27,M,Fri,,,"70U4Dra1","70Rem T/Rem ODra2","DunRem T/Rem ODra1","70U4Dra3",,,,
+27,M,Wed,,70,70,,0,,,,,
+27,M,Thu,,,,,,,70,,,
+27,M,Fri,,,"70U4Dra1",70,"DunRem T/Rem ODra1",70,,,,
 28,B,Mon,,,"P1U5Sci3","PastoralMeet",,"B14Phys4Seminar",,,,
-28,B,Tue,,,,,"P2Phys4Seminar","P1U5Sci3",,,,
-28,B,Wed,,,"P2Phys6Seminar","P1U5Sci3",,,Sci Meet,,,
-28,B,Thu,,,"P2Phys",,"P1U5Sci3",,,,,
+28,B,Tue,,,,,"P2Phys4Seminar",0,,,,
+28,B,Wed,,,"P2Phys6Seminar",0,,,Sci Meet,,,
+28,B,Thu,,,"P2Phys",,0,,,,,
 28,B,Fri,,,"P1Phys4Seminar",,,,,,,
 28,M,Mon,,,,,,"C2Phys","P1U5Sci3",,,
-28,M,Tue,,,"P1Phys6Seminar","P1U5Sci3",,,"PastoralMeet",,,
-28,M,Wed,,,"P1U5Sci3",,"P1Phys",,,,,
-28,M,Thu,,,"P1U5Sci3",,,"B14Phys4Seminar",Sci Meet,,,
-28,M,Fri,,,,,,"P1U5Sci3","P2Phys",,,
+28,M,Tue,,,"P1Phys6Seminar",0,,,"PastoralMeet",,,
+28,M,Wed,,,0,,"P1Phys",,,,,
+28,M,Thu,,,0,,,"B14Phys4Seminar",Sci Meet,,,
+28,M,Fri,,,,,,0,"P2Phys",,,
 29,B,Mon,,,,"REBU4IT1",,,,,,
-29,B,Tue,,,,"B16U4IT1",,,,,,
-29,B,Wed,,"B16U4IT1",,,,,,,,
-29,B,Thu,,,,"Senior ITMeet",,"B16U4IT1",,,,
+29,B,Tue,,,,0,,,,,,
+29,B,Wed,,0,,,,,,,,
+29,B,Thu,,,,"Senior ITMeet",,0,,,,
 29,B,Fri,,"B16U4IT1",,,,,,,,
-29,M,Mon,,,,,,"B16U4IT1",,,,
+29,M,Mon,,,,,,0,,,,
 29,M,Tue,,"B16U4IT1",,,,,,,,
-29,M,Wed,,"B16U4IT1",,,,,,,,
+29,M,Wed,,0,,,,,,,,
 29,M,Thu,,,,,,,,,,
 29,M,Fri,,,"B16U4IT1",,,,,,,
 30,B,Mon,,,"C6U5Sci6",,"C6L5Sci4",,"C6Chem",,,
-30,B,Tue,,,,"C6L5Sci4","C6Chem","C6U5Sci6",,,,
-30,B,Wed,"C6Chem","C6L5Sci4",,"C6U5Sci6",,,Sci Meet,,,
-30,B,Thu,,"C6Chem",,"C6L5Sci4","C6U5Sci6",,,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
-30,B,Fri,,,"C6Chem",,,"C6L5Sci4",,"C6Chem",,
+30,B,Tue,,,,0,"C6Chem",0,,,,
+30,B,Wed,"C6Chem",0,,0,,,Sci Meet,,,
+30,B,Thu,,"C6Chem",,0,0,,,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+30,B,Fri,,,"C6Chem",,,0,,"C6Chem",,
 30,M,Mon,"C6Chem",,,,,,"C6U5Sci6",,,
-30,M,Tue,,,"C6Chem","C6U5Sci6",,"C6L5Sci4",,,,
-30,M,Wed,,"C6L5Sci4","C6U5Sci6","C6Chem",,,,,,
-30,M,Thu,,,"C6U5Sci6",,,"C6L5Sci4",Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
-30,M,Fri,,,"C6L5Sci4",,,"C6U5Sci6","C6Chem",,,
+30,M,Tue,,,"C6Chem",0,,0,,,,
+30,M,Wed,,0,0,"C6Chem",,,,,,
+30,M,Thu,,,0,,,0,Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+30,M,Fri,,,"C6L5Sci4",,,0,"C6Chem",,,
 31,B,Mon,,"E1RemEng4","B13L4FOE1","PastoralMeet","B13L4FOE2",,"Rem SB13Rem TRFeOmE 2J",,,
-31,B,Tue,,,"Rem S/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","E1RemEng4",,Eng Meet,,,,
-31,B,Wed,,,"E1RemEng4","B13L4FOE1","B13L4FOE2"," S/B13Rem T/RFeOmE 2J",,,,
-31,B,Thu,,,"0  S/B13Rem T/RFeOmE 2J",,"11R:4e0 m- 12 :S25/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","E1RemEng4",,,,
-31,B,Fri,,,,,"Rem S/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","B13L4FOE2",,,,
+31,B,Tue,,,"Rem S/ReBm13T/Rem JRem O/RemHF/ROeEm1 N",0,,Eng Meet,,,,
+31,B,Wed,,,0,0,0," S/B13Rem T/RFeOmE 2J",,,,
+31,B,Thu,,,"0  S/B13Rem T/RFeOmE 2J",,"11R:4e0 m- 12 :S25/ReBm13T/Rem JRem O/RemHF/ROeEm1 N",0,,,,
+31,B,Fri,,,,,"Rem S/ReBm13T/Rem JRem O/RemHF/ROeEm1 N",0,,,,
 31,M,Mon,,,"E1RemEng4","B13L4FOE2",,,"Rem S/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,,
-31,M,Tue,,,"E1RemEng4","10R:4e0 m- 11 :S30/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","0  SB13Rem TRFeOmE 2J","B13L4FOE1","PastoralMeet",,,
-31,M,Wed,,"E1RemEng4","5m SB13Rem TRFeOmE 2J",,,"B13L4FOE2","B13L4FOE1",,,
-31,M,Thu,,,"B13L4FOE2",,Eng Meet,"0  SB13Rem TRFeOmE 2J","E1RemEng4",,,
-31,M,Fri,,"E1RemEng4",,,,"B13L4FOE1","13R:4e0 m- 14 :S25/ReBm13T/Rem JRem O/RemHF/ROeEm1 N",,,
+31,M,Tue,,,"E1RemEng4","10R:4e0 m- 11 :S30/ReBm13T/Rem JRem O/RemHF/ROeEm1 N","0  SB13Rem TRFeOmE 2J",0,"PastoralMeet",,,
+31,M,Wed,,0,"5m SB13Rem TRFeOmE 2J",,,0,0,,,
+31,M,Thu,,,0,,Eng Meet,"0  SB13Rem TRFeOmE 2J",0,,,
+31,M,Fri,,"E1RemEng4",,,,0,"13R:4e0 m- 14 :S25/ReBm13T/Rem JRem O/RemHF/ROeEm1 N",,,
 32,B,Mon,,,,,"31L4Afr4","31L5Afr2","31U5Afr5",,,
-32,B,Tue,,,,"31U5Afr5","31L5Afr2",,,,,
-32,B,Wed,,,,,,"31L5Afr2","31U5Afr5",,,
-32,B,Thu,,,,"31L4Afr4",,"31U5Afr5","31L5Afr2",,,
-32,B,Fri,,"31U5Afr5",,Afr Meet,,"31L4Afr4",,,,
+32,B,Tue,,,,31,31,,,,,
+32,B,Wed,,,,,,31,31,,,
+32,B,Thu,,,,31,,31,31,,,
+32,B,Fri,,"31U5Afr5",,Afr Meet,,31,,,,
 32,M,Mon,,,,"31L4Afr4",,"31L5Afr2",,,,
-32,M,Tue,,"31L5Afr2",,,"31U5Afr5",,,,,
-32,M,Wed,,"31U5Afr5",,,"31L5Afr2","31L4Afr4",,,,
-32,M,Thu,,,"31L4Afr4","31U5Afr5",,,"31L5Afr2",,,
-32,M,Fri,,,Afr Meet,"31U5Afr5","31L5Afr2",,,,,
+32,M,Tue,,"31L5Afr2",,,31,,,,,
+32,M,Wed,,31,,,31,31,,,,
+32,M,Thu,,,31,31,,,31,,,
+32,M,Fri,,,Afr Meet,31,"31L5Afr2",,,,,
 33,B,Mon,,"59U5M3Div",,"PastoralMeet",,,,,,
 33,B,Tue,,,,,,,Div Meet,,,
-33,B,Wed,,,"59L5M1Div",,,,,,,
-33,B,Thu,,,"59U5A3Div",,,"59L5A2Div",,,,
-33,B,Fri,,,"59L5M4/L5MLDiv",Div Meet,"59U5M4/U5MLDiv",,"59L5M1Div",,,
+33,B,Wed,,,59,,,,,,,
+33,B,Thu,,,59,,,59,,,,
+33,B,Fri,,,"59L5M4/L5MLDiv",Div Meet,"59U5M4/U5MLDiv",,59,,,
 33,M,Mon,,"59U4A1Div","59U5A1Div","59U4M1Div","59L5A3Div","59U5M4/U5MLDiv",,,,
-33,M,Tue,,,"59L5A1Div",,"59L5M4/L5MLDiv","59U5M1Div","PastoralMeet",,,
+33,M,Tue,,,"59L5A1Div",,59,59,"PastoralMeet",,,
 33,M,Wed,,,,,,,,,,
-33,M,Thu,,"59U5M3Div","59U4M1Div",,,,"59U5A2Div",,,
+33,M,Thu,,59,59,,,,59,,,
 33,M,Fri,,,"59U5M1Div",,,,,,,
 34,B,Mon,,,"16L6Math","16U6P Mat","16U4A1Math",,,,,
-34,B,Tue,"16L6Math",,"16L6Math",Meet,"16U4A1Math",,,,,
-34,B,Wed,"16U6P Mat",,"16L6Math","16U4A1Math","16F Mat",,"16L6Math",,,
-34,B,Thu,,"16U4A1Math",,,"16U4A1Math",,"16F Mat",,,
-34,B,Fri,,,,"16F Mat","16L6Math","16U4A1Math",,,,
+34,B,Tue,"16L6Math",,"16L6Math",Meet,16,,,,,
+34,B,Wed,16,,16,16,"16F Mat",,16,,,
+34,B,Thu,,16,,,16,,"16F Mat",,,
+34,B,Fri,,,,"16F Mat","16L6Math",16,,,,
 34,M,Mon,,"16F Mat","16U6P Mat","16U4A1Math",,"16L6Math","16U6P Mat",,,
-34,M,Tue,"16F Mat",,,"16U4A1Math","16U4A1Math",,,,,
-34,M,Wed,"16U6P Mat","16L6Math","16L6Math",,"16U4A1Math","16F Mat",,,,
-34,M,Thu,"16U6P Mat",,"16U4A1Math","16F Mat",,"16L6Math","16L6Math",,,
-34,M,Fri,,,"16F Mat",Meet,"16U6P Mat","16U6P Mat","16U4A1Math",,"16L6Math",
+34,M,Tue,"16F Mat",,,16,16,,,,,
+34,M,Wed,16,16,16,,16,"16F Mat",,,,
+34,M,Thu,"16U6P Mat",,16,"16F Mat",,16,16,,,
+34,M,Fri,,,"16F Mat",Meet,"16U6P Mat",16,16,,16,
 35,B,Mon,,"His12L4 SHis",,"His12U5His1",Meet,,"His12U4His4",,,
-35,B,Tue,,"His12L4 THis","His12U5His1",,,"His12U4His4","His12L4 SHis",,,
-35,B,Wed,,"His12U5His1",,,"His12U4His4","His12Rem OHis",,,,
-35,B,Thu,,"His12Rem JHis","His12U4His4",,"His12L4 THis",,,,,
-35,B,Fri,,"His12Rem OHis",,"His12Rem JHis",,"His12U5His1","His12U4His4",,,
+35,B,Tue,,"His12L4 THis","His12U5His1",,,0,0,,,
+35,B,Wed,,0,,,0,0,,,,
+35,B,Thu,,0,0,,0,,,,,
+35,B,Fri,,"His12Rem OHis",,0,,0,0,,,
 35,M,Mon,,"His12Rem JHis",,,"His12U5His1",,"His12U4His4",,,
-35,M,Tue,,,"His12U5His1","His12L4 SHis",Meet,"His12Rem OHis",,,,
-35,M,Wed,,,"His12U4His4",,"His12L4 THis",,"His12U5His1",,,
-35,M,Thu,,"His12L4 THis","His12Rem OHis","His12L4 SHis","His12Rem JHis","His12U5His1","His12U4His4",,,
-35,M,Fri,,,,,,"His12U4His4","His12U5His1",,,
+35,M,Tue,,,"His12U5His1",0,Meet,0,,,,
+35,M,Wed,,,0,,0,,0,,,
+35,M,Thu,,0,0,0,0,0,0,,,
+35,M,Fri,,,,,,0,0,,,
 36,B,Mon,,,"G2L5Geo2","G2Rem NGeo",,Geo Meet,,,,
-36,B,Tue,,,,,"G2U5Geo3",,"G2L5Geo2",,,
-36,B,Wed,,,"G2U5Geo3","G2L5Geo2","G2L4 NGeo",,,,,
-36,B,Thu,,"G2L4 NGeo",,,,,"G2U5Geo3","G2Geo6Seminar","G2Geo6Seminar",
-36,B,Fri,,,"G2U5Geo3",,"G2L5Geo2","G2Rem NGeo",,"G2Geo5Seminar",,
+36,B,Tue,,,,,0,,0,,,
+36,B,Wed,,,0,0,0,,,,,
+36,B,Thu,,0,,,,,0,"G2Geo6Seminar","G2Geo6Seminar",
+36,B,Fri,,,"G2U5Geo3",,"G2L5Geo2",0,,"G2Geo5Seminar",,
 36,M,Mon,"G2Geo5Seminar","G2U5Geo3","G2L4 NGeo","G2L5Geo2",,,,,,
-36,M,Tue,,,,"G2L5Geo2",Geo Meet,,"G2U5Geo3",,,
-36,M,Wed,,,,,"G2U5Geo3","G2L5Geo2",,,,
-36,M,Thu,,,"G2L5Geo2",,"G2U5Geo3","G2Rem NGeo",,"G2Geo6Seminar","G2Geo6Seminar",
-36,M,Fri,,,"G2Rem NGeo","G2L5Geo2","G2U5Geo3",,"G2L4 NGeo",,,
+36,M,Tue,,,,0,Geo Meet,,0,,,
+36,M,Wed,,,,,0,0,,,,
+36,M,Thu,,,0,,0,0,,"G2Geo6Seminar","G2Geo6Seminar",
+36,M,Fri,,,"G2Rem NGeo",0,"G2U5Geo3",,0,,,
 37,B,Mon,,,,"39L4Math7","39U4M1Math",,"39L5A1Math",,,
-37,B,Tue,,,"39L4Math7",Meet,"39U4M1Math","39L5A1Math","39U5M3Math",,,
-37,B,Wed,,,"39L5A1Math","39U4M1Math","39L5A1Math","39U5M3Math","39L4Math7",,,
-37,B,Thu,,"39U4M1Math","39L4Math7","39U5M3Math","39L5A1Math","39L5A1Math",,,,
-37,B,Fri,,"39L4Math7","39L5A1Math","39U5M3Math",,"39U4M1Math","39L5A1Math",,,
+37,B,Tue,,,"39L4Math7",Meet,39,39,39,,,
+37,B,Wed,,,39,39,39,39,39,,,
+37,B,Thu,,39,39,39,39,39,,,,
+37,B,Fri,,"39L4Math7","39L5A1Math",39,,39,39,,,
 37,M,Mon,,"39U4M1Math","39U5M3Math",,"39L5A1Math","39U5M3Math","39L4Math7",,,
-37,M,Tue,,,,"39U4M1Math","39L5A1Math","39U5M3Math","39L4Math7",,,
-37,M,Wed,,"39L4Math7",,"39U5M3Math","39U4M1Math",,"39L5A1Math",,,
-37,M,Thu,,,,,"39L5A1Math","39U4M1Math","39U5M3Math",,,
-37,M,Fri,,"39U5M3Math",,Meet,"39L4Math7",,"39U4M1Math",,,
+37,M,Tue,,,,39,39,39,39,,,
+37,M,Wed,,39,,39,39,,39,,,
+37,M,Thu,,,,,39,39,39,,,
+37,M,Fri,,"39U5M3Math",,Meet,"39L4Math7",,39,,,
 38,B,Mon,,,"B15L5IT1","B15U5IT1",,"B15Com Sci1Seminar","REBCom Sci2Seminar","B15Com Sci1Seminar","B15Com Sci1Seminar",
-38,B,Tue,,"REBCom Sci1Seminar","B15U5IT1",,,,"REBL5IT1",,,
-38,B,Wed,,"B15U5IT1",,"REBL5IT1","REBCom Sci1Seminar","B16Com Sci2Seminar","B15Com Sci2Seminar",,,
+38,B,Tue,,"REBCom Sci1Seminar","B15U5IT1",,,,0,,,
+38,B,Wed,,0,,0,"REBCom Sci1Seminar","B16Com Sci2Seminar","B15Com Sci2Seminar",,,
 38,B,Thu,,,,"Senior ITMeet",,,,"B15Com Sci2Seminar",,
-38,B,Fri,,"REBCom Sci1Seminar",,,"B15L5IT1","REBU5IT1","B15Com Sci2Seminar","B15Com Sci2Seminar","B15Com Sci2Seminar",
+38,B,Fri,,"REBCom Sci1Seminar",,,"B15L5IT1",0,"B15Com Sci2Seminar","B15Com Sci2Seminar","B15Com Sci2Seminar",
 38,M,Mon,,,"REBCom Sci1Seminar","B15L5IT1","B15U5IT1",,,"B15Com Sci1Seminar","B15Com Sci1Seminar",
-38,M,Tue,,"B15Com Sci1Seminar","B15U5IT1","REBL5IT1",,,"REBCom Sci2Seminar",,,
-38,M,Wed,,"B15Com Sci2Seminar",,,,"B15L5IT1","B15U5IT1","B15Com Sci1Seminar",,
-38,M,Thu,,,"B15L5IT1",,,"B15U5IT1","B15Com Sci2Seminar",,,
-38,M,Fri,,"B15Com Sci1Seminar",,"REBL5IT1",,,"REBU5IT1","B15Com Sci2Seminar","B15Com Sci2Seminar",
+38,M,Tue,,"B15Com Sci1Seminar","B15U5IT1",0,,,"REBCom Sci2Seminar",,,
+38,M,Wed,,"B15Com Sci2Seminar",,,,0,0,"B15Com Sci1Seminar",,
+38,M,Thu,,,0,,,0,"B15Com Sci2Seminar",,,
+38,M,Fri,,"B15Com Sci1Seminar",,0,,,0,"B15Com Sci2Seminar","B15Com Sci2Seminar",
 39,B,Mon,,"E5Eng Lang",,"E5L5Eng1","E5U5Seminar",,,,,
 39,B,Tue,,"E5U5Eng1","E5L5Eng1",,"E5Eng Lang",Eng Meet,,,"E5Eng Lang","E5Eng Lang"
-39,B,Wed,,,"E5Eng Lang",,"E5U5Eng1",,,,,
-39,B,Thu,,"E5U5Eng1","E5L5Eng1",,,,,,,
-39,B,Fri,,"E5L5Eng1","E5Eng Lang",,,,"E5U5Eng1",,,
+39,B,Wed,,,"E5Eng Lang",,0,,,,,
+39,B,Thu,,0,0,,,,,,,
+39,B,Fri,,"E5L5Eng1","E5Eng Lang",,,,0,,,
 39,M,Mon,"E5Eng Lang",,,"E5U5Eng1",,"E5Eng Lang","E5L5Eng1",,,
-39,M,Tue,,"E5U5Eng1","E5Eng Lang",,,,"E5L5Eng1",,"E5Eng Lang",
-39,M,Wed,,,"E5L5Eng1",,"E5Eng Lang","E5U5Eng1",,,,
-39,M,Thu,,"E5L5Eng1",,,Eng Meet,"E5Eng Lang",,,,
-39,M,Fri,,,,,,"E5L5Eng1",,,,
+39,M,Tue,,"E5U5Eng1","E5Eng Lang",,,,0,,"E5Eng Lang",
+39,M,Wed,,,0,,"E5Eng Lang",0,,,,
+39,M,Thu,,0,,,Eng Meet,"E5Eng Lang",,,,
+39,M,Fri,,,,,,0,,,,
 40,B,Mon,,"24U5M2LO",,"PastoralMeet","24L4FOE3",,,,,
-40,B,Tue,,,,,,,"24U5M4/U5MLLO",,,
-40,B,Wed,,,"24L5M2LO",,,"24U5A1LO",,,,
-40,B,Thu,,,"24U5A2LO","24L4FOE3",,,,,,
-40,B,Fri,,,"24L5A3LO","24U5A3LO","24U5M3LO","24L4FOE3",,,,
+40,B,Tue,,,,,,,24,,,
+40,B,Wed,,,24,,,24,,,,
+40,B,Thu,,,24,24,,,,,,
+40,B,Fri,,,"24L5A3LO",24,"24U5M3LO",24,,,,
 40,M,Mon,,"24L5A1LO","24U5M2LO","24L4FOE3",,"24U5M1LO",,,,
-40,M,Tue,,,,,,"24U5A3LO","PastoralMeet",,,
-40,M,Wed,,,,"24U5A2LO",,"24L4FOE3",,,,
-40,M,Thu,,"24U5M1LO","24L4FOE3",,,,"24U5A1LO",,,
+40,M,Tue,,,,,,24,"PastoralMeet",,,
+40,M,Wed,,,,24,,24,,,,
+40,M,Thu,,24,24,,,,24,,,
 40,M,Fri,,"24U5M4/U5MLLO","24U5M3LO",,,,,,,
 41,B,Mon,,"E9L5Lat1",,,,,,,,
-41,B,Tue,,"E9L5Lat1",,,,,"E9RemLat2",,,
-41,B,Wed,,,"E9U5A2Lat1",,"G3RemLat2",,"E9L5Lat1",,,
-41,B,Thu,,"E9L5Lat1",,,,,,,,
-41,B,Fri,,,"E9U5A2Lat1","E9L5Lat1",,,"E9RemLat2",,,
+41,B,Tue,,"E9L5Lat1",,,,,0,,,
+41,B,Wed,,,0,,0,,0,,,
+41,B,Thu,,0,,,,,,,,
+41,B,Fri,,,"E9U5A2Lat1",0,,,0,,,
 41,M,Mon,,,"E9L5Lat1",,"E9RemLat2",,,,,
-41,M,Tue,,,,,,,"G3RemLat2",,,
-41,M,Wed,,,,"E9L5Lat1","E9U5A2Lat1",,,,,
-41,M,Thu,,,,"E9L5Lat1","G1RemLat2",,,,,
+41,M,Tue,,,,,,,0,,,
+41,M,Wed,,,,0,0,,,,,
+41,M,Thu,,,,0,0,,,,,
 41,M,Fri,,"E9L5Lat1",,,"E9U5A2Lat1",,,,,
-42,B,Mon,,"B9L4 JLS",,,"B10Rem SLS","B7U4LS4",Meet,,,
-42,B,Tue,,"B9L4 JLS","B7U4LS4",,"B9L4 NLS","B13L4FOE1",,,,
-42,B,Wed,,,LD,"B4Rem HLS","B13L4FOE2","B4U4LS4",,,,
-42,B,Thu,,"B9Rem HLS","0  S/B13Rem T/RFeOmE 2J",LD,"1R1:4e0m - 1 2S:25/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,"B7U4LS4",,,
-42,B,Fri,,,"B9L4 NLS","B4Rem SLS","B4U4LS4",,,,,
-42,M,Mon,,"B10Rem SLS","B9L4 JLS","B13L4FOE2","B4U4LS4","B9Rem HLS",LD,,,
-42,M,Tue,,LD,,,Meet,"B13L4FOE1","B7U4LS4",,,
-42,M,Wed,,,"m S/B13Rem T/RFeOmE 2J",LD,,"B4U4LS4",,,,
-42,M,Thu,,LD,"B4Rem HLS","B9L4 NLS","B9L4 JLS",,,,,
-42,M,Fri,,LD,"B10Rem SLS","B7L4 NLS","B7U4LS4",,"1R3:4e0m - 1 4S:25/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,,
+42,B,Mon,,"B9L4 JLS",,,"B10Rem SLS",0,Meet,,,
+42,B,Tue,,"B9L4 JLS","B7U4LS4",,0,0,,,,
+42,B,Wed,,,LD,0,0,0,,,,
+42,B,Thu,,0,"0  S/B13Rem T/RFeOmE 2J",LD,"1R1:4e0m - 1 2S:25/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,0,,,
+42,B,Fri,,,"B9L4 NLS",0,"B4U4LS4",,,,,
+42,M,Mon,,"B10Rem SLS","B9L4 JLS","B13L4FOE2","B4U4LS4",0,LD,,,
+42,M,Tue,,LD,,,Meet,0,0,,,
+42,M,Wed,,,"m S/B13Rem T/RFeOmE 2J",LD,,0,,,,
+42,M,Thu,,LD,0,0,0,,,,,
+42,M,Fri,,LD,"B10Rem SLS",0,"B7U4LS4",,"1R3:4e0m - 1 4S:25/RemB13T/Rem J/Rem O/RemHF/ROeEm1 N",,,
 43,B,Mon,,,,"PastoralMeet",,,,,,
-43,B,Tue,,,,,"24Rem J/Rem NLO1",,,,,
-43,B,Wed,,,,,"24L5M4/L5MLLO","His9L4 JLO2","24Rem JLO2",,,
-43,B,Thu,,"24U4M4U4M5LO",,,"24U4A3LO","24L5M1LO",,,,
-43,B,Fri,,,"His12BL5A2LO",,,HM Meet,"24L4 NLO1",,,
-43,M,Mon,,"E8U4A2LO",,"28Rem J/Rem NLO1",,"E1L4 NLO1",,,,
-43,M,Tue,,,"24L5M3LO","24U4M3LO","24U4M1LO",,"PastoralMeet",,,
-43,M,Wed,,,"24L4 JLO2",,,,,,,
-43,M,Thu,,,"His9U4M2LO",,,"24U4A1LO",,,,
-43,M,Fri,,,,"24Rem JLO2",,,HM Meet,,,
-44,B,Mon,,,"FieldRem S/Rem OPE2",,,"FieldL4 HPE2",,,,
-44,B,Tue,,,,"FieldL4 SPE4",,,,,,
+43,B,Tue,,,,,24,,,,,
+43,B,Wed,,,,,24,0,24,,,
+43,B,Thu,,24,,,24,24,,,,
+43,B,Fri,,,"His12BL5A2LO",,,HM Meet,24,,,
+43,M,Mon,,"E8U4A2LO",,"28Rem J/Rem NLO1",,0,,,,
+43,M,Tue,,,"24L5M3LO",24,24,,"PastoralMeet",,,
+43,M,Wed,,,24,,,,,,,
+43,M,Thu,,,0,,,24,,,,
+43,M,Fri,,,,24,,,HM Meet,,,
+44,B,Mon,,,"FieldRem S/Rem OPE2",,,0,,,,
+44,B,Tue,,,,0,,,,,,
 44,B,Wed,,,,,,,,,,
-44,B,Thu,,,"FieldU5PE","FieldRem S/Rem HPE3","FieldL5M4/L5MLPE","FieldL4PE",,,,
+44,B,Thu,,,0,0,0,0,,,,
 44,B,Fri,,,"FieldL5M3PE",,,,,,,
-44,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"FieldL4 OPE3",,,,
-44,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-44,M,Wed,,,"FieldL4 TPE6",,"FieldRem JPE4",,,,,
-44,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-44,M,Fri,,,,"FieldRem TPE1","FieldRem J/Rem NPE6",,"FieldL5PE",,,
+44,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,0,,,,
+44,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+44,M,Wed,,,0,,0,,,,,
+44,M,Thu,,0,,,0,,0,,,
+44,M,Fri,,,,0,"FieldRem J/Rem NPE6",,0,,,
 45,B,Mon,,"His8L5His4",,"His8U4His1",Meet,,"His8Rem HHis",,,
-45,B,Tue,,"His8L5His4",,"His8U4His1","His8L4 HHis","His8Rem NHis","His8L4 NHis",,,
-45,B,Wed,,"His8U4His1","His8L4 NHis","His8Rem NHis",,,"His8L5His4",,,
-45,B,Thu,,"His8L5His4",,"His8L4 JHis","His8L4 HHis","His8U4His1",,,,
-45,B,Fri,,"His8U4His1","His8L4 JHis","His8L5His4",,"His8Rem HHis",,,,
-45,M,Mon,,"His8L4 HHis","His8L5His4",,,"His8U4His1",,,,
-45,M,Tue,,"His8U4His1","His8L4 NHis","His8L4 JHis",Meet,,,,,
-45,M,Wed,,"His8U4His1","His8Rem NHis","His8L5His4",,,"His8Rem HHis",,,
-45,M,Thu,,"His8L4 JHis","His8Rem NHis","His8L5His4","His8L4 NHis","His8Rem HHis",,,,
-45,M,Fri,,"His8L5His4","His8U4His1",,,,"His8L4 HHis",,,
+45,B,Tue,,"His8L5His4",,0,0,0,0,,,
+45,B,Wed,,0,0,0,,,0,,,
+45,B,Thu,,0,,0,0,0,,,,
+45,B,Fri,,"His8U4His1","His8L4 JHis",0,,0,,,,
+45,M,Mon,,"His8L4 HHis","His8L5His4",,,0,,,,
+45,M,Tue,,"His8U4His1","His8L4 NHis",0,Meet,,,,,
+45,M,Wed,,0,0,0,,,0,,,
+45,M,Thu,,0,0,0,0,0,,,,
+45,M,Fri,,"His8L5His4","His8U4His1",,,,0,,,
 46,B,Mon,,"B15L4 NIT",,"G4U5Geo1",,Geo Meet,"G4U4Geo2",,,
-46,B,Tue,,"B15L4 NIT","G4U5Geo1",,,"G4U4Geo2","G4Rem SGeo",,,
-46,B,Wed,,"G4U5Geo1","B15L4 SIT","G4Rem OGeo","G4U4Geo2",,,,,
-46,B,Thu,,"G4Rem OGeo","G4U4Geo2",,"G4L4 SGeo","Junior ITMeet",,,,
-46,B,Fri,,"G4Rem SGeo","B15L4 SIT","G4L4 SGeo",,"G4U5Geo1","G4U4Geo2",,,
-46,M,Mon,,"G4L4 SGeo","B15L4 SIT","Junior ITMeet","G4U5Geo1","G4Rem OGeo","G4U4Geo2",,,
-46,M,Tue,,,"G4U5Geo1","B16L4 NIT",Geo Meet,"G4Rem SGeo",,,,
-46,M,Wed,,,"G4U4Geo2",,"B15L4 NIT",,"G4U5Geo1",,,
-46,M,Thu,,,"G4Rem SGeo",,"G4L4 SGeo","G4U5Geo1","G4U4Geo2",,,
-46,M,Fri,,,"G4Rem OGeo","B15L4 SIT",,"G4U4Geo2","G4U5Geo1",,,
-47,B,Mon,,"P1L4 TSci",,"P1Rem HSci","P1L5Sci6","P1U4Sci1",,,,
-47,B,Tue,,,"P1U4Sci1","P1L5Sci6",,,,,,
-47,B,Wed,,"P1L5Sci6",,,,"P1U4Sci1",Sci Meet,,,
-47,B,Thu,,"P1L4 TSci","P1Rem HSci","P1L5Sci6",,,"P1U4Sci1",,,
-47,B,Fri,,,,"P1Rem HSci","P1U4Sci1","P1L5Sci6",,,,
+46,B,Tue,,"B15L4 NIT","G4U5Geo1",,,0,0,,,
+46,B,Wed,,0,0,0,0,,,,,
+46,B,Thu,,0,0,,0,"Junior ITMeet",,,,
+46,B,Fri,,"G4Rem SGeo","B15L4 SIT",0,,0,0,,,
+46,M,Mon,,"G4L4 SGeo","B15L4 SIT","Junior ITMeet","G4U5Geo1",0,"G4U4Geo2",,,
+46,M,Tue,,,"G4U5Geo1",0,Geo Meet,0,,,,
+46,M,Wed,,,0,,0,,0,,,
+46,M,Thu,,,0,,0,0,0,,,
+46,M,Fri,,,"G4Rem OGeo",0,,0,0,,,
+47,B,Mon,,"P1L4 TSci",,"P1Rem HSci","P1L5Sci6",0,,,,
+47,B,Tue,,,"P1U4Sci1",0,,,,,,
+47,B,Wed,,0,,,,0,Sci Meet,,,
+47,B,Thu,,0,0,0,,,0,,,
+47,B,Fri,,,,0,"P1U4Sci1",0,,,,
 47,M,Mon,,"P1Rem HSci","P1L4 TSci",,"P1U4Sci1",,,,,
-47,M,Tue,,,,,,"P1L5Sci6","P1U4Sci1",,,
-47,M,Wed,,"P1L5Sci6",,"P1Rem HSci",,"P1U4Sci1",,,,
-47,M,Thu,,,,,"P1L4 TSci","P1L5Sci6",Sci Meet,,,
-47,M,Fri,,,"P1L5Sci6","P1L4 TSci","P1U4Sci1",,,,,
-48,B,Mon,,,"30Rem JPers2","PastoralMeet",,"G1L4 NPers1",,,,
-48,B,Tue,,,,"E5L4 JPers2",,,,,,
+47,M,Tue,,,,,,0,0,,,
+47,M,Wed,,0,,0,,0,,,,
+47,M,Thu,,,,,0,0,Sci Meet,,,
+47,M,Fri,,,"P1L5Sci6",0,"P1U4Sci1",,,,,
+48,B,Mon,,,"30Rem JPers2","PastoralMeet",,0,,,,
+48,B,Tue,,,,0,,,,,,
 48,B,Wed,,,,,,,,,,
-48,B,Thu,,,,"17Rem J/Rem NPers1",,,,,,
+48,B,Thu,,,,17,,,,,,
 48,B,Fri,,,,,,,,,,
 48,M,Mon,,,,,,,,,,
 48,M,Tue,,,,,,,"PastoralMeet",,,
@@ -480,225 +480,225 @@ StaffID,Week,Weekday,Period_0,Period_1,Period_2,Period_3,Period_4,Period_5,Perio
 48,M,Thu,,,,,,,,,,
 48,M,Fri,,,,,,,,,,
 49,B,Mon,,"30U4Afr4",,"30L6AB","30Afr IG1Seminar","30L5Afr1","30U5Afr3",,,
-49,B,Tue,,"30U4Afr4",,"30U5Afr3","30L5Afr1","30U6AB",,,,
-49,B,Wed,,"30Afr IG1Seminar","30U4Afr4",,,"30L5Afr1","30U5Afr3",,,
-49,B,Thu,,,,,,"30U5Afr3","30L5Afr1","30F1Seminar",,
+49,B,Tue,,"30U4Afr4",,30,30,30,,,,
+49,B,Wed,,"30Afr IG1Seminar",30,,,30,30,,,
+49,B,Thu,,,,,,30,30,"30F1Seminar",,
 49,B,Fri,,"30U5Afr3","30U4Afr4",Afr Meet,,"30Afr IG1Seminar",,,,
 49,M,Mon,,"30U6AB","30U4Afr4",,"30L6AB","30L5Afr1",,,,
-49,M,Tue,,"30L5Afr1","30U4Afr4",,"30U5Afr3","30Afr IG1Seminar",,,,
-49,M,Wed,,"30U5Afr3",,"30U4Afr4","30L5Afr1",,,,"30Afr IG1Seminar",
-49,M,Thu,,"30U4Afr4",,"30U5Afr3",,,"30L5Afr1","30F1Seminar",,
-49,M,Fri,,"30U4Afr4",Afr Meet,"30U5Afr3","30L5Afr1","30Afr IG1Seminar",,,,
+49,M,Tue,,"30L5Afr1","30U4Afr4",,30,"30Afr IG1Seminar",,,,
+49,M,Wed,,30,,30,30,,,,"30Afr IG1Seminar",
+49,M,Thu,,30,,30,,,30,"30F1Seminar",,
+49,M,Fri,,"30U4Afr4",Afr Meet,30,"30L5Afr1","30Afr IG1Seminar",,,,
 50,B,Mon,,,"B9L5LS1","B9U5LS1","B9Rem NLS",,Meet,"B9Bio Prac","B9Bio Prac","B9Bio Prac"
-50,B,Tue,,,"B9U5LS1",,,,"B9L5LS1",,,
-50,B,Wed,,"B9U5LS1",LD,"B9L5LS1",,"B9Bio Prac","B9Bio Prac",,,
+50,B,Tue,,,"B9U5LS1",,,,0,,,
+50,B,Wed,,0,LD,0,,"B9Bio Prac","B9Bio Prac",,,
 50,B,Thu,,,,LD,,,,"B9Bio Prac",,
-50,B,Fri,,,,"B9Rem NLS","B9L5LS1","B9U5LS1","B9Bio Prac",,,
+50,B,Fri,,,,0,"B9L5LS1",0,"B9Bio Prac",,,
 50,M,Mon,,"B9Rem NLS",,"B9L5LS1","B9U5LS1",,LD,"B9Bio Prac","B9Bio Prac","B9Bio Prac"
-50,M,Tue,,LD,"B9U5LS1","B9L5LS1",Meet,"B9Rem NLS","B9Bio Prac",,,
-50,M,Wed,,"B9Bio Prac",,LD,,"B9L5LS1","B9U5LS1",,,
-50,M,Thu,,LD,"B9L5LS1",,,"B9U5LS1","B9Bio Prac",,,
-50,M,Fri,,LD,,"B9L5LS1",,,"B9U5LS1",,,
+50,M,Tue,,LD,"B9U5LS1",0,Meet,0,"B9Bio Prac",,,
+50,M,Wed,,"B9Bio Prac",,LD,,0,0,,,
+50,M,Thu,,LD,0,,,0,"B9Bio Prac",,,
+50,M,Fri,,LD,,0,,,0,,,
 51,B,Mon,,,,"67L4Math3","67U4M2Math","1R2:3e5m - 1 3S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath",,,
-51,B,Tue,,"Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L4Math3",Meet,"67U4M2Math","67L5MLMath",,,,
-51,B,Wed,,"0S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath","67U4M2Math",,,"67L4Math3",,,
-51,B,Thu,,"67U4M2Math","67L4Math3",,"67U4M2Math","67L5MLMath","1R3:4e0m - 1 4S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,
-51,B,Fri,,"67L4Math3","Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,"67U4M2Math","67L5MLMath",,,
+51,B,Tue,,"Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L4Math3",Meet,67,67,,,,
+51,B,Wed,,"0S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",67,67,,,67,,,
+51,B,Thu,,67,67,,67,67,"1R3:4e0m - 1 4S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,
+51,B,Fri,,"67L4Math3","Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,67,67,,,
 51,M,Mon,,"69L5MLMath",,"67U4M2Math","67L5MLMath",,"67L4Math3",,,
-51,M,Tue,,"Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath",,"67U4M2Math",,"67L4Math3",,,
-51,M,Wed,,"67L4Math3",,,"67U4M2Math","1R2:3e5m - 1 3S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath",,,
-51,M,Thu,,,,"1R0:5e5m - 1 1S:40/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath","67U4M2Math",,,,
+51,M,Tue,,"Rem S/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N","67L5MLMath",,67,,67,,,
+51,M,Wed,,67,,,67,"1R2:3e5m - 1 3S:25/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",67,,,
+51,M,Thu,,,,"1R0:5e5m - 1 1S:40/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",67,67,,,,
 51,M,Fri,,,,Meet,"67L4Math3","1R5:5e0m - 1 3S:40/Rem67T/Rem J/Rem O/RemHM/Raetmh7 N",,,,
 52,B,Mon,,"E8RemEng5","E8U4Eng4",,"E8U5Seminar","E8L4Eng4",,,,
-52,B,Tue,,"E8U5Eng5",,"E8RemEng5",,Eng Meet,"E8U4Eng4",,,
-52,B,Wed,,"E8L4Eng4","E8RemEng5",,"E8U5Eng5",,"E8U4Eng4",,,
-52,B,Thu,,"E8U5Eng5",,"E8U4Eng4",,"E8RemEng5","E8L4Eng4",,,
-52,B,Fri,,,,"E8U4Eng4","E8L4Eng4",,"E8U5Eng5",,,
+52,B,Tue,,"E8U5Eng5",,0,,Eng Meet,0,,,
+52,B,Wed,,0,0,,0,,0,,,
+52,B,Thu,,0,,0,,0,0,,,
+52,B,Fri,,,,0,"E8L4Eng4",,0,,,
 52,M,Mon,,,"E8RemEng5","E8U5Eng5","E8L4Eng4",,,,,
-52,M,Tue,,"E8U5Eng5","E8RemEng5",,"E8L4Eng4","E8U4Eng4",,,,
-52,M,Wed,,"E8RemEng5",,"E8L4Eng4",,"E8U5Eng5","E8U4Eng4",,,
-52,M,Thu,,,,"E8U4Eng4",Eng Meet,"E8L4Eng4","E8RemEng5",,,
-52,M,Fri,,"E8RemEng5","E8L4Eng4","E8U4Eng4",,,,,,
+52,M,Tue,,"E8U5Eng5","E8RemEng5",,0,0,,,,
+52,M,Wed,,0,,0,,0,0,,,
+52,M,Thu,,,,0,Eng Meet,0,0,,,
+52,M,Fri,,"E8RemEng5","E8L4Eng4",0,,,,,,
 53,B,Mon,,,"69L6Math",,,,,,,
 53,B,Tue,"69L6Math",,,Meet,,,,,,
-53,B,Wed,,,"69L6Math",,,,,,,
+53,B,Wed,,,69,,,,,,,
 53,B,Thu,,,,,,,,,,
 53,B,Fri,,,,,"69L6Math",,,,,
 53,M,Mon,,,,,,"69L6Math",,,,
 53,M,Tue,,,,,,,,,,
-53,M,Wed,,,"69L6Math",,"44FOM2Seminar",,,,,
-53,M,Thu,,,,,,"69L6Math",,,,
-53,M,Fri,,,,Meet,"48FOM1Seminar",,,,"39L6Math",
-54,B,Mon,,,"FieldRem S/Rem OPE2",,,"FieldL4 HPE2",,,,
-54,B,Tue,,,,"FieldL4 SPE4",,,,,,
+53,M,Wed,,,69,,"44FOM2Seminar",,,,,
+53,M,Thu,,,,,,69,,,,
+53,M,Fri,,,,Meet,"48FOM1Seminar",,,,39,
+54,B,Mon,,,"FieldRem S/Rem OPE2",,,0,,,,
+54,B,Tue,,,,0,,,,,,
 54,B,Wed,,,,,,,,,,
-54,B,Thu,,,"FieldU5PE","FieldRem S/Rem HPE3","FieldU4M1PE","FieldL4PE",,,,
+54,B,Thu,,,0,0,0,0,,,,
 54,B,Fri,,,"FieldL5M3PE",,,,,,,
-54,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"FieldL4 OPE3",,,,
-54,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-54,M,Wed,,,"FieldL4 TPE6",,"FieldRem JPE4",,,,,
-54,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-54,M,Fri,,,,"FieldRem TPE1","FieldRem J/Rem NPE6",,"FieldL5PE",,,
+54,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,0,,,,
+54,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+54,M,Wed,,,0,,0,,,,,
+54,M,Thu,,0,,,0,,0,,,
+54,M,Fri,,,,0,"FieldRem J/Rem NPE6",,0,,,
 55,B,Mon,,,"C1U5Sci2",,"C1L5Sci3",,"C1Chem",,,
-55,B,Tue,,,,"C1L5Sci3","C1Chem","C1U5Sci2",,,,
-55,B,Wed,"C1Chem","C1L5Sci3",,"C1U5Sci2",,,Sci Meet,,,
-55,B,Thu,,"C1Chem",,"C1L5Sci3","C1U5Sci2",,,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
-55,B,Fri,,,"C1Chem",,,"C1L5Sci3",,"C1Chem",,
+55,B,Tue,,,,0,"C1Chem",0,,,,
+55,B,Wed,"C1Chem",0,,0,,,Sci Meet,,,
+55,B,Thu,,"C1Chem",,0,0,,,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+55,B,Fri,,,"C1Chem",,,0,,"C1Chem",,
 55,M,Mon,"C1Chem",,,,,,"C1U5Sci2",,,
-55,M,Tue,,,"C1Chem","C1U5Sci2",,"C1L5Sci3",,,,
-55,M,Wed,,"C1L5Sci3","C1U5Sci2","C1Chem",,,,,,
-55,M,Thu,,,"C1U5Sci2",,,"C1L5Sci3",Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
-55,M,Fri,,,"C1L5Sci3",,,"C1U5Sci2","C1Chem",,,
-56,B,Mon,,,,"PastoralMeet","59U4A2Div","59L4 JDiv1",,,,
-56,B,Tue,,,,,"59RemDiv1",,Div Meet,,,
-56,B,Wed,,,,,"59L5M3Div",,,,,
-56,B,Thu,,"59U4M3Div",,"59RemDiv1","59U4M4/U4M5Div","G1L5M2Div",,,,
-56,B,Fri,,,"His12L5M2Div",Div Meet,"G1U5M2Div","59U4A3Div","G1L4 JDiv1",,,
-56,M,Mon,,"E4U4M2Div",,"Rem J/ G1Rem O/RDemiv1 N","48L5M3Div","E3L4 JDiv1",,,,
-56,M,Tue,,"59L4 JDiv1",,,"G1U4M4/U4M5Div",,"PastoralMeet",,,
+55,M,Tue,,,"C1Chem",0,,0,,,,
+55,M,Wed,,0,0,"C1Chem",,,,,,
+55,M,Thu,,,0,,,0,Sci Meet,"C1,C6,C2ChemPrac","C1,C6,C2ChemPrac","C1,C6,C2ChemPrac"
+55,M,Fri,,,"C1L5Sci3",,,0,"C1Chem",,,
+56,B,Mon,,,,"PastoralMeet","59U4A2Div",59,,,,
+56,B,Tue,,,,,59,,Div Meet,,,
+56,B,Wed,,,,,59,,,,,
+56,B,Thu,,59,,59,59,0,,,,
+56,B,Fri,,,"His12L5M2Div",Div Meet,"G1U5M2Div",59,0,,,
+56,M,Mon,,"E4U4M2Div",,"Rem J/ G1Rem O/RDemiv1 N","48L5M3Div",0,,,,
+56,M,Tue,,"59L4 JDiv1",,,0,,"PastoralMeet",,,
 56,M,Wed,,,,,,,,,,
-56,M,Thu,,,,,,"59U4M3Div",,,,
-56,M,Fri,,,"G1U5M2Div",,"E4RemDiv1",,"59U4M2Div",,,
+56,M,Thu,,,,,,59,,,,
+56,M,Fri,,,"G1U5M2Div",,"E4RemDiv1",,59,,,
 57,B,Mon,,"Mat14U5M4Math","42L6Math",,"Mat14U4M3Math","1R2:3e5m - 1 3S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,,
-57,B,Tue,"15L6Math","Rem S/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,Meet,"15U4M3Math",,,,,
-57,B,Wed,,"0S/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N","15L6Math","15U4M3Math",,"Mat14U5M4Math",,,,
-57,B,Thu,,,,"Mat14U5M4Math","15U4M3Math",,"1R3:4e0m - 1 4S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,
-57,B,Fri,,,"Rem S/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N","Mat14U5M4Math","42L6Math","15U4M3Math",,,,
+57,B,Tue,"15L6Math","Rem S/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,Meet,15,,,,,
+57,B,Wed,,"0S/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",15,15,,0,,,,
+57,B,Thu,,,,0,15,,"1R3:4e0m - 1 4S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,
+57,B,Fri,,,"Rem S/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N",0,"42L6Math",15,,,,
 57,M,Mon,,"15U4M3Math","Mat14U5M4Math","Mat14U4M3Math",,"42L6Math",,,,
-57,M,Tue,,"Rem S/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N",,,"Mat14U4M3Math","Mat14U5M4Math",,,,
-57,M,Wed,,,"15L6Math","Mat14U5M4Math",,"1R2:3e5m - 1 3S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,,
-57,M,Thu,,"Mat14U5M4Math","15U4M3Math","1R0:5e5m - 1 1S:40/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,"15L6Math","Mat14U5M4Math",,,
-57,M,Fri,,,"Mat14U5M4Math",Meet,,"1R5:5e0m - 1 3S:40/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N","15U4M3Math",,"15L6Math",
+57,M,Tue,,"Rem S/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N",,,0,0,,,,
+57,M,Wed,,,15,0,,"1R2:3e5m - 1 3S:25/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,,,
+57,M,Thu,,0,15,"1R0:5e5m - 1 1S:40/Rem44T/Rem J/Rem O/RemHM/Raetmh3 N",,15,0,,,
+57,M,Fri,,,"Mat14U5M4Math",Meet,,"1R5:5e0m - 1 3S:40/Rem15T/Rem J/Rem O/RemHM/Raetmh3 N",15,,15,
 58,B,Mon,,,"G3L5Geo1","G3U4Geo1","G3Rem TGeo",Geo Meet,,,,
-58,B,Tue,,,,"G3U4Geo1",,"G3Rem HGeo","G3L5Geo1",,,
-58,B,Wed,,"G3U4Geo1","G3L4 TGeo","G3L5Geo1",,"G3Rem HGeo",,,,
-58,B,Thu,,"G3L4 OGeo",,,,"G3U4Geo1",,,,
-58,B,Fri,,"G3U4Geo1","G3L4 TGeo","G3L4 OGeo","G3L5Geo1","G3Rem TGeo",,,,
-58,M,Mon,,"G3L4 TGeo",,"G3L5Geo1","G3Rem TGeo","G3U4Geo1",,,,
-58,M,Tue,,"G3U4Geo1","G3L4 OGeo","G3L5Geo1",Geo Meet,"G3Rem HGeo",,,,
-58,M,Wed,,"G3U4Geo1","G3Rem HGeo",,,"G3L5Geo1",,,,
-58,M,Thu,,,"G3L5Geo1","G3L4 TGeo","G3Rem TGeo",,,,,
-58,M,Fri,,"G3L4 OGeo","G3U4Geo1","G3L5Geo1",,,,,,
+58,B,Tue,,,,0,,0,0,,,
+58,B,Wed,,0,0,0,,0,,,,
+58,B,Thu,,0,,,,0,,,,
+58,B,Fri,,"G3U4Geo1","G3L4 TGeo",0,"G3L5Geo1",0,,,,
+58,M,Mon,,"G3L4 TGeo",,"G3L5Geo1","G3Rem TGeo",0,,,,
+58,M,Tue,,"G3U4Geo1","G3L4 OGeo",0,Geo Meet,0,,,,
+58,M,Wed,,0,0,,,0,,,,
+58,M,Thu,,,0,0,0,,,,,
+58,M,Fri,,"G3L4 OGeo","G3U4Geo1",0,,,,,,
 59,B,Mon,,"32U4Afr5",,,"32L4Afr5","32L5Afr4","32U5Afr4",,,
-59,B,Tue,,"32U4Afr5",,"32U5Afr4","32L5Afr4",,,,,
-59,B,Wed,,,"32U4Afr5",,,"32L5Afr4","32U5Afr4",,,
-59,B,Thu,,,,"32L4Afr5",,"32U5Afr4","32L5Afr4",,,
-59,B,Fri,,"32U5Afr4","32U4Afr5",Afr Meet,,"32L4Afr5",,,,
+59,B,Tue,,"32U4Afr5",,32,32,,,,,
+59,B,Wed,,,32,,,32,32,,,
+59,B,Thu,,,,32,,32,32,,,
+59,B,Fri,,"32U5Afr4","32U4Afr5",Afr Meet,,32,,,,
 59,M,Mon,,,"32U4Afr5","32L4Afr5",,"32L5Afr4",,,,
-59,M,Tue,,"32L5Afr4","32U4Afr5",,"32U5Afr4",,,,,
-59,M,Wed,,"32U5Afr4",,"32U4Afr5","32L5Afr4","32L4Afr5",,,,
-59,M,Thu,,"32U4Afr5","32L4Afr5","32U5Afr4",,,"32L5Afr4",,,
-59,M,Fri,,"32U4Afr5",Afr Meet,"32U5Afr4","32L5Afr4",,,,,
+59,M,Tue,,"32L5Afr4","32U4Afr5",,32,,,,,
+59,M,Wed,,32,,32,32,32,,,,
+59,M,Thu,,32,32,32,,,32,,,
+59,M,Fri,,"32U4Afr5",Afr Meet,32,"32L5Afr4",,,,,
 60,B,Mon,,,"E1U4Eng5",,"E1U5Seminar","E1L4Eng5",,,,
-60,B,Tue,,"E1U5Eng6",,,,Eng Meet,"E1U4Eng5",,,
-60,B,Wed,,"E1L4Eng5",,,"E1U5Eng6",,"E1U4Eng5",,,
-60,B,Thu,,"E1U5Eng6",,"E1U4Eng5",,,"E1L4Eng5",,,
-60,B,Fri,,,,"E1U4Eng5","E1L4Eng5",HM Meet,"E1U5Eng6",,,
+60,B,Tue,,"E1U5Eng6",,,,Eng Meet,0,,,
+60,B,Wed,,0,,,0,,0,,,
+60,B,Thu,,0,,0,,,0,,,
+60,B,Fri,,,,0,"E1L4Eng5",HM Meet,0,,,
 60,M,Mon,,,,"E1U5Eng6","E1L4Eng5",,,,,
-60,M,Tue,,"E1U5Eng6",,,"E1L4Eng5","E1U4Eng5",,,,
-60,M,Wed,,,,"E1L4Eng5",,"E1U5Eng6","E1U4Eng5",,,
-60,M,Thu,,,,"E1U4Eng5",Eng Meet,"E1L4Eng5",,,,
-60,M,Fri,,,"E1L4Eng5","E1U4Eng5",,,HM Meet,,,
-61,B,Mon,"P2Chem",,"P2U5Sci1",,,"P2U4Sci6","P2Chem",,,
-61,B,Tue,"P2Chem","P2CB4Seminar","P2U4Sci6",,,"P2U5Sci1",,,,
-61,B,Wed,,"B14CB4Seminar",,"P2U5Sci1",,"P2U4Sci6",Sci Meet,"P2Chem","P2Chem","P2Chem"
-61,B,Thu,"P2Chem",,,"P2Chem","P2U5Sci1",,"P2U4Sci6",,,
+60,M,Tue,,"E1U5Eng6",,,0,0,,,,
+60,M,Wed,,,,0,,0,0,,,
+60,M,Thu,,,,0,Eng Meet,0,,,,
+60,M,Fri,,,"E1L4Eng5",0,,,HM Meet,,,
+61,B,Mon,"P2Chem",,"P2U5Sci1",,,0,"P2Chem",,,
+61,B,Tue,"P2Chem","P2CB4Seminar","P2U4Sci6",,,0,,,,
+61,B,Wed,,"B14CB4Seminar",,0,,0,Sci Meet,"P2Chem","P2Chem","P2Chem"
+61,B,Thu,"P2Chem",,,"P2Chem",0,,0,,,
 61,B,Fri,,"P2Chem",,,"P2U4Sci6",,,,,
 61,M,Mon,,,,,"P2U4Sci6",,"P2U5Sci1",,,
-61,M,Tue,,"P2Chem",,"P2U5Sci1","P2Chem",,"P2U4Sci6",,,
-61,M,Wed,,,"P2U5Sci1","P2CB4Seminar",,"P2U4Sci6","P2CB4Seminar","P2Chem","P2Chem","P2Chem"
-61,M,Thu,,"P2Chem","P2U5Sci1",,,,Sci Meet,,,
-61,M,Fri,,"P2Chem",,"P2CB4Seminar","P2U4Sci6","P2U5Sci1",,,,
+61,M,Tue,,"P2Chem",,0,"P2Chem",,0,,,
+61,M,Wed,,,0,"P2CB4Seminar",,0,"P2CB4Seminar","P2Chem","P2Chem","P2Chem"
+61,M,Thu,,"P2Chem",0,,,,Sci Meet,,,
+61,M,Fri,,"P2Chem",,"P2CB4Seminar","P2U4Sci6",0,,,,
 62,B,Mon,,"65U4Zul1A1","65L4Zul1A1",,,"65L5Zul1A2","65U5Zul1A1",,,
-62,B,Tue,,"65U4Zul1A1","65RemZul1A1","65U5Zul1A1","65L5Zul1A2","65L4Zul1A1","65RemZul2A1",,,
-62,B,Wed,,,"65U4Zul1A1","65L4Zul1A1","65RemZul2A1","65L5Zul1A2","65U5Zul1A1",,,
-62,B,Thu,,,,,"65RemZul1A1","65U5Zul1A1","65L5Zul1A2",,,
-62,B,Fri,,"65U5Zul1A1","65U4Zul1A1",,"65RemZul1A1",,"65RemZul2A1",,,
+62,B,Tue,,"65U4Zul1A1","65RemZul1A1",65,65,65,65,,,
+62,B,Wed,,,65,65,65,65,65,,,
+62,B,Thu,,,,,65,65,65,,,
+62,B,Fri,,"65U5Zul1A1","65U4Zul1A1",,"65RemZul1A1",,65,,,
 62,M,Mon,,,"65U4Zul1A1",,"65RemZul2A1","65L5Zul1A2","65RemZul1A1",,,
-62,M,Tue,,"65L5Zul1A2","65U4Zul1A1","65RemZul1A1","65U5Zul1A1","65L4Zul1A1","65RemZul2A1",,,
-62,M,Wed,,"65U5Zul1A1",,"65U4Zul1A1","65L5Zul1A2",,"65L4Zul1A1",,,
-62,M,Thu,,"65U4Zul1A1",,"65U5Zul1A1","65RemZul2A1",,"65L5Zul1A2",,,
-62,M,Fri,,"65U4Zul1A1",,"65U5Zul1A1","65L5Zul1A2","65L4Zul1A1","65RemZul1A1",,,
+62,M,Tue,,"65L5Zul1A2","65U4Zul1A1",65,65,65,65,,,
+62,M,Wed,,65,,65,65,,65,,,
+62,M,Thu,,65,,65,65,,65,,,
+62,M,Fri,,"65U4Zul1A1",,65,"65L5Zul1A2",65,65,,,
 63,B,Mon,,,,"47L4Math5",,"12R:3e5 m- 13 :S25/Rem39T/Rem JRem O/RemHM/Raetmh2 N","50L5M3Math",,,
-63,B,Tue,,"Rem S/Rem39T/Rem JRem O/RemHM/Raetmh2 N","47L4Math5",Meet,,"50L5M3Math","Mat14U6MB",,,
-63,B,Wed,,"0S/Rem39T/Rem JRem O/RemHM/Raetmh2 N","50L5M3Math",,,,"His12L4Math5",,,
-63,B,Thu,,"Mat14U6MB","47L4Math5",,"50L5M3Math","50L5M3Math","13R:4e0 m- 14 :S25/Rem15T/Rem JRem O/RemHM/Raetmh2 N",,"Mat14U6MB",
-63,B,Fri,,"47L4Math5","Rem S/Rem16T/Rem JRem O/RemHM/Raetmh2 N",,"39U6MB",,"50L5M3Math",,,
+63,B,Tue,,"Rem S/Rem39T/Rem JRem O/RemHM/Raetmh2 N","47L4Math5",Meet,,50,0,,,
+63,B,Wed,,"0S/Rem39T/Rem JRem O/RemHM/Raetmh2 N",50,,,,0,,,
+63,B,Thu,,0,47,,50,50,"13R:4e0 m- 14 :S25/Rem15T/Rem JRem O/RemHM/Raetmh2 N",,0,
+63,B,Fri,,"47L4Math5","Rem S/Rem16T/Rem JRem O/RemHM/Raetmh2 N",,"39U6MB",,50,,,
 63,M,Mon,,"67L5M3Math",,,"15U6MB",,"47L4Math5",,,
-63,M,Tue,,"Rem S/Rem39T/Rem JRem O/RemHM/Raetmh2 N",,,"15L5M3Math","15U6MB","47L4Math5",,,
-63,M,Wed,,"47L4Math5","39U6MB",,,"12R:3e5 m- 13 :S25/Rem39T/Rem JRem O/RemHM/Raetmh2 N","50L5M3Math",,,
-63,M,Thu,,,,"10R:5e5 m- 11 :S40/Rem39T/Rem JRem O/RemHM/Raetmh2 N","50L5M3Math",,,,"Mat14U6MB",
+63,M,Tue,,"Rem S/Rem39T/Rem JRem O/RemHM/Raetmh2 N",,,15,15,47,,,
+63,M,Wed,,47,39,,,"12R:3e5 m- 13 :S25/Rem39T/Rem JRem O/RemHM/Raetmh2 N",50,,,
+63,M,Thu,,,,"10R:5e5 m- 11 :S40/Rem39T/Rem JRem O/RemHM/Raetmh2 N",50,,,,0,
 63,M,Fri,,,,Meet,"47L4Math5","15R:5e0 m- 13 :S40/Rem39T/Rem JRem O/RemHM/Raetmh2 N",,,,
-64,B,Mon,,"B14Phys Brg",,"B14Rem OSci","B14Rem JSci","C1U4Sci5",,,,
-64,B,Tue,,,"C1U4Sci5",,,"B14Rem OSci","P2Rem JSci","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
-64,B,Wed,,,,"B14Rem JSci",,"C1U4Sci5",Sci Meet,,,
-64,B,Thu,,,"C6Rem OSci",,"B14L4 NSci",,"C1U4Sci5",,,
-64,B,Fri,,,,"C1L4 NSci","B14U4Sci5","B14Phys Brg",,,,
+64,B,Mon,,"B14Phys Brg",,"B14Rem OSci","B14Rem JSci",0,,,,
+64,B,Tue,,,"C1U4Sci5",,,0,0,"P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+64,B,Wed,,,,0,,0,Sci Meet,,,
+64,B,Thu,,,0,,0,,0,,,
+64,B,Fri,,,,0,"B14U4Sci5","B14Phys Brg",,,,
 64,M,Mon,"B14Phys Brg","P6L4 NSci",,,"C1U4Sci5",,,,,
-64,M,Tue,,,,,"C6Rem OSci",,"C1U4Sci5","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
-64,M,Wed,,,,"C2Rem JSci",,"C1U4Sci5","C6Rem OSci",,,
-64,M,Thu,,"P1L4 NSci",,,,,Sci Meet,,,
+64,M,Tue,,,,,0,,0,"P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+64,M,Wed,,,,0,,0,0,,,
+64,M,Thu,,0,,,,,Sci Meet,,,
 64,M,Fri,,"C1L4 NSci","B14Rem JSci",,"C1U4Sci5",,,,,
-65,B,Mon,,,"FieldRem SRem OPE2",,,"FieldL4 HPE2",,,,
-65,B,Tue,,,,"FieldL4 SPE4",,,,,,
+65,B,Mon,,,"FieldRem SRem OPE2",,,0,,,,
+65,B,Tue,,,,0,,,,,,
 65,B,Wed,,,,,,,,,,
-65,B,Thu,,,"FieldU5PE","FieldRem SRem HPE3","FieldU4M1PE","FieldL4PE",,,,
+65,B,Thu,,,0,0,0,0,,,,
 65,B,Fri,,,"FieldL5M3PE",,,,,,,
-65,M,Mon,,"FieldU4M4U4M5PE",,"FieldRem TRem OPE5",,"FieldL4 OPE3",,,,
-65,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-65,M,Wed,,,"FieldL4 TPE6",,"FieldU4M3PE",,,,,
-65,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-65,M,Fri,,,,"FieldRem TPE1","FieldRem JRem NPE6",,"FieldL5PE",,,
+65,M,Mon,,"FieldU4M4U4M5PE",,"FieldRem TRem OPE5",,0,,,,
+65,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+65,M,Wed,,,0,,0,,,,,
+65,M,Thu,,0,,,0,,0,,,
+65,M,Fri,,,,0,"FieldRem JRem NPE6",,0,,,
 66,B,Mon,,,"Mus14RemMus2",,,"MusAudL4 OMus Mod1",,,,
 66,B,Tue,,,,"MusAudL4 TMus Mod2",,,,,,
-66,B,Wed,,,,,,"MusGrnL4 TMus Mod2","Mus14RemMus2",,,
+66,B,Wed,,,,,,"MusGrnL4 TMus Mod2",0,,,
 66,B,Thu,,,,,,,,,,
-66,B,Fri,,,,,,,"Mus14L4 OMus Mod1",,,
+66,B,Fri,,,,,,,0,,,
 66,M,Mon,,,,,,,,,,
 66,M,Tue,,"MusGrnL4 OMus Mod1",,,,,,,,
 66,M,Wed,,,,,"MusAudRemMus2",,,,,
-66,M,Thu,,,,,,,"Mus14L4 TMus Mod2",,,
+66,M,Thu,,,,,,,0,,,
 66,M,Fri,,,,"MusAudRemMus2",,,,,,
 67,B,Mon,,,"MusGrnL5Mus1","MusGrnU5Mus1",,,"MusGrnU4Mus1",,,
 67,B,Tue,,,"MusGrnU5Mus1",,,"MusGrnU4Mus1","MusGrnL5Mus1",,,
-67,B,Wed,,"MusGrnU5Mus1",,"MusGrnL5Mus1","MusGrnU4Mus1",,,,,
-67,B,Thu,,,"MusGrnU4Mus1",,,,,,,
+67,B,Wed,,0,,0,"MusGrnU4Mus1",,,,,
+67,B,Thu,,,0,,,,,,,
 67,B,Fri,,,,,"MusGrnL5Mus1","MusGrnU5Mus1","MusGrnU4Mus1",,,
 67,M,Mon,,,,"MusGrnL5Mus1","MusGrnU5Mus1",,"MusGrnU4Mus1",,,
 67,M,Tue,,,"MusGrnU5Mus1","MusGrnL5Mus1",,,,,,
-67,M,Wed,,,"MusGrnU4Mus1",,,"MusGrnL5Mus1","MusGrnU5Mus1",,,
-67,M,Thu,,,"MusGrnL5Mus1",,,"MusGrnU5Mus1","MusGrnU4Mus1",,,
+67,M,Wed,,,0,,,"MusGrnL5Mus1","MusGrnU5Mus1",,,
+67,M,Thu,,,0,,,"MusGrnU5Mus1","MusGrnU4Mus1",,,
 67,M,Fri,,,,"MusGrnL5Mus1",,"MusGrnU4Mus1","MusGrnU5Mus1",,,
 68,B,Mon,,,"29L4Afr6",,,"29L5Afr5","29U5Afr2",,,
-68,B,Tue,,,"29RemAfr4","29U5Afr2","29L5Afr5","29L4Afr6",,,,
-68,B,Wed,,,,"29L4Afr6",,"29L5Afr5","29U5Afr2",,,
-68,B,Thu,,,,,"29RemAfr4","29U5Afr2","29L5Afr5",,,
+68,B,Tue,,,"29RemAfr4",29,29,29,,,,
+68,B,Wed,,,,29,,29,29,,,
+68,B,Thu,,,,,29,29,29,,,
 68,B,Fri,,"29U5Afr2",,Afr Meet,"29RemAfr4",,,,,
 68,M,Mon,,,,,,"29L5Afr5","29RemAfr4",,,
-68,M,Tue,,"29L5Afr5",,"29RemAfr4","29U5Afr2","29L4Afr6",,,,
-68,M,Wed,,"29U5Afr2",,,"29L5Afr5",,"30L4Afr6",,,
-68,M,Thu,,,,"29U5Afr2",,,"29L5Afr5",,,
-68,M,Fri,,,Afr Meet,"29U5Afr2","29L5Afr5","29L4Afr6","29RemAfr4",,,
+68,M,Tue,,"29L5Afr5",,29,29,29,,,,
+68,M,Wed,,29,,,29,,30,,,
+68,M,Thu,,,,29,,,29,,,
+68,M,Fri,,,Afr Meet,29,"29L5Afr5",29,29,,,
 69,B,Mon,,"His12BL4 OHis","His12BL5His1","His12BU5His2",Meet,,,,,
 69,B,Tue,,,"His12BU5His2",,," His12BRem SHis"," His12BL5His1",,,
-69,B,Wed,,"His12BU5His2",,"His12BL5His1",,,,,,
-69,B,Thu,,"His12BRem THis",,," His12BL4 OHis",,,,,
+69,B,Wed,,0,,0,,,,,,
+69,B,Thu,,0,,," His12BL4 OHis",,,,,
 69,B,Fri,,,," His12BRem THis","His12BL5His1"," His12BU5His2"," His12BRem SHis",,,
 69,M,Mon,,,"His12BL4 OHis","His12BL5His1","His12BU5His2",,,,,
 69,M,Tue,,,"His12BU5His2"," His12BL5His1",Meet," His12BRem THis"," His12BRem SHis",,,
-69,M,Wed,,,,"His12BRem SHis",," His12BL5His1"," His12BU5His2",,,
-69,M,Thu,,,"His12BL5His1"," His12BL4 OHis",," His12BU5His2",,,,
+69,M,Wed,,,,0,," His12BL5His1"," His12BU5His2",,,
+69,M,Thu,,,0," His12BL4 OHis",," His12BU5His2",,,,
 69,M,Fri,,,"His12BRem THis"," His12BL5His1",,," His12BU5His2",,,
 70,B,Mon,,"17U4Afr6",,,,"17L5Afr3","17U5Afr1",,,
-70,B,Tue,,"17U4Afr6","17RemAfr5","17U5Afr1","17L5Afr3",,,,,
-70,B,Wed,,,"17U4Afr6",,,"17L5Afr3","17U5Afr1",,,
-70,B,Thu,,,,,"17RemAfr5","17U5Afr1","17L5Afr3",,,
+70,B,Tue,,"17U4Afr6","17RemAfr5",17,17,,,,,
+70,B,Wed,,,17,,,17,17,,,
+70,B,Thu,,,,,17,17,17,,,
 70,B,Fri,,"17U5Afr1","17U4Afr6",Afr Meet,"17RemAfr5",,,,,
 70,M,Mon,,,"17U4Afr6",,,"17L5Afr3","17RemAfr5",,,
-70,M,Tue,,"17L5Afr3","17U4Afr6","17RemAfr5","17U5Afr1",,,,,
-70,M,Wed,,"17U5Afr1",,"17U4Afr6","17L5Afr3",,,,,
-70,M,Thu,,"17U4Afr6",,"17U5Afr1",,,"17L5Afr3",,,
-70,M,Fri,,"17U4Afr6",Afr Meet,"17U5Afr1","17L5Afr3",,"17RemAfr5",,,
+70,M,Tue,,"17L5Afr3","17U4Afr6",17,17,,,,,
+70,M,Wed,,17,,17,17,,,,,
+70,M,Thu,,17,,17,,,17,,,
+70,M,Fri,,"17U4Afr6",Afr Meet,17,"17L5Afr3",,17,,,
 71,B,Mon,,,,"PastoralMeet",,,"E5Psych1Seminar",,,
 71,B,Tue,,,"E8Psych1Seminar",,,,"E5Psych1Seminar",,,
 71,B,Wed,,"E5Psych1Seminar",,,,,,,,
@@ -709,273 +709,273 @@ StaffID,Week,Weekday,Period_0,Period_1,Period_2,Period_3,Period_4,Period_5,Perio
 71,M,Wed,,,"E8Psych1Seminar",,,,"E6Psych1Seminar",,,
 71,M,Thu,,,,,,,,"E5Psych1Seminar",,
 71,M,Fri,,,,"E5Psych1Seminar",,,,,,
-72,B,Mon,,"B10L5LS2","B10U5LS4",,,"B10U4LS3",Meet,,,
-72,B,Tue,,"B10L5LS2","B10U4LS3",,"B10L4 SLS","B10U5LS4","B10L4 OLS",,,
-72,B,Wed,,,,"B10U5LS4","B10Rem TLS","B10U4LS3","B10L5LS2",,,
-72,B,Thu,,"B10L5LS2",,"B10L4 SLS","B10U5LS4",,"B10U4LS3",,,
-72,B,Fri,,"B10Rem TLS","B10L4 OLS","B10L5LS2","B10U4LS3",,,,,
-72,M,Mon,,,"B10L5LS2",,"B10U4LS3","B10Rem TLS","B10U5LS4",,,
-72,M,Tue,,,,"B10U5LS4",Meet,,"B10U4LS3",,,
-72,M,Wed,,,"B10U5LS4","B10L5LS2","B10L4 SLS","B10U4LS3","B10Rem TLS",,,
-72,M,Thu,,,"B10U5LS4","B10L5LS2","B10L4 OLS",,,,,
-72,M,Fri,,"B10L5LS2",,"B10L4 OLS","B10U4LS3","B10U5LS4","B10L4 SLS",,,
-73,B,Mon,,,"FieldRem S/Rem OPE2","69L4Math8",,"FieldL4 HPE2",,,,
+72,B,Mon,,"B10L5LS2","B10U5LS4",,,0,Meet,,,
+72,B,Tue,,"B10L5LS2","B10U4LS3",,0,0,0,,,
+72,B,Wed,,,,0,0,0,0,,,
+72,B,Thu,,0,,0,0,,0,,,
+72,B,Fri,,"B10Rem TLS","B10L4 OLS",0,"B10U4LS3",,,,,
+72,M,Mon,,,"B10L5LS2",,"B10U4LS3",0,"B10U5LS4",,,
+72,M,Tue,,,,0,Meet,,0,,,
+72,M,Wed,,,0,0,0,0,0,,,
+72,M,Thu,,,0,0,0,,,,,
+72,M,Fri,,"B10L5LS2",,0,"B10U4LS3",0,0,,,
+73,B,Mon,,,"FieldRem S/Rem OPE2","69L4Math8",,0,,,,
 73,B,Tue,,,"69L4Math8",Meet,"69FOM1Seminar",,,,,
-73,B,Wed,,,,,,,"69L4Math8",,,
-73,B,Thu,,,"69L4Math8","42FOM1Seminar",,"FieldL4PE",,,,
+73,B,Wed,,,,,,,69,,,
+73,B,Thu,,,69,"42FOM1Seminar",,0,,,,
 73,B,Fri,,"69L4Math8","FieldL5M3PE",,,,,,,
-73,M,Mon,,"FieldU4M4/U4M5PE",,"69FOM1Seminar",,"FieldL4 OPE3","69L4Math8",,,
-73,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,"69L4Math8",,,
-73,M,Wed,,"69L4Math8","FieldL4 TPE6",,"FieldU4M3PE",,,,,
-73,M,Thu,,,,,"FieldU4PE",,"FieldL4 JPE5",,,
-73,M,Fri,,,,Meet,"69L4Math8",,"FieldL5PE",,,
+73,M,Mon,,"FieldU4M4/U4M5PE",,"69FOM1Seminar",,0,"69L4Math8",,,
+73,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,69,,,
+73,M,Wed,,69,0,,0,,,,,
+73,M,Thu,,,,,0,,0,,,
+73,M,Fri,,,,Meet,"69L4Math8",,0,,,
 74,B,Mon,"55GeoSeminar",,,,,,"55GeoSeminar",,,
 74,B,Tue,"55GeoSeminar",,,"55Eco1Seminar","55GeoSeminar","55Eco2Seminar",,,,
-74,B,Wed,"55GeoSeminar",,,"55Eco2Seminar","55Eco2Seminar","L6Tutor",,"55GeoSeminar","55GeoSeminar","55GeoSeminar"
-74,B,Thu,"55GeoSeminar","55GeoSeminar","55L6Think","55GeoSeminar","55Eco2Seminar","55Eco1Seminar","55Eco2Seminar",,,
-74,B,Fri,,"55GeoSeminar",,"55Eco2Seminar",,,"55L6Think",,,
+74,B,Wed,"55GeoSeminar",,,"55Eco2Seminar","55Eco2Seminar",0,,"55GeoSeminar","55GeoSeminar","55GeoSeminar"
+74,B,Thu,"55GeoSeminar","55GeoSeminar",55,"55GeoSeminar","55Eco2Seminar","55Eco1Seminar","55Eco2Seminar",,,
+74,B,Fri,,"55GeoSeminar",,"55Eco2Seminar",,,55,,,
 74,M,Mon,,"55Eco2Seminar",,"55L6Think",,,,,,
 74,M,Tue,"55Eco2Seminar","55GeoSeminar","55GeoSeminar",,"55GeoSeminar",,"55GeoSeminar",,,
-74,M,Wed,,,,"55GeoSeminar","55L6Think","55Eco2Seminar",,"55GeoSeminar","55GeoSeminar","55GeoSeminar"
-74,M,Thu,,"55L6Think","55Eco1Seminar","55Eco2Seminar","55Eco1Seminar",,,,,
-74,M,Fri,,"55GeoSeminar","55Eco2Seminar","55L6Think",,,"55GeoSeminar",,,"55GeoSeminar"
+74,M,Wed,,,,"55GeoSeminar",55,"55Eco2Seminar",,"55GeoSeminar","55GeoSeminar","55GeoSeminar"
+74,M,Thu,,55,"55Eco1Seminar","55Eco2Seminar","55Eco1Seminar",,,,,
+74,M,Fri,,"55GeoSeminar","55Eco2Seminar",55,,,"55GeoSeminar",,,"55GeoSeminar"
 75,B,Mon,,,"DunL5Dra1","70U5Dra1",,,"DunU4Dra2",,,
-75,B,Tue,,,"DunU5Dra1",,"DunU5Dra2","DunU4Dra2","DunL5Dra1",,,
-75,B,Wed,,"DunU5Dra1","DunU5Dra2","DunL5Dra1","DunU4Dra2",,,,,
-75,B,Thu,,,"DunU4Dra2",,,,"DunU5Dra2",,,
-75,B,Fri,,,"DunU5Dra2",,"DunL5Dra1","70U5Dra1","DunU4Dra2",,,
+75,B,Tue,,,"DunU5Dra1",,0,0,0,,,
+75,B,Wed,,0,0,0,0,,,,,
+75,B,Thu,,,0,,,,0,,,
+75,B,Fri,,,"DunU5Dra2",,"DunL5Dra1",70,0,,,
 75,M,Mon,,"70U5Dra2",,"DunL5Dra1","DunU5Dra1",,"DunU4Dra2",,,
-75,M,Tue,,,"70U5Dra1","DunL5Dra1",,,"70U5Dra2",,,
-75,M,Wed,,,"DunU4Dra2",,"70U5Dra2","DunL5Dra1","DunU5Dra1",,,
-75,M,Thu,,,"DunL5Dra1",,"DunU5Dra2","70U5Dra1","DunU4Dra2",,,
-75,M,Fri,,,,"DunL5Dra1","70U5Dra2","DunU4Dra2","70U5Dra1",,,
+75,M,Tue,,,"70U5Dra1",0,,,70,,,
+75,M,Wed,,,0,,70,0,0,,,
+75,M,Thu,,,0,,0,70,0,,,
+75,M,Fri,,,,0,"70U5Dra2",0,70,,,
 76,B,Mon,,,"61L4Fr1","61U4Fr1","61L4Fr3",,"61RemFr2",,,
-76,B,Tue,,,"61Rem SFr1","61U4Fr1",,"61L4Fr1","61RemFr3",,,
-76,B,Wed,"61Fren","61U4Fr1",,"61L4Fr1","61RemFr3","61RemFr2",,,,
-76,B,Thu,,"61Fren","61RemFr2","61L4Fr3","61Rem SFr1","61U4Fr1",,,,
-76,B,Fri,,"61U4Fr1",,,"61Rem SFr1","61L4Fr3","61RemFr3","61Fren",,
-76,M,Mon,"61Fren",,,"61L4Fr3","61RemFr3","61U4Fr1","61Rem SFr1",,,
-76,M,Tue,,"61U4Fr1","61Fren","61Rem SFr1","61RemFr2","61L4Fr1","61RemFr3",,,
-76,M,Wed,,"61U4Fr1","61RemFr2","61Fren",,"61L4Fr3","61L4Fr1",,,
-76,M,Thu,,,"61L4Fr3",,"61RemFr3","61RemFr2",,,,
-76,M,Fri,,,"61U4Fr1",,,"61L4Fr1","61Rem SFr1",,,
+76,B,Tue,,,"61Rem SFr1",61,,61,61,,,
+76,B,Wed,"61Fren",61,,61,61,61,,,,
+76,B,Thu,,"61Fren",61,61,61,61,,,,
+76,B,Fri,,"61U4Fr1",,,"61Rem SFr1",61,61,"61Fren",,
+76,M,Mon,"61Fren",,,"61L4Fr3","61RemFr3",61,"61Rem SFr1",,,
+76,M,Tue,,"61U4Fr1","61Fren",61,61,61,61,,,
+76,M,Wed,,61,61,"61Fren",,61,61,,,
+76,M,Thu,,,61,,61,61,,,,
+76,M,Fri,,,"61U4Fr1",,,61,61,,,
 77,B,Mon,,"E4RemEng6","E4U4Eng6","E4L5Eng5",,,"E4L4Eng6",,,
-77,B,Tue,,,"E4L5Eng5","E4RemEng6",,Eng Meet,"E4U4Eng6",,,
-77,B,Wed,,"E4L4Eng6","E4RemEng6",,,,"E4U4Eng6",,,
-77,B,Thu,,,"E4L5Eng5","E4U4Eng6",,"E4RemEng6","E4L4Eng6",,,
-77,B,Fri,,"E4L5Eng5",,"E4U4Eng6","E4L4Eng6",,,,,
+77,B,Tue,,,"E4L5Eng5",0,,Eng Meet,0,,,
+77,B,Wed,,0,0,,,,0,,,
+77,B,Thu,,,0,0,,0,0,,,
+77,B,Fri,,"E4L5Eng5",,0,"E4L4Eng6",,,,,
 77,M,Mon,,,"E4RemEng6",,"E4L4Eng6",,"E4L5Eng5",,,
-77,M,Tue,,,"E4RemEng6",,"E4L4Eng6","E4U4Eng6","E4L5Eng5",,,
-77,M,Wed,,"E4RemEng6","E4L5Eng5","E4L4Eng6",,,"E4U4Eng6",,,
-77,M,Thu,,"E4L5Eng5",,"E4U4Eng6",Eng Meet,"E4L4Eng6","E4RemEng6",,,
-77,M,Fri,,"E4RemEng6","E4L4Eng6","E4U4Eng6",,"E4L5Eng5",,,,
-78,B,Mon,,"70L5Dra2",,"70U5Dra1",,"70L4 TDra1",,,,
-78,B,Tue,,"70L5Dra2","DunU5Dra1","DunL4 ODra2","DunU5Dra2",,,,,
-78,B,Wed,,"DunU5Dra1","DunU5Dra2",,,"70L4 ODra2","70L5Dra2",,,
-78,B,Thu,,"DunL5Dra2",,,,,"DunU5Dra2",,,
-78,B,Fri,,,"DunU5Dra2","70L5Dra2",,"70U5Dra1","DraAltL4 TDra1",,,
-78,M,Mon,,"70U5Dra2","DunL5Dra2",,"DunU5Dra1","70L4 TDra1",,,,
-78,M,Tue,,"DunL4 TDra1","70U5Dra1",,,,"70U5Dra2",,,
-78,M,Wed,,,"DraAltL4 ODra2","70L5Dra2","70U5Dra2",,"DunU5Dra1",,,
-78,M,Thu,,,,"70L5Dra2","DunU5Dra2","70U5Dra1","DraAltL4 ODra2",,,
-78,M,Fri,,"70L5Dra2",,,"70U5Dra2",,"70U5Dra1",,,
-79,B,Mon,,,,,"48U4M4Math","48MSMRem","48L5A3Math",,,
-79,B,Tue,,"48MSMRem","48L6Math",Meet,"48U4M4Math","48L5A3Math",,,,
-79,B,Wed,,"48MSMRem","48L5A3Math","48U4M4Math","48L5A3Math",,"48L6Math",,,
-79,B,Thu,,,,,"48L5A3Math","48L5A3Math","48MSMRem",,,
-79,B,Fri,,,"48MSMRem",,,"48U4M4Math","48L5A3Math",,,
+77,M,Tue,,,"E4RemEng6",,0,0,0,,,
+77,M,Wed,,0,0,0,,,0,,,
+77,M,Thu,,0,,0,Eng Meet,0,0,,,
+77,M,Fri,,"E4RemEng6","E4L4Eng6",0,,0,,,,
+78,B,Mon,,"70L5Dra2",,"70U5Dra1",,70,,,,
+78,B,Tue,,"70L5Dra2","DunU5Dra1",0,0,,,,,
+78,B,Wed,,0,0,,,70,70,,,
+78,B,Thu,,0,,,,,0,,,
+78,B,Fri,,,"DunU5Dra2",70,,70,0,,,
+78,M,Mon,,"70U5Dra2","DunL5Dra2",,"DunU5Dra1",70,,,,
+78,M,Tue,,"DunL4 TDra1","70U5Dra1",,,,70,,,
+78,M,Wed,,,0,70,70,,0,,,
+78,M,Thu,,,,70,0,70,0,,,
+78,M,Fri,,"70L5Dra2",,,"70U5Dra2",,70,,,
+79,B,Mon,,,,,"48U4M4Math",48,"48L5A3Math",,,
+79,B,Tue,,"48MSMRem","48L6Math",Meet,48,48,,,,
+79,B,Wed,,48,48,48,48,,48,,,
+79,B,Thu,,,,,48,48,48,,,
+79,B,Fri,,,"48MSMRem",,,48,48,,,
 79,M,Mon,,"48L5A3Math",,"48U4M4Math",,,,,,
-79,M,Tue,,"48MSMRem","48L5A3Math","48U4M4Math","48L5A3Math",,,,,
-79,M,Wed,,"48L6Math",,,"48U4M4Math","48MSMRem","48L5A3Math",,,
-79,M,Thu,,,"48U4M4Math","48MSMRem","48L5A3Math","48U4M4Math","48L6Math",,,
-79,M,Fri,,,,Meet,,"48MSMRem","48U4M4Math",,,
+79,M,Tue,,"48MSMRem","48L5A3Math",48,48,,,,,
+79,M,Wed,,48,,,48,48,48,,,
+79,M,Thu,,,48,48,48,48,48,,,
+79,M,Fri,,,,Meet,,48,48,,,
 80,B,Mon,"Mat14U6MB",,,,"42U4M5Math","1R2:3e5m - 1 3S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math",,,
-80,B,Tue,"39U6MB","Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,Meet,"42U4M5Math","42L5A2Math",,,,
-80,B,Wed,,"0S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math","42U4M5Math","42L5A2Math","42L4FOM1",,,,
-80,B,Thu,"Mat14U6MB",,,"16U6MB","42L5A2Math",,"1R3:4e0m - 1 4S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,,
-80,B,Fri,,"Mat14U6MB","Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,,"42U4M5Math","42L5A2Math",,,
+80,B,Tue,"39U6MB","Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,Meet,42,42,,,,
+80,B,Wed,,"0S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",42,42,42,42,,,,
+80,B,Thu,"Mat14U6MB",,,16,42,,"1R3:4e0m - 1 4S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,,
+80,B,Fri,,"Mat14U6MB","Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",,,42,42,,,
 80,M,Mon,,"42L5A2Math",,"42U4M5Math","42L5A2Math",,,,,
-80,M,Tue,,"Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math","42U4M5Math","42L5A2Math",,,,,
-80,M,Wed,,,"42L4FOM1","16U6MB","42U4M5Math","1R2:3e5m - 1 3S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math",,,
-80,M,Thu,,"16U6MB","42U4M5Math","1R0:5e5m - 1 1S:40/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math","42U4M5Math","42L4FOM1",,,
-80,M,Fri,,"Mat14U6MB",,Meet,,"1R5:5e0m - 1 3S:40/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42U4M5Math",,,
+80,M,Tue,,"Rem S/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N","42L5A2Math",42,42,,,,,
+80,M,Wed,,,42,16,42,"1R2:3e5m - 1 3S:25/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",42,,,
+80,M,Thu,,16,42,"1R0:5e5m - 1 1S:40/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",42,42,42,,,
+80,M,Fri,,"Mat14U6MB",,Meet,,"1R5:5e0m - 1 3S:40/Rem42T/Rem J/Rem O/RemHM/Raetmh1 N",42,,,
 81,B,Mon,,"15U5A3Math","15U6P Mat","15L4Math1","15U6P Mat",,,,,
-81,B,Tue,,,"15L4Math1",Meet,,,"15U5A3Math",,,
-81,B,Wed,,,,,,"15U5A3Math","15L4Math1",,,
-81,B,Thu,,,"15L4Math1","15U5A3Math",,,,,,
+81,B,Tue,,,"15L4Math1",Meet,,,15,,,
+81,B,Wed,,,,,,15,15,,,
+81,B,Thu,,,15,15,,,,,,
 81,B,Fri,,"15L4Math1",,,"15U5A3Math",,,,,
 81,M,Mon,,,"15U5A3Math","15U6P Mat",,"15U5A3Math","15L4Math1",,,
-81,M,Tue,,,,"15U6P Mat",,,"15L4Math1",,,
-81,M,Wed,,"15L4Math1",,"15U5A3Math",,,,,,
-81,M,Thu,,"15U5A3Math",,,,,"15U5A3Math",,,
+81,M,Tue,,,,15,,,15,,,
+81,M,Wed,,15,,15,,,,,,
+81,M,Thu,,15,,,,,15,,,
 81,M,Fri,,"15U5A3Math","15U5A3Math",Meet,"15L4Math1",,,,,
 82,B,Mon,,,"B4BI1Seminar",,"B4L5LS3","B4Bio Prac","LS2B4U4Seminar","B4Bio Prac","B4Bio Prac","B4Bio Prac"
-82,B,Tue,,"B4Bio Prac","B4BI1Seminar","B4L5LS3","B4U5LS2","B4U4LS2",,,,
-82,B,Wed,,"B4L5LS3","B4U5LS2",,"B4U4LS2",,,,,
-82,B,Thu,,,"B4U4LS2","B4L5LS3","B4BI1Seminar",,"B4U5LS2",,,
-82,B,Fri,,"B4Bio Prac","B4U5LS2",,,"B4L5LS3","B4U4LS2",,,
+82,B,Tue,,"B4Bio Prac","B4BI1Seminar",0,0,0,,,,
+82,B,Wed,,0,0,,0,,,,,
+82,B,Thu,,,0,0,"B4BI1Seminar",,0,,,
+82,B,Fri,,"B4Bio Prac","B4U5LS2",,,0,0,,,
 82,M,Mon,,"B4U5LS2","B4Bio Prac",,"BI1Seminar",,"B4U4LS2","B4Bio Prac","B4Bio Prac","B4Bio Prac"
-82,M,Tue,,"B4Bio Prac",,"B4BI1Seminar",Meet,"B4L5LS3","B4U5LS2",,,
-82,M,Wed,,"B4L5LS3","B4U4LS2",,"B4U5LS2",,,"B4Bio Prac",,
-82,M,Thu,,"B4BI1Seminar",,,"B4U5LS2","B4L5LS3","B4U4LS2",,,
-82,M,Fri,,"B4Bio Prac","B4L5LS3",,"B4U5LS2","B4U4LS2",,,,
+82,M,Tue,,"B4Bio Prac",,"B4BI1Seminar",Meet,0,0,,,
+82,M,Wed,,0,0,,0,,,"B4Bio Prac",,
+82,M,Thu,,"B4BI1Seminar",,,0,0,0,,,
+82,M,Fri,,"B4Bio Prac","B4L5LS3",,"B4U5LS2",0,,,,
 83,B,Mon,,,"59Rem J/Rem NDiv2","PastoralMeet",,,,,,
-83,B,Tue,,,,"59L4 NDiv2",,,Div Meet,,,
-83,B,Wed,,,,,,"59L4 NDiv2","59Rem J/Rem NDiv2",,,
+83,B,Tue,,,,59,,,Div Meet,,,
+83,B,Wed,,,,,,59,59,,,
 83,B,Thu,,,,,,,,,,
 83,B,Fri,,,,Div Meet,,,,,,
 83,M,Mon,,,,,,,,,,
 83,M,Tue,,,,,,,"PastoralMeet",,,
-83,M,Wed,,,"59L4 NDiv2",,"59Rem J/Rem NDiv2",,,,,
-83,M,Thu,,,,,,,"G1L4 NDiv2",,,
-83,M,Fri,,,,"59Rem J/Rem NDiv2",,,,,,
+83,M,Wed,,,59,,59,,,,,
+83,M,Thu,,,,,,,0,,,
+83,M,Fri,,,,59,,,,,,
 84,B,Mon,,"C2Phys","C2U5Sci5",,"C2L5Sci1",,,,,
-84,B,Tue,,,,"C2L5Sci1",,"C2U5Sci5","C2Phys","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
-84,B,Wed,,"C2L5Sci1",,"C2U5Sci5",,,Sci Meet,,,
-84,B,Thu,,,"C2Phys","C2L5Sci1","C2U5Sci5",,,,,
+84,B,Tue,,,,0,,0,"C2Phys","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+84,B,Wed,,0,,0,,,Sci Meet,,,
+84,B,Thu,,,"C2Phys",0,0,,,,,
 84,B,Fri,,,,,,HM Meet,"C2Phys",,,
 84,M,Mon,,,,"C2Phys",,,"C2U5Sci5",,,
-84,M,Tue,,,,"C2U5Sci5","C2Phys","C2L5Sci1",,"P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
-84,M,Wed,,"C2L5Sci1","C2U5Sci5",,"C2Phys",,"C2Phys",,,
-84,M,Thu,,"C2Phys","C2U5Sci5",,,"C2L5Sci1",Sci Meet,,,
-84,M,Fri,,,"C2L5Sci1","C2Phys",,"C2U5Sci5",HM Meet,,,
+84,M,Tue,,,,0,"C2Phys",0,,"P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+84,M,Wed,,0,0,,"C2Phys",,"C2Phys",,,
+84,M,Thu,,"C2Phys",0,,,0,Sci Meet,,,
+84,M,Fri,,,"C2L5Sci1","C2Phys",,0,HM Meet,,,
 85,B,Mon,,"His9L5His3",,"His9U4His2",Meet,,"His9U4His3",,,
-85,B,Tue,,"His9L5His3",,"His9U4His2","His9U5His4","His9U4His3",,,,
-85,B,Wed,,"His9U4His2","His9U5His4",,"His9U4His3",,"His9L5His3",,,
-85,B,Thu,,"His9L5His3","His9U4His3",,,"His9U4His2","His9U5His4",,,
-85,B,Fri,,"His9U4His2","His9U5His4","His9L5His3",,,"His9U4His3",,,
-85,M,Mon,,"His9U5His4","His9L5His3",,,"His9U4His2","His9U4His3",,,
-85,M,Tue,,"His9U4His2",,,Meet,,"His9U5His4",,,
-85,M,Wed,,"His9U4His2","His9U4His3","His9L5His3","His9U5His4",,,,,
-85,M,Thu,,,,"His9L5His3","His9U5His4",,"His9U4His3",,,
-85,M,Fri,,"His9L5His3","His9U4His2",,"His9U5His4","His9U4His3",,,,
+85,B,Tue,,"His9L5His3",,0,0,0,,,,
+85,B,Wed,,0,0,,0,,0,,,
+85,B,Thu,,0,0,,,0,0,,,
+85,B,Fri,,"His9U4His2","His9U5His4",0,,,0,,,
+85,M,Mon,,"His9U5His4","His9L5His3",,,0,"His9U4His3",,,
+85,M,Tue,,"His9U4His2",,,Meet,,0,,,
+85,M,Wed,,0,0,0,0,,,,,
+85,M,Thu,,,,0,0,,0,,,
+85,M,Fri,,"His9L5His3","His9U4His2",,"His9U5His4",0,,,,
 86,B,Mon,"E7Eng IG",,"E7U4Eng7","E7L5Eng6","E7U5Seminar","E7L4Eng7",,,,
-86,B,Tue,,"E7U5Eng7","E7L5Eng6",,,Eng Meet,"E7U4Eng7",,,
-86,B,Wed,,"E7L4Eng7",,,"E7U5Eng7",,"E7U4Eng7","E7Eng IG",,
-86,B,Thu,"E7Eng IG","E7U5Eng7","E7L5Eng6","E7U4Eng7",,,"E7L4Eng7",,,
-86,B,Fri,,"E7L5Eng6",,"E7U4Eng7","E7L4Eng7",,"E7U5Eng7",,,
+86,B,Tue,,"E7U5Eng7","E7L5Eng6",,,Eng Meet,0,,,
+86,B,Wed,,0,,,0,,0,"E7Eng IG",,
+86,B,Thu,"E7Eng IG",0,0,0,,,0,,,
+86,B,Fri,,"E7L5Eng6",,0,"E7L4Eng7",,0,,,
 86,M,Mon,,,,"E7U5Eng7","E7L4Eng7",,"E7L5Eng6",,,
-86,M,Tue,,"E7U5Eng7",,"E7Eng IG","E7L4Eng7","E7U4Eng7","E7L5Eng6",,,
-86,M,Wed,"E7Eng IG",,"E7L5Eng6","E7L4Eng7",,"E7U5Eng7","E7U4Eng7",,,
-86,M,Thu,,"E7L5Eng6",,"E7U4Eng7",Eng Meet,"E7L4Eng7",,,,
-86,M,Fri,,,"E7L4Eng7","E7U4Eng7","E7Eng IG","E7L5Eng6",,,,
+86,M,Tue,,"E7U5Eng7",,"E7Eng IG",0,0,0,,,
+86,M,Wed,"E7Eng IG",,0,0,,0,0,,,
+86,M,Thu,,0,,0,Eng Meet,0,,,,
+86,M,Fri,,,"E7L4Eng7",0,"E7Eng IG",0,,,,
 87,B,Mon,,"47U5A2Math","47FOM2Seminar",,,,"47L5M4Math",,,
-87,B,Tue,,,,Meet,"47U4A2Math","47L5M4Math","47U5A2Math",,,
-87,B,Wed,,,"47L5M4Math","47U4A2Math",,"47U5A2Math","47FOM2Seminar",,,
-87,B,Thu,,"47U4A2Math",,"47U5A2Math","47U4A2Math","47L5M4Math",,,,
-87,B,Fri,,,,"47U5A2Math","47U5A2Math","47U4A2Math","47L5M4Math",,,
+87,B,Tue,,,,Meet,47,47,47,,,
+87,B,Wed,,,47,47,,47,"47FOM2Seminar",,,
+87,B,Thu,,47,,47,47,47,,,,
+87,B,Fri,,,,47,"47U5A2Math",47,47,,,
 87,M,Mon,,"47L5M4Math","47U5A2Math","47U4A2Math","47L5M4Math","47U5A2Math",,,,
-87,M,Tue,,,"47L5M4Math","47U4A2Math","47U4A2Math","47U5A2Math",,,,
-87,M,Wed,,,,,"47U4A2Math",,"47L5M4Math",,,
-87,M,Thu,,"47U5A2Math","47U4A2Math",,"47L5M4Math","47U4A2Math",,,,
-87,M,Fri,,"47U5A2Math","47U5A2Math",Meet,,,"47U4A2Math",,,
-88,B,Mon,,"P6Phys",,"P6Rem SSci","P6L5Sci2","P6U4Sci3",,,,
-88,B,Tue,,,"P6U4Sci3","P6L5Sci2",,,"P6Phys","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
-88,B,Wed,,"P6L5Sci2",,,"P6Rem SSci","P6U4Sci3",Sci Meet,,,
-88,B,Thu,,"P6Rem SSci","P6Phys","P6L5Sci2",,,"P6U4Sci3",,,
-88,B,Fri,,,,,"P6U4Sci3","P6L5Sci2","P6Phys",,,
-88,M,Mon,,,,"P6Phys","P6U4Sci3","C6Rem SSci",,,,
-88,M,Tue,,,,,"P6Phys","P6L5Sci2","P6U4Sci3","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
-88,M,Wed,,"P6L5Sci2",,,"P6Phys","P6U4Sci3","P6Phys",,,
-88,M,Thu,,"P6Phys",,,"C2Rem SSci","P6L5Sci2",Sci Meet,,,
+87,M,Tue,,,"47L5M4Math",47,47,47,,,,
+87,M,Wed,,,,,47,,47,,,
+87,M,Thu,,47,47,,47,47,,,,
+87,M,Fri,,"47U5A2Math","47U5A2Math",Meet,,,47,,,
+88,B,Mon,,"P6Phys",,"P6Rem SSci","P6L5Sci2",0,,,,
+88,B,Tue,,,"P6U4Sci3",0,,,"P6Phys","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+88,B,Wed,,0,,,0,0,Sci Meet,,,
+88,B,Thu,,0,"P6Phys",0,,,0,,,
+88,B,Fri,,,,,"P6U4Sci3",0,"P6Phys",,,
+88,M,Mon,,,,"P6Phys","P6U4Sci3",0,,,,
+88,M,Tue,,,,,"P6Phys",0,0,"P1,C2,P6Phys Prac","P1,C2,P6Phys Prac","P1,C2,P6Phys Prac"
+88,M,Wed,,0,,,"P6Phys",0,"P6Phys",,,
+88,M,Thu,,"P6Phys",,,0,0,Sci Meet,,,
 88,M,Fri,,,"P6L5Sci2","P6Phys","P6U4Sci3",,,,,
-89,B,Mon,,,"FieldRem S/Rem OPE2",,,"FieldL4 HPE2",,,,
-89,B,Tue,,,,"FieldL4 SPE4",,,,,,
+89,B,Mon,,,"FieldRem S/Rem OPE2",,,0,,,,
+89,B,Tue,,,,0,,,,,,
 89,B,Wed,,,,,,,,,,
-89,B,Thu,,,"FieldU5PE","FieldRem S/Rem HPE3","FieldU4M1PE","FieldL4PE",,,,
+89,B,Thu,,,0,0,0,0,,,,
 89,B,Fri,,,"FieldL5M3PE",,,,,,,
-89,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"FieldL4 OPE3",,,,
-89,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-89,M,Wed,,,"FieldL4 TPE6",,"FieldU4M3PE",,,,,
-89,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-89,M,Fri,,,,"FieldRem TPE1","FieldRem J/Rem NPE6",,"FieldL5PE",,,
+89,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,0,,,,
+89,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+89,M,Wed,,,0,,0,,,,,
+89,M,Thu,,0,,,0,,0,,,
+89,M,Fri,,,,0,"FieldRem J/Rem NPE6",,0,,,
 90,B,Mon,,,"39U6P Mat","42L4Math2","44U6P Mat","1R2:3e5m - 1 3S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,
-90,B,Tue,,"Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N","42L4Math2",Meet,,,"48U5M2Math",,,
-90,B,Wed,,"0S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,"48U5M2Math","42L4Math2",,,
-90,B,Thu,,,"42L4Math2","48U5M2Math",,,"1R3:4e0m - 1 4S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,
-90,B,Fri,,"42L4Math2","Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N","48U5M2Math",,HM Meet,,,,
+90,B,Tue,,"Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N","42L4Math2",Meet,,,48,,,
+90,B,Wed,,"0S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,48,42,,,
+90,B,Thu,,,42,48,,,"1R3:4e0m - 1 4S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,
+90,B,Fri,,"42L4Math2","Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",48,,HM Meet,,,,
 90,M,Mon,,,,"39U6P Mat",,"48U5M2Math","42L4Math2",,,
-90,M,Tue,,"Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,"67U6P Mat",,"48U5M2Math","42L4Math2",,,
-90,M,Wed,,"42L4Math2",,"48U5M2Math",,"1R2:3e5m - 1 3S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,
-90,M,Thu,,"48U5M2Math",,"1R0:5e5m - 1 1S:40/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,"47U5M2Math",,,
+90,M,Tue,,"Rem S/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,67,,48,42,,,
+90,M,Wed,,42,,48,,"1R2:3e5m - 1 3S:25/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,,
+90,M,Thu,,48,,"1R0:5e5m - 1 1S:40/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",,,47,,,
 90,M,Fri,,"48U5M2Math",,Meet,"42L4Math2","1R5:5e0m - 1 3S:40/Rem47T/Rem J/Rem O/RemHM/Raetmh4 N",HM Meet,,,
 91,B,Mon,,,"MusAudRem TMus Mod2",,,,,,,
-91,B,Tue,,,,"Mus14L4Mus2","Mus14Rem T/Rem OMus Mod1",,,,,
-91,B,Wed,,,,,,"Mus14L4Mus2","MusAudRem TMus Mod2",,,
+91,B,Tue,,,,0,0,,,,,
+91,B,Wed,,,,,,0,"MusAudRem TMus Mod2",,,
 91,B,Thu,,,,"MusGrnRem T/Rem OMus Mod1",,,,,,
 91,B,Fri,,,,,,,,,,
 91,M,Mon,,,,,,,,,,
 91,M,Tue,,,,,,,,,,
-91,M,Wed,,,"MusAudL4Mus2",,"Mus14Rem TMus Mod2",,,,,
+91,M,Wed,,,0,,0,,,,,
 91,M,Thu,,,,,,,"MusAudL4Mus2",,,
 91,M,Fri,,,,,"MusAudRem T/Rem OMus Mod1",,,,,
 92,B,Mon,,,"36Rem S/Rem HArt2","36U5Art1",,,,,,
-92,B,Tue,,,"36U5Art1","36Art","36Rem S/Rem OArt1","36Art",,,,
-92,B,Wed,,"36U5Art1",,"36Art","36Art",,"36Rem S/Rem HArt2",,,
-92,B,Thu,,,,"36Rem S/Rem OArt1","36Art","36Art","36Art",,,
-92,B,Fri,,,,"36Art",,"36U5Art1",,,,
+92,B,Tue,,,"36U5Art1","36Art",36,"36Art",,,,
+92,B,Wed,,36,,"36Art","36Art",,36,,,
+92,B,Thu,,,,36,"36Art","36Art","36Art",,,
+92,B,Fri,,,,"36Art",,36,,,,
 92,M,Mon,,"36Art",,"36Rem S/Rem OArt1","36U5Art1",,,,,
 92,M,Tue,"36Art",,"36U5Art1",,,,,,,
-92,M,Wed,,,,,"36Rem S/Rem HArt2","36Art","36U5Art1",,,
-92,M,Thu,,,"36Art","36Art","36Art","36U5Art1",,,,
-92,M,Fri,,,"36Art","36Rem S/Rem HArt2","36Rem S/Rem OArt1",,"36U5Art1",,,
+92,M,Wed,,,,,36,"36Art",36,,,
+92,M,Thu,,,"36Art","36Art","36Art",36,,,,
+92,M,Fri,,,"36Art",36,"36Rem S/Rem OArt1",,36,,,
 93,B,Mon,,"E2RemEng7","E2U4Eng2","E2L5Eng7","E2U5Seminar",,,,,
-93,B,Tue,,"E2U5Eng8","E2L5Eng7","E2RemEng7",,Eng Meet,"E2U4Eng2","E2Eng Lit",,
-93,B,Wed,,,"E2RemEng7",,"E2U5Eng8",,"E2U4Eng2",,,
-93,B,Thu,,"E2U5Eng8","E2L5Eng7","E2U4Eng2",,"E2RemEng7",,,,
-93,B,Fri,,"E2L5Eng7","E2Eng Lit","E2U4Eng2",,,"E2U5Eng8",,,
+93,B,Tue,,"E2U5Eng8","E2L5Eng7",0,,Eng Meet,0,"E2Eng Lit",,
+93,B,Wed,,,0,,0,,0,,,
+93,B,Thu,,0,0,0,,0,,,,
+93,B,Fri,,"E2L5Eng7","E2Eng Lit",0,,,0,,,
 93,M,Mon,"E2Eng Lit",,"E2RemEng7","E2U5Eng8",,,"E2L5Eng7",,,
-93,M,Tue,,"E2U5Eng8","E2RemEng7",,,"E2U4Eng2","E2L5Eng7",,,
-93,M,Wed,,"E2RemEng7","E2L5Eng7",,,"E2U5Eng8","E2U4Eng2",,,
-93,M,Thu,,"E2L5Eng7",,"E2U4Eng2",Eng Meet,,"E2RemEng7",,,
-93,M,Fri,,"E2RemEng7",,"E2U4Eng2",,"E2L5Eng7","E2Eng Lit",,,
+93,M,Tue,,"E2U5Eng8","E2RemEng7",,,0,0,,,
+93,M,Wed,,0,0,,,0,0,,,
+93,M,Thu,,0,,0,Eng Meet,,0,,,
+93,M,Fri,,"E2RemEng7",,0,,0,"E2Eng Lit",,,
 94,B,Mon,,,"His7L5His2",,Meet,"His7His",,"His7His","His7His","His7His"
-94,B,Tue,,"His7His",,,"His7U5His3",,"His7L5His2",,,
-94,B,Wed,,,"His7U5His3","His7L5His2",,"His7His","His7His",,,
-94,B,Thu,,,,,,,"His7U5His3","His7His",,
+94,B,Tue,,"His7His",,,0,,0,,,
+94,B,Wed,,,0,0,,"His7His","His7His",,,
+94,B,Thu,,,,,,,0,"His7His",,
 94,B,Fri,,"His7His","His7U5His3",,"His7L5His2",HM Meet,"His7His","His7His","His7His","His7His"
 94,M,Mon,,"His7U5His3","His7His","His7L5His2",,,,"His7His","His7His","His7His"
-94,M,Tue,,"His7His",,"His7L5His2",Meet,,"His7U5His3",,,
-94,M,Wed,,"His7His",,,"His7U5His3","His7L5His2",,,,
-94,M,Thu,,,"His7L5His2",,"His7U5His3",,"His7His",,,
-94,M,Fri,,"His7His",,"His7L5His2","His7U5His3",,HM Meet,"His7His","His7His","His7His"
-95,B,Mon,,,"FieldRem S/Rem OPE2",,,"FieldL4 HPE2",,,,
-95,B,Tue,,,,"FieldL4 SPE4",,,,,,
+94,M,Tue,,"His7His",,0,Meet,,0,,,
+94,M,Wed,,"His7His",,,0,0,,,,
+94,M,Thu,,,0,,0,,"His7His",,,
+94,M,Fri,,"His7His",,0,"His7U5His3",,HM Meet,"His7His","His7His","His7His"
+95,B,Mon,,,"FieldRem S/Rem OPE2",,,0,,,,
+95,B,Tue,,,,0,,,,,,
 95,B,Wed,,,,,,,,,,
-95,B,Thu,,,"FieldU5PE","FieldRem S/Rem HPE3","FieldL5M4/L5MLPE","FieldL4PE",,,,
+95,B,Thu,,,0,0,0,0,,,,
 95,B,Fri,,,"FieldL5M3PE",,,,,,,
-95,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,"FieldL4 OPE3",,,,
-95,M,Tue,,"FieldL4 NPE1","FieldL5M1PE","FieldU4M2PE","FieldL5M2PE",,,,,
-95,M,Wed,,,"FieldL4 TPE6",,"FieldRem JPE4",,,,,
-95,M,Thu,,"FieldRemPE",,,"FieldU4PE",,"FieldL4 JPE5",,,
-95,M,Fri,,,,"FieldRem TPE1","FieldRem J/Rem NPE6",,"FieldL5PE",,,
+95,M,Mon,,"FieldU4M4/U4M5PE",,"FieldRem T/Rem OPE5",,0,,,,
+95,M,Tue,,"FieldL4 NPE1","FieldL5M1PE",0,0,,,,,
+95,M,Wed,,,0,,0,,,,,
+95,M,Thu,,0,,,0,,0,,,
+95,M,Fri,,,,0,"FieldRem J/Rem NPE6",,0,,,
 96,B,Mon,,,,"B16Rem JIT","B15Rem HIT",,,,,
-96,B,Tue,,,,,"B15L4 OIT",,"B16L4 TIT",,,
-96,B,Wed,,,,,"B15L4 OIT","B15Rem NIT",,,,
-96,B,Thu,,"B15L4 HIT","B15Rem NIT","B15L4 TIT",,"Junior ITMeet",,,,
-96,B,Fri,,"B15Rem HIT",,"B16L4 HIT",,"B15Rem JIT",,,,
-96,M,Mon,,"B15L4 OIT",,"Junior ITMeet",,"B15Rem NIT",,,,
-96,M,Tue,,,"B16L4 HIT","B15L4 TIT","B15Rem HIT","B15Rem JIT",,,,
-96,M,Wed,,,,"B15Rem NIT","B16L4 OIT",,,,,
-96,M,Thu,,,"B16Rem JIT",,"B15L4 HIT",,,,,
-96,M,Fri,,,"B15Rem HIT",,,,"B15L4 TIT",,,
+96,B,Tue,,,,,0,,0,,,
+96,B,Wed,,,,,0,0,,,,
+96,B,Thu,,0,0,0,,"Junior ITMeet",,,,
+96,B,Fri,,"B15Rem HIT",,0,,0,,,,
+96,M,Mon,,"B15L4 OIT",,"Junior ITMeet",,0,,,,
+96,M,Tue,,,"B16L4 HIT",0,0,0,,,,
+96,M,Wed,,,,0,0,,,,,
+96,M,Thu,,,0,,0,,,,,
+96,M,Fri,,,"B15Rem HIT",,,,0,,,
 97,B,Mon,,,"P6U5Sci4",,,,,,,
-97,B,Tue,,"B14L4 SSci",,,,"P6U5Sci4",,,,
-97,B,Wed,,,,"P6U5Sci4",,,Sci Meet,,,
-97,B,Thu,,"C2L4 SSci",,,"P6U5Sci4",,,,,
+97,B,Tue,,"B14L4 SSci",,,,0,,,,
+97,B,Wed,,,,0,,,Sci Meet,,,
+97,B,Thu,,0,,,0,,,,,
 97,B,Fri,,,,,,,,,,
 97,M,Mon,,,,,,,"P6U5Sci4",,,
-97,M,Tue,,,"B14L4 SSci","P6U5Sci4",,,,,,
-97,M,Wed,,,"P6U5Sci4",,,,,,,
-97,M,Thu,,"B14L4 SSci","P6U5Sci4",,,,Sci Meet,,,
-97,M,Fri,,"C6L4 SSci",,,,"P6U5Sci4",,,,
+97,M,Tue,,,"B14L4 SSci",0,,,,,,
+97,M,Wed,,,0,,,,,,,
+97,M,Thu,,0,0,,,,Sci Meet,,,
+97,M,Fri,,"C6L4 SSci",,,,0,,,,
 98,B,Mon,,"64L5Ger1","64L4Ger2","64U4Ger1","64L4Ger1",,"64RemGer1",,,
-98,B,Tue,,"64L5Ger1",,"64U4Ger1","64U5Ger1","64L4Ger2",,,,
-98,B,Wed,,"64U4Ger1","64U5Ger1","64L4Ger2","64L4Ger1","64RemGer1","64L5Ger1",,,
-98,B,Thu,,"64L5Ger1","64RemGer1",,,"64U4Ger1","64U5Ger1",,,
-98,B,Fri,,"64U4Ger1","64U5Ger1","64L5Ger1",,"64L4Ger1",,,,
-98,M,Mon,,"64U5Ger1","64L5Ger1","64L4Ger1",,"64U4Ger1",,,,
-98,M,Tue,,"64U4Ger1",,,"64RemGer1","64L4Ger2","64U5Ger1",,,
-98,M,Wed,,"64U4Ger1","64RemGer1","64L5Ger1","64U5Ger1","64L4Ger1","64L4Ger2",,,
-98,M,Thu,,,"64L4Ger1","64L5Ger1","64U5Ger1","64RemGer1",,,,
-98,M,Fri,,"64L5Ger1","64U4Ger1",,"64U5Ger1","64L4Ger2",,,,
+98,B,Tue,,"64L5Ger1",,64,64,64,,,,
+98,B,Wed,,64,64,64,64,64,64,,,
+98,B,Thu,,64,64,,,64,64,,,
+98,B,Fri,,"64U4Ger1","64U5Ger1",64,,64,,,,
+98,M,Mon,,"64U5Ger1","64L5Ger1","64L4Ger1",,64,,,,
+98,M,Tue,,"64U4Ger1",,,64,64,64,,,
+98,M,Wed,,64,64,64,64,64,64,,,
+98,M,Thu,,,64,64,64,64,,,,
+98,M,Fri,,"64L5Ger1","64U4Ger1",,"64U5Ger1",64,,,,
