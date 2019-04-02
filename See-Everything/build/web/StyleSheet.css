@@ -5,6 +5,28 @@
 body {
   background-color: #686c70; /* Dark Gray */
 }
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 #hidden{
     display:none;
 }
@@ -91,23 +113,23 @@ body {
     /*padding-top: 15px;*/
     /*padding-left: 15px;*/
 }
-.grid-container {                               /* Sets the grids for the page elements */
-  display: grid;
-  grid-template-columns: 80px 200px auto 30px;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  /*padding-top: 15px;*/
-  /*padding-left: 15px;*/
-}
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.right-booking-form{
+    position: absolute;                             
+    top: 35%;
+    right: 0%;
+    transform: translate(-50%, -50%); 
 }
 .centerLogo{                                    /* Scales logo depending on screen size */
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 15%;
+}
+.center{
+    position: absolute;   
+    width: 1000px;                               
+    height: 600px; 
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
 }
