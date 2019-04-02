@@ -23,20 +23,13 @@ body {
     padding-left: 50px;
 }
 .profile-details{
-    left: 0;
-    top: 0;
+    left: 1%;
+    top: 7%;
     position: absolute;
-    padding-top: 60px;
-    padding-left: 20px;
+    /*padding-top: 60px;*/
+    /*padding-left: 20px;*/
 }
-.top-left-GSignOut{
-    left: 0;
-    top: 0;
-    position: absolute;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-.button {
+.button {                                   /* Adapted from: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate1 */
   display: inline-block;
   border-radius: 4px;
   background-color: #ffffff; /* White */
@@ -50,14 +43,12 @@ body {
   cursor: pointer;
   margin: -0px;
 }
-
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .button span:after {
   content: '\0226B';
   position: absolute;
@@ -66,11 +57,9 @@ body {
   right: -20px;
   transition: 0.5s;
 }
-
 .button:hover span {
   padding-right: 25px;
 }
-
 .button:hover span:after {
   opacity: 1;
   right: 0;
@@ -94,6 +83,27 @@ body {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);           /* Auto adjusts and adapts to screen size... */
+}
+.top-left-GSignOut{
+    left: 1%;
+    top: 2%;
+    position: absolute;
+    /*padding-top: 15px;*/
+    /*padding-left: 15px;*/
+}
+.grid-container {                               /* Sets the grids for the page elements */
+  display: grid;
+  grid-template-columns: 80px 200px auto 30px;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  /*padding-top: 15px;*/
+  /*padding-left: 15px;*/
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 .centerLogo{                                    /* Scales logo depending on screen size */
   display: block;

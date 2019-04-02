@@ -45,6 +45,13 @@
                 <br> 
                 <p id="name"></p>  
             </div>
+            <div class="GSignInCentered">
+                <div class="grid-container">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>  
+                </div>
+            </div>
         <footer>                                                            <!-- Displays the Users name and email -->
             <center>
                 <div class="bottom-left-info">
@@ -60,4 +67,3 @@
         </footer>
     </body>
 </html>
-            
