@@ -53,13 +53,13 @@
         
                                                     <!-- Booking Form -->
         <div class = "right-booking-form">
-            <form>
-                <h3>Booking Form</h3> <br>               
-                Venue: <br><br>
+            <form autocomplete="on">
+                <h3>Booking Form</h3>          
+                <h4>Venue:</h4> 
                 <select name="venues">
                 <option value="-1">Select venue</option>
                     <%                  
-                        String Query = "SELECT VenueID, Name FROM tblVenues";
+                        String Query1 = "SELECT * FROM tblVenues";
                         Class.forName("org.sqlite.JDBC");
                         String urlHome = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
@@ -67,7 +67,7 @@
                         try{
                         conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
-                        ResultSet rs = stm.executeQuery(Query);
+                        ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
                             %>
                             <option value = "<%=rs.getInt("VenueID")%>"><%=rs.getString("Name")%></option>
@@ -78,12 +78,63 @@
                         out.print("Error "+ex.getMessage());
                     }           
                     %>
-                </select> <br><br>
+                </select>
+                <br>
+                <h4>Day:</h4> 
+                <select name="Day">
+                    <option value = "Monday">Monday</option>
+                    <option value = "Tuesday">Tuesday</option>
+                    <option value = "Wednesday">Wednesday</option>
+                    <option value = "Thursday">Thursday</option>
+                    <option value = "Friday">Friday</option>
+                </select>
+                <h4>Week:</h4>
+                    <input id="toggle-on" class="toggle toggle-left" name="week" value="Blue" type="radio" checked>
+                    <label for="toggle-on" class="btn">Blue</label>
+                    <input id="toggle-off" class="toggle toggle-right" name="week" value="Maroon" type="radio">
+                    <label for="toggle-off" class="btn">Maroon</label>
+                <h4>Period:</h4>
+                <select name="Day">
+                    <option value = "0">Period 0</option>
+                    <option value = "1">Period 1</option>
+                    <option value = "2">Period 2</option>
+                    <option value = "3">Period 3</option>
+                    <option value = "4">Period 4</option>
+                    <option value = "5">Period 5</option>
+                    <option value = "6">Period 6</option>
+                    <option value = "7">Period 7</option>
+                    <option value = "8">Period 8</option>
+                    <option value = "9">Period 9</option>
+                </select>
+                <h4>Staff Name:</h4>
+                <input type="text" name="firstname" value="">
+                <h4>Activity:</h4>
+                                   <select name="venues">
+                <option value="-1">Select venue</option>
+                    <%                  
+                        String Query2 = "SELECT * FROM tblActivities";
+                        try{
+                        conn = DriverManager.getConnection(urlSchool);
+                        Statement stm = conn.createStatement();
+                        ResultSet rs = stm.executeQuery(Query2);
+                        while(rs.next()){
+                            %>
+                            <option value = "<%=rs.getInt("ActivityID")%>"><%=rs.getString("Activity")%></option>
+                            <%
+                        }                    
+                    }catch(Exception ex){
+                        ex.printStackTrace();
+                        out.print("Error "+ex.getMessage());
+                    }           
+                    %>
+                </select>
+                <br><br>
                 <input type="submit" value="Submit">
-            </form>
+            </form>                
         </div>
-        
-        <footer>                                                            <!-- Footer displays the users name and email -->
+                       
+                                                    <!-- Footer displays the users name and email -->
+        <footer>                                                                      
             <center>
                 <div class="bottom-left-info">
                     <%

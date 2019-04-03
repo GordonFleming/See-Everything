@@ -5,9 +5,17 @@
 body {
   background-color: #686c70; /* Dark Gray */
 }
+h3{
+    font-size: 24px;
+    font-family: "Arial";
+    color: white;
+}
+h4{
+    color: white;
+}
 input[type=text] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 6px 8px;
   margin: 8px 0;
   box-sizing: border-box;
 }
@@ -115,7 +123,7 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 .right-booking-form{
     position: absolute;                             
-    top: 35%;
+    top: 50%;
     right: 0%;
     transform: translate(-50%, -50%); 
 }
@@ -132,4 +140,55 @@ input[type=button], input[type=submit], input[type=reset] {
     top: 50%;
     left: 50%;  
     transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 3px solid #1a1a1a;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: background 600ms ease, color 600ms ease;
+}
+
+input[type="radio"].toggle {
+    display: none;
+    & + label{
+        cursor: pointer;
+        min-width: 60px;
+        &:hover{
+            background: none;
+            color: #1a1a1a;
+        }
+        &:after{
+            background: #1a1a1a;
+            content: "";
+            height: 100%;
+            position: absolute;
+            top: 0;
+            transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+            width: 100%;
+            z-index: -1;
+        }
+    }
+    &.toggle-left + label {
+        border-right: 0;
+        &:after{
+            left: 100%
+        }
+    }
+    &.toggle-right + label{
+        margin-left: -5px;
+        &:after{
+            left: -100%;
+        }
+    }
+    &:checked + label {
+        cursor: default;
+        color: #fff;
+        transition: color 200ms;
+        &:after{
+            left: 0;
+        }
+    }
 }

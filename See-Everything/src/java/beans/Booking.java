@@ -84,7 +84,7 @@ public class Booking
             Db_Connection dbconn=new Db_Connection();
             Connection myconnection= dbconn.Connection();
 
-            String sqlString="INSERT INTO users (first_name,last_name,username,password) VALUES ('"+venue+"','"+day+"','"+week+"','"+staffName+"','"+Activity+"')";
+            String sqlString="INSERT INTO tblVenues (TimeID, VenueID, StaffID, ActivityID, DateTimeID, VenueID, StaffID, ActivityID, Date) VALUES ('"+venue+"','"+day+"','"+week+"','"+staffName+"','"+Activity+"')";
             
             Statement myStatement = myconnection.createStatement();
             
