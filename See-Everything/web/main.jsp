@@ -65,7 +65,7 @@
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlSchool);
+                        conn = DriverManager.getConnection(urlHome);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -89,10 +89,8 @@
                     <option value = "Friday">Friday</option>
                 </select>
                 <h4>Week:</h4>
-                    <input id="toggle-on" class="toggle toggle-left" name="week" value="Blue" type="radio" checked>
-                    <label for="toggle-on" class="btn">Blue</label>
-                    <input id="toggle-off" class="toggle toggle-right" name="week" value="Maroon" type="radio">
-                    <label for="toggle-off" class="btn">Maroon</label>
+                    <input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked><label for="radio-one">Blue</label>
+                    <input type="radio" name="demo" value="one" id="radio-one" class="form-radio"><label for="radio-one">Maroon</label>
                 <h4>Period:</h4>
                 <select name="Day">
                     <option value = "0">Period 0</option>
@@ -110,11 +108,11 @@
                 <input type="text" name="firstname" value="">
                 <h4>Activity:</h4>
                                    <select name="venues">
-                <option value="-1">Select venue</option>
+                <option value="-1">Select activity</option>
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlSchool);
+                        conn = DriverManager.getConnection(urlHome);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){
@@ -128,6 +126,8 @@
                     }           
                     %>
                 </select>
+                <h4>Date:</h4>
+                <input type="date" id="start" name="trip-start"value="yyyy-mm-dd"min="2019-01-01">
                 <br><br>
                 <input type="submit" value="Submit">
             </form>                
