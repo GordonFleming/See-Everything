@@ -61,10 +61,11 @@
                     <%                  
                         String Query = "SELECT VenueID, Name FROM tblVenues";
                         Class.forName("org.sqlite.JDBC");
-                        String url = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
+                        String urlHome = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
+                        String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(url);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query);
                         while(rs.next()){

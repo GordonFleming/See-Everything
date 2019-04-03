@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.RequestDispatcher;
-import beans.User;
+import beans.Booking;
 import javax.servlet.http.HttpSession;
-
+/*
 public class LoginController extends HttpServlet 
 {
         protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -24,14 +24,14 @@ public class LoginController extends HttpServlet
             PrintWriter out = response.getWriter();
             try 
             {
-                User user = new User();
+                Booking user = new Booking();
 
                 user.setUser(request.getParameter("user"));
                 user.setPwd(request.getParameter("pwd"));
 
-                if(User.LoginUser(request.getParameter("user"),request.getParameter("pwd")))
+                if(Booking.LoginUser(request.getParameter("user"),request.getParameter("pwd")))
                 {
-                    User us = new User();
+                    Booking us = new Booking();
                     us.setUser(String.valueOf(request.getParameter("user")));
                     us.GetUser();
 
@@ -69,3 +69,4 @@ public class LoginController extends HttpServlet
             return "Short description";
         }
 } 
+*/

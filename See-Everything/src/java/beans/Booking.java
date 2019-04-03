@@ -7,65 +7,75 @@ import database.Db_Connection;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class User 
+public class Booking 
 {
-    private String first_name,last_name,user,pwd;
+    private String venue, day, week, staffName, Activity;
+    int Period;
     
     // Constructor //
-    
-    public User()
-    {
-        first_name="";
-        last_name="";
-        user="";
-        pwd="";
-    }        
+
+    public Booking(String venue, String day, String week, String staffName, String Activity, int Period) {
+        this.venue = venue;
+        this.day = day;
+        this.week = week;
+        this.staffName = staffName;
+        this.Activity = Activity;
+        this.Period = Period;
+    }      
  
     // accessor methods //
-    
-    public String getFirst_name() 
-    {
-        return first_name;
-    }
-    
-    public String getLast_name() 
-    {
-        return last_name;
+
+    public String getVenue() {
+        return venue;
     }
 
-    public String getUser() 
-    {
-        return user;
+    public String getDay() {
+        return day;
     }
 
-    public String getPwd() 
-    {
-        return pwd;
+    public String getWeek() {
+        return week;
+    }
+
+    public String getStaffName() {
+        return staffName;
+    }
+
+    public String getActivity() {
+        return Activity;
+    }
+
+    public int getPeriod() {
+        return Period;
     }
     
     // mutator methods //
+
+    public void setVenue(String venue) {
+        this.venue = venue;
+    }
+
+    public void setDay(String day) {
+        this.day = day;
+    }
+
+    public void setWeek(String week) {
+        this.week = week;
+    }
+
+    public void setStaffName(String staffName) {
+        this.staffName = staffName;
+    }
+
+    public void setActivity(String Activity) {
+        this.Activity = Activity;
+    }
+
+    public void setPeriod(int Period) {
+        this.Period = Period;
+    }
     
-    public void setFirst_name(String first_name) 
-    {
-        this.first_name =first_name;
-    }
-
-    public void setLast_name(String last_name) 
-    {
-        this.last_name =last_name;
-    }
-
-    public void setUser(String user) 
-    {
-        this.user=user;
-    }
-
-    public void setPwd(String pwd) 
-    {
-        this.pwd=pwd;
-    }
-    
-    // Registers the user, connecting to the database //
+    // Inserts the booking by connecting to the database //
       
     public void RegisterUser()
     {
@@ -74,7 +84,7 @@ public class User
             Db_Connection dbconn=new Db_Connection();
             Connection myconnection= dbconn.Connection();
 
-            String sqlString="INSERT INTO users (first_name,last_name,username,password) VALUES ('"+first_name+"','"+last_name+"','"+user+"','"+pwd+"')";
+            String sqlString="INSERT INTO users (first_name,last_name,username,password) VALUES ('"+venue+"','"+day+"','"+week+"','"+staffName+"','"+Activity+"')";
             
             Statement myStatement = myconnection.createStatement();
             
@@ -83,11 +93,11 @@ public class User
                 myStatement.executeUpdate(sqlString);
                 myStatement.close();
                 myconnection.close();
-            } catch (SQLException ex) {Logger.getLogger(User.class.getName()).log(Level.SEVERE, null, ex);}
-        } catch (SQLException ex) {Logger.getLogger(User.class.getName()).log(Level.SEVERE, null, ex);}  
+            } catch (SQLException ex) {Logger.getLogger(Booking.class.getName()).log(Level.SEVERE, null, ex);}
+        } catch (SQLException ex) {Logger.getLogger(Booking.class.getName()).log(Level.SEVERE, null, ex);}  
     }
     
-    // Validates the users credentials //
+    // Validates the users credentials // Validates if booking is valid
     
     public static boolean LoginUser(String user,String pwd) 
     {
@@ -111,7 +121,7 @@ public class User
     }
     
     // Fetches user data //
-    
+   /* 
     public void GetUser()
     {
             try 
@@ -135,7 +145,8 @@ public class User
                 myconnection.close();
                 
             } catch (SQLException ex){
-                Logger.getLogger(User.class.getName()).log(Level.SEVERE, null, ex);} 
+                Logger.getLogger(Booking.class.getName()).log(Level.SEVERE, null, ex);} 
             
     }
+    */
 }

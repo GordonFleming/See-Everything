@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.RequestDispatcher;
-import beans.User;
+import beans.Booking;
 import javax.servlet.http.HttpSession;
-
+/*
 public class RegisterController extends HttpServlet 
 {
         protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -24,7 +24,7 @@ public class RegisterController extends HttpServlet
             PrintWriter out = response.getWriter();
             try 
             {
-                User user = new User();
+                Booking user = new Booking();
      
                 user.setFirst_name(request.getParameter("first_name"));
                 user.setLast_name(request.getParameter("last_name"));
@@ -61,3 +61,4 @@ public class RegisterController extends HttpServlet
             return "Short description";
         }
 }
+*/
