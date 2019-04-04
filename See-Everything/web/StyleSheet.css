@@ -140,14 +140,14 @@ input[type=button], input[type=submit], input[type=reset] {
   margin-right: auto;
   width: 50%;
 }
-.form-radio                                     /* adapted from: http://www.tipue.com/blog/radio-checkbox/ */
-{
+.form-radio1                                     /* adapted from: http://www.tipue.com/blog/radio-checkbox/ */
+{                                                               /*Handles the maroon radio button*/
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
      display: inline-block;
      position: relative;
-     background-color: #f1f1f1;
+     background-color: white;
      color: #666;
      top: 10px;
      height: 30px;
@@ -158,22 +158,22 @@ input[type=button], input[type=submit], input[type=reset] {
      margin-right: 7px;
      outline: none;
 }
-.form-radio:checked::before
+.form-radio1:checked::before
 {
      position: absolute;
-     font: 13px/1 'Open Sans', sans-serif;
+     font: 14px/1 'Open Sans', sans-serif;
      left: 11px;
      top: 7px;
      content: '\02143';
      transform: rotate(40deg);
 }
-.form-radio:hover
+.form-radio1:hover
 {
-     background-color: #f7f7f7;
+     background-color: lightcoral;
 }
-.form-radio:checked
+.form-radio1:checked
 {
-     background-color: #f1f1f1;
+     background-color: maroon;
 }
 label
 {
@@ -181,3 +181,38 @@ label
      color: white;
      cursor: pointer;
 } 
+.form-radio2                                     /* adapted from: http://www.tipue.com/blog/radio-checkbox/ */
+{                                                           /*Handles the blue radio button*/
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: white;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio2:checked::before
+{
+     position: absolute;
+     font: 14px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio2:hover
+{
+     background-color: lightblue;
+}
+.form-radio2:checked
+{
+     background-color: blue;
+}

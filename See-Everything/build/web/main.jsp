@@ -65,7 +65,7 @@
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -89,8 +89,8 @@
                     <option value = "Friday">Friday</option>
                 </select>
                 <h4>Week:</h4>
-                    <input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked><label for="radio-one">Blue</label>
-                    <input type="radio" name="demo" value="one" id="radio-one" class="form-radio"><label for="radio-one">Maroon</label>
+                    <input type="radio" name="demo" value="one" id="radio-one2" class="form-radio2" checked><label for="radio-one">Blue</label>
+                    <input type="radio" name="demo" value="one" id="radio-one1" class="form-radio1"><label for="radio-one">Maroon</label>
                 <h4>Period:</h4>
                 <select name="Day">
                     <option value = "0">Period 0</option>
@@ -107,12 +107,12 @@
                 <h4>Staff Name:</h4>
                 <input type="text" name="firstname" value="">
                 <h4>Activity:</h4>
-                                   <select name="venues">
+                <select name="venues">
                 <option value="-1">Select activity</option>
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){
