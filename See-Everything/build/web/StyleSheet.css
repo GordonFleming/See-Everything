@@ -127,6 +127,12 @@ input[type=button], input[type=submit], input[type=reset] {
     right: -2%;
     transform: translate(-50%, -50%); 
 }
+.top-query-form{
+    position: absolute;                             
+    top: 40%;
+    right: 50%;
+    transform: translate(-50%, -50%); 
+}
 .centerLogo{                                    /* Scales logo depending on screen size */
   display: block;
   margin-left: auto;

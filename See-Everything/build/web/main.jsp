@@ -51,6 +51,13 @@
             </div>
         <img src="img/MainPageGUIplanV2.png" alt="St John's Map" class="center">
         
+                                                    <!-- Query Form -->
+        <div class = "top-query-form">
+            <form>
+                
+            </form>                                            
+        </div>
+                                                                                                       
                                                     <!-- Booking Form -->
         <div class = "right-booking-form">
             <form autocomplete="on">
