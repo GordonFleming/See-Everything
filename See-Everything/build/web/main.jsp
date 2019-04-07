@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
         <title>See Everything Main Page | St John's</title>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="stretchy.min.js" async></script>
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
                 function SignedIn(googleUser) {                                     /* Fetches user data from google */
@@ -37,7 +38,7 @@
         
                                                     <! -- Other -->
         
-        <h2 align="center" ><font face="Arial" color="white">See Everything | St John's College</font></h2>
+        <header><h2 align="center" ><font face="Arial" color="white">&ensp;&ensp;See Everything | St John's College</font></h2></header>
             <div id = "hidden" class = "GSignInCentered">                     <!-- Hides the sign in button -->
                 <div class="g-signin2" data-onsuccess="SignedIn"></div>               
             </div>
@@ -52,14 +53,24 @@
         <img src="img/MainPageGUIplanV2.png" alt="St John's Map" class="center">
         
                                                     <!-- Query Form -->
-        <div class = "top-query-form">
-            <form>
-                
+        <div class = "top-query-form" id="container-query">
+            <center><h3>Query Form</h3></center>
+            <form class="form-inline" autocomplete="off">
+                <label>Field</label>
+                <select name="field">
+                    <option value = "-1">StaffName</option>                    
+                </select>
+                <label>Function</label>
+                <select name="function">
+                    <option value = "-1">Contains</option>                    
+                </select>
+                <label>Parameters</label>
+                <input type="text" name="firstname" value="">
             </form>                                            
         </div>
                                                                                                        
                                                     <!-- Booking Form -->
-        <div class = "right-booking-form">
+        <div class = "right-booking-form" id="conainer-booking">
             <form autocomplete="on">
                 <h3>Booking Form</h3>          
                 <h4>Venue:</h4> 
@@ -72,7 +83,7 @@
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlSchool);
+                        conn = DriverManager.getConnection(urlHome);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -96,8 +107,8 @@
                     <option value = "Friday">Friday</option>
                 </select>
                 <h4>Week:</h4>
-                    <input type="radio" name="demo" value="one" id="radio-one2" class="form-radio2" checked><label for="radio-one">Blue</label>
-                    <input type="radio" name="demo" value="one" id="radio-one1" class="form-radio1"><label for="radio-one">Maroon</label>
+                    <input type="radio" name="week" value="Blue" id="radio-one2" class="form-radio2" checked><label for="radio-one">Blue</label>
+                    <input type="radio" name="week" value="Maroon" id="radio-one1" class="form-radio1"><label for="radio-one">Maroon</label>
                 <h4>Period:</h4>
                 <select name="Day">
                     <option value = "0">Period 0</option>
@@ -119,7 +130,7 @@
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlSchool);
+                        conn = DriverManager.getConnection(urlHome);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){
@@ -151,6 +162,9 @@
                     <%=name %>
                     <br>
                     <%=email %> 
+                </div>
+                <div class="bottom-right-help">
+                    <a href="img/LoginGUIplanV3.png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
                 </div>
             </center>
         </footer>

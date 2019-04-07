@@ -2,8 +2,8 @@
     Created on : 29 Jan 2019, 9:47:40 AM
     Author     : Gordon Fleming
 */
-body {
-  background-color: #686c70; /* Dark Gray */
+body{
+    background-color: #686c70; /* Dark Gray */
 }
 h3{
     font-size: 24px;
@@ -15,15 +15,16 @@ h4{
 }
 input[type=text] {
   width: 100%;
-  padding: 6px 8px;
-  margin: 8px 0;
+  padding: 4px 6px;
+  margin: 2px 0;
   box-sizing: border-box;
 }
-select {
+select{
   width: 100%;
   padding: 4px 6px;
   border: none;
-  border-radius: 4px;
+  margin: -20px 0;
+  border-radius: 16px;
   background-color: #f1f1f1;
 }
 input[type=button], input[type=submit], input[type=reset] {
@@ -37,6 +38,25 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 #hidden{
     display:none;
+}
+#conainer-booking{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 80%;
+  overflow: auto;
+}
+#container-query{
+  /*
+  border-radius: 20px; 
+  border-color: lightslategrey;
+  background-color: darkgray;
+  */
+  padding-left: 10px;
+  padding-right: 0px;
+  width: auto;
+  height: auto;
+  overflow: auto;
 }
 .bottom-right-help{
     right: 0;
@@ -123,15 +143,15 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 .right-booking-form{
     position: absolute;                             
-    top: 50%;
-    right: -2%;
-    transform: translate(-50%, -50%); 
+    top: 48%;
+    right: 2%;
+    transform: translate(-2%, -52%); 
 }
 .top-query-form{
-    position: absolute;                             
-    top: 40%;
-    right: 50%;
-    transform: translate(-50%, -50%); 
+  position: absolute;
+  top: 15%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
 }
 .centerLogo{                                    /* Scales logo depending on screen size */
   display: block;
@@ -151,10 +171,11 @@ input[type=button], input[type=submit], input[type=reset] {
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
+     margin-top: -10px;
      display: inline-block;
      position: relative;
      background-color: white;
-     color: #666;
+     color: #666;                                /* red */
      top: 10px;
      height: 30px;
      width: 30px;
@@ -179,7 +200,7 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 .form-radio1:checked
 {
-     background-color: maroon;
+     background-color: #8e2330;         /* Maroon */
 }
 label
 {
@@ -192,6 +213,7 @@ label
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
+     margin-top: -10px;
      display: inline-block;
      position: relative;
      background-color: white;
@@ -220,5 +242,23 @@ label
 }
 .form-radio2:checked
 {
-     background-color: blue;
+     background-color: #1830a5;     /* Blue */
+}
+/* Style the form - display items horizontally */
+.form-inline { 
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+/* Adds margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 10px;
+}
+/* Overides the width previously set */
+.form-inline select{
+    width: 20%;
+}
+/* Overides the width previously set */
+.form-inline input{
+    width: 20%;
 }
