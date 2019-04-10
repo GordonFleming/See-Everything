@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package controllers;
-
+/*
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.RequestDispatcher;
 import beans.Booking;
 import javax.servlet.http.HttpSession;
-/*
+
 public class RegisterController extends HttpServlet 
 {
         protected void processRequest(HttpServletRequest request, HttpServletResponse response)

@@ -77,7 +77,7 @@ public class Booking
     
     // Inserts the booking by connecting to the database //
       
-    public void RegisterUser()
+    public void registerUser()
     {
         try
         {    
@@ -99,7 +99,7 @@ public class Booking
     
     // Validates if booking is valid
     
-    public static boolean LoginUser(String venue, String day, String  week, String staffName, String  Activity, int Period) 
+    public static boolean loginUser(String venue, String day, String  week, String staffName, String  Activity, int Period) 
     {
             boolean check =false;
             try 
@@ -126,7 +126,7 @@ public class Booking
     
     // Fetches user data //
    /* 
-    public void GetUser()
+    public void getUser()
     {
             try 
             {      
