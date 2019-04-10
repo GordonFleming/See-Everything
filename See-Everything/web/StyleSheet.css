@@ -27,15 +27,6 @@ select{
   border-radius: 16px;
   background-color: #f1f1f1;
 }
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 6px 12px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
 #hidden{
     display:none;
 }
@@ -52,11 +43,51 @@ input[type=button], input[type=submit], input[type=reset] {
   border-color: lightslategrey;
   background-color: darkgray;
   */
-  padding-left: 10px;
+  padding-left: 0px;
   padding-right: 0px;
-  width: auto;
+  width: 700px;
   height: auto;
   overflow: auto;
+}
+.Submit{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.Tick_Submit{
+  position: static;
+  background-color: lightgray;
+  height: 34px;
+  width: 34px;
+  border: 0;  
+  margin-left: 15px;
+  border-radius: 50px;  
+  padding-right: 0;
+  padding-left: 0px;
+  padding-bottom: 8px;
+  font-size: 26px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.Tick_Submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: static;
+  transition: 0.5s;
+  transform: rotate(-235deg);
+}
+.Tick_Submit span:after {
+  content: '\02923';
+  position: relative;
+  transition: 0.5s;
+}
+.Tick_Submit:hover span {
+    position: static;
+    transform: rotate(125deg);
 }
 .bottom-right-help{
     right: 0;
@@ -149,7 +180,7 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 .top-query-form{
   position: absolute;
-  top: 15%;
+  top: 16%;
   left: 50%; 
   transform: translate(-50%, -50%); 
 }
@@ -244,21 +275,17 @@ label
 {
      background-color: #1830a5;     /* Blue */
 }
-/* Style the form - display items horizontally */
-.form-inline { 
+.form-inline {                      /* Style the form - display items horizontally */
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
-/* Adds margins for each label */
-.form-inline label {
+.form-inline label {                /* Adds margins for each label */
   margin: 5px 10px 5px 10px;
 }
-/* Overides the width previously set */
-.form-inline select{
-    width: 20%;
+.form-inline select{                /* Overides the width previously set */
+    width: 18%;
 }
-/* Overides the width previously set */
-.form-inline input{
-    width: 20%;
+.form-inline input{                 /* Overides the width previously set */
+    width: 18%;
 }

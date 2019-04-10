@@ -37,7 +37,7 @@
     <body>
         
                                                     <! -- Other -->
-        
+                                                    
         <header><h2 align="center" ><font face="Arial" color="white">&ensp;&ensp;See Everything | St John's College</font></h2></header>
             <div id = "hidden" class = "GSignInCentered">                     <!-- Hides the sign in button -->
                 <div class="g-signin2" data-onsuccess="SignedIn"></div>               
@@ -53,23 +53,33 @@
         <img src="img/MainPageGUIplanV2.png" alt="St John's Map" class="center">
         
                                                     <!-- Query Form -->
+                                                    
         <div class = "top-query-form" id="container-query">
             <center><h3>Query Form</h3></center>
             <form class="form-inline" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
-                    <option value = "-1">StaffName</option>                    
+                    <option value = "-1">Staff Name</option>  
+                    <option value = "0">Venue</option>
+                    <option value = "1">Activity</option>
+                    <option value = "2">Date</option>
                 </select>
                 <label>Function</label>
                 <select name="function">
-                    <option value = "-1">Contains</option>                    
+                    <option value = "-1">Contains</option>  
+                    <option value = "0">Does not contain</option>
+                    <option value = "1">Equal</option>
+                    <option value = "2">Not equal</option>
+                    <option value = "3">Begins with</option>
                 </select>
                 <label>Parameters</label>
                 <input type="text" name="firstname" value="">
+                <label><button class="Tick_Submit"><input id="hidden" type="submit" value=""><span></button></label>
             </form>                                            
         </div>
                                                                                                        
                                                     <!-- Booking Form -->
+                                                    
         <div class = "right-booking-form" id="conainer-booking">
             <form autocomplete="on">
                 <h3>Booking Form</h3>          
@@ -83,7 +93,7 @@
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -130,7 +140,7 @@
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){
@@ -147,11 +157,12 @@
                 <h4>Date:</h4>
                 <input type="date" id="start" name="trip-start"value="yyyy-mm-dd"min="2019-01-01">
                 <br><br>
-                <input type="submit" value="Submit">
+                <input class="Submit" type="submit" value="Submit">
             </form>                
         </div>
                        
                                                     <!-- Footer displays the users name and email -->
+                                                    
         <footer>                                                                      
             <center>
                 <div class="bottom-left-info">
