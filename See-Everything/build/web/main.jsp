@@ -37,7 +37,7 @@
     <body>
         
                                                     <! -- Other -->
-        
+                                                    
         <header><h2 align="center" ><font face="Arial" color="white">&ensp;&ensp;See Everything | St John's College</font></h2></header>
             <div id = "hidden" class = "GSignInCentered">                     <!-- Hides the sign in button -->
                 <div class="g-signin2" data-onsuccess="SignedIn"></div>               
@@ -53,12 +53,16 @@
         <img src="img/MainPageGUIplanV2.png" alt="St John's Map" class="center">
         
                                                     <!-- Query Form -->
+                                                    
         <div class = "top-query-form" id="container-query">
             <center><h3>Query Form</h3></center>
             <form class="form-inline" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
-                    <option value = "-1">StaffName</option>                    
+                    <option value = "-1">Staff Name</option>  
+                    <option value = "0">Venue</option>
+                    <option value = "1">Activity</option>
+                    <option value = "2">Date</option>
                 </select>
                 <label>Function</label>
                 <select name="function">
@@ -72,11 +76,12 @@
                 </select>
                 <label>Parameters</label>
                 <input type="text" name="firstname" value="">
-                <label><input class="Tick_Submit" type="submit" value="✎" ></label>
+                <label><button class="Tick_Submit"><input id="hidden" type="submit" value=""><span></button></label>
             </form>                                            
         </div>
                                                                                                        
                                                     <!-- Booking Form -->
+                                                    
         <div class = "right-booking-form" id="conainer-booking">
             <form autocomplete="on">
                 <h3>Booking Form</h3>          
@@ -159,6 +164,7 @@
         </div>
                        
                                                     <!-- Footer displays the users name and email -->
+                                                    
         <footer>                                                                      
             <center>
                 <div class="bottom-left-info">

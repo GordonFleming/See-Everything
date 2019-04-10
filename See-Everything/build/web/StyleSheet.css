@@ -59,19 +59,35 @@ select{
   cursor: pointer;
 }
 .Tick_Submit{
-  background: none;
-  border: none;
-  padding: 6px 12px;
-  margin: 12px 6px;
-  font-size: 22px;
+  position: static;
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  border: 0;  
+  margin-left: 8px;
+  border-radius: 50px;  
+  padding-right: 0;
+  padding-left: 0px;
+  padding-bottom: 8px;
+  font-size: 26px;
   cursor: pointer;
-  width: 10%;
+  transition: all 0.5s;
 }
 .Tick_Submit span {
   cursor: pointer;
   display: inline-block;
+  position: static;
+  transition: 0.5s;
+  transform: rotate(-235deg);
+}
+.Tick_Submit span:after {
+  content: '\02923';
   position: relative;
   transition: 0.5s;
+}
+.Tick_Submit:hover span {
+    position: static;
+    transform: rotate(125deg);
 }
 .bottom-right-help{
     right: 0;
