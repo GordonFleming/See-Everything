@@ -71,8 +71,6 @@
                     <option value = "1">Equal</option>
                     <option value = "2">Not equal</option>
                     <option value = "3">Begins with</option>
-                    <option value = "4">Greater than</option>
-                    <option value = "5">Less than</option>
                 </select>
                 <label>Parameters</label>
                 <input type="text" name="firstname" value="">

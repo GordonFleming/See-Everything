@@ -97,20 +97,24 @@ public class Booking
         } catch (SQLException ex) {Logger.getLogger(Booking.class.getName()).log(Level.SEVERE, null, ex);}  
     }
     
-    // Validates the users credentials // Validates if booking is valid
+    // Validates if booking is valid
     
-    public static boolean LoginUser(String user,String pwd) 
+    public static boolean LoginUser(String venue, String day, String  week, String staffName, String  Activity, int Period) 
     {
             boolean check =false;
             try 
             {      
-                Db_Connection dbconn=new Db_Connection();
-                Connection myconnection= dbconn.Connection();
+                Db_Connection dbconn = new Db_Connection();
+                Connection myconnection = dbconn.Connection();
                 
-                PreparedStatement ps1 =myconnection.prepareStatement("select * from users where username=? and password=?");
+                PreparedStatement ps1 = myconnection.prepareStatement("select * from users where username=? and password=?");
 
-                ps1.setString(1, user);
-                ps1.setString(2, pwd);
+                ps1.setString(1, venue);
+                ps1.setString(2, day);
+                ps1.setString(3, week);
+                ps1.setString(4, staffName);
+                ps1.setString(5, Activity);
+                ps1.setInt(6, Period);
                 ResultSet rs1 =ps1.executeQuery();
                 check = rs1.next();
 

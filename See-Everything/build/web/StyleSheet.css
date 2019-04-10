@@ -60,9 +60,9 @@ select{
 }
 .Tick_Submit{
   position: static;
-  background-color: white;
-  height: 33px;
-  width: 33px;
+  background-color: lightgray;
+  height: 34px;
+  width: 34px;
   border: 0;  
   margin-left: 15px;
   border-radius: 50px;  
