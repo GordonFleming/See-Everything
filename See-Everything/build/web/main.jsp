@@ -62,10 +62,17 @@
                 </select>
                 <label>Function</label>
                 <select name="function">
-                    <option value = "-1">Contains</option>                    
+                    <option value = "-1">Contains</option>  
+                    <option value = "0">Does not contain</option>
+                    <option value = "1">Equal</option>
+                    <option value = "2">Not equal</option>
+                    <option value = "3">Begins with</option>
+                    <option value = "4">Greater than</option>
+                    <option value = "5">Less than</option>
                 </select>
                 <label>Parameters</label>
                 <input type="text" name="firstname" value="">
+                <label><input class="Tick_Submit" type="submit" value="✎" ></label>
             </form>                                            
         </div>
                                                                                                        
@@ -83,7 +90,7 @@
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -130,7 +137,7 @@
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlSchool);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){
@@ -147,7 +154,7 @@
                 <h4>Date:</h4>
                 <input type="date" id="start" name="trip-start"value="yyyy-mm-dd"min="2019-01-01">
                 <br><br>
-                <input type="submit" value="Submit">
+                <input class="Submit" type="submit" value="Submit">
             </form>                
         </div>
                        

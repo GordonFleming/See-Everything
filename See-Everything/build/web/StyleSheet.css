@@ -27,15 +27,6 @@ select{
   border-radius: 16px;
   background-color: #f1f1f1;
 }
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 6px 12px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
 #hidden{
     display:none;
 }
@@ -52,11 +43,35 @@ input[type=button], input[type=submit], input[type=reset] {
   border-color: lightslategrey;
   background-color: darkgray;
   */
-  padding-left: 10px;
+  padding-left: 0px;
   padding-right: 0px;
   width: auto;
   height: auto;
   overflow: auto;
+}
+.Submit{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.Tick_Submit{
+  background: none;
+  border: none;
+  padding: 6px 12px;
+  margin: 12px 6px;
+  font-size: 22px;
+  cursor: pointer;
+  width: 10%;
+}
+.Tick_Submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 .bottom-right-help{
     right: 0;
@@ -244,21 +259,17 @@ label
 {
      background-color: #1830a5;     /* Blue */
 }
-/* Style the form - display items horizontally */
-.form-inline { 
+.form-inline {                      /* Style the form - display items horizontally */
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
-/* Adds margins for each label */
-.form-inline label {
+.form-inline label {                /* Adds margins for each label */
   margin: 5px 10px 5px 10px;
 }
-/* Overides the width previously set */
-.form-inline select{
+.form-inline select{                /* Overides the width previously set */
     width: 18%;
 }
-/* Overides the width previously set */
-.form-inline input{
+.form-inline input{                 /* Overides the width previously set */
     width: 18%;
 }
