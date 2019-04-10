@@ -45,7 +45,7 @@ select{
   */
   padding-left: 0px;
   padding-right: 0px;
-  width: auto;
+  width: 700px;
   height: auto;
   overflow: auto;
 }
@@ -61,10 +61,10 @@ select{
 .Tick_Submit{
   position: static;
   background-color: white;
-  height: 35px;
-  width: 35px;
+  height: 33px;
+  width: 33px;
   border: 0;  
-  margin-left: 8px;
+  margin-left: 15px;
   border-radius: 50px;  
   padding-right: 0;
   padding-left: 0px;
@@ -180,7 +180,7 @@ select{
 }
 .top-query-form{
   position: absolute;
-  top: 15%;
+  top: 16%;
   left: 50%; 
   transform: translate(-50%, -50%); 
 }
