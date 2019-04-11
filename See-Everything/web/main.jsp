@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
         <title>See Everything Main Page | St John's</title>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <script src="stretchy.min.js" async></script>
+        <!--<script src="stretchy.min.js" async></script>-->
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
                 function SignedIn(googleUser) {                                     /* Fetches user data from google */
@@ -22,8 +22,8 @@
                     var name=profile.getName();
                     var email=profile.getEmail();
                     document.getElementById("myImg").src = imagurl;
-                    document.getElementById("name").innerHTML = name;	
-                    document.getElementById("myP").style.visibility = "hidden";	
+                    document.getElementById("gname").innerHTML = name;	
+                    document.getElementById("gmail").innerHTML = email;
 		}
             </script>
             <script>
@@ -39,7 +39,7 @@
                                                     <! -- Other -->
                                                     
         <header><h2 align="center" ><font face="Arial" color="white">&ensp;&ensp;See Everything | St John's College</font></h2></header>
-            <div id = "hidden" class = "GSignInCentered">                     <!-- Hides the sign in button -->
+            <div id = "hidden">                     <!-- Hides the sign in button -->
                 <div class="g-signin2" data-onsuccess="SignedIn"></div>               
             </div>
             <div class="top-left-GSignOut">                                 <!-- Displays the sign out button -->
@@ -48,7 +48,7 @@
             <div class = "profile-details">                                 <!-- Displays the Users details -->
                 <img id="myImg" style="width:70px;height:70px;">
                 <br> 
-                <p id="name"></p>  
+                <p id="gname"></p>  
             </div>
         <img src="img/MainPageGUIplanV2.png" alt="St John's Map" class="center">
         
@@ -155,7 +155,7 @@
                     %>
                 </select>
                 <h4>Date:</h4>
-                <input type="date" id="start" name="trip-start"value="yyyy-mm-dd"min="2019-01-01">
+                <input type="date" name="Date" value="yyyy-MM-dd" min="2019-01-01">
                 <br><br>
                 <input class="Submit" type="submit" value="Submit">
             </form>                
@@ -166,13 +166,7 @@
         <footer>                                                                      
             <center>
                 <div class="bottom-left-info">
-                    <%
-                    String name = (String)request.getParameter("name");
-                    String email = (String)request.getParameter("email");
-                    %>
-                    <%=name %>
-                    <br>
-                    <%=email %> 
+                    <p id="gmail"></p>
                 </div>
                 <div class="bottom-right-help">
                     <a href="img/LoginGUIplanV3.png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
