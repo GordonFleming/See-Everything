@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package controllers;
-/*
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -15,7 +15,7 @@ import javax.servlet.RequestDispatcher;
 import beans.Booking;
 import javax.servlet.http.HttpSession;
 
-public class RegisterController extends HttpServlet 
+public class BookingController extends HttpServlet 
 {
         protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException  
@@ -24,19 +24,22 @@ public class RegisterController extends HttpServlet
             PrintWriter out = response.getWriter();
             try 
             {
-                Booking user = new Booking();
+                Booking booking = new Booking();
      
-                user.setFirst_name(request.getParameter("first_name"));
-                user.setLast_name(request.getParameter("last_name"));
-                user.setUser(request.getParameter("user"));
-                user.setPwd(request.getParameter("pwd"));
+                booking.setVenue(request.getParameter("venue"));
+                booking.setDay(request.getParameter("day"));
+                booking.setWeek(request.getParameter("week"));
+                booking.setStaffName(request.getParameter("staffName"));
+                booking.setActivity(request.getParameter("Activity"));
+                booking.setDate(request.getParameter("date"));
+                booking.setPeriod(request.getParameter("Period"));
 
-                user.RegisterUser();
+                booking.inputBooking();
 
                 out.println("<br>");
                 out.println("<br>");
                 out.println("<center>Great!!!</center>");
-                RequestDispatcher rd = request.getRequestDispatcher("login_form.jsp");
+                RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
                 rd.forward(request,response);
             } finally {out.close();}
         }
@@ -61,4 +64,4 @@ public class RegisterController extends HttpServlet
             return "Short description";
         }
 }
-*/
+
