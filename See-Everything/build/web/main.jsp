@@ -50,7 +50,7 @@
                 <br> 
                 <p id="gname"></p>  
             </div>
-        <img src="img/MainPageGUIplanV2.png" alt="St John's Map" class="center">
+        <img src="img/Classroom-Map.png" alt="St John's Map" class="center">
         
                                                     <!-- Query Form -->
                                                     
@@ -81,7 +81,7 @@
                                                     <!-- Booking Form -->
                                                     
         <div class = "right-booking-form" id="conainer-booking">
-            <form autocomplete="on">
+            <form action="BookingController" autocomplete="on">
                 <h3>Booking Form</h3>          
                 <h4>Venue:</h4> 
                 <select name="venues">
@@ -93,7 +93,7 @@
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlSchool);
+                        conn = DriverManager.getConnection(urlHome);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -140,7 +140,7 @@
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlSchool);
+                        conn = DriverManager.getConnection(urlHome);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){

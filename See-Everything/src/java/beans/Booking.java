@@ -9,18 +9,18 @@ import java.util.logging.Logger;
 
 public class Booking 
 {
-    private String venue, day, week, staffName, Activity;
-    int Period;
+    private String venue, day, week, staffName, Activity, date, Period;
     
     // Constructor //
 
-    public Booking(String venue, String day, String week, String staffName, String Activity, int Period) {
-        this.venue = venue;
-        this.day = day;
-        this.week = week;
-        this.staffName = staffName;
-        this.Activity = Activity;
-        this.Period = Period;
+    public Booking() {
+        venue="";
+        day="";
+        week="";
+        staffName="";
+        Activity="";
+        Period="";
+        date="";
     }      
  
     // accessor methods //
@@ -44,8 +44,12 @@ public class Booking
     public String getActivity() {
         return Activity;
     }
+    
+    public String getDate(){
+        return date;
+    }
 
-    public int getPeriod() {
+    public String getPeriod() {
         return Period;
     }
     
@@ -70,21 +74,25 @@ public class Booking
     public void setActivity(String Activity) {
         this.Activity = Activity;
     }
+    
+    public void setDate(String date){
+        this.date = date;
+    }
 
-    public void setPeriod(int Period) {
+    public void setPeriod(String Period) {
         this.Period = Period;
     }
     
     // Inserts the booking by connecting to the database //
       
-    public void registerUser()
+    public void inputBooking()
     {
         try
         {    
             Db_Connection dbconn=new Db_Connection();
             Connection myconnection= dbconn.Connection();
 
-            String sqlString="INSERT INTO tblVenues (TimeID, VenueID, StaffID, ActivityID, DateTimeID, VenueID, StaffID, ActivityID, Date) VALUES ('"+venue+"','"+day+"','"+week+"','"+staffName+"','"+Activity+"')";
+            String sqlString="INSERT INTO tblVenues (Venue, Day, Week, Period, StaffName, Activity, DateTime) VALUES ('"+venue+"','"+day+"','"+week+"','"+Period+"','"+staffName+"','"+Activity+"','"+date+"')";
             
             Statement myStatement = myconnection.createStatement();
             
@@ -99,7 +107,7 @@ public class Booking
     
     // Validates if booking is valid
     
-    public static boolean loginUser(String venue, String day, String  week, String staffName, String  Activity, int Period) 
+    public static boolean loginUser(String venue, String day, String  week, int Period) 
     {
             boolean check =false;
             try 
@@ -107,20 +115,20 @@ public class Booking
                 Db_Connection dbconn = new Db_Connection();
                 Connection myconnection = dbconn.Connection();
                 
-                PreparedStatement ps1 = myconnection.prepareStatement("select * from users where username=? and password=?");
+                PreparedStatement ps1 = myconnection.prepareStatement("select tblTimeTables.StaffID, Week, Weekday, tblTimeTables.Period_2\n" +
+                                                                      "from tblTimeTables\n" +
+                                                                      "LEFT JOIN tblTimeTablesVenue on tblTimeTables.StaffID = tblTimeTablesVenue.StaffID\n" +
+                                                                      "where Week='B' and Weekday='Tue' and tblTimeTables.Period_2 is null and tblTimeTablesVenue.Period_2 is 'Mat14'");
 
                 ps1.setString(1, venue);
                 ps1.setString(2, day);
                 ps1.setString(3, week);
-                ps1.setString(4, staffName);
-                ps1.setString(5, Activity);
-                ps1.setInt(6, Period);
-                ResultSet rs1 =ps1.executeQuery();
+                ps1.setInt(4, Period);
+                ResultSet rs1 = ps1.executeQuery();
                 check = rs1.next();
 
                 myconnection.close();        
-            }catch(Exception e){e.printStackTrace();}
-            
+            }catch(Exception e){e.printStackTrace();}           
             return check;    
     }
     
