@@ -6,30 +6,13 @@
 
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="Map.css" />
   <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 </head>
 <body>
-  <div id="my-signin2"></div>
-  <script>
-    function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-    }
-    function onFailure(error) {
-      console.log(error);
-    }
-    function renderButton() {
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    }
-  </script>
-
-  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+    <h1>Test Page</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" version="1.1">
+    <rect width="200" height="100" fill="green"/>
+    </svg>
 </body>
 </html>

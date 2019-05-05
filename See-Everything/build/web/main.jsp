@@ -13,7 +13,6 @@
         <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
         <title>See Everything Main Page | St John's</title>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <!--<script src="stretchy.min.js" async></script>-->
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
                 function SignedIn(googleUser) {                                     /* Fetches user data from google */
@@ -30,7 +29,7 @@
                 function myFunction() {                                             /* Signs out */
                 gapi.auth2.getAuthInstance().disconnect();
                 location.reload(true);                                              /* Reloads to sign out the user */
-                location.replace("http://localhost:8080/See-Everything/login.jsp"); /* Redirects to login page */
+                location.replace("http://localhost:8080/See-Everything/");          /* Redirects to login page */
                 }
             </script>
     </head>
@@ -50,8 +49,10 @@
                 <br> 
                 <p id="gname"></p>  
             </div>
-        <img src="img/Classroom-Map.png" alt="St John's Map" class="center">
-        
+            <!--<img src="img/MapSimple.svg" alt="St John's Map" class="center">-->
+            <object type="image/svg+xml" data="img/MapSimple.svg" class="center">
+            Your browser does not support SVG
+            </object>
                                                     <!-- Query Form -->
                                                     
         <div class = "top-query-form" id="container-query">
@@ -59,18 +60,17 @@
             <form class="form-inline" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
-                    <option value = "-1">Staff Name</option>  
-                    <option value = "0">Venue</option>
-                    <option value = "1">Activity</option>
-                    <option value = "2">Date</option>
+                    <option value = "staffName">Staff Name</option>  
+                    <option value = "venue">Venue</option>
+                    <option value = "activity">Activity</option>
+                    <option value = "date">Date</option>
                 </select>
                 <label>Function</label>
                 <select name="function">
-                    <option value = "-1">Contains</option>  
-                    <option value = "0">Does not contain</option>
-                    <option value = "1">Equal</option>
-                    <option value = "2">Not equal</option>
-                    <option value = "3">Begins with</option>
+                    <option value = "like">Contains</option>  
+                    <option value = "=">Equal</option>
+                    <option value = "!=">Not equal</option>
+                    <option value = "substr(?,1,1) =">Begins with</option>
                 </select>
                 <label>Parameters</label>
                 <input type="text" name="firstname" value="">
@@ -80,20 +80,22 @@
                                                                                                        
                                                     <!-- Booking Form -->
                                                     
-        <div class = "right-booking-form" id="conainer-booking">
-            <form action="BookingController" autocomplete="on">
+              <div class = "right-booking-form" id="conainer-booking">
+            <form action="BookingControl" method="post" autocomplete="on">
                 <h3>Booking Form</h3>          
                 <h4>Venue:</h4> 
-                <select name="venues">
+                <br>
+                <select name="venue">
                 <option value="-1">Select venue</option>
                     <%                  
                         String Query1 = "SELECT * FROM tblVenues";
                         Class.forName("org.sqlite.JDBC");
                         String urlHome = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                         String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
+                        String urlLaptop = "jdbc:sqlite:/Users/gordonfleming/NetBeansProjects/See-Everything/See-Everything/SJC_DB.db";
                         Connection conn = null;
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlLaptop);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query1);
                         while(rs.next()){
@@ -107,40 +109,14 @@
                     }           
                     %>
                 </select>
-                <br>
-                <h4>Day:</h4> 
-                <select name="Day">
-                    <option value = "Monday">Monday</option>
-                    <option value = "Tuesday">Tuesday</option>
-                    <option value = "Wednesday">Wednesday</option>
-                    <option value = "Thursday">Thursday</option>
-                    <option value = "Friday">Friday</option>
-                </select>
-                <h4>Week:</h4>
-                    <input type="radio" name="week" value="Blue" id="radio-one2" class="form-radio2" checked><label for="radio-one">Blue</label>
-                    <input type="radio" name="week" value="Maroon" id="radio-one1" class="form-radio1"><label for="radio-one">Maroon</label>
-                <h4>Period:</h4>
-                <select name="Day">
-                    <option value = "0">Period 0</option>
-                    <option value = "1">Period 1</option>
-                    <option value = "2">Period 2</option>
-                    <option value = "3">Period 3</option>
-                    <option value = "4">Period 4</option>
-                    <option value = "5">Period 5</option>
-                    <option value = "6">Period 6</option>
-                    <option value = "7">Period 7</option>
-                    <option value = "8">Period 8</option>
-                    <option value = "9">Period 9</option>
-                </select>
-                <h4>Staff Name:</h4>
-                <input type="text" name="firstname" value="">
                 <h4>Activity:</h4>
-                <select name="venues">
+                <br>
+                <select name="activity">
                 <option value="-1">Select activity</option>
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
-                        conn = DriverManager.getConnection(urlHome);
+                        conn = DriverManager.getConnection(urlLaptop);
                         Statement stm = conn.createStatement();
                         ResultSet rs = stm.executeQuery(Query2);
                         while(rs.next()){
@@ -154,8 +130,36 @@
                     }           
                     %>
                 </select>
+                <h4>Week:</h4>
+                    <input type="radio" name="week" value="Blue" id="radio-one2" class="form-radio2" checked><label for="radio-one">Blue</label>
+                    <input type="radio" name="week" value="Maroon" id="radio-one1" class="form-radio1"><label for="radio-one">Maroon</label>
+                <h4>Day:</h4>
+                <br>
+                <select name="day">
+                    <option value = "Monday">Monday</option>
+                    <option value = "Tuesday">Tuesday</option>
+                    <option value = "Wednesday">Wednesday</option>
+                    <option value = "Thursday">Thursday</option>
+                    <option value = "Friday">Friday</option>
+                </select>
+                <h4>Period:</h4>
+                <br>
+                <select name="period">
+                    <option value = "0">Period 0</option>
+                    <option value = "1">Period 1</option>
+                    <option value = "2">Period 2</option>
+                    <option value = "3">Period 3</option>
+                    <option value = "4">Period 4</option>
+                    <option value = "5">Period 5</option>
+                    <option value = "6">Period 6</option>
+                    <option value = "7">Period 7</option>
+                    <option value = "8">Period 8</option>
+                    <option value = "9">Period 9</option>
+                </select>
+                <h4>Staff Name:</h4>
+                <input type="text" name="staffName" value="">
                 <h4>Date:</h4>
-                <input type="date" name="Date" value="yyyy-MM-dd" min="2019-01-01">
+                <input type="date" name="date" value="yyyy-MM-dd" min="2019-01-01">
                 <br><br>
                 <input class="Submit" type="submit" value="Submit">
             </form>                

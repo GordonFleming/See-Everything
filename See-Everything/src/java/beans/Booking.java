@@ -92,7 +92,7 @@ public class Booking
             Db_Connection dbconn=new Db_Connection();
             Connection myconnection= dbconn.Connection();
 
-            String sqlString="INSERT INTO tblVenues (Venue, Day, Week, Period, StaffName, Activity, DateTime) VALUES ('"+venue+"','"+day+"','"+week+"','"+Period+"','"+staffName+"','"+Activity+"','"+date+"')";
+            String sqlString="INSERT INTO tblBooking (venue, day, week, period, staff_name, activity, date_time) VALUES ('"+venue+"','"+day+"','"+week+"','"+Period+"','"+staffName+"','"+Activity+"','"+date+"')";
             
             Statement myStatement = myconnection.createStatement();
             
@@ -106,7 +106,7 @@ public class Booking
     }
     
     // Validates if booking is valid
-    
+    /*
     public static boolean loginUser(String venue, String day, String  week, int Period) 
     {
             boolean check =false;
@@ -131,6 +131,7 @@ public class Booking
             }catch(Exception e){e.printStackTrace();}           
             return check;    
     }
+    */
     
     // Fetches user data //
    /* 

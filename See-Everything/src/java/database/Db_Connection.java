@@ -1,3 +1,6 @@
+/*
+ * Author: Gordon Fleming
+ */
 package database;
 
 import java.sql.*;
@@ -12,8 +15,10 @@ public class Db_Connection
         {
             
             Class.forName("org.sqlite.JDBC");
-            String techworld3g = "jdbc:sqlite:C:\\Users\\24740\\Documents\\GitHub\\Netbeans_Repository\\Users.db";
-            Connection myConnection = DriverManager.getConnection(techworld3g);
+            String urlHome = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
+            String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
+            String urlLaptop = "jdbc:sqlite:/Users/gordonfleming/NetBeansProjects/See-Everything/See-Everything/SJC_DB.db";
+            Connection myConnection = DriverManager.getConnection(urlLaptop);
           
             return myConnection;
             

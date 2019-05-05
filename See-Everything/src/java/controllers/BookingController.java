@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package controllers;
 
 import java.io.IOException;
@@ -27,13 +22,13 @@ public class BookingController extends HttpServlet
                 Booking booking = new Booking();
      
                 booking.setVenue(request.getParameter("venue"));
-                booking.setDay(request.getParameter("day"));
-                booking.setWeek(request.getParameter("week"));
-                booking.setStaffName(request.getParameter("staffName"));
                 booking.setActivity(request.getParameter("Activity"));
-                booking.setDate(request.getParameter("date"));
+                booking.setWeek(request.getParameter("week"));
+                booking.setDay(request.getParameter("day"));
                 booking.setPeriod(request.getParameter("Period"));
-
+                booking.setStaffName(request.getParameter("staffName"));                
+                booking.setDate(request.getParameter("date"));
+                
                 booking.inputBooking();
 
                 out.println("<br>");
