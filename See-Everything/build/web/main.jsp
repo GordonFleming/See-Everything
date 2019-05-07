@@ -15,7 +15,8 @@
         <link rel="stylesheet" type="text/css" href="Map.css" />
         <title>See Everything Main Page | St John's</title>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="StJohnsMap.js"></script>
        
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
@@ -58,6 +59,9 @@
                 <svg version="1.1" id="St_John_x27_s" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                 y="0px" width="841.68px" height="595.2px" viewBox="0 0 841.68 595.2" style="enable-background:new 0 0 841.68 595.2;"
                 xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:white;stroke:#000000}                         <!-- Styles all other venues differently -->
+                    </style>
                 <g id="C6">
                         <rect x="732.96" y="504.06" width="38.52" height="34.56"/>
                 </g>
@@ -253,46 +257,46 @@
                         <rect x="83.49" y="68.88" width="31.8" height="38.18"/>
                 </g>
                 <g id="Other">
-                        <polygon points="17.9,161.42 17.96,237.95 50.66,238.85 50.66,218.93 82.94,218.57 82.52,161.48 	"/>
-                        <polygon points="628.4,110.67 628.34,138.65 730.04,137.64 730.04,137.64 730.04,70.82 730.04,70.82 661.1,69.8 661.1,69.8 
+                        <polygon class="st0" points="17.9,161.42 17.96,237.95 50.66,238.85 50.66,218.93 82.94,218.57 82.52,161.48 	"/>
+                        <polygon class="st0" points="628.4,110.67 628.34,138.65 730.04,137.64 730.04,137.64 730.04,70.82 730.04,70.82 661.1,69.8 661.1,69.8 
                                 661.1,107.87 628.82,107.87 	"/>
-                        <rect x="378.36" y="88.86" width="98.95" height="25.03"/>
-                        <rect x="444.73" y="116.67" width="33.54" height="31.35"/>
-                        <rect x="378.36" y="116.95" width="65.9" height="30.79"/>
-                        <rect x="346.33" y="116.67" width="31.35" height="31.35"/>
-                        <rect x="247.27" y="234.31" width="31.35" height="35.38"/>
-                        <rect x="247.68" y="118.97" width="31.8" height="28.63"/>
-                        <rect x="214.91" y="118.97" width="31.8" height="28.63"/>
-                        <path class="st1" d="M74.03,314.58c0-8.13,5.43-14.71,12.13-14.71c4.04,0,8.08,0,12.13,0c0,4.9,0,9.8,0,14.71
+                        <rect class="st0" x="378.36" y="88.86" width="98.95" height="25.03"/>
+                        <rect class="st0" x="444.73" y="116.67" width="33.54" height="31.35"/>
+                        <rect class="st0" x="378.36" y="116.95" width="65.9" height="30.79"/>
+                        <rect class="st0" x="346.33" y="116.67" width="31.35" height="31.35"/>
+                        <rect class="st0" x="247.27" y="234.31" width="31.35" height="35.38"/>
+                        <rect class="st0" x="247.68" y="118.97" width="31.8" height="28.63"/>
+                        <rect class="st0" x="214.91" y="118.97" width="31.8" height="28.63"/>
+                        <path class="st0" d="M74.03,314.58c0-8.13,5.43-14.71,12.13-14.71c4.04,0,8.08,0,12.13,0c0,4.9,0,9.8,0,14.71
                                 c0,8.12-5.43,14.7-12.13,14.7C79.46,329.28,74.03,322.7,74.03,314.58z"/>
-                        <path class="st1" d="M346.79,86.58c0,16.34-9.48,29.59-21.18,29.59c-11.7,0-21.18-13.25-21.18-29.59h10.59c0,10.5,4.74,19,10.59,19
+                        <path class="st0" d="M346.79,86.58c0,16.34-9.48,29.59-21.18,29.59c-11.7,0-21.18-13.25-21.18-29.59h10.59c0,10.5,4.74,19,10.59,19
                                 c5.85,0,10.59-8.5,10.59-19H346.79z"/>
-                        <path class="st2" d="M21,178.08c0-6.96,5.64-12.6,12.6-12.6c4.33,0,8.67-0.13,13-0.4c-0.27,4.33-0.4,8.67-0.4,13
+                        <path class="st0" d="M21,178.08c0-6.96,5.64-12.6,12.6-12.6c4.33,0,8.67-0.13,13-0.4c-0.27,4.33-0.4,8.67-0.4,13
                                 c0,6.96-5.64,12.6-12.6,12.6S21,185.04,21,178.08z"/>
-                        <path class="st1" d="M346.79,215.69c0-9.64,8.89-17.45,19.86-17.45c10.98,0,19.87,7.81,19.87,17.45c0,9.65-8.89,17.46-19.87,17.46
+                        <path class="st0" d="M346.79,215.69c0-9.64,8.89-17.45,19.86-17.45c10.98,0,19.87,7.81,19.87,17.45c0,9.65-8.89,17.46-19.87,17.46
                                 C355.68,233.15,346.79,225.34,346.79,215.69z"/>
-                        <rect x="478.27" y="83.4" width="32.78" height="88.34"/>
-                        <rect x="280.01" y="279.22" width="31.7" height="35.36"/>
-                        <rect x="346.49" y="279.22" width="31.7" height="35.36"/>
-                        <rect x="510.98" y="303.89" width="65.12" height="44.78"/>
-                        <rect x="601.04" y="293.07" width="62.44" height="45.44"/>
-                        <rect x="577.05" y="303.95" width="23.04" height="44.48"/>
-                        <rect x="444.41" y="218.26" width="31.98" height="29.77"/>
-                        <rect x="478.31" y="198.26" width="32.67" height="94.81"/>
-                        <rect x="404.37" y="282.19" width="35.36" height="35.36"/>
-                        <rect x="181.29" y="292.14" width="64.59" height="45.71"/>
-                        <rect x="148.8" y="303.56" width="31.52" height="35.36"/>
-                        <rect x="50.78" y="499.65" width="32.23" height="20.4"/>
-                        <rect x="83.6" y="499.65" width="32.85" height="20.4"/>
-                        <rect x="51.68" y="219.37" width="29.88" height="29.88"/>
-                        <rect x="475.83" y="467.18" width="35.15" height="32.71"/>
-                        <rect x="17.9" y="240.19" width="31.8" height="18.58"/>
-                        <rect x="343.91" y="501.38" width="33.24" height="29.12"/>
-                        <rect x="151.39" y="500.44" width="27.77" height="20.72"/>
-                        <rect x="378.72" y="466.85" width="31.81" height="43.07"/>
-                        <rect x="732.96" y="468.02" width="38.52" height="34.56"/>
-                        <polygon points="378.72,511.26 378.72,530.74 445.1,530.74 444.63,500.78 412.29,500.78 411.91,511.26 	"/>
-                        <rect x="576.58" y="467.18" width="25.2" height="33.19"/>
+                        <rect class="st0" x="478.27" y="83.4" width="32.78" height="88.34"/>
+                        <rect class="st0" x="280.01" y="279.22" width="31.7" height="35.36"/>
+                        <rect class="st0" x="346.49" y="279.22" width="31.7" height="35.36"/>
+                        <rect class="st0" x="510.98" y="303.89" width="65.12" height="44.78"/>
+                        <rect class="st0" x="601.04" y="293.07" width="62.44" height="45.44"/>
+                        <rect class="st0" x="577.05" y="303.95" width="23.04" height="44.48"/>
+                        <rect class="st0" x="444.41" y="218.26" width="31.98" height="29.77"/>
+                        <rect class="st0" x="478.31" y="198.26" width="32.67" height="94.81"/>
+                        <rect class="st0" x="404.37" y="282.19" width="35.36" height="35.36"/>
+                        <rect class="st0" x="181.29" y="292.14" width="64.59" height="45.71"/>
+                        <rect class="st0" x="148.8" y="303.56" width="31.52" height="35.36"/>
+                        <rect class="st0" x="50.78" y="499.65" width="32.23" height="20.4"/>
+                        <rect class="st0" x="83.6" y="499.65" width="32.85" height="20.4"/>
+                        <rect class="st0" x="51.68" y="219.37" width="29.88" height="29.88"/>
+                        <rect class="st0" x="475.83" y="467.18" width="35.15" height="32.71"/>
+                        <rect class="st0" x="17.9" y="240.19" width="31.8" height="18.58"/>
+                        <rect class="st0" x="343.91" y="501.38" width="33.24" height="29.12"/>
+                        <rect class="st0" x="151.39" y="500.44" width="27.77" height="20.72"/>
+                        <rect class="st0" x="378.72" y="466.85" width="31.81" height="43.07"/>
+                        <rect class="st0" x="732.96" y="468.02" width="38.52" height="34.56"/>
+                        <polygon class="st0" points="378.72,511.26 378.72,530.74 445.1,530.74 444.63,500.78 412.29,500.78 411.91,511.26 	"/>
+                        <rect class="st0" x="576.58" y="467.18" width="25.2" height="33.19"/>
                 </g>
                 </svg>
             </div>
