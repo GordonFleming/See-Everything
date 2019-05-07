@@ -198,10 +198,10 @@ select{
 }
 .center{
   display: block;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: auto;
 }
 .form-radio1                                     /* adapted from: http://www.tipue.com/blog/radio-checkbox/ */
 {                                                               /*Handles the maroon radio button*/
