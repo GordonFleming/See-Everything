@@ -57,250 +57,329 @@
         <div class="center">
             <div class="map">
                 <svg version="1.1" id="St_John_x27_s" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                y="0px" width="1000px" height="680px" viewBox="0 0 841.68 595.2" style="enable-background:new 0 0 841.68 595.2;"
+                y="0px" width="850px" height="500px" viewBox="0 0 841.68 595.2" style="enable-background:new 0 0 841.68 595.2;"
                 xml:space="preserve">
                     <style type="text/css">
                         .st0{fill:white;stroke:#000000}                         <!-- Styles all other venues differently -->
                         .st1{fill:grey;stroke:#000000}
+                        .st2{font-family:'Calibri';}
+                        .st3{font-size:10px;}
+                        .st4{font-size:12px;}
+                        .st5{font-family:'Calibri';}
+                        .st6{fill:white;stroke:#000000;stroke-miterlimit:10;}
+                        .st7{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+                        .st8{font-size:11px;}
                     </style>
-                <g id="C6">
-                        <rect x="732.96" y="504.06" width="38.52" height="34.56"/>
-                </g>
-                <g id="C2">
-                        <rect x="732.96" y="431.98" width="38.52" height="34.56"/>
-                </g>
-                <g id="C1">
-                        <rect x="662.84" y="465.97" width="32.7" height="34.86"/>
-                </g>
-                <g id="P1">
-                        <rect x="627.48" y="466" width="32.7" height="34.86"/>
-                </g>
-                <g id="P6">
-                        <rect x="576.58" y="501.14" width="25.2" height="29.6"/>
-                </g>
-                <g id="P2">
-                        <rect x="576.58" y="431.98" width="25.2" height="34.44"/>
-                </g>
-                <g id="B9">
-                        <rect x="475.83" y="501.14" width="35.2" height="28.64"/>
-                </g>
-                <g id="B7">
-                        <rect x="412.1" y="466.9" width="33" height="33"/>
-                </g>
-                <g id="B4">
-                        <rect x="475.83" y="431.98" width="35.22" height="33.96"/>
-                </g>
-                <g id="B10">
-                        <rect x="280.04" y="498.94" width="31.45" height="31.45"/>
-                </g>
-                <g id="B13">
-                        <rect x="280.01" y="478.71" width="31.51" height="18.71"/>
-                </g>
-                <g id="B14">
-                        <rect x="343.79" y="466.9" width="33.48" height="33.48"/>
-                </g>
-                <g id="B15">
-                        <rect x="279.93" y="445.52" width="31.67" height="31.67"/>
-                </g>
-                <g id="B16">
-                        <rect x="280.01" y="408.4" width="31.51" height="35.59"/>
-                </g>
-                <g id="REB">
-                        <rect x="214.94" y="472.06" width="31.62" height="26.48"/>
-                </g>
-                <g id="E9">
-                        <rect x="51.93" y="408.91" width="31.8" height="22.91"/>
-                </g>
-                <g id="E8">
-                        <rect x="85.49" y="408.77" width="32.35" height="35.59"/>
-                </g>
-                <g id="E7">
-                        <rect x="119.59" y="408.92" width="31.8" height="35.3"/>
-                </g>
-                <g id="E6">
-                        <rect x="117.45" y="499.65" width="31.26" height="20.4"/>
-                </g>
-                <g id="E5">
-                        <rect x="180.62" y="498.54" width="32.85" height="22.62"/>
-                </g>
-                <g id="E4">
-                        <rect x="180.62" y="474.55" width="32.85" height="22.62"/>
-                </g>
-                <g id="E3">
-                        <rect x="180.62" y="450.55" width="32.85" height="22.62"/>
-                </g>
-                <g id="E2">
-                        <rect x="180.62" y="426.56" width="32.85" height="22.62"/>
-                </g>
-                <g id="E1">
-                        <rect x="180.62" y="402.56" width="32.85" height="22.62"/>
-                </g>
-                <g id="G4">
-                        <rect x="17.33" y="415.92" width="32.85" height="24.5"/>
-                </g>
-                <g id="G3">
-                        <rect x="17.33" y="441.38" width="32.85" height="24.5"/>
-                </g>
-                <g id="G2">
-                        <rect x="17.37" y="466.85" width="32.85" height="24.5"/>
-                </g>
-                <g id="G1">
-                        <rect x="17.33" y="492.31" width="32.85" height="27.5"/>
-                </g>
-                <g id="His12B">
-                        <path class="st0" d="M-37.46-50.7"/>
-                        <rect x="17.95" y="349.6" width="31.7" height="28.35"/>
-                </g>
-                <g id="His12">
-                        <rect x="17.95" y="303.37" width="31.7" height="44.88"/>
-                </g>
-                <g id="His9">
-                        <rect x="50.78" y="359.17" width="31.7" height="28.35"/>
-                </g>
-                <g id="His8">
-                        <rect x="83.54" y="359.17" width="31.7" height="28.35"/>
-                </g>
-                <g id="His7">
-                        <rect x="148.71" y="349.6" width="31.7" height="28.35"/>
-                </g>
-                <g id="_x34_4">
-                        <rect x="246.48" y="292.32" width="32.92" height="45.91"/>
-                </g>
-                <g id="_x33_9">
-                        <rect x="440.48" y="282.19" width="35.36" height="35.36"/>
-                </g>
-                <g id="_x34_2">
-                        <rect x="312.89" y="279.22" width="31.7" height="35.36"/>
-                </g>
-                <g id="_x36_4">
-                        <rect x="735.04" y="208.71" width="38.24" height="29.18"/>
-                </g>
-                <g id="_x36_5">
-                        <rect x="654.72" y="238.85" width="38.24" height="29.18"/>
-                </g>
-                <g id="_x36_6">
-                        <rect x="694.88" y="238.85" width="38.24" height="29.18"/>
-                </g>
-                <g id="_x36_7">
-                        <rect x="735.04" y="238.85" width="38.24" height="29.18"/>
-                </g>
-                <g id="_x36_8">
-                        <rect x="694.88" y="208.71" width="38.24" height="29.18"/>
-                </g>
-                <g id="_x36_9">
-                        <rect x="654.72" y="208.71" width="38.24" height="29.18"/>
-                </g>
-                <g id="_x32_8">
-                        <rect x="46.6" y="92.74" width="32.14" height="36.04"/>
-                </g>
-                <g id="_x32_9">
-                        <rect x="83.49" y="118.97" width="31.8" height="28.63"/>
-                </g>
-                <g id="_x33_0">
-                        <rect x="116.26" y="118.97" width="31.8" height="28.63"/>
-                </g>
-                <g id="_x33_1">
-                        <rect x="149.03" y="118.97" width="31.8" height="28.63"/>
-                </g>
-                <g id="_x33_2">
-                        <rect x="181.8" y="118.97" width="31.8" height="28.63"/>
-                </g>
-                <g id="_x33_3">
-                        <rect x="181.79" y="68.88" width="31.8" height="38.18"/>
-                </g>
-                <g id="_x33_4">
-                        <rect x="148.75" y="68.88" width="31.8" height="38.18"/>
-                </g>
-                <g id="_x33_5">
-                        <rect x="116.26" y="68.88" width="31.8" height="38.18"/>
-                </g>
-                <g id="_x31_4">
-                        <rect x="214.5" y="217.48" width="31.35" height="31.35"/>
-                </g>
-                <g id="_x31_5">
-                        <rect x="181.43" y="217.78" width="31.35" height="31.35"/>
-                </g>
-                <g id="_x31_6">
-                        <rect x="148.97" y="217.78" width="31.35" height="31.35"/>
-                </g>
-                <g id="_x31_7">
-                        <rect x="116.48" y="217.78" width="31.35" height="31.35"/>
-                </g>
-                <g id="_x34_7">
-                        <rect x="247.27" y="197.86" width="31.35" height="35.29"/>
-                </g>
-                <g id="_x34_8">
-                        <rect x="247.27" y="161.32" width="31.35" height="35.38"/>
-                </g>
-                <g id="_x35_0">
-                        <rect x="280.62" y="118.97" width="31.8" height="28.63"/>
-                </g>
-                <g id="_x35_9">
-                        <rect x="511.52" y="107.71" width="31.35" height="31.35"/>
-                </g>
-                <g id="_x36_0">
-                        <rect x="544.11" y="107.71" width="31.35" height="31.35"/>
-                </g>
-                <g id="_x36_1">
-                        <rect x="576.58" y="107.71" width="26.91" height="31.35"/>
-                </g>
-                <g id="MusGrn">
-                        <rect x="731.2" y="107.71" width="41.11" height="30.02"/>
-                </g>
-                <g id="Dun">
-                        <rect x="731.2" y="70.91" width="41.11" height="36.99"/>
-                </g>
-                <g id="_x37_0">
-                        <rect x="628.34" y="69.8" width="30.98" height="35.81"/>
-                        <path class="st0" d="M17.9-72.76"/>
-                </g>
-                <g id="_x33_6">
-                        <rect x="83.49" y="68.88" width="31.8" height="38.18"/>
-                </g>
-                <g id="Other">
-                        <polygon class="st0" points="17.9,161.42 17.96,237.95 50.66,238.85 50.66,218.93 82.94,218.57 82.52,161.48 	"/>
-                        <polygon class="st0" points="628.4,110.67 628.34,138.65 730.04,137.64 730.04,137.64 730.04,70.82 730.04,70.82 661.1,69.8 661.1,69.8 
-                                661.1,107.87 628.82,107.87 	"/>
-                        <rect class="st0" x="378.36" y="88.86" width="98.95" height="25.03"/>
-                        <rect class="st0" x="444.73" y="116.67" width="33.54" height="31.35"/>
-                        <rect class="st0" x="378.36" y="116.95" width="65.9" height="30.79"/>
-                        <rect class="st0" x="346.33" y="116.67" width="31.35" height="31.35"/>
-                        <rect class="st0" x="247.27" y="234.31" width="31.35" height="35.38"/>
-                        <rect class="st0" x="247.68" y="118.97" width="31.8" height="28.63"/>
-                        <rect class="st0" x="214.91" y="118.97" width="31.8" height="28.63"/>
-                        <path class="st1" d="M74.03,314.58c0-8.13,5.43-14.71,12.13-14.71c4.04,0,8.08,0,12.13,0c0,4.9,0,9.8,0,14.71
-                                c0,8.12-5.43,14.7-12.13,14.7C79.46,329.28,74.03,322.7,74.03,314.58z"/>
-                        <path class="st0" d="M346.79,86.58c0,16.34-9.48,29.59-21.18,29.59c-11.7,0-21.18-13.25-21.18-29.59h10.59c0,10.5,4.74,19,10.59,19
-                                c5.85,0,10.59-8.5,10.59-19H346.79z"/>
-                        <path class="st1" d="M21,178.08c0-6.96,5.64-12.6,12.6-12.6c4.33,0,8.67-0.13,13-0.4c-0.27,4.33-0.4,8.67-0.4,13
-                                c0,6.96-5.64,12.6-12.6,12.6S21,185.04,21,178.08z"/>
-                        <path class="st0" d="M346.79,215.69c0-9.64,8.89-17.45,19.86-17.45c10.98,0,19.87,7.81,19.87,17.45c0,9.65-8.89,17.46-19.87,17.46
-                                C355.68,233.15,346.79,225.34,346.79,215.69z"/>
-                        <rect class="st0" x="478.27" y="83.4" width="32.78" height="88.34"/>
-                        <rect class="st0" x="280.01" y="279.22" width="31.7" height="35.36"/>
-                        <rect class="st0" x="346.49" y="279.22" width="31.7" height="35.36"/>
-                        <rect class="st0" x="510.98" y="303.89" width="65.12" height="44.78"/>
-                        <rect class="st0" x="601.04" y="293.07" width="62.44" height="45.44"/>
-                        <rect class="st0" x="577.05" y="303.95" width="23.04" height="44.48"/>
-                        <rect class="st0" x="444.41" y="218.26" width="31.98" height="29.77"/>
-                        <rect class="st0" x="478.31" y="198.26" width="32.67" height="94.81"/>
-                        <rect class="st0" x="404.37" y="282.19" width="35.36" height="35.36"/>
-                        <rect class="st0" x="181.29" y="292.14" width="64.59" height="45.71"/>
-                        <rect class="st0" x="148.8" y="303.56" width="31.52" height="35.36"/>
-                        <rect class="st0" x="50.78" y="499.65" width="32.23" height="20.4"/>
-                        <rect class="st0" x="83.6" y="499.65" width="32.85" height="20.4"/>
-                        <rect class="st0" x="51.68" y="219.37" width="29.88" height="29.88"/>
-                        <rect class="st0" x="475.83" y="467.18" width="35.15" height="32.71"/>
-                        <rect class="st0" x="17.9" y="240.19" width="31.8" height="18.58"/>
-                        <rect class="st0" x="343.91" y="501.38" width="33.24" height="29.12"/>
-                        <rect class="st0" x="151.39" y="500.44" width="27.77" height="20.72"/>
-                        <rect class="st0" x="378.72" y="466.85" width="31.81" height="43.07"/>
-                        <rect class="st0" x="732.96" y="468.02" width="38.52" height="34.56"/>
-                        <polygon class="st0" points="378.72,511.26 378.72,530.74 445.1,530.74 444.63,500.78 412.29,500.78 411.91,511.26 	"/>
-                        <rect class="st0" x="576.58" y="467.18" width="25.2" height="33.19"/>
-                </g>
-                </svg>
-            </div>
+                    <g id="36">
+                                    <rect x="115.5" y="88" width="31.8" height="38.2"/>
+                                    <text transform="matrix(1 0 0 1 124.9877 105.6497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">36</tspan><tspan x="-4.3" y="12" class="st1 st2 st3">ART</tspan></text>
+                            </g>
+                            <g id="C6">
+                                    <rect x="765" y="523.2" width="38.5" height="34.6"/>
+                                    <text transform="matrix(1 0 0 1 779.093 538.8501)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">C6</tspan><tspan x="-2.2" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="C2">
+                                    <rect x="765" y="451" width="38.5" height="34.6"/>
+                                    <text transform="matrix(1 0 0 1 776.743 464.5501)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">C2</tspan><tspan x="-2.2" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="C1">
+                                    <rect x="694.8" y="485" width="32.7" height="34.9"/>
+                                    <text transform="matrix(1 0 0 1 704.1431 498.2003)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">C1</tspan><tspan x="-2.2" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="P1">
+                                    <rect x="659.5" y="485" width="32.7" height="34.9"/>
+                                    <text transform="matrix(1 0 0 1 669.2544 498.2001)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">P1</tspan><tspan x="-2.7" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="P6">
+                                    <rect x="608.6" y="520.2" width="25.2" height="29.6"/>
+                                    <text transform="matrix(1 0 0 1 615.5043 529.8001)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">P6</tspan><tspan x="-2.7" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="P2">
+                                    <rect x="608.6" y="451" width="25.2" height="34.4"/>
+                                    <text transform="matrix(1 0 0 1 615.5044 464.5502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">P2</tspan><tspan x="-2.7" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="B9">
+                                    <rect x="507.8" y="520.2" width="35.2" height="28.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 518.3419 528.8502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B9</tspan><tspan x="-2.9" y="12" class="st1 st2 st3">BIO</tspan></text>
+                            </g>
+                            <g id="B7">
+                                    <rect x="444.1" y="486" width="33" height="33"/>
+                                    <text transform="matrix(1.0295 0 0 1 452.8419 497.7502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B7</tspan><tspan x="-2.9" y="12" class="st1 st2 st3">BIO</tspan></text>
+                            </g>
+                            <g id="B4">
+                                    <rect x="507.8" y="451" width="35.2" height="34"/>
+                                    <text transform="matrix(1.0295 0 0 1 518.2919 468.3502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B4</tspan><tspan x="-2.9" y="12" class="st1 st2 st3">BIO</tspan></text>
+                            </g>
+                            <g id="B10">
+                                    <rect x="312" y="518" width="31.5" height="31.5"/>
+                                    <text transform="matrix(1.0295 0 0 1 317.517 529.8003)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B10</tspan><tspan x="0.3" y="12" class="st1 st2 st3">BIO</tspan></text>
+                            </g>
+                            <g id="B13">
+                                    <rect x="312" y="497.8" width="31.5" height="18.7"/>
+                                    <text transform="matrix(1.0295 0 0 1 317.5169 510.4501)" class="st1 st2 st3">B13</text>
+                            </g>
+                            <g id="B14">
+                                    <rect x="375.8" y="486" width="33.5" height="33.5"/>
+                                    <text transform="matrix(1.0295 0 0 1 382.167 497.7502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B14</tspan><tspan x="0.8" y="12" class="st1 st2 st3">SCI</tspan></text>
+                            </g>
+                            <g id="B15">
+                                    <rect x="311.9" y="464.5" width="31.7" height="31.7"/>
+                                    <text transform="matrix(1.0295 0 0 1 317.417 478.4006)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B15</tspan><tspan x="4.7" y="12" class="st1 st2 st3">IT</tspan></text>
+                            </g>
+                            <g id="B16">
+                                    <rect x="312" y="427.5" width="31.5" height="35.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 317.417 444.2502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">B16</tspan><tspan x="4.7" y="12" class="st1 st2 st3">IT</tspan></text>
+                            </g>
+                            <g id="REB">
+                                    <rect x="246.9" y="491.2" width="31.6" height="26.5"/>
+                                    <text transform="matrix(1.0295 0 0 1 251.3837 507.5)" class="st1 st2 st3">REB</text>
+                            </g>
+                            <g id="E9">
+                                    <rect x="83.9" y="428" width="31.8" height="22.9"/>
+                                    <text transform="matrix(1 0 0 1 90.7026 444.2504)" class="st1 st2 st4">E9</text>
+                            </g>
+                            <g id="E8">
+                                    <rect x="117.5" y="427.8" width="32.3" height="35.6"/>
+                                    <text transform="matrix(1 0 0 1 125.4529 451.0502)" class="st1 st2 st4">E8</text>
+                            </g>
+                            <g id="E7">
+                                    <rect x="151.6" y="428" width="31.8" height="35.3"/>
+                                    <text transform="matrix(1 0 0 1 159.3026 450.8504)" class="st1 st2 st4">E7</text>
+                            </g>
+                            <g id="E6">
+                                    <rect x="149.4" y="518.7" width="31.3" height="20.4"/>
+                                    <text transform="matrix(1 0 0 1 159.3026 533.7004)" class="st1 st2 st4">E6</text>
+                            </g>
+                            <g id="E5">
+                                    <rect x="212.6" y="517.5" width="32.9" height="22.6"/>
+                                    <text transform="matrix(1 0 0 1 221.5026 533.7004)" class="st1 st2 st4">E5</text>
+                            </g>
+                            <g id="E4">
+                                    <rect x="212.6" y="493.5" width="32.9" height="22.6"/>
+                                    <text transform="matrix(1 0 0 1 221.5026 510.4504)" class="st1 st2 st4">E4</text>
+                            </g>
+                            <g id="E3">
+                                    <rect x="212.6" y="469.5" width="32.9" height="22.6"/>
+                                    <text transform="matrix(1 0 0 1 221.5026 484.9504)" class="st1 st2 st4">E3</text>
+                            </g>
+                            <g id="E2">
+                                    <rect x="212.6" y="445.7" width="32.9" height="22.6"/>
+                                    <text transform="matrix(1 0 0 1 221.5026 460.4504)" class="st1 st2 st4">E2</text>
+                            </g>
+                            <g id="E1">
+                                    <rect x="212.6" y="421.7" width="32.9" height="22.6"/>
+                                    <text transform="matrix(1 0 0 1 221.5026 434.9504)" class="st1 st2 st4">E1</text>
+                            </g>
+                            <g id="G4">
+                                    <rect x="49.3" y="435" width="32.8" height="24.5"/>
+                                    <text transform="matrix(1 0 0 1 57.0895 451.05)" class="st1 st2 st4">G4</text>
+                            </g>
+                            <g id="G3">
+                                    <rect x="49.3" y="460.5" width="32.8" height="24.5"/>                                
+                                    <text transform="matrix(1 0 0 1 57.0896 478.4005)" class="st1 st2 st4">G3</text>
+                            </g>
+                            <g id="G2">
+                                    <rect x="49.4" y="486" width="32.8" height="24.5"/>
+                                    <text transform="matrix(1 0 0 1 57.0897 502.4501)" class="st1 st2 st4">G2</text>
+                            </g>
+                            <g id="G1">
+                                    <rect x="49.3" y="511.3" width="32.8" height="27.5"/>
+                                    <text transform="matrix(1 0 0 1 57.0897 528.85)" class="st1 st2 st4">G1</text>
+                            </g>
+                            <g id="His12B">
+                                    <path class="st6" d="M-5.5-31.6"/>
+                                    <rect x="50" y="368.7" width="31.7" height="28.4"/>
+                                    <text transform="matrix(1 0 0 1 55.8135 378.2505)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">12B</tspan><tspan x="-0.5" y="12" class="st1 st2 st3">Hist</tspan></text>
+                            </g>
+                            <g id="His12">
+                                    <rect x="50" y="322.5" width="31.7" height="44.9"/>
+                                    <text transform="matrix(1 0 0 1 59.3378 340.3503)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">12</tspan><tspan x="-4.2" y="12" class="st1 st2 st3">Hist</tspan></text>
+                            </g>
+                            <g id="His9">
+                                    <rect x="82.8" y="378.3" width="31.7" height="28.4"/>
+                                    <text transform="matrix(1 0 0 1 95.4691 388.2505)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">9</tspan><tspan x="-7.4" y="12" class="st1 st2 st3">Hist</tspan></text>
+                            </g>
+                            <g id="His8">
+                                    <rect x="115.5" y="378.3" width="31.7" height="28.4"/>
+                                    <text transform="matrix(1 0 0 1 128.819 388.2502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">8</tspan><tspan x="-7.4" y="12" class="st1 st2 st3">Hist</tspan></text>
+                            </g>
+                            <g id="His7">
+                                    <rect x="180.7" y="368.7" width="31.7" height="28.4"/>
+                                    <text transform="matrix(1 0 0 1 194.1183 378.2502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">7</tspan><tspan x="-7.4" y="12" class="st1 st2 st3">Hist</tspan></text>
+                            </g>
+                            <g id="44">
+                                    <rect x="278.5" y="311.3" width="32.9" height="45.9"/>
+                                    <text transform="matrix(1 0 0 1 289.2382 329.0497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">44</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="39">
+                                    <rect x="472.5" y="301.3" width="35.4" height="35.4"/>
+                                    <text transform="matrix(1 0 0 1 483.8376 315.9499)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">39</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="42">
+                                    <rect x="344.9" y="298.3" width="31.7" height="35.4"/>
+                                    <text transform="matrix(1 0 0 1 354.3876 312.15)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">42</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="64">
+                                    <rect x="767" y="227.8" width="38.2" height="29.2"/>
+                                    <text transform="matrix(1.0295 0 0 1 779.5497 238.4506)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">64</tspan><tspan x="-3" y="12" class="st1 st2 st3">Ger</tspan></text>
+                            </g>
+                            <g id="65">
+                                    <rect x="686.7" y="258" width="38.2" height="29.2"/>
+                                    <text transform="matrix(1.0295 0 0 1 699.2498 268.5502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">65</tspan><tspan x="-1.9" y="12" class="st1 st2 st3">Zul</tspan></text>
+                            </g>
+                            <g id="66">
+                                    <rect x="726.9" y="258" width="38.2" height="29.2"/>
+                                    <text transform="matrix(1.0295 0 0 1 739.4497 267.9502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">66</tspan><tspan x="-1.9" y="12" class="st1 st2 st3">Zul</tspan></text>
+                            </g>
+                            <g id="67">
+                                    <rect x="767" y="258" width="38.2" height="29.2"/>
+                                    <text transform="matrix(1.0295 0 0 1 779.5497 268.5504)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">67</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="69">
+                                    <rect x="686.7" y="227.8" width="38.2" height="29.2"/>
+                                    <text transform="matrix(1.0295 0 0 1 699.2498 238.4502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">69</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="28">
+                                    <rect x="78.6" y="111.8" width="32.1" height="36"/>
+                                    <text transform="matrix(1 0 0 1 88.2876 129.7501)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">28</tspan><tspan x="-4.5" y="12" class="st1 st2 st3">AFR</tspan></text>
+                            </g>
+                            <g id="29">
+                                    <rect x="115.5" y="138.1" width="31.8" height="28.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 125.4497 148.1272)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">29</tspan><tspan x="-4.5" y="12" class="st1 st2 st3">AFR</tspan></text>
+                            </g>
+                            <g id="30">
+                                    <rect x="148.3" y="138.1" width="31.8" height="28.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 157.5997 148.1272)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">30</tspan><tspan x="-4.5" y="12" class="st1 st2 st3">AFR</tspan></text>
+                            </g>
+                            <g id="31">
+                                    <rect x="181" y="138.1" width="31.8" height="28.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 189.9997 148.1272)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">31</tspan><tspan x="-4.5" y="12" class="st1 st2 st3">AFR</tspan></text>
+                            </g>
+                            <g id="32">
+                                    <rect x="213.8" y="138.1" width="31.8" height="28.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 222.4997 148.1272)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">32</tspan><tspan x="-4.5" y="12" class="st1 st2 st3">AFR</tspan></text>
+                            </g>
+                            <g id="33">
+                                    <rect x="213.8" y="88" width="31.8" height="38.2"/>
+                                    <text transform="matrix(1 0 0 1 223.3376 105.6497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">33</tspan><tspan x="-4.3" y="12" class="st1 st2 st3">ART</tspan></text>
+                            </g>
+                            <g id="35">
+                                    <rect x="148.3" y="88" width="31.8" height="38.2"/>
+                                    <text transform="matrix(1 0 0 1 157.788 105.6498)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">35</tspan><tspan x="-4.3" y="12" class="st1 st2 st3">ART</tspan></text>
+                            </g>
+                            <g id="14">
+                                    <rect x="246.5" y="236.6" width="31.4" height="31.4"/>
+                                    <text transform="matrix(1 0 0 1 256.4377 248.0497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">14</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="15">
+                                    <rect x="213.4" y="236.9" width="31.4" height="31.4"/>
+                                    <text transform="matrix(1 0 0 1 223.3377 248.0497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">15</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="16">
+                                    <rect x="181" y="236.9" width="31.4" height="31.4"/>
+                                    <text transform="matrix(1 0 0 1 190.9377 248.0497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">16</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="17">
+                                    <rect x="148.5" y="236.9" width="31.3" height="31.4"/>
+                                    <text transform="matrix(1 0 0 1 158.6877 248.0499)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">17</tspan><tspan x="-4.5" y="12" class="st1 st2 st3">AFR</tspan></text>
+                            </g>
+                            <g id="47">
+                                    <rect x="279.3" y="216.9" width="31.3" height="35.3"/>
+                                    <text transform="matrix(1 0 0 1 289.238 234.7997)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">47</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="48">
+                                    <rect x="279.3" y="180.4" width="31.3" height="35.4"/>
+                                    <text transform="matrix(1 0 0 1 289.2379 196.9498)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">48</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="50">
+                                    <rect x="312.6" y="138.1" width="31.8" height="28.6"/>
+                                    <text transform="matrix(1.0295 0 0 1 321.1997 152.35)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">50</tspan><tspan x="-7" y="12" class="st1 st2 st3">Math</tspan></text>
+                            </g>
+                            <g id="59">
+                                    <rect x="543.5" y="126.8" width="31.4" height="31.3"/>
+                                    <text transform="matrix(1.0295 0 0 1 552.6497 141.7502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">59</tspan><tspan x="-2.1" y="12" class="st1 st2 st3">Div</tspan></text>
+                            </g>
+                            <g id="60">
+                                    <rect x="576.1" y="126.8" width="31.3" height="31.3"/>
+                                    <text transform="matrix(1.0295 0 0 1 585.1997 141.7502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">60</tspan><tspan x="-2.5" y="12" class="st1 st2 st3">Fre</tspan></text>
+                            </g>
+                            <g id="61">
+                                    <rect x="608.6" y="126.8" width="26.9" height="31.3"/>
+                                    <text transform="matrix(1.0295 0 0 1 615.4997 141.7502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">61</tspan><tspan x="-2.5" y="12" class="st1 st2 st3">Fre</tspan></text>
+                            </g>
+                            <g id="MusGrn">
+                                    <rect x="763.2" y="126.8" width="41.1" height="30"/>
+                                    <text transform="matrix(1.0295 0 0 1 771.2577 135.9502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">GRN</tspan><tspan x="1.2" y="12" class="st1 st2 st3">Mus</tspan></text>
+                            </g>
+                            <g id="Dun">
+                                    <rect x="763.2" y="90" width="41.1" height="37"/>
+                                    <text transform="matrix(1.0295 0 0 1 766.6678 105.6502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">DUNG</tspan><tspan x="7.2" y="12" class="st1 st2 st3">Dra</tspan></text>
+                            </g>
+                            <g id="70">
+                                    <rect x="660.3" y="88.9" width="31" height="35.8"/>
+                                    <path class="st6" d="M49.9-53.8"/>
+                                    <text transform="matrix(1.0295 0 0 1 669.2997 107.9502)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">70</tspan><tspan x="-3" y="12" class="st1 st2 st3">Dra</tspan></text>
+                            </g>
+                            <g id="Other">
+                                    <polygon class="st0" points="49.9,180.4 50,257 82.7,258 82.7,237.9 114.9,237.7 114.5,180.6 		"/>
+                                    <polygon class="st0" points="660.4,129.8 660.3,157.7 762,156.7 762,156.7 762,89.9 762,89.9 693.1,88.9 693.1,88.9 693.1,127 660.8,127 		"/>
+                                    <rect class="st0" x="410.4" y="108" width="99" height="25"/>
+                                    <rect class="st0" x="476.7" y="135.8" width="33.5" height="31.4"/>
+                                    <rect class="st0" x="410.4" y="136" width="65.9" height="30.8"/>
+                                    <rect class="st0" x="378.3" y="135.8" width="31.4" height="31.4"/>
+                                    <rect class="st0" x="279.3" y="253.4" width="31.3" height="35.4"/>
+                                    <rect class="st0" x="279.7" y="138.1" width="31.8" height="28.6"/>
+                                    <rect class="st0" x="246.9" y="138.1" width="31.8" height="28.6"/>
+                                    <path class="st7" d="M106,333.7c0-8.1,5.4-14.7,12.1-14.7c4,0,8.1,0,12.1,0c0,4.9,0,9.8,0,14.7c0,8.1-5.4,14.7-12.1,14.7
+                                            S106,341.8,106,333.7z"/>
+                                    <path class="st7" d="M378.8,105.7c0,16.3-9.5,29.6-21.2,29.6s-21.2-13.3-21.2-29.6H347c0,10.5,4.7,19,10.6,19s10.6-8.5,10.6-19
+                                            H378.8z"/>
+                                    <path class="st1" d="M53,197.2c0-7,5.6-12.6,12.6-12.6c4.3,0,8.7-0.1,13-0.4c-0.3,4.3-0.4,8.7-0.4,13c0,7-5.6,12.6-12.6,12.6
+                                            S53,204.1,53,197.2z"/>
+                                    <path class="st7" d="M378.8,234.8c0-9.6,8.9-17.4,19.9-17.4s19.9,7.8,19.9,17.4c0,9.6-8.9,17.5-19.9,17.5
+                                            C387.7,252.2,378.8,244.4,378.8,234.8z"/>
+                                    <rect class="st0" x="510.3" y="102.5" width="32.8" height="88.3"/>
+                                    <rect class="st0" x="312" y="298.3" width="31.7" height="35.4"/>
+                                    <rect class="st0" x="378.5" y="298.3" width="31.7" height="35.4"/>
+                                    <rect class="st0" x="543" y="323" width="65.1" height="44.8"/>
+                                    <rect class="st0" x="633" y="312.2" width="62.4" height="45.4"/>
+                                    <rect class="st0" x="609" y="323" width="23" height="44.5"/>
+                                    <rect class="st0" x="476.4" y="237.4" width="32" height="29.8"/>
+                                    <rect class="st0" x="510.3" y="217.4" width="32.7" height="94.8"/>
+                                    <rect class="st0" x="436.4" y="301.3" width="35.4" height="35.4"/>
+                                    <rect class="st0" x="213.3" y="311.2" width="64.6" height="45.7"/>
+                                    <rect class="st0" x="180.8" y="322.7" width="31.5" height="35.4"/>
+                                    <rect class="st0" x="82.8" y="518.7" width="32.2" height="20.4"/>
+                                    <rect class="st0" x="115.6" y="518.7" width="32.8" height="20.4"/>
+                                    <rect class="st0" x="83.7" y="238.4" width="29.9" height="29.9"/>
+                                    <rect class="st0" x="507.8" y="486.3" width="35.1" height="32.7"/>
+                                    <rect class="st0" x="49.9" y="259.3" width="31.8" height="18.6"/>
+                                    <rect class="st0" x="375.9" y="520.5" width="33.2" height="29.1"/>
+                                    <rect class="st0" x="183.4" y="519.5" width="27.8" height="20.7"/>
+                                    <rect class="st0" x="410.7" y="486" width="31.8" height="43.1"/>
+                                    <rect class="st0" x="765" y="487" width="38.5" height="34.6"/>
+                                    <polygon class="st0" points="410.7,530.3 410.7,549.8 477.1,549.8 476.6,519.8 444.3,519.8 443.9,530.3 		"/>
+                                    <rect class="st0" x="608.6" y="486.3" width="25.2" height="33.2"/>
+                                    <text transform="matrix(1 0 0 1 581.1875 230.05)" class="st5 st4">David Quad</text>
+                                    <text transform="matrix(1 0 0 1 78.1445 303.1496)" class="st5 st4">Stairs up to Hist</text>
+                                    <text transform="matrix(1 0 0 1 364.4485 205.7001)" class="st5 st4">Pelican Quad</text>
+                                    <text transform="matrix(1 0 0 1 325.0703 94.7001)" class="st5 st4">Amphitheatre</text>
+                                    <text transform="matrix(1 0 0 1 679.7334 146.5999)" class="st1 st5 st4">Big School</text>
+                                    <text transform="matrix(1 0 0 1 135.7852 493)" class="st5 st4">REA</text>
+                                    <text transform="matrix(1 0 0 1 150.3926 205.5999)" class="st5 st8">Matric Lawn</text>
+                                    <text transform="matrix(1 0 0 1 233.7581 336.6499)" class="st1 st2 st3">Nash</text>
+                                    <text transform="matrix(1 0 0 1 642.9623 334.5)" class="st1 st5 st3">Reception</text>
+                                    <text transform="matrix(1 0 0 1 512.5057 236.5499)" class="st0"><tspan x="0" y="0" class="st1 st5 st3">Darr</tspan><tspan x="1.1" y="12" class="st1 st5 st3">Hall</tspan></text>
+                                    <g id="68">
+                                            <rect class="st0" x="726.9" y="227.8" width="38.2" height="29.2"/>
+                                    </g>
+                                    <g id="34">
+                                            <rect class="st0" x="180.8" y="88" width="31.8" height="38.2"/>
+                                    </g>
+                            </g>
+                    </g>
+                    </svg>
+                </div>
             </div>
                                                     <!-- Query Form -->
                                                     

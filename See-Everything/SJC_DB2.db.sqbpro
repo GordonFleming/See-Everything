@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:\Users\flemi\Documents\GitHub\See-Everything\See-Everything\SJC_DB.db" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1597"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="tblStaff"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="sqlite_sequence" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblActivities" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblBooking" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblClasses" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblStaff" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblTimeTables" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblTimeTablesLocation" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths><column index="6" value="257"/></column_widths><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblTimeTablesVenue" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblTimings" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths><column index="2" value="163"/><column index="7" value="233"/></column_widths><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="tblVenues" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort><column index="3" mode="0"/></sort><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="timetable" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">SELECT tblTimeTablesVenue.StaffID,strftime('%H:%M', time('now','+2 hours'))as 'Time', Name, strftime('%d',date('now'))as 'DayTime'
+FROM tblTimeTablesVenue,tblTimings
+Left JOIN tblStaff on tblTimeTablesVenue.StaffID = tblStaff.StaffID
+WHERE tblTimeTablesVenue.Week = 'Maroon' and tblTimeTablesVenue.Weekday= 'Monday' --and Name like '%Andre';
+and tblTimings.Week = 'Maroon' and tblTimings.WeekDay = 'Monday' and PeriodName = 'Period 6' and Time BETWEEN StartTime and EndTime
+and DayTime = '08'
+group by Name
+
+</sql><sql name="SQL 2">update tblTimeTablesLocation
+set WeekDayCode = 1
+where weekday = 'Monday'</sql><sql name="SQL 4">SELECT tblTimeTablesVenue.StaffID,strftime('%H:%M', time('now','-8 hours'))as 'Time', Name, strftime('%d',date('now'))as 'DayTime', substr(cast(subquery1.PeriodName as text),1,6)||'_'||substr(cast(subquery1.PeriodName as text),8,1) as 'Period'
+FROM tblTimeTablesVenue,
+(SELECT PeriodName FROM tblTimings
+WHERE time('now','-8 hours') BETWEEN StartTime and EndTime
+AND week = 'Blue' 
+AND WeekdayCode = strftime('%w',date('now')))subquery1,
+(SELECT substr(cast(subquery1.PeriodName as text),1,6)||'_'||substr(cast(subquery1.PeriodName as text),8,1) as 'Period' FROM tblTimeTablesVenue,(SELECT PeriodName 
+FROM tblTimings WHERE time('now','-8 hours') BETWEEN StartTime and EndTime AND week = 'Blue' AND WeekdayCode = strftime('%w',date('now')))subquery1 group by Period)subquery2
+Left JOIN tblStaff on tblTimeTablesVenue.StaffID = tblStaff.StaffID
+GROUP BY Name
+</sql><sql name="SQL 5">SELECT substr('Period 6',1,6)||'_'||substr('Period 6',8,1)</sql><sql name="SQL 6">WITH period AS (SELECT PeriodName FROM tblTimings
+WHERE time('now','-7 hours') BETWEEN StartTime and EndTime
+AND week = 'Blue' 
+AND Weekday = strftime('%w',date('now'))
+) 
+SELECT tblTimeTablesVenue.StaffID,strftime('%H:%M', time('now','+2 hours'))as 'Time', Name, strftime('%d',date('now'))as 'DayTime', substr(cast(period.PeriodName as text),1,6)||'_'||substr(cast(period.PeriodName as text),8,1)
+FROM tblTimeTablesVenue
+Left JOIN tblStaff on tblTimeTablesVenue.StaffID = tblStaff.StaffID
+</sql><sql name="SQL 7">SELECT substr(cast(subquery1.PeriodName as text),1,6)||'_'||substr(cast(subquery1.PeriodName as text),8,1) as 'Period' FROM tblTimeTablesVenue,(SELECT PeriodName 
+FROM tblTimings WHERE time('now','-8 hours') BETWEEN StartTime and EndTime AND week = 'Blue' AND WeekdayCode = strftime('%w',date('now')))subquery1 group by Period</sql><sql name="SQL 8">create table tblTimeTablesLocation as
+
+select StaffID, week, Weekday, 'Period 0' as period, Period_0 as venue
+from tblTimeTablesVenue 
+where Period_0 is not null
+UNION
+select StaffID, week, Weekday, 'Period 1' as period, Period_1 as venue
+from tblTimeTablesVenue 
+where Period_1 is not null
+UNION
+select StaffID, week, Weekday, 'Period 2' as period, Period_2 as venue
+from tblTimeTablesVenue 
+where Period_2 is not null
+UNION
+select StaffID, week, Weekday, 'Period 3' as period, Period_3 as venue
+from tblTimeTablesVenue 
+where Period_3 is not null
+UNION
+select StaffID, week, Weekday, 'Period 4' as period, Period_4 as venue
+from tblTimeTablesVenue 
+where Period_4 is not null
+UNION
+select StaffID, week, Weekday, 'Period 5' as period, Period_5 as venue
+from tblTimeTablesVenue 
+where Period_5 is not null
+UNION
+select StaffID, week, Weekday, 'Period 6' as period, Period_6 as venue
+from tblTimeTablesVenue 
+where Period_6 is not null
+UNION
+select StaffID, week, Weekday, 'Period 7' as period, Period_7 as venue
+from tblTimeTablesVenue 
+where Period_7 is not null
+UNION
+select StaffID, week, Weekday, 'Period 8' as period, Period_8 as venue
+from tblTimeTablesVenue 
+where Period_8 is not null
+UNION
+select StaffID, week, Weekday, 'Period 9' as period, Period_9 as venue
+from tblTimeTablesVenue 
+where Period_9 is not null
+</sql><sql name="SQL 9">DELETE FROM tblTimeTablesLocation
+where StaffID is null or week is null or Weekday is null or period is null or venue is null</sql><sql name="SQL 10">SELECT tblTimeTablesLocation.StaffID,tblTimeTablesLocation.Week,tblTimeTablesLocation.Weekday,period,strftime('%H:%M', time('now','-8 hours'))as 'Time', Name,subquery1.PeriodName,venue
+FROM tblTimeTablesLocation
+LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,
+(SELECT PeriodName FROM tblTimings
+WHERE time('now','-8 hours') BETWEEN StartTime and EndTime
+AND week = 'Blue' 
+AND WeekdayCode = strftime('%w',date('now')))subquery1
+WHERE period = PeriodName
+AND week = 'Blue' 
+AND WeekdayCode = strftime('%w',date('now'))</sql><sql name="SQL 12">SELECT strftime('%H:%M', time('now','-8 hours'))as 'Time', Surname as StaffName, venue
+FROM tblTimeTablesLocation
+LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,
+(SELECT PeriodName FROM tblTimings
+WHERE time('now','-8 hours') BETWEEN StartTime and EndTime
+AND week = 'Blue' 
+AND WeekdayCode = strftime('%w',date('now')))subquery1
+WHERE period = PeriodName
+AND week = 'Blue' 
+AND WeekdayCode = strftime('%w',date('now'))</sql><current_tab id="9"/></tab_sql></sqlb_project>

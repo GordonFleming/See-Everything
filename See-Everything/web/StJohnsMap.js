@@ -70,9 +70,58 @@
 {"VENUEID":"65","NAME":"Science P6","SHORT":"P6"},
 {"VENUEID":"66","NAME":"Sixth Form 55","SHORT":"55"},
 {"VENUEID":"67","NAME":"Zulu 65","SHORT":"65"},
-{"VENUEID":"68","NAME":"Zulu 66","SHORT":"66"}
+{"VENUEID":"68","NAME":"Zulu 66","SHORT":"66"},
+{"VENUEID":"7","NAME":"Art 35","SHORT":"35"},
+{"VENUEID":"44","NAME":"Mathematics 14","SHORT":"14"},
 ];
-
+ var locations=[
+{"STAFFNAME":"Aldred","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"Booi","VENUE":"Mat14","TIME":"12:10"},
+{"STAFFNAME":"Botha","VENUE":"32","TIME":"12:10"},
+{"STAFFNAME":"Byrne","VENUE":"E6","TIME":"12:10"},
+{"STAFFNAME":"Clogg","VENUE":"44","TIME":"12:10"},
+{"STAFFNAME":"Davis","VENUE":"60","TIME":"12:10"},
+{"STAFFNAME":"Dhlomo","VENUE":"66","TIME":"12:10"},
+{"STAFFNAME":"Edwards","VENUE":"B7","TIME":"12:10"},
+{"STAFFNAME":"Ewing","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"Gill","VENUE":"B16","TIME":"12:10"},
+{"STAFFNAME":"Henning","VENUE":"P1","TIME":"12:10"},
+{"STAFFNAME":"Hingle","VENUE":"C6","TIME":"12:10"},
+{"STAFFNAME":"House","VENUE":"B13","TIME":"12:10"},
+{"STAFFNAME":"Jacobs","VENUE":"16","TIME":"12:10"},
+{"STAFFNAME":"Johnston","VENUE":"His12","TIME":"12:10"},
+{"STAFFNAME":"Joseph","VENUE":"39","TIME":"12:10"},
+{"STAFFNAME":"Kuiper","VENUE":"B13","TIME":"12:10"},
+{"STAFFNAME":"Libera","VENUE":"24","TIME":"12:10"},
+{"STAFFNAME":"Lion-Cachet","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"Lodge","VENUE":"His8","TIME":"12:10"},
+{"STAFFNAME":"Louw","VENUE":"G4","TIME":"12:10"},
+{"STAFFNAME":"Mathonsi","VENUE":"67","TIME":"12:10"},
+{"STAFFNAME":"McNeice","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"McNeil","VENUE":"C1","TIME":"12:10"},
+{"STAFFNAME":"Motlhakane","VENUE":"59","TIME":"12:10"},
+{"STAFFNAME":"Mparutsa","VENUE":"15","TIME":"12:10"},
+{"STAFFNAME":"Naidoo","VENUE":"P2","TIME":"12:10"},
+{"STAFFNAME":"Ndlovu","VENUE":"65","TIME":"12:10"},
+{"STAFFNAME":"New","VENUE":"50","TIME":"12:10"},
+{"STAFFNAME":"Ngwenya","VENUE":"B14","TIME":"12:10"},
+{"STAFFNAME":"Norris","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"Oosthuysen","VENUE":"29","TIME":"12:10"},
+{"STAFFNAME":"Pretorius","VENUE":"His12B","TIME":"12:10"},
+{"STAFFNAME":"Pringle","VENUE":"17","TIME":"12:10"},
+{"STAFFNAME":"Robinson","VENUE":"B10","TIME":"12:10"},
+{"STAFFNAME":"Royal","VENUE":"55","TIME":"12:10"},
+{"STAFFNAME":"Scarr","VENUE":"61","TIME":"12:10"},
+{"STAFFNAME":"Smythe","VENUE":"48","TIME":"12:10"},
+{"STAFFNAME":"Snyman","VENUE":"42","TIME":"12:10"},
+{"STAFFNAME":"Stead","VENUE":"B4","TIME":"12:10"},
+{"STAFFNAME":"Stocks","VENUE":"C2","TIME":"12:10"},
+{"STAFFNAME":"Tobias","VENUE":"47","TIME":"12:10"},
+{"STAFFNAME":"Trninic","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"Van Den Heerden","VENUE":"36","TIME":"12:10"},
+{"STAFFNAME":"Visser","VENUE":"Field","TIME":"12:10"},
+{"STAFFNAME":"Wright","VENUE":"P6","TIME":"12:10"},
+];
 var temp_array= venues.map(function(item){
     return item.VENUEID;
 });
@@ -82,14 +131,21 @@ $(function() {
     for(i = 0; i < venues.length; i++) {
         $('#'+ venues[i].SHORT)
         .css({'fill': 'rgba(5, 500, 5000,' + venues[i].VENUEID/highest_value +')'})
-        .data('region', venues[i]);
+        .data('venue', venues[i]);
+    }
+    for(i = 0; i < locations.length; i++) {
+        $('#'+ locations[i].VENUE)
+        .data('locations',locations[i]);
     }
 
     $('.map g').mouseover(function (e) {
-        var venue_data=$(this).data('region');
+        var venue_data=$(this).data('venue');
+        var locations_data=$(this).data('locations');
         $('<div class="info_panel">'+
             venue_data.NAME + '<br>' +
-            'VenueID: ' + venue_data.VENUEID.toLocaleString("en-UK") +
+            'VenueID: ' + venue_data.VENUEID.toLocaleString("en-UK") + '<br>' +
+            'StaffName: ' + locations_data.STAFFNAME + '<br>' +
+            'Time: ' + locations_data.TIME +
             '</div>'
          )
         .appendTo('body');
@@ -103,7 +159,7 @@ $(function() {
 
         $('.info_panel').css({
             top: mouseY-50,
-            left: mouseX - ($('.info_panel').width()/2)
+            left: mouseX - ($('.info_panel').width()/0.8)
         });
     });
 

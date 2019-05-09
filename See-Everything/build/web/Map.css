@@ -6,11 +6,12 @@
   font-family: Arial, sans-serif;
   text-align: center;
 }
-.map svg {
-  height: auto;
-  width: auto;
-  margin: 0 auto;
+.map svg {              /* Scales map depending on screen size */
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 10%
 }
 .map g {
   fill: #ccc;
