@@ -7,11 +7,11 @@
   text-align: center;
 }
 .map svg {              /* Scales map depending on screen size */
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 65%;
-  height: 10%
+  height: 70%
 }
 .map g {
   fill: #ccc;

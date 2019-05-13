@@ -18,7 +18,7 @@ public class Db_Connection
             String urlHome = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
             String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
             String urlLaptop = "jdbc:sqlite:/Users/gordonfleming/NetBeansProjects/See-Everything/See-Everything/SJC_DB.db";
-            Connection myConnection = DriverManager.getConnection(urlHome);
+            Connection myConnection = DriverManager.getConnection(urlSchool);
           
             return myConnection;
             
