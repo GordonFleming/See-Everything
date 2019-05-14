@@ -17,6 +17,7 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="StJohnsMap.js"></script>
+        <script type="text/javascript" src="\See-Everything\JSON.js"></script>
        
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
@@ -385,7 +386,7 @@
                                                     
         <div class = "top-query-form" id="container-query">
             <center><h3>Query Form</h3></center>
-            <form class="form-inline" autocomplete="off">
+            <form class="form-inline" action="QueryController" method="post" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
                     <option value = "staffName">Staff Name</option>  
@@ -402,7 +403,7 @@
                 </select>
                 <label>Parameters</label>
                 <input type="text" name="firstname" value="">
-                <label><button class="Tick_Submit"><input id="hidden" type="submit" value=""><span></button></label>
+                <label><button class="Tick_Submit"><input id="hidden" type="submit" name = "query" value=""><span></button></label>
             </form>                                            
         </div>
                                                                                                        
