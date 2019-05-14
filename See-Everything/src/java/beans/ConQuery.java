@@ -5,6 +5,7 @@
  */
 package beans;
 
+import database.DbConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -13,7 +14,7 @@ import java.sql.ResultSet;
  *
  * @author flemi
  */
-public class EmpDAO {
+public class ConQuery {
     DbConnection dbconn = new DbConnection();
     private static final String SQL = "SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                                         "FROM tblTimeTablesLocation\n" +
@@ -30,7 +31,7 @@ public class EmpDAO {
     ResultSet resultSet=null;
     public ResultSet getResultSet(){
         try{
-          con = dbconn.setConnection();
+          con = dbconn.Connection();
             pst = con.prepareStatement(SQL);
             resultSet = pst.executeQuery();
         }catch(Exception ex){

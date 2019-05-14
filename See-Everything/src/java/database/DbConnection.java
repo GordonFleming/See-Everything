@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package beans;
-import static beans.Dbproperty.DB_Class;
-import static beans.Dbproperty.DB_URL;
+package database;
+import static database.Dbproperty.DB_Class;
+import static database.Dbproperty.DB_URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -14,21 +14,21 @@ import java.sql.SQLException;
  * @author flemi
  */
 public class DbConnection {
-    Connection con;
+    Connection myConnection;
     public DbConnection(){
         try{
             Class.forName(DB_Class);
             System.out.println("Loaded fine");
-        }catch(Exception e){
+        }catch(ClassNotFoundException e){
             System.out.println("Unsuccessful");
         }
     }
-    public Connection setConnection(){
+    public Connection Connection(){
         try{
-            con=DriverManager.getConnection(DB_URL);
+            myConnection =DriverManager.getConnection(DB_URL);
             System.out.println("Success");
-            return con;
-        }catch(Exception ex){
+            return myConnection;
+        }catch(SQLException ex){
             System.out.println("Whoops");
             ex.printStackTrace();
             return null;

@@ -3,8 +3,7 @@
  */
 package controllers;
 
-import beans.Booking;
-import database.Db_Connection;
+import database.DbConnection;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -43,7 +42,7 @@ public class BookingControl extends HttpServlet {
    rd.include(request, response);
   } else {
    try {
-    Db_Connection dbconn=new Db_Connection();                                  //Establishes the database connection
+    DbConnection dbconn=new DbConnection();                                  //Establishes the database connection
        try (Connection myconnection = dbconn.Connection()) {
            String query = "INSERT INTO tblBooking VALUES (?,?,?,?,?,?,?)";     //Inserts the users booking with relevant SQL statement
            try (PreparedStatement ps = myconnection.prepareStatement(query)){  //Generates the sql query
@@ -61,14 +60,14 @@ public class BookingControl extends HttpServlet {
            }
            
        }
-   } catch (SQLException ex) 
-       {Logger.getLogger(Booking.class.getName()).log(Level.SEVERE, null, ex);}
+   } catch (SQLException ex){   
    RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
    out.print("<style>.success {padding-right:5px;padding-left:10px;padding-top:5px;padding-bottom:10px;width:600px;background-color: green; color: white;margin-bottom: 15px;bottom: 0;position: absolute;left:50%;transform: translate(-50%); }"
             + ".closebtn { margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;}"
             + ".closebtn:hover { color: black;}</style>"
             + "<div class=\"success\"><span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span><strong>Success!</strong> Your booking was submitted to the server.</div>");
    rd.include(request, response);
-  }
- }
+            }
+        }
+    }
 }

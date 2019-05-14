@@ -14,23 +14,23 @@ import org.json.JSONObject;
 
 /**
  *
- * @author flemi
+ * @author fleming
  */
-public class JsonServices {
+public class JsonServices {                                                             //adapted from https://www.youtube.com/watch?v=1OQAkbpyt8Y
     public static List<JSONObject>getFormattedResult(ResultSet rs) throws SQLException{
         List<JSONObject> resList = new ArrayList<JSONObject>();
         try{
-            //gets the column names
+            //gets all the column names
             ResultSetMetaData rsMeta = rs.getMetaData();
             int columnCnt = rsMeta.getColumnCount();
             List<String> columnNames = new ArrayList <String>();
-            //Loop to get all column names
+            //loops to get all column names
             for(int i=1;i<=columnCnt;i++){
                 //adds all retrieved column names to List object
                 columnNames.add(rsMeta.getColumnName(i).toUpperCase());
             }
             while(rs.next()){
-                //convert each object to an readable JSON object
+                //convert each object to a readable JSON object
                 JSONObject obj = new JSONObject();
                 for(int i=1;i<=columnCnt;i++){
                     String key = columnNames.get(i-1);

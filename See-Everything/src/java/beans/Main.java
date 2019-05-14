@@ -18,7 +18,7 @@ import org.json.JSONObject;
  */
 public class Main {
     ResultSet resultSet = null;
-    EmpDAO empdao = new EmpDAO();
+    ConQuery empdao = new ConQuery();
     public List<JSONObject>getJsonObject() throws SQLException{
         resultSet = empdao.getResultSet();
         List<JSONObject> resList = JsonServices.getFormattedResult(resultSet);
@@ -26,7 +26,7 @@ public class Main {
     }
     public static void main(String[] args) throws SQLException, IOException {
         Main m = new Main();
-        PrintWriter writer = new PrintWriter("C:\\Users\\24740\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js");
+        PrintWriter writer = new PrintWriter("C:\\Users\\24740\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js"); //Path to JSON file
         List<JSONObject> jObj = m.getJsonObject();
         writer.println("var locations = [");
         for(int i=0;i<jObj.size();i++){

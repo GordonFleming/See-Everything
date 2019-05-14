@@ -3,21 +3,21 @@
     Created on : 27-Jan-2019, 12:05:10
     Author     : Gordon Fleming
 --%>
-<%@page import="database.Db_Connection"%>
+<%@page import="database.DbConnection"%>
 <%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>       
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">   
-        <link rel="shortcut icon" type="image/png" href="img/SJCfavicon.png">
-        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
-        <link rel="stylesheet" type="text/css" href="Map.css" />
+        <link rel="shortcut icon" type="image/png" href="img/SJCfavicon.png">       <!-- Links the favicon -->
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />             <!-- Links CSS file -->
+        <link rel="stylesheet" type="text/css" href="Map.css" />                    <!-- Links CSS file -->
         <title>See Everything Main Page | St John's</title>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="StJohnsMap.js"></script>
-        <script type="text/javascript" src="\See-Everything\JSON.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>  <!-- Links google javascript file -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> <!-- Links jquery library file -->
+        <script type="text/javascript" src="StJohnsMap.js"></script>                <!-- Links javascript file -->
+        <script type="text/javascript" src="\See-Everything\JSON.js"></script>      <!-- Links javascript file -->
        
         <meta name="google-signin-client_id" content="1056145859345-trlkgoivq1slfk4kmjbvpo0vgfuj85il.apps.googleusercontent.com">
             <script type="text/javascript">
@@ -44,7 +44,7 @@
                                                     <! -- Other -->
                                                     
         <header><h2 align="center" ><font face="Arial" color="white">&ensp;&ensp;See Everything | St John's College</font></h2></header>
-            <div id = "hidden">                     <!-- Hides the sign in button -->
+            <div id = "hidden">                                             <!-- Hides the sign in button -->
                 <div class="g-signin2" data-onsuccess="SignedIn"></div>               
             </div>
             <div class="top-left-GSignOut">                                 <!-- Displays the sign out button -->
@@ -55,13 +55,13 @@
                 <br> 
                 <p id="gname"></p>  
             </div>
-        <div class="center">
-            <div class="map">
-                <svg version="1.1" id="St_John_x27_s" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        <div class="center">                                                <!-- Centres the map -->
+            <div class="map">                                               <!-- Styles the map. Displays the SVG map. Styles all other venues differently. Each classroom is a separate object contained within <g> tags -->
+                <svg version="1.1" id="St_John_x27_s" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" 
                 y="0px" width="850px" height="500px" viewBox="0 0 841.68 595.2" style="enable-background:new 0 0 841.68 595.2;"
                 xml:space="preserve">
                     <style type="text/css">
-                        .st0{fill:white;stroke:#000000}                         <!-- Styles all other venues differently -->
+                        .st0{fill:white;stroke:#000000}                         
                         .st1{fill:grey;stroke:#000000}
                         .st2{font-family:'Calibri';}
                         .st3{font-size:10px;}
@@ -71,7 +71,7 @@
                         .st7{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
                         .st8{font-size:11px;}
                     </style>
-                    <g id="36">
+                    <g id="36">                                                 
                                     <rect x="115.5" y="88" width="31.8" height="38.2"/>
                                     <text transform="matrix(1 0 0 1 124.9877 105.6497)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">36</tspan><tspan x="-4.3" y="12" class="st1 st2 st3">ART</tspan></text>
                             </g>
@@ -415,11 +415,10 @@
                 <h4>Venue:</h4> 
                 <br>
                 <select name="venue">
-                <option value="-1">Select venue</option>
+                <option value="-1">Select venue</option>     <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->
                     <%                  
-                        String Query1 = "SELECT * FROM tblVenues";
-                        Connection conn = null;
-                        Db_Connection dbconn=new Db_Connection(); 
+                        String Query1 = "SELECT * FROM tblVenues";   
+                        DbConnection dbconn=new DbConnection(); 
                         try{
                         Connection myconnection = dbconn.Connection();
                         Statement stm = myconnection.createStatement();
@@ -438,7 +437,7 @@
                 <h4>Activity:</h4>
                 <br>
                 <select name="activity">
-                <option value="-1">Select activity</option>
+                <option value="-1">Select activity</option> <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->
                     <%                  
                         String Query2 = "SELECT * FROM tblActivities";
                         try{
@@ -491,7 +490,7 @@
             </form>                
         </div>
                        
-                                                    <!-- Footer displays the users name and email -->
+                                                    <!-- Footer displays the users name and email, details are taken from their google login -->
                                                     
         <footer>                                                                      
             <center>
