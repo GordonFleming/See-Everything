@@ -386,7 +386,7 @@
                                                     
         <div class = "top-query-form" id="container-query">
             <center><h3>Query Form</h3></center>
-            <form class="form-inline" action="QueryController" method="post" autocomplete="off">
+            <form class="form-inline" action="QueryController" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
                     <option value = "staffName">Staff Name</option>  

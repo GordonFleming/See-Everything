@@ -12,6 +12,14 @@
         <servlet-name>BookingControl</servlet-name>
         <url-pattern>/BookingControl</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>query</servlet-name>
+        <servlet-class>beans.Main</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>query</servlet-name>
+        <url-pattern>/QueryController</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

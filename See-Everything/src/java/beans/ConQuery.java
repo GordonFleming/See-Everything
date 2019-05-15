@@ -24,7 +24,7 @@ public class ConQuery {
                                         "AND week = 'Blue' \n" +
                                         "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                                         "WHERE period = PeriodName\n" +
-                                        "AND week = 'Blue' \n" +
+                                        "AND week = 'Maroon' \n" +
                                         "AND WeekdayCode = strftime('%w',date('now'))";
     Connection con = null;
     PreparedStatement pst=null;
