@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package beans;
+package controllers;
 
-import static com.sun.corba.se.spi.presentation.rmi.StubAdapter.request;
+import beans.ConQuery;
+import beans.JsonServices;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -26,11 +27,11 @@ import org.json.JSONObject;
  * @author flemi
  */
 public class Main extends HttpServlet{
-    
+
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws FileNotFoundException, ServletException, IOException{
         Main m = new Main();
-        try (PrintWriter writer = new PrintWriter("C:\\Users\\24740\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js") //Path to JSON file
+        try (PrintWriter writer = new PrintWriter("C:\\Users\\flemi\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js") //Path to JSON file
         ) {
             List<JSONObject> jObj = m.getJsonObject();
             writer.println("var locations = [");
@@ -46,10 +47,9 @@ public class Main extends HttpServlet{
         rd.include(req, res);           
     }     
         public List<JSONObject>getJsonObject() throws SQLException{
-            ConQuery empdao = new ConQuery();
-            ResultSet resultSet = empdao.getResultSet();
+            ConQuery conn = new ConQuery();
+            ResultSet resultSet = conn.getResultSet();
             List<JSONObject> resList = JsonServices.getFormattedResult(resultSet);
             return resList;
-    }        
-        
+    }               
 }

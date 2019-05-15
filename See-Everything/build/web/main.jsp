@@ -386,11 +386,10 @@
                                                     
         <div class = "top-query-form" id="container-query">
             <center><h3>Query Form</h3></center>
-            <form class="form-inline" action="QueryController" autocomplete="off">
+            <form class="form-inline" action="Main" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
                     <option value = "staffName">Staff Name</option>  
-                    <option value = "venue">Venue</option>
                     <option value = "activity">Activity</option>
                     <option value = "date">Date</option>
                 </select>
