@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class DbConnection {
     Connection myConnection;
-    public DbConnection(){
+    public DbConnection(){                                                      //Establishes connection with the database
         try{
             Class.forName(DB_Class);
             System.out.println("Loaded fine");
@@ -23,7 +23,7 @@ public class DbConnection {
             System.out.println("Unsuccessful");
         }
     }
-    public Connection Connection(){
+    public Connection Connection(){                                             //Verifies if the connection is successful
         try{
             myConnection =DriverManager.getConnection(DB_URL);
             System.out.println("Success");

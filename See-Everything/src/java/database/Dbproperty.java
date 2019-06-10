@@ -9,7 +9,7 @@ package database;
  *
  * @author flemi
  */
-public class Dbproperty {
+public class Dbproperty {                                                       //Stores the URL required for connection to the database (Different ones are used for the different computers I coded on)
     static String urlHome = "jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
     static String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
     static String urlLaptop = "jdbc:sqlite:/Users/gordonfleming/NetBeansProjects/See-Everything/See-Everything/SJC_DB.db";
