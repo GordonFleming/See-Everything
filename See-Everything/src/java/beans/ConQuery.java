@@ -16,6 +16,7 @@ import java.sql.ResultSet;
  */
 public class ConQuery {
     DbConnection dbconn = new DbConnection();
+    //The String SQL variable holds the value of the SQL statement to be processed on the users request
     private static final String SQL = "SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                                         "FROM tblTimeTablesLocation\n" +
                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +

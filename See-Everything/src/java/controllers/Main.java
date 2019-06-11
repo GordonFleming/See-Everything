@@ -29,7 +29,7 @@ import org.json.JSONObject;
 public class Main extends HttpServlet{
 
     @Override
-    public void doGet(HttpServletRequest req, HttpServletResponse res) throws FileNotFoundException, ServletException, IOException{
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws FileNotFoundException, ServletException, IOException{ //Writes the formatted fields into JSON file
         Main m = new Main();
         try (PrintWriter writer = new PrintWriter("C:\\Users\\24740\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js") //Path to JSON file
         ) {
@@ -46,7 +46,7 @@ public class Main extends HttpServlet{
         RequestDispatcher rd = req.getRequestDispatcher("main.jsp");
         rd.include(req, res);           
     }     
-        public List<JSONObject>getJsonObject() throws SQLException{
+        public List<JSONObject>getJsonObject() throws SQLException{ //Outputs and 'returns' the JSON data
             ConQuery conn = new ConQuery();
             ResultSet resultSet = conn.getResultSet();
             List<JSONObject> resList = JsonServices.getFormattedResult(resultSet);
