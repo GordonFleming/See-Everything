@@ -497,7 +497,7 @@
                     <p id="gmail"></p>
                 </div>
                 <div class="bottom-right-help">
-                    <a href="img/LoginGUIplanV3.png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
+                    <a href="img/MainPageGUIplanV2.png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
                 </div>
             </center>
         </footer>

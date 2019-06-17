@@ -34,6 +34,7 @@ public class BookingControl extends HttpServlet {
   // validates the user's given input and gives relevant error message if invalid
   if (venue.isEmpty() || venue.equals("-1") || activity.isEmpty() || activity.equals("-1") || week.isEmpty() || day.isEmpty() || period.isEmpty() || staffName.isEmpty() || date.isEmpty()) { //Checks for certain invalid values
    RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
+   //Outputs error message if invalid data was inputted
    out.print("<style>.alert {padding-right:10px;padding-left:10px;padding-top:5px;padding-bottom:5px;width:600px;background-color: #f44336;/* Red */color: white;margin-bottom: 15px;bottom: 0;position: absolute;left:50%;transform: translate(-50%); }"
             + ".closebtn { margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;}"
             + ".closebtn:hover { color: black;}</style>"
@@ -58,15 +59,16 @@ public class BookingControl extends HttpServlet {
                ps.close();
                myconnection.close();
            }
-           
-       }
-   } catch (SQLException ex){                                                   //Outputs error message if invalid data was inputted
-   RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
-   out.print("<style>.success {padding-right:5px;padding-left:10px;padding-top:5px;padding-bottom:10px;width:600px;background-color: green; color: white;margin-bottom: 15px;bottom: 0;position: absolute;left:50%;transform: translate(-50%); }"
+           RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
+           //Outputs success message if valid data was inputted
+           out.print("<style>.success {padding-right:5px;padding-left:10px;padding-top:5px;padding-bottom:10px;width:600px;background-color: green; color: white;margin-bottom: 15px;bottom: 0;position: absolute;left:50%;transform: translate(-50%); }"
             + ".closebtn { margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;}"
             + ".closebtn:hover { color: black;}</style>"
             + "<div class=\"success\"><span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span><strong>Success!</strong> Your booking was submitted to the server.</div>");
-   rd.include(request, response);
+           rd.include(request, response);
+       }
+   } catch (SQLException ex){                                                     
+   
             }
         }
     }
