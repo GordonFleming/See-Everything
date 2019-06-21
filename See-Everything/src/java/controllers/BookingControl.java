@@ -17,12 +17,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class BookingControl extends HttpServlet {
+public class BookingControl extends HttpServlet {                               //Servlet for managing requests from the user 
 
  @Override
  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { //Receives values and processes the request from the server
   response.setContentType("text/html");
   PrintWriter out = response.getWriter();
+  //assigns each variable with a fetch value of the same type
   String venue = request.getParameter("venue");
   String activity = request.getParameter("activity");
   String week = request.getParameter("week");
