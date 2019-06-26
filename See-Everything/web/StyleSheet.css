@@ -27,7 +27,7 @@ select{
   border-radius: 16px;
   background-color: #f1f1f1;
 }
-#hidden{
+#hidden{    /* Hides specific web elements from the user */
     display:none;
 }
 #conainer-booking{

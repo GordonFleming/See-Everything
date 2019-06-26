@@ -16,7 +16,8 @@ import java.sql.ResultSet;
  */
 public class ConQuery {
     DbConnection dbconn = new DbConnection();
-    //The String SQL variable holds the value of the SQL statement to be processed on the users request
+    //The String SQL variable holds the query of the SQL statement to be processed on the users request
+    //The query uses current time and uses a subquery with a 'join' to fetch the relevant information
     private static final String SQL = "SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                                         "FROM tblTimeTablesLocation\n" +
                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
@@ -30,7 +31,7 @@ public class ConQuery {
     Connection con = null;
     PreparedStatement pst=null;
     ResultSet resultSet=null;
-    public ResultSet getResultSet(){
+    public ResultSet getResultSet(){ //Connects, prepares and executes the query to the connected database
         try{
           con = dbconn.Connection();
             pst = con.prepareStatement(SQL);

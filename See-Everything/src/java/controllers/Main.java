@@ -34,12 +34,12 @@ public class Main extends HttpServlet{
         try (PrintWriter writer = new PrintWriter("C:\\Users\\flemi\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js") //Path to JSON file
         ) {
             List<JSONObject> jObj = m.getJsonObject();
-            writer.println("var locations = [");
+            writer.println("var locations = ["); //writes this string to the file to get the JSON file in the correct format
             for(int i=0;i<jObj.size();i++){
                 writer.println(jObj.get(i)+",");
                 System.out.println(jObj.get(i)+",");
             }
-            writer.println("];");
+            writer.println("];"); //Closes off the JSON file by inserting this String
         } catch (SQLException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -47,7 +47,7 @@ public class Main extends HttpServlet{
         rd.include(req, res);           
     }     
         public List<JSONObject>getJsonObject() throws SQLException{ //Outputs and 'returns' the JSON data
-            ConQuery conn = new ConQuery();
+            ConQuery conn = new ConQuery(); //Establishes connection
             ResultSet resultSet = conn.getResultSet();
             List<JSONObject> resList = JsonServices.getFormattedResult(resultSet);
             return resList;

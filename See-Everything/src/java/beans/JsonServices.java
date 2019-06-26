@@ -22,6 +22,7 @@ public class JsonServices {                                                     
         try{
             //gets all the column names
             ResultSetMetaData rsMeta = rs.getMetaData();
+            //uses the connected JSON library, to be able to it's pre-constructed methods
             int columnCnt = rsMeta.getColumnCount();
             List<String> columnNames = new ArrayList <String>();
             //loops to get all column names

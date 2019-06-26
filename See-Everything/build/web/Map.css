@@ -13,7 +13,7 @@
   width: 65%;
   height: 70%
 }
-.map g {
+.map g { /* Styles each <g> element */
   fill: #ccc;
   stroke: #333;
   stroke-width: 1;
@@ -25,7 +25,7 @@
   transform: scale(1.009);
   cursor: help;
 }
-.info_panel {
+.info_panel { /* Handles the pop-ups when mouse hovers over the venues */
   background-color: rgba(255,255,255, .8);
   padding: 5px;
   font-size: 12px;
