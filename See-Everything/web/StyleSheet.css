@@ -187,9 +187,9 @@ select{
 }
 .right-booking-form{
     position: absolute;                             
-    top: 46%;
+    top: 47%;
     right: 2%;
-    transform: translate(-2%, -52%); 
+    transform: translate(-3%, -52%); 
 }
 .left-results{
     position: absolute;                             
