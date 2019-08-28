@@ -9,15 +9,13 @@ import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class BookingControl extends HttpServlet { //Servlet for managing requests from the user 
+public class BookingControl extends HttpServlet { //Servlet for managing booking requests from the user 
 
  @Override
  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { //Receives values and processes the request from the server
@@ -32,7 +30,7 @@ public class BookingControl extends HttpServlet { //Servlet for managing request
   String staffName = request.getParameter("staffName");
   String date = request.getParameter("date");
 
-  // validates the user's given input and gives relevant error message if invalid
+  //validates the user's given input and gives relevant error message if invalid
   if (venue.isEmpty() || venue.equals("-1") || activity.isEmpty() || activity.equals("-1") || week.isEmpty() || day.isEmpty() || period.isEmpty() || staffName.isEmpty() || date.isEmpty()) { //Checks for certain invalid values
    RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
    //Outputs error message if invalid data was inputted
@@ -69,7 +67,7 @@ public class BookingControl extends HttpServlet { //Servlet for managing request
            rd.include(request, response);
        }
    } catch (SQLException ex){                                                     
-   
+       System.out.println("Error.");
             }
         }
     }

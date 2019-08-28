@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 /**
  *
- * @author fleming
+ * @author Gordon Fleming
  */
 public class JsonServices {                                                             //adapted from https://www.youtube.com/watch?v=1OQAkbpyt8Y
     public static List<JSONObject>getFormattedResult(ResultSet rs) throws SQLException{

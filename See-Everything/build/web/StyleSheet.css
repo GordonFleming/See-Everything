@@ -34,7 +34,14 @@ select{
   padding-left: 10px;
   padding-right: 10px;
   width: auto;
-  height: 80%;
+  height: 90%;
+  overflow: auto;
+}
+#conainer-results{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 60%;
   overflow: auto;
 }
 #container-query{
@@ -99,7 +106,7 @@ select{
     right: 0;
     bottom: 0;
     position: absolute;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     padding-right: 50px;
 }
 .bottom-left-info{
@@ -184,6 +191,12 @@ select{
     right: 2%;
     transform: translate(-2%, -52%); 
 }
+.left-results{
+    position: absolute;                             
+    top: 75%;
+    left: 8%;
+    transform: translate(-30%, -80%); 
+}
 .top-query-form{
   position: absolute;
   top: 16%;
@@ -198,7 +211,7 @@ select{
 }
 .center{
   display: block;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: auto;
   margin-right: auto;
   width: auto;

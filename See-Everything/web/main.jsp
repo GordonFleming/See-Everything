@@ -10,7 +10,7 @@
 <html>
     <head>       
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">   
-        <link rel="shortcut icon" type="image/png" href="img/SJCfavicon.png">       <!-- Links the favicon -->
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">       <!-- Links the favicon -->
         <link rel="stylesheet" type="text/css" href="StyleSheet.css" />             <!-- Links CSS file -->
         <link rel="stylesheet" type="text/css" href="Map.css" />                    <!-- Links CSS file -->
         <title>See Everything Main Page | St John's</title>
@@ -408,7 +408,7 @@
                                                                                                        
                                                     <!-- Booking Form -->
                                                     
-              <div class = "right-booking-form" id="conainer-booking">
+        <div class = "right-booking-form" id="conainer-booking">
             <form action="BookingControl" method="post" autocomplete="on">
                 <h3>Booking Form</h3>          
                 <h4>Venue:</h4> 
@@ -427,7 +427,7 @@
                             <option value = "<%=rs.getInt("VenueID")%>"><%=rs.getString("Name")%></option>
                             <%
                         }                    
-                    }catch(Exception ex){
+                    }catch(Exception ex){                   //Prints out the error
                         ex.printStackTrace();
                         out.print("Error "+ex.getMessage());
                     }           
@@ -448,7 +448,7 @@
                             <option value = "<%=rs.getInt("ActivityID")%>"><%=rs.getString("Activity")%></option>
                             <%
                         }                    
-                    }catch(Exception ex){
+                    }catch(Exception ex){               //Prints out the error
                         ex.printStackTrace();
                         out.print("Error "+ex.getMessage());
                     }           
@@ -488,6 +488,60 @@
                 <input class="Submit" type="submit" value="Submit">
             </form>                
         </div>
+                
+                <!-- Table displays same data as map, but in a table form -->
+                
+        <div class = "left-results" id="conainer-results">
+            <form method="post">
+                <table border="2">
+                <tr>
+                <td><b>Time</td>
+                <td><b>StaffName</td>
+                <td><b>Venue</td>
+                </tr>
+                <%
+                try
+                {
+                Class.forName("org.sqlite.JDBC");
+                String url="jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
+                String query="SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
+                                                        "FROM tblTimeTablesLocation\n" +
+                                                        "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
+                                                        "(SELECT PeriodName FROM tblTimings\n" +
+                                                        "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
+                                                        "AND week = 'Maroon' \n" +
+                                                        "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
+                                                        "WHERE period = PeriodName\n" +
+                                                        "AND week = 'Maroon' \n" +
+                                                        "AND WeekdayCode = strftime('%w',date('now'))";
+                Connection conn=DriverManager.getConnection(url);
+                Statement stmt=conn.createStatement();
+                ResultSet rs=stmt.executeQuery(query);
+                while(rs.next())
+                {
+                %>
+                    <tr>
+                    <td><%=rs.getString("Time") %></td>
+                    <td><%=rs.getString("StaffName") %></td>
+                    <td><%=rs.getString("venue") %></td>
+                </tr>
+                        <%
+
+                }
+                %>
+                    </table>
+                    <%
+                    rs.close();
+                    stmt.close();
+                    conn.close();
+                    }
+                catch(Exception e)
+                {
+                    e.printStackTrace();
+                    }
+                %>
+                </form>
+        </div>
                        
                                                     <!-- Footer displays the users name and email, details are taken from their google login -->
                                                     
@@ -497,7 +551,7 @@
                     <p id="gmail"></p>
                 </div>
                 <div class="bottom-right-help">
-                    <a href="img/MainPageGUIplanV2.png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
+                    <a href="img/MainPageActual_Help(V1).png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
                 </div>
             </center>
         </footer>

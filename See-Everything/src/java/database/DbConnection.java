@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 /**
  *
- * @author flemi
+ * @author Gordon Fleming
  */
 public class DbConnection {
     Connection myConnection;

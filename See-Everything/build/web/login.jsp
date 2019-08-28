@@ -8,7 +8,7 @@
 <html>
     <head>       
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">   
-        <link rel="shortcut icon" type="image/png" href="img/SJCfavicon.png">
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
         <title>See Everything Login | St John's</title>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -52,7 +52,7 @@
         <footer>
             <center>
                 <div class="bottom-right-help">
-                    <a href="img/LoginGUIplanV3.png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
+                    <a href="img/Help_for_LoginPage(V1).png" target="_blank"><p src="img/SJCfavicon.png" title="Need Help?"><font size = 4 color = #e2e519>Help?</font></p></a>
                 </div>
             </center>
         </footer>

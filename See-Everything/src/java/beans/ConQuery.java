@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 
 /**
  *
- * @author flemi
+ * @author Gordon Fleming
  */
 public class ConQuery {
     DbConnection dbconn = new DbConnection();

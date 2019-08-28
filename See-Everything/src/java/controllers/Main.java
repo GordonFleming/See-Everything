@@ -24,7 +24,7 @@ import org.json.JSONObject;
 
 /**
  *
- * @author flemi
+ * @author Gordon Fleming
  */
 public class Main extends HttpServlet{
 
