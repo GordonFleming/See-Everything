@@ -106,7 +106,7 @@ select{
     right: 0;
     bottom: 0;
     position: absolute;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     padding-right: 50px;
 }
 .bottom-left-info{
@@ -187,7 +187,7 @@ select{
 }
 .right-booking-form{
     position: absolute;                             
-    top: 48%;
+    top: 46%;
     right: 2%;
     transform: translate(-2%, -52%); 
 }
