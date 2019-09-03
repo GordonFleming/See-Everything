@@ -23,10 +23,10 @@ public class ConQuery {
                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
                                         "(SELECT PeriodName FROM tblTimings\n" +
                                         "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
-                                        "AND week = 'Maroon' \n" +
+                                        "AND week = 'Blue' \n" +
                                         "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                                         "WHERE period = PeriodName\n" +
-                                        "AND week = 'Maroon' \n" +
+                                        "AND week = 'Blue' \n" +
                                         "AND WeekdayCode = strftime('%w',date('now'))";
     Connection con = null;
     PreparedStatement pst=null;

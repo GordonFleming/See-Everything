@@ -502,8 +502,6 @@
                 <%
                 try
                 {
-                Class.forName("org.sqlite.JDBC");
-                String url="jdbc:sqlite:C://Users/flemi/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
                 String query="SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                                                         "FROM tblTimeTablesLocation\n" +
                                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
@@ -514,9 +512,9 @@
                                                         "WHERE period = PeriodName\n" +
                                                         "AND week = 'Maroon' \n" +
                                                         "AND WeekdayCode = strftime('%w',date('now'))";
-                Connection conn=DriverManager.getConnection(url);
-                Statement stmt=conn.createStatement();
-                ResultSet rs=stmt.executeQuery(query);
+                Connection myconnection = dbconn.Connection();
+                Statement stm = myconnection.createStatement();
+                ResultSet rs=stm.executeQuery(query);
                 while(rs.next())
                 {
                 %>
@@ -532,12 +530,13 @@
                     </table>
                     <%
                     rs.close();
-                    stmt.close();
-                    conn.close();
+                    stm.close();
+                    myconnection.close();
                     }
-                catch(Exception e)
+                catch(Exception ex)
                 {
-                    e.printStackTrace();
+                    ex.printStackTrace();
+                    out.print("Error "+ex.getMessage());
                     }
                 %>
                 </form>

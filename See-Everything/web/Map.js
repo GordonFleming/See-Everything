@@ -2,7 +2,6 @@
     Created on : Apr 28, 2019, 1:52:21 PM
     Author     : gordonfleming
 */
- /* global regions */
 
 var temp_array= regions.map(function(item){
     return item.population;
