@@ -14,5 +14,5 @@ public class Dbproperty { //Stores the URL required for connection to the databa
     static String urlSchool = "jdbc:sqlite:C://Users/24740/Documents/GitHub/See-Everything/See-Everything/SJC_DB.db";
     static String urlLaptop = "jdbc:sqlite:/Users/gordonfleming/NetBeansProjects/See-Everything/See-Everything/SJC_DB.db";
     public static final String DB_Class = "org.sqlite.JDBC";
-    public static final String DB_URL = urlLaptop;   
+    public static final String DB_URL = urlHome;   
 }
