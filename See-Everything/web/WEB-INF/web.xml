@@ -20,6 +20,14 @@
         <servlet-name>query</servlet-name>
         <url-pattern>/Main</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>QuerySearch</servlet-name>
+        <servlet-class>beans.Query</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuerySearch</servlet-name>
+        <url-pattern>/query</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

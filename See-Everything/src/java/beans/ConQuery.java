@@ -18,15 +18,15 @@ public class ConQuery {
     DbConnection dbconn = new DbConnection();
     //The String SQL variable holds the query of the SQL statement to be processed on the users request
     //The query uses current time and uses a subquery with a 'join' to fetch the relevant information
-    private static final String SQL = "SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
+    private static final String SQL = "SELECT strftime('%H:%M', time('now','-4 hours'))as 'Time', Surname as StaffName, venue\n" +
                                         "FROM tblTimeTablesLocation\n" +
                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
                                         "(SELECT PeriodName FROM tblTimings\n" +
-                                        "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
-                                        "AND week = 'Blue' \n" +
+                                        "WHERE time('now','-4 hours') BETWEEN StartTime and EndTime\n" +
+                                        "AND week = 'Maroon' \n" +
                                         "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                                         "WHERE period = PeriodName\n" +
-                                        "AND week = 'Blue' \n" +
+                                        "AND week = 'Maroon' \n" +
                                         "AND WeekdayCode = strftime('%w',date('now'))";
     Connection con = null;
     PreparedStatement pst=null;

@@ -386,22 +386,20 @@
                                                     
         <div class = "top-query-form" id="container-query">
             <center><h3>Query Form</h3></center>
-            <form class="form-inline" action="Main" autocomplete="off">
+            <form class="form-inline" action="query" autocomplete="off">
                 <label>Field</label>
                 <select name="field">
                     <option value = "staffName">Staff Name</option>  
-                    <option value = "activity">Activity</option>
-                    <option value = "date">Date</option>
+                    <option value = "activity">Venue</option>
+                    <!--<option value = "date">Date</option>-->
                 </select>
                 <label>Function</label>
-                <select name="function">
-                    <option value = "like">Contains</option>  
-                    <option value = "=">Equal</option>
-                    <option value = "!=">Not equal</option>
-                    <option value = "substr(?,1,1) =">Begins with</option>
+                <select name="function" >
+                    <option value = "=" >Equals</option>
                 </select>
                 <label>Parameters</label>
-                <input type="text" name="firstname" value="">
+                
+                <input type="text" name="text">
                 <label><button class="Tick_Submit"><input id="hidden" type="submit" name = "query" value=""><span></button></label>
             </form>                                            
         </div>
@@ -502,11 +500,11 @@
                 <%
                 try
                 {
-                String query="SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
+                String query="SELECT strftime('%H:%M', time('now','-4 hours'))as 'Time', Surname as StaffName, venue\n" +
                                                         "FROM tblTimeTablesLocation\n" +
                                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
                                                         "(SELECT PeriodName FROM tblTimings\n" +
-                                                        "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
+                                                        "WHERE time('now','-4 hours') BETWEEN StartTime and EndTime\n" +
                                                         "AND week = 'Maroon' \n" +
                                                         "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                                                         "WHERE period = PeriodName\n" +
@@ -518,7 +516,7 @@
                 while(rs.next())
                 {
                 %>
-                    <tr>
+                <tr>
                     <td><%=rs.getString("Time") %></td>
                     <td><%=rs.getString("StaffName") %></td>
                     <td><%=rs.getString("venue") %></td>
