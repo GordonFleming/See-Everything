@@ -13,12 +13,12 @@
         <url-pattern>/BookingControl</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>query</servlet-name>
+        <servlet-name>refresh</servlet-name>
         <servlet-class>controllers.Main</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>query</servlet-name>
-        <url-pattern>/Main</url-pattern>
+        <servlet-name>refresh</servlet-name>
+        <url-pattern>/refresh</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>QuerySearch</servlet-name>

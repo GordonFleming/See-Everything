@@ -529,11 +529,11 @@ public class Query extends HttpServlet{
             String query;
             switch(type){
                 case "staffName":
-                    query="SELECT strftime('%H:%M', time('now','-4 hours'))as 'Time', Surname as StaffName, venue\n" +
+                    query="SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                             "FROM tblTimeTablesLocation\n" +
                             "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
                             "(SELECT PeriodName FROM tblTimings\n" +
-                            "WHERE time('now','-4 hours') BETWEEN StartTime and EndTime\n" +
+                            "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
                             "AND week = 'Maroon' \n" +
                             "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                             "WHERE period = PeriodName\n" +
@@ -546,11 +546,11 @@ public class Query extends HttpServlet{
                     
                         break;
                 case "activity":
-                    query="SELECT strftime('%H:%M', time('now','-4 hours'))as 'Time', Surname as StaffName, venue\n" +
+                    query="SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                             "FROM tblTimeTablesLocation\n" +
                             "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
                             "(SELECT PeriodName FROM tblTimings\n" +
-                            "WHERE time('now','-4 hours') BETWEEN StartTime and EndTime\n" +
+                            "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
                             "AND week = 'Maroon' \n" +
                             "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                             "WHERE period = PeriodName\n" +
@@ -567,7 +567,15 @@ public class Query extends HttpServlet{
                     
 "                </form>\n" +
 "        </div>\n" +
-"                       \n" +
+"                       \n" + "                                                                   <!-- Update button -->\n" +
+"                                                    \n" +
+"        <div class = \"refresh-button\">          \n" +
+"            <form class=\"form-inline\" action=\"refresh\" autocomplete=\"off\">\n" +
+"                <label>Refresh</label>\n" +
+"                <label><button class=\"Tick_Submit\"><input id=\"hidden\" type=\"submit\" name = \"button\" value=\"\"><span></button></label>\n" +
+"            </form>                                            \n" +
+"        </div>\n" +
+"                "+
 "                                                    <!-- Footer displays the users name and email, details are taken from their google login -->\n" +
 "                                                    \n" +
 "        <footer>                                                                      \n" +

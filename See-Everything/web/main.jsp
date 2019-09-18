@@ -397,12 +397,11 @@
                 <select name="function" >
                     <option value = "=" >Equals</option>
                 </select>
-                <label>Parameters</label>
-                
+                <label>Parameters</label>    
                 <input type="text" name="text">
                 <label><button class="Tick_Submit"><input id="hidden" type="submit" name = "query" value=""><span></button></label>
             </form>                                            
-        </div>
+        </div>                                            
                                                                                                        
                                                     <!-- Booking Form -->
                                                     
@@ -487,6 +486,15 @@
             </form>                
         </div>
                 
+                                                                    <!-- Update button -->
+                                                    
+        <div class = "refresh-button">          
+            <form class="form-inline" action="refresh" autocomplete="off">
+                <label>Refresh</label>
+                <label><button class="Tick_Submit"><input id="hidden" type="submit" name = "button" value=""><span></button></label>
+            </form>                                            
+        </div>
+                
                 <!-- Table displays same data as map, but in a table form -->
                 
         <div class = "left-results" id="conainer-results">
@@ -500,11 +508,11 @@
                 <%
                 try
                 {
-                String query="SELECT strftime('%H:%M', time('now','-4 hours'))as 'Time', Surname as StaffName, venue\n" +
+                String query="SELECT strftime('%H:%M', time('now','+2 hours'))as 'Time', Surname as StaffName, venue\n" +
                                                         "FROM tblTimeTablesLocation\n" +
                                                         "LEFT JOIN tblStaff on tblStaff.StaffID=tblTimeTablesLocation.StaffID,\n" +
                                                         "(SELECT PeriodName FROM tblTimings\n" +
-                                                        "WHERE time('now','-4 hours') BETWEEN StartTime and EndTime\n" +
+                                                        "WHERE time('now','+2 hours') BETWEEN StartTime and EndTime\n" +
                                                         "AND week = 'Maroon' \n" +
                                                         "AND WeekdayCode = strftime('%w',date('now')))subquery1\n" +
                                                         "WHERE period = PeriodName\n" +

@@ -203,6 +203,12 @@ select{
   left: 50%; 
   transform: translate(-50%, -50%); 
 }
+.refresh-button{
+  position: absolute;
+  top: 10%;
+  left: 20%; 
+  transform: translate(-50%, -50%); 
+}
 .centerLogo{                                    /* Scales logo depending on screen size */
   display: block;
   margin-left: auto;
