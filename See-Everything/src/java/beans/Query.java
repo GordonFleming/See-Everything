@@ -4,6 +4,7 @@ import database.DbConnection;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import static java.lang.System.out;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -426,49 +427,301 @@ public class Query extends HttpServlet{
 "                                                    \n" +
 "        <div class = \"right-booking-form\" id=\"conainer-booking\">\n" +
 "            <form action=\"BookingControl\" method=\"post\" autocomplete=\"on\">\n" +
-"                <h3>Booking Form</h3>          \n" +
-"                <h4>Venue:</h4> \n" +
+"                <h3>Booking Form</h3>          \n";
+html+= "               <h4>Venue:</h4> \n" +
 "                <br>\n" +
 "                <select name=\"venue\">\n" +
-"                <option value=\"-1\">Select venue</option>     <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n" +
-"                    <%                  \n" +
-"                        String Query1 = \"SELECT * FROM tblVenues\";   \n" +
-"                        DbConnection dbconn=new DbConnection(); \n" +
-"                        try{\n" +
-"                        Connection myconnection = dbconn.Connection();\n" +
-"                        Statement stm = myconnection.createStatement();\n" +
-"                        ResultSet rs = stm.executeQuery(Query1);\n" +
-"                        while(rs.next()){\n" +
+"                <option value=\"-1\">Select venue</option>     <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n"+
 
-"                            <option value = \"<%=rs.getInt(\"VenueID\")%>\"><%=rs.getString(\"Name\")%></option>\n" +
-"                            <%\n" +
-"                        }                    \n" +
-"                    }catch(Exception ex){                   //Prints out the error\n" +
-"                        ex.printStackTrace();\n" +
-"                        out.print(\"Error \"+ex.getMessage());\n" +
-"                    }           \n" +
-"                    %>\n" +
-"                </select>\n" +
+"                            <option value = \"1\">Afrikaans 17</option>\n" +
+"                            \n" +
+"                            <option value = \"2\">Afrikaans 28</option>\n" +
+"                            \n" +
+"                            <option value = \"3\">Afrikaans 29</option>\n" +
+"                            \n" +
+"                            <option value = \"4\">Afrikaans 30</option>\n" +
+"                            \n" +
+"                            <option value = \"5\">Afrikaans 31</option>\n" +
+"                            \n" +
+"                            <option value = \"6\">Afrikaans 32</option>\n" +
+"                            \n" +
+"                            <option value = \"7\">Art 33</option>\n" +
+"                            \n" +
+"                            <option value = \"8\">Art 36</option>\n" +
+"                            \n" +
+"                            <option value = \"9\">Drama 70</option>\n" +
+"                            \n" +
+"                            <option value = \"10\">Drama Alternate</option>\n" +
+"                            \n" +
+"                            <option value = \"11\">Drama Dungeon</option>\n" +
+"                            \n" +
+"                            <option value = \"12\">English 1</option>\n" +
+"                            \n" +
+"                            <option value = \"13\">English 2</option>\n" +
+"                            \n" +
+"                            <option value = \"14\">English 3</option>\n" +
+"                            \n" +
+"                            <option value = \"15\">English 4</option>\n" +
+"                            \n" +
+"                            <option value = \"16\">English 5</option>\n" +
+"                            \n" +
+"                            <option value = \"17\">English 6</option>\n" +
+"                            \n" +
+"                            <option value = \"18\">English 7</option>\n" +
+"                            \n" +
+"                            <option value = \"19\">English 8</option>\n" +
+"                            \n" +
+"                            <option value = \"20\">FOE 13</option>\n" +
+"                            \n" +
+"                            <option value = \"21\">Geography 1</option>\n" +
+"                            \n" +
+"                            <option value = \"22\">Geography 2</option>\n" +
+"                            \n" +
+"                            <option value = \"23\">Geography 3</option>\n" +
+"                            \n" +
+"                            <option value = \"24\">Geography 4</option>\n" +
+"                            \n" +
+"                            <option value = \"25\">German 64</option>\n" +
+"                            \n" +
+"                            <option value = \"26\">History 7</option>\n" +
+"                            \n" +
+"                            <option value = \"27\">History 8</option>\n" +
+"                            \n" +
+"                            <option value = \"28\">History 9</option>\n" +
+"                            \n" +
+"                            <option value = \"29\">History 12</option>\n" +
+"                            \n" +
+"                            <option value = \"30\">History 12B</option>\n" +
+"                            \n" +
+"                            <option value = \"31\">Information Technology 15</option>\n" +
+"                            \n" +
+"                            <option value = \"32\">Information Technology 16</option>\n" +
+"                            \n" +
+"                            <option value = \"33\">Information Technology REB</option>\n" +
+"                            \n" +
+"                            <option value = \"34\">Latin 9</option>\n" +
+"                            \n" +
+"                            <option value = \"35\">Life Orientation 24</option>\n" +
+"                            \n" +
+"                            <option value = \"36\">Life Sciences 4</option>\n" +
+"                            \n" +
+"                            <option value = \"37\">Life Sciences 7</option>\n" +
+"                            \n" +
+"                            <option value = \"38\">Life Sciences 9</option>\n" +
+"                            \n" +
+"                            <option value = \"39\">Life Sciences 10</option>\n" +
+"                            \n" +
+"                            <option value = \"40\">Mathematics 14</option>\n" +
+"                            \n" +
+"                            <option value = \"41\">Mathematics 15</option>\n" +
+"                            \n" +
+"                            <option value = \"42\">Mathematics 16</option>\n" +
+"                            \n" +
+"                            <option value = \"43\">Mathematics 39</option>\n" +
+"                            \n" +
+"                            <option value = \"44\">Mathematics 42</option>\n" +
+"                            \n" +
+"                            <option value = \"45\">Mathematics 44</option>\n" +
+"                            \n" +
+"                            <option value = \"46\">Mathematics 47</option>\n" +
+"                            \n" +
+"                            <option value = \"47\">Mathematics 48</option>\n" +
+"                            \n" +
+"                            <option value = \"48\">Mathematics 50</option>\n" +
+"                            \n" +
+"                            <option value = \"49\">Divinity 59</option>\n" +
+"                            \n" +
+"                            <option value = \"50\">French 60</option>\n" +
+"                            \n" +
+"                            <option value = \"51\">French 61</option>\n" +
+"                            \n" +
+"                            <option value = \"52\">Mathematics 67</option>\n" +
+"                            \n" +
+"                            <option value = \"53\">Mathematics 69</option>\n" +
+"                            \n" +
+"                            <option value = \"54\">Music 14</option>\n" +
+"                            \n" +
+"                            <option value = \"55\">Music Auditorium</option>\n" +
+"                            \n" +
+"                            <option value = \"56\">Music Green</option>\n" +
+"                            \n" +
+"                            <option value = \"57\">Physical Education Field</option>\n" +
+"                            \n" +
+"                            <option value = \"58\">Physical Education Field 2</option>\n" +
+"                            \n" +
+"                            <option value = \"59\">Science 14</option>\n" +
+"                            \n" +
+"                            <option value = \"60\">Science C1</option>\n" +
+"                            \n" +
+"                            <option value = \"61\">Science C2</option>\n" +
+"                            \n" +
+"                            <option value = \"62\">Science C6</option>\n" +
+"                            \n" +
+"                            <option value = \"63\">Science P1</option>\n" +
+"                            \n" +
+"                            <option value = \"64\">Science P2</option>\n" +
+"                            \n" +
+"                            <option value = \"65\">Science P6</option>\n" +
+"                            \n" +
+"                            <option value = \"66\">Sixth Form 55</option>\n" +
+"                            \n" +
+"                            <option value = \"67\">Zulu 65</option>\n" +
+"                            \n" +
+"                            <option value = \"68\">Zulu 66</option>\n" +
+"                            \n" +
+"                            <option value = \"69\">Art 35</option>\n" +
+"                            \n" +
+"                            <option value = \"70\">Mathematics 14</option>\n" +
+"                            \n" +
+"                </select>";
+   
+html+= 
 "                <h4>Activity:</h4>\n" +
 "                <br>\n" +
 "                <select name=\"activity\">\n" +
-"                <option value=\"-1\">Select activity</option> <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n" +
-"                    <%                  \n" +
-"                        String Query2 = \"SELECT * FROM tblActivities\";\n" +
-"                        try{\n" +
-"                        Connection myconnection = dbconn.Connection();\n" +
-"                        Statement stm = myconnection.createStatement();\n" +
-"                        ResultSet rs = stm.executeQuery(Query2);\n" +
-"                        while(rs.next()){\n" +
-"                            %>\n" +
-"                            <option value = \"<%=rs.getInt(\"ActivityID\")%>\"><%=rs.getString(\"Activity\")%></option>\n" +
-"                            <%\n" +
-"                        }                    \n" +
-"                    }catch(Exception ex){               //Prints out the error\n" +
-"                        ex.printStackTrace();\n" +
-"                        out.print(\"Error \"+ex.getMessage());\n" +
-"                    }           \n" +
-"                    %>\n" +
+"                <option value=\"-1\">Select activity</option> <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n";
+                           html+="<option value = \"1\">Afrikaans 17</option>\n" +
+"                            \n" +
+"                            <option value = \"2\">Afrikaans 28</option>\n" +
+"                            \n" +
+"                            <option value = \"3\">Afrikaans 29</option>\n" +
+"                            \n" +
+"                            <option value = \"4\">Afrikaans 30</option>\n" +
+"                            \n" +
+"                            <option value = \"5\">Afrikaans 31</option>\n" +
+"                            \n" +
+"                            <option value = \"6\">Afrikaans 32</option>\n" +
+"                            \n" +
+"                            <option value = \"7\">Art 33</option>\n" +
+"                            \n" +
+"                            <option value = \"8\">Art 36</option>\n" +
+"                            \n" +
+"                            <option value = \"9\">Drama 70</option>\n" +
+"                            \n" +
+"                            <option value = \"10\">Drama Alternate</option>\n" +
+"                            \n" +
+"                            <option value = \"11\">Drama Dungeon</option>\n" +
+"                            \n" +
+"                            <option value = \"12\">English 1</option>\n" +
+"                            \n" +
+"                            <option value = \"13\">English 2</option>\n" +
+"                            \n" +
+"                            <option value = \"14\">English 3</option>\n" +
+"                            \n" +
+"                            <option value = \"15\">English 4</option>\n" +
+"                            \n" +
+"                            <option value = \"16\">English 5</option>\n" +
+"                            \n" +
+"                            <option value = \"17\">English 6</option>\n" +
+"                            \n" +
+"                            <option value = \"18\">English 7</option>\n" +
+"                            \n" +
+"                            <option value = \"19\">English 8</option>\n" +
+"                            \n" +
+"                            <option value = \"20\">FOE 13</option>\n" +
+"                            \n" +
+"                            <option value = \"21\">Geography 1</option>\n" +
+"                            \n" +
+"                            <option value = \"22\">Geography 2</option>\n" +
+"                            \n" +
+"                            <option value = \"23\">Geography 3</option>\n" +
+"                            \n" +
+"                            <option value = \"24\">Geography 4</option>\n" +
+"                            \n" +
+"                            <option value = \"25\">German 64</option>\n" +
+"                            \n" +
+"                            <option value = \"26\">History 7</option>\n" +
+"                            \n" +
+"                            <option value = \"27\">History 8</option>\n" +
+"                            \n" +
+"                            <option value = \"28\">History 9</option>\n" +
+"                            \n" +
+"                            <option value = \"29\">History 12</option>\n" +
+"                            \n" +
+"                            <option value = \"30\">History 12B</option>\n" +
+"                            \n" +
+"                            <option value = \"31\">Information Technology 15</option>\n" +
+"                            \n" +
+"                            <option value = \"32\">Information Technology 16</option>\n" +
+"                            \n" +
+"                            <option value = \"33\">Information Technology REB</option>\n" +
+"                            \n" +
+"                            <option value = \"34\">Latin 9</option>\n" +
+"                            \n" +
+"                            <option value = \"35\">Life Orientation 24</option>\n" +
+"                            \n" +
+"                            <option value = \"36\">Life Sciences 4</option>\n" +
+"                            \n" +
+"                            <option value = \"37\">Life Sciences 7</option>\n" +
+"                            \n" +
+"                            <option value = \"38\">Life Sciences 9</option>\n" +
+"                            \n" +
+"                            <option value = \"39\">Life Sciences 10</option>\n" +
+"                            \n" +
+"                            <option value = \"40\">Mathematics 14</option>\n" +
+"                            \n" +
+"                            <option value = \"41\">Mathematics 15</option>\n" +
+"                            \n" +
+"                            <option value = \"42\">Mathematics 16</option>\n" +
+"                            \n" +
+"                            <option value = \"43\">Mathematics 39</option>\n" +
+"                            \n" +
+"                            <option value = \"44\">Mathematics 42</option>\n" +
+"                            \n" +
+"                            <option value = \"45\">Mathematics 44</option>\n" +
+"                            \n" +
+"                            <option value = \"46\">Mathematics 47</option>\n" +
+"                            \n" +
+"                            <option value = \"47\">Mathematics 48</option>\n" +
+"                            \n" +
+"                            <option value = \"48\">Mathematics 50</option>\n" +
+"                            \n" +
+"                            <option value = \"49\">Divinity 59</option>\n" +
+"                            \n" +
+"                            <option value = \"50\">French 60</option>\n" +
+"                            \n" +
+"                            <option value = \"51\">French 61</option>\n" +
+"                            \n" +
+"                            <option value = \"52\">Mathematics 67</option>\n" +
+"                            \n" +
+"                            <option value = \"53\">Mathematics 69</option>\n" +
+"                            \n" +
+"                            <option value = \"54\">Music 14</option>\n" +
+"                            \n" +
+"                            <option value = \"55\">Music Auditorium</option>\n" +
+"                            \n" +
+"                            <option value = \"56\">Music Green</option>\n" +
+"                            \n" +
+"                            <option value = \"57\">Physical Education Field</option>\n" +
+"                            \n" +
+"                            <option value = \"58\">Physical Education Field 2</option>\n" +
+"                            \n" +
+"                            <option value = \"59\">Science 14</option>\n" +
+"                            \n" +
+"                            <option value = \"60\">Science C1</option>\n" +
+"                            \n" +
+"                            <option value = \"61\">Science C2</option>\n" +
+"                            \n" +
+"                            <option value = \"62\">Science C6</option>\n" +
+"                            \n" +
+"                            <option value = \"63\">Science P1</option>\n" +
+"                            \n" +
+"                            <option value = \"64\">Science P2</option>\n" +
+"                            \n" +
+"                            <option value = \"65\">Science P6</option>\n" +
+"                            \n" +
+"                            <option value = \"66\">Sixth Form 55</option>\n" +
+"                            \n" +
+"                            <option value = \"67\">Zulu 65</option>\n" +
+"                            \n" +
+"                            <option value = \"68\">Zulu 66</option>\n" +
+"                            \n" +
+"                            <option value = \"69\">Art 35</option>\n" +
+"                            \n" +
+"                            <option value = \"70\">Mathematics 14</option>\n" +
+"                            \n" +
+"                </select>";
+html+=
 "                </select>\n" +
 "                <h4>Week:</h4>\n" +
 "                    <input type=\"radio\" name=\"week\" value=\"Blue\" id=\"radio-one2\" class=\"form-radio2\" checked><label for=\"radio-one\">Blue</label>\n" +
@@ -530,7 +783,7 @@ public class Query extends HttpServlet{
             if(text==""){
                 text="%";
             }
-            DbConnection dbconn=new DbConnection();
+            DbConnection dbconn=new DbConnection(); 
             Connection myconnection = dbconn.Connection();
             Statement stm = myconnection.createStatement();
             ResultSet rs;
