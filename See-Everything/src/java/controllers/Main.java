@@ -31,7 +31,7 @@ public class Main extends HttpServlet{
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws FileNotFoundException, ServletException, IOException{ //Writes the formatted fields into JSON file
         Main m = new Main();
-        try (PrintWriter writer = new PrintWriter("C:\\Users\\24740\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js")) //Path to JSON file C:\Users\24740\Documents\GitHub\See-Everything\See-Everything\web\JSON.js
+        try (PrintWriter writer = new PrintWriter("C:\\Users\\flemi\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js")) //Path to JSON file C:\Users\24740\Documents\GitHub\See-Everything\See-Everything\web\JSON.js
         {                                         // /Users/gordonfleming/NetBeansProjects/See-Everything/See-Everything/web/JSON.js C:\\Users\\flemi\\Documents\\GitHub\\See-Everything\\See-Everything\\web\\JSON.js
             List<JSONObject> jObj = m.getJsonObject();
             writer.println("var locations = ["); //writes this string to the file to get the JSON file in the correct format

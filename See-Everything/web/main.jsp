@@ -395,7 +395,7 @@
                 </select>
                 <label>Function</label>
                 <select name="function" >
-                    <option value = "=" >Equals</option>
+                    <option value = "=" >Contains</option>
                 </select>
                 <label>Parameters</label>    
                 <input type="text" name="text">
@@ -491,7 +491,7 @@
         <div class = "refresh-button">          
             <form class="form-inline" action="refresh" autocomplete="off">
                 <label>Refresh</label>
-                <label><button class="Tick_Submit"><input id="hidden" type="submit" name = "button" value=""><span></button></label>
+                <label><button class="Tick_Refresh"><input id="hidden" type="submit" name = "button" value=""><span></button></label>
             </form>                                            
         </div>
                 

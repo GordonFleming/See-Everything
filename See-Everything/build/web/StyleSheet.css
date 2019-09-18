@@ -102,6 +102,37 @@ select{
     position: static;
     transform: rotate(125deg);
 }
+.Tick_Refresh{
+  position: static;
+  background-color: lightgray;
+  height: 36px;
+  width: 36px;
+  border: 0;  
+  margin-left: 0px;
+  border-radius: 5px;  
+  padding-right: 0;
+  padding-left: 0px;
+  padding-bottom: 8px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.Tick_Refresh span {
+  cursor: pointer;
+  display: inline-block;
+  position: static;
+  transition: 0.5s;
+  transform: rotate(-235deg);
+}
+.Tick_Refresh span:after {
+  content: '\21C4';
+  position: relative;
+  transition: 0.5s;
+}
+.Tick_Refresh:hover span {
+    position: static;
+    transform: rotate(125deg);
+}
 .bottom-right-help{
     right: 0;
     bottom: 0;

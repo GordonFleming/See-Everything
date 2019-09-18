@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package beans;
 
 import database.DbConnection;
@@ -27,7 +22,8 @@ import javax.servlet.http.HttpServletResponse;
 public class Query extends HttpServlet{
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws FileNotFoundException, ServletException, IOException {
         try {
-            String html = "<html>\n" +
+            String html = 
+                    "<html>\n" +
                     "    <head>       \n" +
                     "        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">   \n" +
                     "        <link rel=\"shortcut icon\" type=\"image/ico\" href=\"img/favicon.ico\">       <!-- Links the favicon -->\n" +
@@ -415,7 +411,7 @@ public class Query extends HttpServlet{
 "                <label>Function</label>\n" +
 "                <select name=\"function\" >\n" +
 "                     \n" +
-"                    <option value = \"=\" >Equal</option>\n" +
+"                    <option value = \"=\" >Contains</option>\n" +
 "                    \n" +
 "                    \n" +
 "                </select>\n" +
@@ -426,96 +422,108 @@ public class Query extends HttpServlet{
 "            </form>                                            \n" +
 "        </div>"+
                     "                                                                                                       \n" +
-                    "                                                    <!-- Booking Form -->\n" +
-                    "                                                    \n" +
-                    "        <div class = \"right-booking-form\" id=\"conainer-booking\">\n" +
-                    "            <form action=\"BookingControl\" method=\"post\" autocomplete=\"on\">\n" +
-                    "                <h3>Booking Form</h3>          \n" +
-                    "                <h4>Venue:</h4> \n" +
-                    "                <br>\n" +
-                    "                <select name=\"venue\">\n" +
-                    "                <option value=\"-1\">Select venue</option>     <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n" +
-                    "                    <%                  \n" +
-                    "                        String Query1 = \"SELECT * FROM tblVenues\";   \n" +
-                    "                        DbConnection dbconn=new DbConnection(); \n" +
-                    "                        try{\n" +
-                    "                        Connection myconnection = dbconn.Connection();\n" +
-                    "                        Statement stm = myconnection.createStatement();\n" +
-                    "                        ResultSet rs = stm.executeQuery(Query1);\n" +
-                    "                        while(rs.next()){\n" +
-                    "                            %>\n" +
-                    "                            <option value = \"<%=rs.getInt(\"VenueID\")%>\"><%=rs.getString(\"Name\")%></option>\n" +
-                    "                            <%\n" +
-                    "                        }                    \n" +
-                    "                    }catch(Exception ex){                   //Prints out the error\n" +
-                    "                        ex.printStackTrace();\n" +
-                    "                        out.print(\"Error \"+ex.getMessage());\n" +
-                    "                    }           \n" +
-                    "                    %>\n" +
-                    "                </select>\n" +
-                    "                <h4>Activity:</h4>\n" +
-                    "                <br>\n" +
-                    "                <select name=\"activity\">\n" +
-                    "                <option value=\"-1\">Select activity</option> <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n" +
-                    "                    <%                  \n" +
-                    "                        String Query2 = \"SELECT * FROM tblActivities\";\n" +
-                    "                        try{\n" +
-                    "                        Connection myconnection = dbconn.Connection();\n" +
-                    "                        Statement stm = myconnection.createStatement();\n" +
-                    "                        ResultSet rs = stm.executeQuery(Query2);\n" +
-                    "                        while(rs.next()){\n" +
-                    "                            %>\n" +
-                    "                            <option value = \"<%=rs.getInt(\"ActivityID\")%>\"><%=rs.getString(\"Activity\")%></option>\n" +
-                    "                            <%\n" +
-                    "                        }                    \n" +
-                    "                    }catch(Exception ex){               //Prints out the error\n" +
-                    "                        ex.printStackTrace();\n" +
-                    "                        out.print(\"Error \"+ex.getMessage());\n" +
-                    "                    }           \n" +
-                    "                    %>\n" +
-                    "                </select>\n" +
-                    "                <h4>Week:</h4>\n" +
-                    "                    <input type=\"radio\" name=\"week\" value=\"Blue\" id=\"radio-one2\" class=\"form-radio2\" checked><label for=\"radio-one\">Blue</label>\n" +
-                    "                    <input type=\"radio\" name=\"week\" value=\"Maroon\" id=\"radio-one1\" class=\"form-radio1\"><label for=\"radio-one\">Maroon</label>\n" +
-                    "                <h4>Day:</h4>\n" +
-                    "                <br>\n" +
-                    "                <select name=\"day\">\n" +
-                    "                    <option value = \"Monday\">Monday</option>\n" +
-                    "                    <option value = \"Tuesday\">Tuesday</option>\n" +
-                    "                    <option value = \"Wednesday\">Wednesday</option>\n" +
-                    "                    <option value = \"Thursday\">Thursday</option>\n" +
-                    "                    <option value = \"Friday\">Friday</option>\n" +
-                    "                </select>\n" +
-                    "                <h4>Period:</h4>\n" +
-                    "                <br>\n" +
-                    "                <select name=\"period\">\n" +
-                    "                    <option value = \"0\">Period 0</option>\n" +
-                    "                    <option value = \"1\">Period 1</option>\n" +
-                    "                    <option value = \"2\">Period 2</option>\n" +
-                    "                    <option value = \"3\">Period 3</option>\n" +
-                    "                    <option value = \"4\">Period 4</option>\n" +
-                    "                    <option value = \"5\">Period 5</option>\n" +
-                    "                    <option value = \"6\">Period 6</option>\n" +
-                    "                    <option value = \"7\">Period 7</option>\n" +
-                    "                    <option value = \"8\">Period 8</option>\n" +
-                    "                    <option value = \"9\">Period 9</option>\n" +
-                    "                </select>\n" +
-                    "                <h4>Staff Name:</h4>\n" +
-                    "                <input type=\"text\" name=\"staffName\" value=\"\">\n" +
-                    "                <h4>Date:</h4>\n" +
-                    "                <input type=\"date\" name=\"date\" value=\"yyyy-MM-dd\" min=\"2019-01-01\">\n" +
-                    "                <br><br>\n" +
-                    "                <input class=\"Submit\" type=\"submit\" value=\"Submit\">\n" +
-                    "            </form>                \n" +
-                    "        </div>"+"<div class = \"left-results\" id=\"conainer-results\">\n" +
-                    "            <form method=\"post\">\n" +
-                    "                <table border=\"2\">\n" +
-                    "                <tr>\n" +
-                    "                <td><b>Time</td>\n" +
-                    "                <td><b>StaffName</td>\n" +
-                    "                <td><b>Venue</td>\n" +
-                    "                </tr>\n" +
-                    "                ";
+                    "                                                     <!-- Booking Form -->\n" +
+"                                                    \n" +
+"        <div class = \"right-booking-form\" id=\"conainer-booking\">\n" +
+"            <form action=\"BookingControl\" method=\"post\" autocomplete=\"on\">\n" +
+"                <h3>Booking Form</h3>          \n" +
+"                <h4>Venue:</h4> \n" +
+"                <br>\n" +
+"                <select name=\"venue\">\n" +
+"                <option value=\"-1\">Select venue</option>     <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n" +
+"                    <%                  \n" +
+"                        String Query1 = \"SELECT * FROM tblVenues\";   \n" +
+"                        DbConnection dbconn=new DbConnection(); \n" +
+"                        try{\n" +
+"                        Connection myconnection = dbconn.Connection();\n" +
+"                        Statement stm = myconnection.createStatement();\n" +
+"                        ResultSet rs = stm.executeQuery(Query1);\n" +
+"                        while(rs.next()){\n" +
+
+"                            <option value = \"<%=rs.getInt(\"VenueID\")%>\"><%=rs.getString(\"Name\")%></option>\n" +
+"                            <%\n" +
+"                        }                    \n" +
+"                    }catch(Exception ex){                   //Prints out the error\n" +
+"                        ex.printStackTrace();\n" +
+"                        out.print(\"Error \"+ex.getMessage());\n" +
+"                    }           \n" +
+"                    %>\n" +
+"                </select>\n" +
+"                <h4>Activity:</h4>\n" +
+"                <br>\n" +
+"                <select name=\"activity\">\n" +
+"                <option value=\"-1\">Select activity</option> <!-- Creates SQL Query then reads through all results and outputs sufficient amount of <options> while records still remain -->\n" +
+"                    <%                  \n" +
+"                        String Query2 = \"SELECT * FROM tblActivities\";\n" +
+"                        try{\n" +
+"                        Connection myconnection = dbconn.Connection();\n" +
+"                        Statement stm = myconnection.createStatement();\n" +
+"                        ResultSet rs = stm.executeQuery(Query2);\n" +
+"                        while(rs.next()){\n" +
+"                            %>\n" +
+"                            <option value = \"<%=rs.getInt(\"ActivityID\")%>\"><%=rs.getString(\"Activity\")%></option>\n" +
+"                            <%\n" +
+"                        }                    \n" +
+"                    }catch(Exception ex){               //Prints out the error\n" +
+"                        ex.printStackTrace();\n" +
+"                        out.print(\"Error \"+ex.getMessage());\n" +
+"                    }           \n" +
+"                    %>\n" +
+"                </select>\n" +
+"                <h4>Week:</h4>\n" +
+"                    <input type=\"radio\" name=\"week\" value=\"Blue\" id=\"radio-one2\" class=\"form-radio2\" checked><label for=\"radio-one\">Blue</label>\n" +
+"                    <input type=\"radio\" name=\"week\" value=\"Maroon\" id=\"radio-one1\" class=\"form-radio1\"><label for=\"radio-one\">Maroon</label>\n" +
+"                <h4>Day:</h4>\n" +
+"                <br>\n" +
+"                <select name=\"day\">\n" +
+"                    <option value = \"Monday\">Monday</option>\n" +
+"                    <option value = \"Tuesday\">Tuesday</option>\n" +
+"                    <option value = \"Wednesday\">Wednesday</option>\n" +
+"                    <option value = \"Thursday\">Thursday</option>\n" +
+"                    <option value = \"Friday\">Friday</option>\n" +
+"                </select>\n" +
+"                <h4>Period:</h4>\n" +
+"                <br>\n" +
+"                <select name=\"period\">\n" +
+"                    <option value = \"0\">Period 0</option>\n" +
+"                    <option value = \"1\">Period 1</option>\n" +
+"                    <option value = \"2\">Period 2</option>\n" +
+"                    <option value = \"3\">Period 3</option>\n" +
+"                    <option value = \"4\">Period 4</option>\n" +
+"                    <option value = \"5\">Period 5</option>\n" +
+"                    <option value = \"6\">Period 6</option>\n" +
+"                    <option value = \"7\">Period 7</option>\n" +
+"                    <option value = \"8\">Period 8</option>\n" +
+"                    <option value = \"9\">Period 9</option>\n" +
+"                </select>\n" +
+"                <h4>Staff Name:</h4>\n" +
+"                <input type=\"text\" name=\"staffName\" value=\"\">\n" +
+"                <h4>Date:</h4>\n" +
+"                <input type=\"date\" name=\"date\" value=\"yyyy-MM-dd\" min=\"2019-01-01\">\n" +
+"                <br><br>\n" +
+"                <input class=\"Submit\" type=\"submit\" value=\"Submit\">\n" +
+"            </form>                \n" +
+"        </div>\n" +
+"                \n" +
+"                                                                    <!-- Update button -->\n" +
+"                                                    \n" +
+"        <div class = \"refresh-button\">          \n" +
+"            <form class=\"form-inline\" action=\"refresh\" autocomplete=\"off\">\n" +
+"                <label>Refresh</label>\n" +
+"                <label><button class=\"Tick_Refresh\"><input id=\"hidden\" type=\"submit\" name = \"button\" value=\"\"><span></button></label>\n" +
+"            </form>                                            \n" +
+"        </div>\n" +
+"                \n" +
+"                <!-- Table displays same data as map, but in a table form -->\n" +
+"                \n" +
+"        <div class = \"left-results\" id=\"conainer-results\">\n" +
+"            <form method=\"post\">\n" +
+"                <table border=\"2\">\n" +
+"                <tr>\n" +
+"                <td><b>Time</td>\n" +
+"                <td><b>StaffName</td>\n" +
+"                <td><b>Venue</td>\n" +
+"                </tr>";
             String type = req.getParameter("field");
             //String function = req.getParameter("function");
             String text = req.getParameter("text");
@@ -542,7 +550,7 @@ public class Query extends HttpServlet{
                     myconnection = dbconn.Connection();
                     stm = myconnection.createStatement();
                     rs=stm.executeQuery(query);
-                    html += dothething(rs);
+                    html += produceTable(rs);
                     
                         break;
                 case "activity":
@@ -559,7 +567,7 @@ public class Query extends HttpServlet{
                     myconnection = dbconn.Connection();
                     stm = myconnection.createStatement();
                     rs=stm.executeQuery(query);
-                    html += dothething(rs);
+                    html += produceTable(rs);
                     break;
                     
             }
@@ -572,7 +580,7 @@ public class Query extends HttpServlet{
 "        <div class = \"refresh-button\">          \n" +
 "            <form class=\"form-inline\" action=\"refresh\" autocomplete=\"off\">\n" +
 "                <label>Refresh</label>\n" +
-"                <label><button class=\"Tick_Submit\"><input id=\"hidden\" type=\"submit\" name = \"button\" value=\"\"><span></button></label>\n" +
+"                <label><button class=\"Tick_REfresh\"><input id=\"hidden\" type=\"submit\" name = \"button\" value=\"\"><span></button></label>\n" +
 "            </form>                                            \n" +
 "        </div>\n" +
 "                "+
@@ -598,7 +606,7 @@ public class Query extends HttpServlet{
         }
         
     }
-    public static String dothething(ResultSet rs) throws SQLException{
+    public static String produceTable(ResultSet rs) throws SQLException{
         String html = "";
         while(rs.next()){
             html+="<tr><td>";
